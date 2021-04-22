@@ -112,7 +112,7 @@
       0,
       "never"
     ],
-    "new-parens": 2,
+    "new-parens": 0,
     "no-alert": 0,
     "no-array-constructor": 2,
     "no-bitwise": 0,
@@ -236,13 +236,13 @@
     "quote-props": 0,
     "quotes": [
       2,
-      "single",
+      "double",
       "avoid-escape"
     ],
     "radix": 2,
     "jsx-quotes": [
       2,
-      "prefer-single"
+      "prefer-double"
     ],
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,
@@ -293,14 +293,14 @@
       "always"
     ],
     "space-before-function-paren": [
-      2,
+      0,
       {
         "anonymous": "always",
         "named": "never"
       }
     ],
     "space-in-parens": [
-      2,
+      0,
       "never"
     ],
     "space-infix-ops": 2,

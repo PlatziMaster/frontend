@@ -1,0 +1,65 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "description": "frontend test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "server": "json-server data.json",
+    "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
+    "lint": "eslint src/ --fix",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "Oscar Barajas <oscar@platzi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2",
+    "enzyme": "^3.11.0",
+    "jest-fetch-mock": "^3.0.1",
+    "enzyme-adapter-react-16": "^1.15.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "css-loader": "^3.4.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.2",
+    "husky": "^2.7.0",
+    "jest": "^25.1.0",
+    "json-server": "^0.15.1",
+    "mini-css-extract-plugin": "^0.7.0",
+    "prettier": "^1.19.1",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "moduleNameMapper": {
+      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/__test__/setupTest.js"
+    ]
+  }
+}

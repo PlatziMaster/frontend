@@ -1,4 +1,5 @@
 import React from 'react';
+import getData from '../utils/getData';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -10,19 +11,29 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
 const App = () => {
+  const data = getData();
+  console.log(data);
   return (
     <>
       <Header>
-        <About />
+        <About
+          title={data.name}
+          jobTitle={data.profession}
+          email={data.email}
+          phone={data.phone}
+          website={data.website}
+          address={data.address}
+          avatar={data.avatar}
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile profileDesc={data.Profile} />
+      <Experience Experience={data.experience} />
+      <Academic Academic={data.Academic} />
+      <Skills Skills={data.skills} />
+      <Interest Interest={data.interest} />
+      <Languages Languages={data.languages} />
     </>
-  )
+  );
 };
 
 export default App;

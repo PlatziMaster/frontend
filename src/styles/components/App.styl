@@ -1,2 +1,31 @@
+Backgroung-Color = #393e46;
+Header-Color = #00adb5;
+Secondary-Color = #aad8d3;
+Font-Color = #eeeeee;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
+
 body
-  background-color blue
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: Backgroung-Color
+  
+#app 
+  margin: 20px
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-template-rows: repeat(5, auto)
+  grid-auto-rows: minmax(200px, auto)
+  row-gap: 10px
+  column-gap: 15px
+
+#app header:nth-child(1)
+  grid-column: 1 / 3;
+  grid-row: 1 ;
+
+#app div:nth-child(2)
+  grid-column: 1 / 3;
+  grid-row: 2 ;
+
+#app div:nth-child(3)
+  grid-column: 1 / 3;
+  grid-row: 3 ;

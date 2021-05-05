@@ -1,57 +1,44 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Kevin Jiménez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Tlaxcala, México.",
+    "email": "ji.oso.kev@gmail.com",
+    "website": "https://kevjim.github.io/",
+    "phone": "(+52)246 493 9146",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQGutjf2bnzbBg/profile-displayphoto-shrink_400_400/0/1615927614727?e=1625702400&v=beta&t=BhUjcqTH3wQuXKtJCLUp2Av_-OtDAKNqSaEhoQg3ALQ",
+    "Profile": "I am 20 years old, I was born in Tlaxcala-Mexico. At the moment I am student in the engineering in I.T. in the Polytechnic University of Tlaxcala and I am Frontend developer with ReactJS for a company called Dvolada.  ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Dec 2020",
+        "description": "Diploma in Data Science and Machine Learning ",
+        "institution": "UPTx",
+        "name": "Data Science"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "I.T. Engineering",
+        "description": "Design, Build and Implement Services in the four areas (Networks and internet, Computer programming, Mobile devices and Telecommunications) ",
+        "endDate": "Present",
+        "institution": "Polytechnic University of Tlaxcala",
+        "startDate": "Sep 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Eseety",
+        "endDate": "Dec 2020",
+        "jobDescription": "Detect bugs in the application. Providing support for new users. Prepare guides and tutorials to use the application",
+        "jobTitle": "Tester",
+        "startDate": "Sep 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "DVOLADA",
+        "endDate": "Present",
+        "jobDescription": "Dashboard optimization and company website update using React and JavaScript. Adapt the site to responsive design using antd. Design a form to make invoices and send them to merchants using an API for invoices. Consume APIs using axios. Create form to upload images and videos in firebase",
+        "jobTitle": "Frontend",
+        "startDate": "March 2021"
       }
     ],
     "skills": [
@@ -61,23 +48,18 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "40%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["Javascript", "Develop", "Backend", "Frontend", "UX and UI"],
     "languages": [
       {
         "name": "Spanish",
@@ -85,7 +67,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [

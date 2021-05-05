@@ -1,0 +1,30 @@
+
+//Mixins
+@mixin display-flex-center {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    background: #8f57fd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol, ul{
+	margin: 0;
+	list-style: none; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    @include display-flex-center;
+}

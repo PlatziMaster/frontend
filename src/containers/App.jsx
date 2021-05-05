@@ -23,6 +23,7 @@ const App = () => {
           phone={data.phone}
           website={data.website}
           address={data.address}
+          avatar={data.avatar}
         />
       </Header>
       <Profile profileDesc={data.Profile} />

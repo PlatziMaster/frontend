@@ -4,7 +4,7 @@ import '../styles/components/Skills.styl';
 const Skills = ({ Skills = [] }) => {
   return (
     <div className="Skills">
-      <h1>Skills</h1>
+      <h1 className="Skills-title">Skills</h1>
 
       {Skills.map(item => (
         <div className="Skills--container--items">

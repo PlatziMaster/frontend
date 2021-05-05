@@ -5,8 +5,8 @@ import '../styles/components/Profile.styl';
 const Profile = ({ profileDesc }) => {
   return (
     <div className="Profile">
-      <h1>Profile</h1>
-      <p>{profileDesc}</p>
+      <h1 className="Profile-title">Profile</h1>
+      <p className="Profile-desc">{profileDesc}</p>
     </div>
   );
 };

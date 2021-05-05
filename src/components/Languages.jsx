@@ -4,15 +4,16 @@ import '../styles/components/Languages.styl';
 const Languages = ({ Languages = [] }) => {
   return (
     <div className="Languages">
-      <h1>Languages</h1>
+      <h1 className="Languages-title">Languages</h1>
 
       {Languages.map(item => (
         <div className="Languages--container--items">
-          <p>
-            -Name: <span>{item.name}</span>
+          <p className="Languages-item">
+            -Name: <span className="Languages-item">{item.name}</span>
           </p>
-          <p>
-            -Percentage: <span>{item.percentage}</span>
+          <p className="Languages-item">
+            -Percentage:
+            <span className="Languages-item">{item.percentage}</span>
           </p>
         </div>
       ))}

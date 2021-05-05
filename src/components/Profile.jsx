@@ -2,11 +2,11 @@ import React from 'react';
 
 import '../styles/components/Profile.styl';
 
-const Profile = () => {
+const Profile = ({ profileDesc }) => {
   return (
     <div className="Profile">
-      <h1>.Profile-title</h1>
-      <h3>.Profile-desc</h3>
+      <h1>Profile</h1>
+      <p>{profileDesc}</p>
     </div>
   );
 };

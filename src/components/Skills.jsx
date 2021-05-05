@@ -1,14 +1,21 @@
 import React from 'react';
 
 import '../styles/components/Skills.styl';
-const Skills = () => {
+const Skills = ({ Skills = [] }) => {
   return (
     <div className="Skills">
-      <h1>Skills-title</h1>
-      <div class="Skills--title">
-        <h3>Skills-item</h3>
-        <h3>Skills-item</h3>
-      </div>
+      <h1>Skills</h1>
+
+      {Skills.map(item => (
+        <div className="Skills--container--items">
+          <p>
+            -Name: <span>{item.name}</span>
+          </p>
+          <p>
+            -Percentage: <span>{item.percentage}</span>
+          </p>
+        </div>
+      ))}
     </div>
   );
 };

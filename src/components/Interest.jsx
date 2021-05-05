@@ -1,14 +1,14 @@
 import React from 'react';
 
 import '../styles/components/Interest.styl';
-const Interest = () => {
+const Interest = ({ Interest = [] }) => {
   return (
     <div className="Interest">
-      <h1>Interest-title</h1>
-      <div class="Interest--items">
-        <h3>Interest-item</h3>
-        <h3>Interest-item</h3>
-        <h3>Interest-item</h3>
+      <h1>Interest</h1>
+      <div className="Interest--items">
+        {Interest.map(item => (
+          <p>- {item}</p>
+        ))}
       </div>
     </div>
   );

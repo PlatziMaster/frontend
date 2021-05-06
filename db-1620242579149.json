@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Sergio Piña",
+    "name": "Melissa Walsh",
     "profession": "FrontEnd Developer",
-    "address": "Guadalajara, Jalisco, Mexico.",
-    "email": "alonzopina@gmail.com",
+    "address": "Bogotá, Colombia.",
+    "email": "melissa@example.com",
     "website": "https://example.com",
-    "phone": "+52-3325-2428-38",
-    "avatar": "https://avatars.githubusercontent.com/u/27663893",
+    "phone": "3042034240",
+    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -57,30 +57,35 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "90%"
+        "percentage": "75%"
       },
       {
         "name": "CSS",
-        "percentage": "80%"
+        "percentage": "25%"
       },
       {
         "name": "JavaScript",
-        "percentage": "70%"
+        "percentage": "55%"
       },
       {
         "name": "React",
-        "percentage": "80%"
+        "percentage": "90%"
       }
     ],
-    "interest": ["javascript", "develop", "backend", "frontend"],
+    "interest": [
+      "javascript",
+      "develop",
+      "backend",
+      "frontend"
+    ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "100%"
+        "percentage": "90%"
       },
       {
         "name": "English",
-        "percentage": "80%"
+        "percentage": "50%"
       }
     ],
     "social": [
@@ -90,11 +95,11 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/codymaveriick"
+        "url": "https://twitter.com/"
       },
       {
         "name": "github",
-        "url": "https://github.com/Spina7"
+        "url": "https://github.com/"
       },
       {
         "name": "linkedin",

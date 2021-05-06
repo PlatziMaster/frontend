@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Profile = ({ description }) => {
   return (
@@ -7,6 +8,10 @@ const Profile = ({ description }) => {
       <p className="Profile-desc">{description}</p>
     </section>
   );
+};
+
+Profile.propTypes = {
+  description: PropTypes.string.isRequired,
 };
 
 export default Profile;

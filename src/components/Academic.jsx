@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 const Academic = ({ academic = [] }) => {
   /**
    * De la respuesta de  la API recibe un arrglo
@@ -28,6 +28,10 @@ const Academic = ({ academic = [] }) => {
       })}
     </div>
   );
+};
+
+Academic.propTypes = {
+  academic: PropTypes.array.isRequired,
 };
 
 export default Academic;

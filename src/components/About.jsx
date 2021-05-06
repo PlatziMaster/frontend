@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const About = ({ data = {} }) => {
   /**
@@ -36,6 +37,9 @@ const About = ({ data = {} }) => {
       </div>
     </div>
   );
+};
+About.propTypes = {
+  data: PropTypes.object.isRequired,
 };
 
 export default About;

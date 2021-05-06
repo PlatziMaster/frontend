@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 const Header = props => {
   /**
    * Recibe por props:
@@ -7,11 +7,11 @@ const Header = props => {
    * * Profesion
    * * Redes sociales
    */
-  const { name, profession, socialMedia = [] } = props;
+  const { name, profession, socialMedia = [], avatar } = props;
   return (
     <div className="Header">
       <div className="Header__avatar">
-        <img src={props.avatar} alt="avatar" />
+        <img src={avatar} alt="avatar" />
       </div>
       <div className="Header__principal">
         <h1 className="Header-title">{name}</h1>
@@ -29,6 +29,13 @@ const Header = props => {
       {props.children}
     </div>
   );
+};
+
+Header.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  profession: PropTypes.string.isRequired,
+  socialMedia: PropTypes.array.isRequired,
 };
 
 export default Header;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 const Experience = ({ experience = [] }) => {
   /**
    * De la respuesta de la API se obtiene un arreglo de
@@ -30,6 +30,9 @@ const Experience = ({ experience = [] }) => {
       )}
     </section>
   );
+};
+Experience.propTypes = {
+  experience: PropTypes.array.isRequired,
 };
 
 export default Experience;

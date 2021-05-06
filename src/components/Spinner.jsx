@@ -3,7 +3,7 @@ import React from 'react';
 const Spinner = () => {
   return (
     <div className="spinner">
-      <div class="lds-dual-ring">
+      <div className="lds-dual-ring">
         <p>Loading</p>
       </div>
     </div>

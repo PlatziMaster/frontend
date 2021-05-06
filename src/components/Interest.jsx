@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 const Interest = ({ interest = [] }) => {
   /**
    * De la respuesta de la API recibe un arreglo de
@@ -23,6 +23,10 @@ const Interest = ({ interest = [] }) => {
       </div>
     </div>
   );
+};
+
+Interest.propTypes = {
+  interest: PropTypes.array.isRequired,
 };
 
 export default Interest;

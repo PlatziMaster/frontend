@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Raúl Camacho",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "address": "Toluca, México.",
+    "email": "raul@example.com",
+    "website": "https://rcm.vercel.app",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "data:image/jpeg;base64,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",
+    "Profile": "A person with commitment and responsibility. With a enormous taste for development and technology, advancement, innovation and learning",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,14 +24,21 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Software Engineer",
+        "description": "One of my dreams done, let´s go for more",
+        "endDate": "August 2020",
+        "institution": " Autonomous University of Mexico State",
+        "startDate": "August 2015"
+      },
+      {
+        "degree": "*Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
         "institution": "MIT",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "* Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
         "institution": "Harvard",
@@ -40,17 +47,24 @@
     ],
     "experience": [
       {
+        "company": "Fenrir Creative Studios",
+        "endDate": "January 2021",
+        "jobDescription": "Worked together with the design team to meet the requirements of the projects",
+        "jobTitle": "Frontend",
+        "startDate": "October 2020"
+      },
+      {
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobTitle": "*Frontend",
         "startDate": "Jan 2020"
       },
       {
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobTitle": "*Backend",
         "startDate": "Sept 2019"
       }
     ],
@@ -61,23 +75,18 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
@@ -86,6 +95,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Chinese",
+        "percentage": "10%"
       }
     ],
     "social": [
@@ -99,11 +112,11 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Raulcmm"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/raul-camacho-rcm/"
       }
     ]
   }

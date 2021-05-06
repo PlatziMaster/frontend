@@ -1,2 +1,66 @@
+@import 'Header'
+@import 'About'
+@import 'Experience'
+@import 'Academic'
+@import 'Skills'
+@import 'Interest'
+@import 'Languages'
+@import '../Spinner'
+
+
+//##Variables 
+max_width=1000px
+radius=12px;
+content-padding=2.5rem 3rem 0rem
+
+//##CODE CSS
+
 body
-  background-color blue
+  font-family: 'Open Sans', sans-serif
+  padding:2rem
+  background-color: grey
+
+h1,h2,h3,h4,h5,h6
+  margin:0
+
+
+.fas, .fa, .far
+  font-size: 18px
+  margin-right: 8px
+
+
+h2
+  margin-bottom:  1rem
+
+h2::after
+  content:""
+  display: block
+  background-color:red;
+  height 1px
+  width:250px;
+  margin-top: 5px
+
+
+.date
+  color:grey;
+  font-weight: 700
+  font-size:.9rem
+  margin-top:0
+
+.Content
+  max-width: max_width
+  margin:0 auto
+  background-color: white
+  border-radius: radius
+
+
+.Container
+  padding: content-padding
+
+
+.Professional-content
+  display :grid
+  grid-template-columns: 65% 35%
+
+
+

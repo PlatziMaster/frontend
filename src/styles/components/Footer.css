@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: 700px;
+    height: 42px;
+    background: var(--background-header);
+    color: rgb(240, 240, 240);
+    font-size: 1.2rem;
+  }

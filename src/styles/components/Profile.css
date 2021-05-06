@@ -1,0 +1,31 @@
+.main_profile {
+  width: 80%;
+  min-width: 600px;
+  max-width: 1000px;
+  height: fit-content;
+  max-height: 500px;
+  margin: 0 auto;
+  background: var(--main-container);
+  box-shadow: var(--shadow-main-container);
+  -webkit-box-shadow: var(--shadow-main-container);
+  -moz-box-shadow: var(--shadow-main-container);
+  border-radius: 15px;
+  text-align: justify;
+  
+}
+.main_profile h2 {
+  border-bottom: 2px solid var(--lines-border-header);
+  color: var(--lines-border-header);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  text-align: justify;
+
+  background: var(--background-header);
+  border-radius: 15px 15px 0px 0px;
+  color: #ffffff;
+}
+.main_profile p {
+  padding: 15px 25px;
+}

@@ -1,82 +1,86 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
+    "name": "Johnnie Esteban López Correa",
+    "profession": "Professor in Physics",
+    "address": ["Pereira, Colombia.","https://www.flaticon.com/svg/vstatic/svg/967/967848.svg?token=exp=1620104852~hmac=401f5a5a7d113298087180b4260632c2"],
+    "email": ["johesloc@gmail.com","https://www.flaticon.com/svg/vstatic/svg/95/95645.svg?token=exp=1620104536~hmac=83d209e6e5e83787e5abe692fab01fd0"],
+    "website": "https://www.flaticon.com/svg/vstatic/svg/3988/3988027.svg?token=exp=1620104675~hmac=1bc42c6354b878308e569d7bca4a2003",
+    "phone": ["+573117475676","https://www.flaticon.com/svg/vstatic/svg/455/455705.svg?token=exp=1620104135~hmac=978175c0b5787e3bd7af2c929e15a253"],
+    "avatar": "https://static.platzi.com/media/avatars/avatars/johnnie_2cd21211-c9a9-486f-b25e-c9b5c58a78fa.jpeg",
+    "Profile": "I am a physical engineer and a master's degree in medical physics, I have skills in physical instrumentation, metrology, quality control, and experience in the fields of radiation therapy and radiation protection. Since the beginning of this year, I started my great experience as a student of Platzi, I have high expectations of being a frontend web developer and getting a job with that profile.",
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "date": "Mar 2021",
+        "description": "Lead the Biophysics course for the students of the Faculty of Health Sciences",
+        "institution": "Universidad Tecnológica de Pereira",
+        "name": "Professor"
+      },
+      {
+        "date": "Mar 2019",
+        "description": "Lead the course of fundamentals of Medical Physics to students of engineering physics.",
+        "institution": "Universidad Tecnológica de Pereira",
+        "name": "Adjunct professor"
+      },
+      {
+        "date": "Jul 2017",
+        "description": ["Physical Dosimetry","Quality control on LINAC Elekta Compact 6MV","Quality control HDR brachytherapy.","Management of PTW, Sunnuclear and Standard Imaging dosimetry systems.","Radiation protection and personal dosimetry applied to radioactive facilities.","3D-CRT clinical dosimetry"],
+        "institution": "Clínica Alemana de Temuco, Radiotherapy Unit",
+        "name": "Clinical Practitioner"
+      },
+      {
+        "date": "Aug 2017",
+        "description": "Collaborator of the FONDEF project - Convergent beam Radiotherapy: in charge of the Design and implementation of an X-ray fluorescence detection system through Monte Carlo simulation using the PENELOPE code",
+        "institution": "Universidad de la Frontera",
+        "name": "Research Student"
+      }
+    ],
+    "academic": [
+      {
+        "degree": "Student School of Web Development",
+        "endDate": "Current",
+        "institution": "PLATZI",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "degree": "Medical physics",
+        "endDate": "Dec 2018",
+        "institution": "Universidad de La Frontera",
+        "startDate": "Feb 2017"
+      },
+      {
+        "degree": "Physical Engineer",
+        "endDate": "Dec 2016",
+        "institution": "Unversidad Tecnológica de Pereira",
+        "startDate": "Feb 2011"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "30%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
+      },
+      {
+        "name": "Python",
+        "percentage": "30%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
-      "backend",
-      "frontend"
+      "frontend",
+      "Python"
     ],
     "languages": [
       {
@@ -90,20 +94,12 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Johnnie-LC"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/johnnie-lopez-3343008/"
       }
     ]
   }

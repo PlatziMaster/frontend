@@ -1,6 +1,12 @@
 import React from 'react';
 
 const Header = props => {
+  /**
+   * Recibe por props:
+   * * Nombre
+   * * Profesion
+   * * Redes sociales
+   */
   const { name, profession, socialMedia = [] } = props;
   return (
     <div className="Header">

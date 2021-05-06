@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Languages = ({ languages = [] }) => {
+  /**
+   * De la respuesta de la API recibe un arreglo de
+   * lenguages
+   */
+
   return (
     <div className="Languages Container">
       <h2 className="Languages-title">

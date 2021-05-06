@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Interest = ({ interest = [] }) => {
+  /**
+   * De la respuesta de la API recibe un arreglo de
+   * intereses
+   **/
   return (
     <div className="Interest Container">
       <h2 className="Interest-title">

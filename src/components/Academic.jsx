@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Academic = ({ academic = [] }) => {
+  /**
+   * De la respuesta de  la API recibe un arrglo
+   * de la formación academica
+   */
   return (
     <div className="Academic Container">
       <h2 className="Academic-title">

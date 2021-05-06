@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Experience = ({ experience = [] }) => {
+  /**
+   * De la respuesta de la API se obtiene un arreglo de
+   * experiencias de trabajo
+   */
   return (
     <section className="Experience Container">
       <h2 className="Experience-title">

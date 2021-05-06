@@ -1,6 +1,10 @@
 import React from 'react';
 
 const About = ({ data = {} }) => {
+  /**
+   * Muestra a un lado del avatar y los datos de usuario
+   * información complementaria y links FUNCIONALES de contacto
+   */
   const { address, email, website, phone } = data;
   return (
     <div className="About">

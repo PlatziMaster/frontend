@@ -9,18 +9,38 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
+import Spinner from '../components/Spinner';
 
 const App = () => {
+  /**
+   * Se tiene un estado unico en el nodo más alto
+   * de la aplicación
+   */
   const [data, setdata] = useState(null);
 
+  /**
+   * Se obtiene la información de la "API"
+   * y se setea como el nuevo estado, esto debe ocurrir al
+   * cargar el componente por eso se usa un useEffect
+   */
   useEffect(() => {
     let req = getData('../../data.json ');
     req.then(res => setdata(res.data));
   }, []);
 
+  /**
+   * Si la respuesta no obtiene información entonces pedimos
+   * mostramos un spinner de carga
+   */
+
   if (data === null) {
-    return null;
+    return <Spinner />;
   }
+
+  /**
+   * Cada componente solo recibe lo que necesita que
+   * necesita
+   */
   return (
     <main className="Content">
       <Header

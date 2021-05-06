@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Skills = ({ skills = [] }) => {
+  /**
+   * De la respuesta de la API recibe un arreglo
+   * de habilidades
+   */
   return (
     <div className="Skills Container">
       <h2 className="Skills-title">

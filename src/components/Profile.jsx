@@ -1,5 +1,5 @@
 import React from 'react';
-import { getData } from '../utils/getData';
+import getData from '../utils/getData';
 class Profile extends React.Component {
   state = {
     data: {},
@@ -18,9 +18,7 @@ class Profile extends React.Component {
     return (
       <div className="container">
         <h1 className="Profile-title">About me</h1>
-        <h5 className="Profile-desc">
-        {this.state.data.Profile}
-        </h5>
+        <h5 className="Profile-desc">{this.state.data.Profile}</h5>
       </div>
     );
   }

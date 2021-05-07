@@ -26,6 +26,7 @@ const useStyles = makeStyles(theme => ({
 
 const App = () => {
   const classes = useStyles();
+
   return (
     <>
       <div className={classes.root}>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getData } from '../utils/getData';
+import getData from '../utils/getData';
 class Skills extends React.Component {
   state = {
     data: {},

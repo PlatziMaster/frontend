@@ -1,5 +1,5 @@
 import React from 'react';
-import { getData } from '../utils/getData';
+import getData from '../utils/getData';
 class Header extends React.Component {
   state = {
     data: {},
@@ -27,9 +27,7 @@ class Header extends React.Component {
           </div>
           <div className="col">
             <div className="container">
-              <h1 className="Header-title">
-                {this.state.data.name}
-              </h1>
+              <h1 className="Header-title">{this.state.data.name}</h1>
               <div>
                 <h5 className="Header-job-title">
                   {this.state.data.profession}

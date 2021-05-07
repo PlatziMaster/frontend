@@ -1,16 +1,27 @@
 import React from 'react';
 import '../styles/components/ProfileItem.scss';
 
-const ProfileItem = () => (
+const ProfileItem = (data) => (
+  
   <div className="profile-item">
-  <div className="profile-item__details">
-    <p className="profile-item__details--title">Título descriptivo</p>
-    <ul>
-        <li><a href="/">CItem1</a></li>
-        <li><a href="/">item2</a></li>
+    <div className="profile-item__details">
+      <p className="profile-item__details--title">{data.title}</p>
+      {data.onlyDesc &&
+        <p>{data.descr}</p>
+        
+      }
+      {!data.onlyDesc &&
+      <ul className="profile-item__details--list">
+        {
+          
+          data.interest!=undefined?data.interest.map(item => 
+          <li key={data.interest.indexOf(item)}>{item}</li>
+          ):''
+        }
       </ul>
+      }
+    </div>
   </div>
-</div>
 );
 
 export default ProfileItem;

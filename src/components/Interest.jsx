@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/components/Interest.scss';
+import Profile from '../components/Profile';
 
-const Interest = ({ children }) => (
-  <section className="interest">
-    <div className="interest__container">
-      {children}
-    </div>
-  </section>
+const Interest = ({title,  children }) => (
+  <Profile title={title}>
+    {children}
+  </Profile>
 );
 
 export default Interest;

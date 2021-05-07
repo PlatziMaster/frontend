@@ -1,26 +1,29 @@
-
 @import "App";
-.profile-item_details ul {
-	// background-color:  $color-fondo-light;
-    // li{
-	// 	margin: 10px 1em;
-    //     padding: 10px;
-	// 	a{
-	// 		text-decoration: none;
-    //         background-color: red;
-	// 	}
-	// }
-	@include display-flex-center;
-	justify-content: flex-end;
-}
 
-.profile-item_details a {
-
-	margin: 10px 1em;
-    //     padding: 10px;
-}
-
-.profile-item__details--title {
-    font-size: 1.5em;
-    padding: 0 1em;
+.profile-item__details {
+	display: flex;
+	width: 100%;
+	padding: 30px 0;
+	border-left: 1px solid black;
+	&--list {
+		width: 50%;
+		//height: 300px;
+		background-color: black;
+		color: white;
+		display: block;
+		li{
+			margin: 10px 1em;
+			padding: 10px;
+			a{
+				text-decoration: none;
+				background-color: red;
+			}
+		}
+	//@include display-flex-center;
+	}
+	&--title {
+		width: 50%;
+		font-size: 1.5em;
+		padding: 0 1em;
+	}
 }

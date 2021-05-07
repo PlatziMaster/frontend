@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/components/Experience.scss';
+import Profile from '../components/Profile';
 
-const Experience = ({ children }) => (
-  <section className="experience">
-    <div className="experience__container">
-      {children}
-    </div>
-  </section>
+const Experience = ({title, children }) => (
+  <Profile title={title}>
+    {children}
+  </Profile>
 );
 
 export default Experience;

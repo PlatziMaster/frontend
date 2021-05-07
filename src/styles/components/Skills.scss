@@ -1,6 +1,26 @@
+@import "App";
+
 .skills {
-    background-color: gray;
-    width: 50vw;  
-    margin: 20px;
-    padding: 1em;
+    background-color: lightgrey;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 430px;
+    padding: 0 30px;
+}
+
+.skills__container {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    &-items {
+        display: flex;
+        margin-left: 30px;
+        height: 360px;
+        width: 600px;
+        background-color: white;
+    }
+    h2 {
+        margin:0 30px ;
+        padding: 20px 0;
+    }
+   
 }

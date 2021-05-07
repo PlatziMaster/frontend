@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/components/Skills.scss';
+import Profile from '../components/Profile';
 
-const Skills = ({ children }) => (
-  <section className="skills">
-    <div className="skills__container">
-      {children}
-    </div>
-  </section>
+const Skills = ({title, children }) => (
+  <Profile title={title}>
+    {children}
+  </Profile>
 );
 
 export default Skills;

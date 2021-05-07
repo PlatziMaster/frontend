@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/components/Languages.scss';
+import Profile from '../components/Profile';
 
-const Languages = ({ children }) => (
-  <section className="languages">
-    <div className="languages__container">
-      {children}
-    </div>
-  </section>
+const Languages = ({title, children }) => (
+  <Profile title={title}>
+    {children}
+  </Profile>
 );
 
 export default Languages;

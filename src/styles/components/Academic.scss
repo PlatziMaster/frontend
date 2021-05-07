@@ -1,7 +1,42 @@
+@import "App";
+
 .academic {
-    background-color: green;
-    display: inline-flex;
-    width: 50vw;
-    margin: 20px;
-    padding: 1em;
+    max-width: 1024px;
+    height: 400px;
+    margin:0 auto;
+}
+
+.academic__container {
+    margin-left: 30px;
+    padding: 0 30px;
+    background-color: lightgrey ;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    h2 {
+        margin: 0;
+        padding: 30px 0;
+    }
+}
+.academic-items {
+    padding: 5px;
+}
+
+.it{
+    display: flex;
+   height: 150px;
+  
+}
+
+.itInside {
+    background-color: white;
+    margin: 0 5px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+    h2 {
+        margin: 15px;
+        border: 1px solid black;
+        padding: 15px;
+    }
 }

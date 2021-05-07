@@ -1,15 +1,19 @@
 import React from 'react';
 import '../styles/components/Header.scss';
 
-const Header = () => (
+const Header = (avatar) => (
   <header className="header">
-    <img className="header__img" src="../assets/logo-platzi-video-BW2.png" alt="Platzi Video" />
-    <div className="header__menu">
-      <div className="header__menu--profile">
-        {/* <img src="../assets/user-icon.png" alt="" /> */}
-        <p>Perfil</p>
-      </div>
-      
+    <img className="header__img" src={avatar.avatar}  alt="Imagen de perfil" />
+    <h1 className="header__title"> {avatar.name}  </h1>
+    <div className="header__content">
+      <ul>
+        <li>Title: {avatar.profession}</li>
+        <li>Phone: {avatar.phone}</li>
+        <li>Address: {avatar.address}</li>
+        <li>Email: {avatar.email}</li>
+        <li>Website: {avatar.website}</li>
+
+      </ul>
     </div>
   </header>
 );

@@ -1,0 +1,45 @@
+
+.skills-item__details {
+    font-size: 0.8em;
+    display: block;
+
+    &--title {
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 120px;
+        color: white;
+        background-color: black;
+        margin: 0;
+        padding: 15px 10px;
+    }
+    &--list {
+        height: 120px;
+        background-color: white;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 15px 10px;
+        border: 1px solid black;
+    }
+}
+
+.skills-item {
+    
+    &-top {
+        align-self:flex-start; 
+        width: 120px;  
+    }
+    &-bottom {
+        align-self:flex-end; 
+        width: 120px; 
+    }
+    //align-self: center;
+   // height: 240px;
+    // border: 1px solid black;
+}
+

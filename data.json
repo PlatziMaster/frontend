@@ -1,57 +1,71 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Jose Padron",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "josepadron.go@gmail.com",
+    "website": "https://padronjosef.com",
+    "phone": "3103447203",
+    "avatar": "https://raw.githubusercontent.com/padronjosef/Portfolio-Assets/main/photo.webp",
+    "profile": "Hello there! I'm Jose, a Frontend Developer based in Bogota. CO. I Enjoy bulding web aplications, My goal is being a tech lead in web development.",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "Mar 2020",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Arquitectura Frontent"
       },
       {
-        "date": "Jan 2021",
+        "date": "Mar 2020",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "English School"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Frontend Developer",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Never",
+        "institution": "Platzi",
+        "startDate": "Jan 2019"
+      },
+      {
+        "degree": "Electronic Engineering",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
+        "endDate": "Jan 2021",
+        "institution": "PSM",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Advance English Level",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "institution": "CEVAZ",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Platzi",
+        "endDate": "Feb 2021",
+        "jobDescription": "Leading developer communities, UX Interviewing, UI Designing and creating graphic assets.",
+        "jobTitle": "Community Relations",
+        "startDate": "Sep 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Sistema C3",
+        "endDate": "Oct 2019",
+        "jobDescription": "Web application development using JavaScript, CSS and React.js",
+        "jobTitle": "Full Stack Developer",
+        "startDate": "Jan 2019"
+      },
+      {
+        "company": "Gden Technology",
+        "endDate": "Oct 2018",
+        "jobDescription": "My first steps as a frontend and designer, I created graphic assets and Develop landing pages.",
+        "jobTitle": "Co-founder & CEO",
+        "startDate": "Dec 2918"
       }
     ],
     "skills": [
@@ -61,7 +75,7 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "95%"
       },
       {
         "name": "JavaScript",
@@ -72,38 +86,37 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["Javascript", "React", "Hardware", "Videogames"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
+      },
+      {
+        "name": "French",
+        "percentage": "10%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/padronjosef"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/padronjosef"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/padronjosef"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/padronjosef/"
       }
     ]
   }

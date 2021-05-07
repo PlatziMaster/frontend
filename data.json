@@ -1,13 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Fernando De Leon",
     "profession": "FrontEnd Developer",
+    "age": "28 years old",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "gasnare@gmail.com",
+    "website": "https://github.com/ferchodeleon",
+    "phone": "+57 3167589271",
+    "avatar": "https://avatars.githubusercontent.com/u/30879564?s=400&u=2ecb5263bae4c8ebcb0296a4c2fa030ff2a80c83&v=4",
+    "profile": "My name is Fernando De Leon. I am a 28 year old Colombian frontend developer who cares about design. I am a Technologist from the Universidad San Buenaventura Bogotá. Design web pages and mobile applications for Android and IOS in flutter. Lover of programming and music, in addition to playing instruments such as guitar and drums.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,88 +23,54 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
+    "academicDegree": "Universidad San Buenaventura – Tecnología en Programación y Desarrollo de Software",
+    "academicDescription": "I finished my studies as a Technologist in programming and software development at the Universidad de San Buenaventura Bogotá, learning Java programming languages, SQL databases, programming logic, algorithms. First semesters emphasis on programming language in Java, databases in MySQL and PL / SQL, with strong project implementation learning, methodologies, strong bases in documentation and the experience of implementing a functional project. Learning about development and programming of web pages in languages such as PHP and JavaScript. In 2019 studies were started for mobile applications on Android, taking the learned during 4 semesters in the Java language and database, to create native Android applications fully functional and continuing learning to this day.",
+    "academic-endDate": "Jan 2020",
+    "academic-institution": "Universidad San Buenaventura",
+    "academic-startDate": "Jan 2018",
     "experience": [
       {
-        "company": "PugStar",
+        "company": "La Cadena Retail Solutions",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Currently I work for the company La Cadena Retail, as Front-end, with handling of Dart / Flutter Languages and development of web pages in ReactJS, developing mobile applications and web pages in the front-end part for companies retail such as Colsubsidio, Jumbo, Metro among others.",
+        "jobTitle": "Junior Developer",
+        "startDate": "2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Ega Kat Logística S.A.S",
+        "endDate": "2020",
+        "jobDescription": "Hold the position as Development Analyst performing the tasks of database administrator and adaptation, developing new projects for the company where it had responsibilities for, support and maintenance of the databases and applications developed in Angulas and Java, analysis of new developments for the company, systematize company processes, configuration implementation of servers and databases on AWS.",
+        "jobTitle": "Development analyst",
+        "startDate": "2017 "
+      },
+      {
+        "company": "Ferkar SAS",
+        "endDate": "2017",
+        "jobDescription": "Hold the position of ICT Maintenance Coordinator, performing the tasks of Support and maintenance of the companys information systems, Generate Database backups and creation of the companys intranet web application based on in WORDPRESS, CSS3 and HTML",
+        "jobTitle": "IT Maintenance Coordinator",
+        "startDate": "2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "65%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "40%"
+      },
+      {
+        "name": "Flutter / Dart",
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "percentage": "30%"
       }
     ]
   }

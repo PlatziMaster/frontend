@@ -1,7 +1,16 @@
 /* eslint-disable max-len */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Header = () => {
+
+  const [dataInfo, setDataInfo] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/data')
+      .then(response => response.json())
+      .then(data => setDataInfo(data));
+  }, []);
+
   return (
     <header className='Header'>
 
@@ -11,24 +20,23 @@ const Header = () => {
         </video>
       </div>
 
-      <div className='Header-logo'>
-        <p className='Header-logo-text'>Fernando De Leon</p>
-      </div>
-
       <section className='Header-section-card main'>
         <div className='Header-container'>
 
           <div className='Header-image-container'>
-            <img draggable='false' className='Header-img-profile' src='https://avatars.githubusercontent.com/u/30879564?s=400&u=2ecb5263bae4c8ebcb0296a4c2fa030ff2a80c83&v=4' alt='' />
+            <img draggable='false' className='Header-img-profile' src={dataInfo.avatar} alt='' />
           </div>
 
           <div className='Header-card-info'>
             <div className='Header-seccion-title'>
               <h2 className='Header-title'>
                 I am
-                <strong> Fernando De Leon</strong>
+                <strong>
+                  {' '}
+                  {dataInfo.name}
+                </strong>
               </h2>
-              <h3 className='Header-job-title'>Frontend Developer</h3>
+              <h3 className='Header-job-title'>{dataInfo.profession}</h3>
             </div>
 
             <hr />
@@ -36,28 +44,28 @@ const Header = () => {
             <ul className='Header-seccion-contact'>
               <li>
                 <span className='title'>Age</span>
-                <span>28 years old</span>
+                <span>{dataInfo.age}</span>
               </li>
               <li>
                 <span className='title'>Location</span>
-                <span>Bogotá Colombia</span>
+                <span>{dataInfo.address}</span>
               </li>
               <li>
-                <span className='title'>Telefono</span>
+                <span className='title'>Phone number</span>
                 <span>
-                  <a href='tel:+573167589271' className='Header-phone'>+57 3167589271</a>
+                  <a href='tel:{dataInfo.phone}' className='Header-phone'>{dataInfo.phone}</a>
                 </span>
               </li>
               <li>
                 <span className='title'>Email</span>
                 <span>
-                  <a href='mailto:gasnare@gmail.com' className='Header-email'>gasnare@gmail.com</a>
+                  <a href='mailto:{dataInfo.email}' className='Header-email'>{dataInfo.email}</a>
                 </span>
               </li>
               <li>
                 <span className='title'>Web Site</span>
                 <span>
-                  <a href='https://github.com/ferchodeleon' target='_blank' className='Header-website' rel='noreferrer'>https://github.com/ferchodeleon</a>
+                  <a href={dataInfo.website} target='_blank' className='Header-website' rel='noreferrer'>{dataInfo.website}</a>
                 </span>
               </li>
             </ul>

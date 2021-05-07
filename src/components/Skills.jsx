@@ -39,6 +39,15 @@ const Skills = () => {
           <div className='Skill__bar__progress__javascript' />
         </div>
       </div>
+      <div className='Skill'>
+        <div className='Skill-name'>
+          ReactJS
+          <span className='percentage'>30%</span>
+        </div>
+        <div className='Skill-bar'>
+          <div className='Skill__bar__progress__react' />
+        </div>
+      </div>
     </div>
   );
 };

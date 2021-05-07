@@ -16,7 +16,7 @@ const Experience = () => {
       </h2>
       <div className='Experience-container'>
         {dataInfo.map(data => (
-          <div className='Experience-item'>
+          <div key={data.jobTitle} className='Experience-item'>
             <h2>
               {data.startDate}
               {' - '}

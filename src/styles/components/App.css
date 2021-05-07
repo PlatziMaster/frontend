@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #555;
 }
 
@@ -174,7 +175,7 @@ a:hover {
   padding: 0 35px;
 }
 
-.Profile-title {
+.Profile-container {
   padding: 60px 0;
   text-align: center;
   line-height: 1.5;
@@ -182,6 +183,118 @@ a:hover {
   font-weight: 500;
 }
 
-.Profile-title strong {
+.Profile-title {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: #555;
+}
+
+.Experience-title {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: #555;
+}
+
+.Experience-container {
+  display: flex;
+  width: 100%;
+}
+
+.Experience-container .Experience-item {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.Experience-container .Experience-item h2 {
+  text-align: center;
+  color: #2ecda9;
+}
+
+.Experience-container .Experience-item h3 {
+  color: #555;
+  text-align: center;
+}
+
+.Experience-container .Experience-item p strong {
+  color: #2ecda9;
+  font-weight: bold;
+}
+
+.Skill-container {
+  background-color: #fff;
+  padding: 25px;
+  text-align: -webkit-center;
+}
+
+.Skill {
+  text-align: left;
+  width: 50%;
+}
+
+.Skill .Skill-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.Skill .Skill-name .percentage {
+  float: right;
+  font-weight: lighter;
+}
+
+.Skill .Skill-bar {
+  width: 100%;
+  height: 8px;
+  position: relative;
+  background: #d2f5ed;
+}
+
+.Skill .Skill-bar .Skill__bar__progress__html {
+  height: 8px;
+  position: absolute;
+  background-color: #2ecda9;
+  width: 85%;
+}
+
+.Skill .Skill-bar .Skill__bar__progress__css {
+  height: 8px;
+  position: absolute;
+  background-color: #2ecda9;
+  width: 65%;
+}
+
+.Skill .Skill-bar .Skill__bar__progress__flutter {
+  height: 8px;
+  position: absolute;
+  background-color: #2ecda9;
+  width: 60%;
+}
+
+.Skill .Skill-bar .Skill__bar__progress__javascript {
+  height: 8px;
+  position: absolute;
+  background-color: #2ecda9;
+  width: 40%;
+}
+
+.Skill__bar__progress__react {
+  height: 8px;
+  position: absolute;
+  background-color: #2ecda9;
+  width: 30%;
+}
+
+.Footer-container p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Footer-container p span {
   color: #2ecda9;
 }

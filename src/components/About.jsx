@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const About = () => {
+  const [dataInfo, setDataInfo] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/data')
+      .then(response => response.json())
+      .then(data => setDataInfo(data));
+  }, []);
   return (
-    <div className='Profile-title main'>
+    <div className='Profile-container main'>
+      <h2 className='Profile-title'>
+        About
+      </h2>
       <p>
-        My name is
-        <strong> Fernando De Leon</strong>
-        . I am a 28 year old Colombian frontend developer who cares about design. I am a Technologist from the Universidad San Buenaventura Bogotá. Design web pages and mobile applications for Android and IOS in flutter. Lover of programming and music, in addition to playing instruments such as guitar and drums.
+        {dataInfo.profile}
       </p>
     </div>
   );

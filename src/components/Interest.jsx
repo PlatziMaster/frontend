@@ -2,7 +2,7 @@ import React from 'react';
 import { getData2 } from '../utils/getData';
 class Interest extends React.Component {
   state = {
-    data: [],
+    data: {},
   };
   async componentDidMount() {
     await this.fetchData();
@@ -16,11 +16,12 @@ class Interest extends React.Component {
   };
   render() {
     return (
-      <div className="container">
-        <h1 className="Interest-title">Interest-title</h1>
-        <h4 className="Interest-item">Interest-item</h4>
-        <h4 className="Interest-item">Interest-item</h4>
-        <h4 className="Interest-item">Interest-item</h4>
+      <div className="container-2">
+        <h1 className="Interest-title">Interest</h1>
+        <h4 className="Interest-item">{this.state.data.interest ? this.state.data.interest[0] : null}</h4>
+        <h4 className="Interest-item">{this.state.data.interest ? this.state.data.interest[1] : null}</h4>
+        <h4 className="Interest-item">{this.state.data.interest ? this.state.data.interest[2] : null}</h4>
+        <h4 className="Interest-item">{this.state.data.interest ? this.state.data.interest[3] : null}</h4>
       </div>
     );
   }

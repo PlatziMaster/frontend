@@ -2,7 +2,7 @@ import React from 'react';
 import { getData2 } from '../utils/getData';
 class Header extends React.Component {
   state = {
-    data: [],
+    data: {},
   };
   async componentDidMount() {
     await this.fetchData();
@@ -16,9 +16,9 @@ class Header extends React.Component {
   };
   render() {
     return (
-      <div className="container alert alert-primary" role="alert">
+      <div className="container">
         <div className="row">
-          <div className="col-2 align-self-center">
+          <div className="col">
             <img
               className="avatar"
               src={this.state.data.avatar}
@@ -27,12 +27,12 @@ class Header extends React.Component {
           </div>
           <div className="col">
             <div className="container">
-              <h1 className="Header-title alert alert-secondary" role="alert">
+              <h1 className="Header-title">
                 {this.state.data.name}
               </h1>
               <div>
-                <h5 className="Header-job-title alert alert-info" role="alert">
-                  Programmer Junior
+                <h5 className="Header-job-title">
+                  {this.state.data.profession}
                 </h5>
               </div>
               <div>{this.props.children}</div>

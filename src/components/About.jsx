@@ -1,9 +1,10 @@
 import React from 'react';
 import { getData2 } from '../utils/getData';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 class About extends React.Component {
   state = {
-    data: [],
+    data: {},
   };
   async componentDidMount() {
     await this.fetchData();
@@ -20,33 +21,30 @@ class About extends React.Component {
       <div className="container">
         <div className="row">
           <div className="box">
-            <h6 className="About-title">
-              Phone: +57-321 449 15 59
-            </h6>
+            <h6 className="About-title">{this.state.data.phone}</h6>
           </div>
-          <div >
-            <h6>
-              alonzopina7@gmail.com
-            </h6>
+          <div>
+            <h6>{this.state.data.email}</h6>
           </div>
           <div className="box">
-            <h6 className="About-item">
-              <a href="#">
-                Linkedin.com
+            
+              <a className="social-icon"
+                href={
+                  this.state.data.social ? this.state.data.social[3].url : null
+                }
+              >
+                <LinkedInIcon className="social-icon"/>
               </a>
-            </h6>
+            
           </div>
           <div className="box">
-            <h6 className="About-item">
-              <a href="#">
-                Linkedin.com
-              </a>
-            </h6>
+            <h6 className="About-item">{this.state.data.address}</h6>
           </div>
           <div className="box">
-            <h6 className="About-item">
-              Guadalajara, Jalisco - Mexico
-            </h6>
+            <h6 className="About-item">{this.state.data.website}</h6>
+          </div>
+          <div className="box">
+            <h6 className="About-item">{this.state.data.website}</h6>
           </div>
         </div>
       </div>

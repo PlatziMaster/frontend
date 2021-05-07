@@ -16,8 +16,8 @@ class Skills extends React.Component {
   };
   render() {
     return (
-      <div className="container">
-        <h1 className="Skills-title">Skills-title</h1>
+      <div className="container-2">
+        <h1 className="Skills-title">Skills</h1>
         <h4 className="Skills-item">
           {this.state.data.skills ? this.state.data.skills[0].name : null}{' '}
           {this.state.data.skills ? this.state.data.skills[0].percentage : null}
@@ -33,6 +33,10 @@ class Skills extends React.Component {
         <h4 className="Skills-item">
           {this.state.data.skills ? this.state.data.skills[3].name : null}{' '}
           {this.state.data.skills ? this.state.data.skills[3].percentage : null}
+        </h4>
+        <h4 className="Skills-item">
+          {this.state.data.skills ? this.state.data.skills[4].name : null}{' '}
+          {this.state.data.skills ? this.state.data.skills[4].percentage : null}
         </h4>
       </div>
     );

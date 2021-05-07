@@ -4,10 +4,10 @@
     "profession": "FrontEnd Developer",
     "address": "Guadalajara, Jalisco, Mexico.",
     "email": "alonzopina@gmail.com",
-    "website": "https://example.com",
+    "website": "https://spina7.github.io/portafolio/",
     "phone": "+52-3325-2428-38",
     "avatar": "https://avatars.githubusercontent.com/u/27663893",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "I'm a Software Enginner student at the University of Guadalajara (CUCEI), electronic music producer and  React passionate",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,34 +24,48 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "High School",
+        "description": "Zapopan, Jalisco",
+        "endDate": "Dec 2018",
+        "institution": "Preparatoria 7 - UDG",
+        "startDate": "Jan 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "High School",
+        "description": "Avondale, Arizona",
+        "endDate": "Dec 2016",
+        "institution": "Westview",
+        "startDate": "Jan 2016"
+      },
+      {
+        "degree": "Software Enginner",
+        "description": "Guadalajara, Jalisco",
+        "endDate": "Expect to - Jan 2023",
+        "institution": "CUCEI - UDG",
+        "startDate": "Jan 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Orbis Logistics",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Operation of Cargo Loads from Texas to Mexico",
+        "jobTitle": "Operations Assistant",
+        "startDate": "Mar 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Popeyes Lousiana Kitchen",
+        "endDate": "Dec 2018",
+        "jobDescription": "Fast food store",
+        "jobTitle": "Chef",
+        "startDate": "May 2018"
+      },
+      {
+        "company": "Fishing store",
+        "endDate": "Apr 2017",
+        "jobDescription": "Sale of fishing accessories",
+        "jobTitle": "Salesman",
+        "startDate": "Jan 2017"
       }
     ],
     "skills": [
@@ -69,6 +83,10 @@
       },
       {
         "name": "React",
+        "percentage": "80%"
+      },
+      {
+        "name": "Linux",
         "percentage": "80%"
       }
     ],
@@ -90,15 +108,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/codymaveriick"
+        "url": "https://twitter.com/codymaveriick/"
       },
       {
         "name": "github",
-        "url": "https://github.com/Spina7"
+        "url": "https://github.com/Spina7/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/sergio-pi%C3%B1a-98518a1bb/"
       }
     ]
   }

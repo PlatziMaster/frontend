@@ -2,7 +2,7 @@ import React from 'react';
 import { getData2 } from '../utils/getData';
 class Languages extends React.Component {
   state = {
-    data: [],
+    data: {},
   };
   async componentDidMount() {
     await this.fetchData();
@@ -16,11 +16,26 @@ class Languages extends React.Component {
   };
   render() {
     return (
-      <div className="container">
-        <h1 className="Languages-title">Languages-title</h1>
-        <h4 className="Languages-item">Languages-item</h4>
-        <h4 className="Languages-item">Languages-item</h4>
-        <h4 className="Languages-item">Languages-item</h4>
+      <div className="container-2">
+        <h1 className="Languages-title">Languages</h1>
+        <h4 className="Languages-item">
+          {this.state.data.languages ? this.state.data.languages[0].name : null}{' '}
+          {this.state.data.languages
+            ? this.state.data.languages[0].percentage
+            : null}
+        </h4>
+        <h4 className="Languages-item">
+          {this.state.data.languages ? this.state.data.languages[1].name : null}{' '}
+          {this.state.data.languages
+            ? this.state.data.languages[1].percentage
+            : null}
+        </h4>
+        <h4 className="Languages-item">
+          {this.state.data.languages ? this.state.data.languages[1].name : null}{' '}
+          {this.state.data.languages
+            ? this.state.data.languages[1].percentage
+            : null}
+        </h4>
       </div>
     );
   }

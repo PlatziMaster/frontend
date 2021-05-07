@@ -2,7 +2,7 @@ import React from 'react';
 import { getData2 } from '../utils/getData';
 class Experience extends React.Component {
   state = {
-    data: [],
+    data: {},
   };
   async componentDidMount() {
     await this.fetchData();
@@ -20,22 +20,74 @@ class Experience extends React.Component {
         <h1 className="Experience-title">Professional experience</h1>
         <div className="row">
           <div className="col">
-            <h4 className="Experience-item">Salesman</h4>
+            <h4 className="Experience-item">
+              {this.state.data.experience
+                ? this.state.data.experience[0].jobTitle
+                : null}
+              {' on '}
+              {this.state.data.experience
+                ? this.state.data.experience[0].company
+                : null}
+              {' - '}
+              {this.state.data.experience
+                ? this.state.data.experience[0].endDate
+                : null}
+            </h4>
           </div>
           <div className="col">
             <h5 className="Experience-item">
-              Sales management and portfolio collection is a family business
-              dedicated to the sales and distribution of products for food
-              contact
+              {this.state.data.experience
+                ? this.state.data.experience[0].jobDescription
+                : null}
             </h5>
           </div>
         </div>
         <div className="row">
           <div className="col">
-            <h4 className="Experience-item">Experience-item</h4>
+            <h4 className="Experience-item">
+              {this.state.data.experience
+                ? this.state.data.experience[1].jobTitle
+                : null}
+              {' on '}
+              {this.state.data.experience
+                ? this.state.data.experience[1].company
+                : null}
+              {' - '}
+              {this.state.data.experience
+                ? this.state.data.experience[1].endDate
+                : null}
+            </h4>
           </div>
           <div className="col">
-            <h5 className="Experience-item">Experience-item</h5>
+            <h5 className="Experience-item">
+              {this.state.data.experience
+                ? this.state.data.experience[1].jobDescription
+                : null}
+            </h5>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <h4 className="Experience-item">
+              {this.state.data.experience
+                ? this.state.data.experience[2].jobTitle
+                : null}
+              {' on '}
+              {this.state.data.experience
+                ? this.state.data.experience[2].company
+                : null}
+              {' - '}
+              {this.state.data.experience
+                ? this.state.data.experience[2].endDate
+                : null}
+            </h4>
+          </div>
+          <div className="col">
+            <h5 className="Experience-item">
+              {this.state.data.experience
+                ? this.state.data.experience[2].jobDescription
+                : null}
+            </h5>
           </div>
         </div>
       </div>

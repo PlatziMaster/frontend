@@ -1,57 +1,58 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "JORGE CRUZ",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Oaxaca, México.",
+    "email": "jorrge.cruz@gmail.com",
+    "website": "https://jorrgecruz.github.io",
+    "phone": "9512440735",
+    "avatar": "https://jorrgecruz.github.io/images/perfil2.jpg",
+    "Profile": "Cuento con más de 15 de experiencia docente a nivel Universidad en el área de Ciencias de la Computación, soy apasionado de las TI y Programación, con gran habilidad para la resolución de problemas, trabajo en equipo, colaborativo, adaptabilidad a las nuevas tecnologías y autodidacta ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": " ",
+        "description": " ",
+        "institution": " ",
+        "name": " "
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Science Master",
+        "description": "Maestria Ciencias de la Computacion y Matematicas Industriales Beca Conacyt - Posgrado de Excelencia",
+        "endDate": "Sep 2004",
+        "institution": "CIMAT",
+        "startDate": "Jul 2002"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Civil Engineering",
+        "description": "Discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways ",
+        "endDate": "Jul 2000",
+        "institution": "ITO",
+        "startDate": "Sep 1995"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "UABJO",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "sProfesor de cátedra en Escuela de ciencias Licenciaturas: Física, Matemáticas, Computación",
+        "jobTitle": "Professor",
+        "startDate": "Jul 2005"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "company": "UABJO",
+        "endDate": "JAN 2020",
+        "jobDescription": "Co-developer school control system at the Science School UABJO www.ciencias-uabjo.com.mx/",
+        "jobTitle": "Frontend developer",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "INCOSUR",
+        "endDate": "Present",
+        "jobDescription": "San Dionisio del mar site https://sandionisiodelmar.org",
+        "jobTitle": "Web developer",
+        "startDate": "Sept 2020"
       }
     ],
     "skills": [
@@ -61,7 +62,7 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
@@ -69,14 +70,14 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "web development",
+      "frontend",
+      "platzi"
     ],
     "languages": [
       {
@@ -85,25 +86,37 @@
       },
       {
         "name": "English",
+        "percentage": "60%"
+      },
+      {
+        "name": "Java",
+        "percentage": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "50%"
+      },
+      {
+        "name": "Python",
         "percentage": "50%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCVj23OUM0h2b8sCkWdrcZFw"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/JorgeCruzPere20"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/jorrgeCruz/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jorrgecruz/"
       }
     ]
   }

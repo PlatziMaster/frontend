@@ -1,0 +1,34 @@
+@import "App";
+
+.experience {
+    background-color:  $color-primario-l;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 360px;
+    padding: 0 30px;
+    &-item-top{
+        align-self: flex-start;
+    }
+    &-item-center{
+        align-self: center;
+    }
+    &-item-bottom{
+        align-self: flex-end;
+    }
+   
+
+.experience__container {
+    border-left: 1px solid black;
+    padding-left: 30px;
+    height: 100%;
+    //height: 300px;
+    h2 {
+        margin: 20px 0 ;
+    }
+}
+}
+.experience__container-items {
+    display: flex;
+    height: 300px;
+}
+

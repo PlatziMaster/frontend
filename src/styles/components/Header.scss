@@ -1,0 +1,66 @@
+@import "App";
+
+.header {
+    //align-items: center;
+    grid-area: header;
+    background: $color-primario-l;
+    margin: 0;
+    margin-left: 30px;
+    border-left: 1px solid black;
+    padding: 1em;
+    //color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    //height: 180px;
+    top: 0px;
+    &__title {
+      align-self:center;
+      margin: 0 auto;
+      width: 50vw;
+      font-size: 72px;
+    
+    }
+    &__content {
+      margin: 0px 20px;
+      li {
+        margin: 10px 0;
+      }
+
+    }
+    &__img {
+      margin:0 30px;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+    }
+  }
+  
+  .header__menu {
+      margin-right: 30px;
+      ul {
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+        margin: 0px 0px 0px -14px;
+        padding: 0px;
+        position: absolute;
+        width: 100px;
+        text-align: right;
+      }
+      li {
+        margin: 10px 0px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      &--profile {
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        img {
+          margin-right: 8px;
+          width: 40px;
+        }
+      }
+  }

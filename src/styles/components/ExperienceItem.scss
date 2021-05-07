@@ -1,0 +1,34 @@
+@import "App";
+
+.experience-item__details {
+    font-size: 0.8em;
+    @include display-grid;
+    grid-template-areas: 'item-left item-right'
+                        'item-bottom item-bottom';
+    @include grid-template-rows(100px 100px);
+    @include grid-template-columns(100px 170px );
+}
+
+.experience-item__details--title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 5px;
+    grid-area: item-left;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.experience-item__details--list {
+    grid-area: item-right;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.experience-item__details--description {
+    grid-area: item-bottom;
+    background-color: white;
+    margin: 0;
+    padding-top: 20px;
+}

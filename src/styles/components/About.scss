@@ -1,0 +1,23 @@
+.about {
+    grid-area: about;
+    border-left: 1px solid black;
+    background-color: #FFF65F;
+    margin: 0px;
+    padding: 1em;
+}
+
+.about__container {
+    font-size: 1em;
+    &-items {
+    display: block;
+    }
+}
+
+.about-item__details{
+    &--title {
+        font-weight: bold;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}

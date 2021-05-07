@@ -1,0 +1,33 @@
+@import "App";
+
+.profile {
+    grid-area: profile;
+    background-color: $color-primario-l;
+    margin: 0;
+    margin-left: 30px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 30px;
+    p{
+        width: 40vw;
+        text-align: justify;
+        font-size: 12px;
+        line-height : 24px;
+    }
+   
+}
+
+.profile__container-title {
+    font-size: 1em;
+}
+
+.profile-item__details{
+    padding-left: 40px;
+    &--title {
+        p {
+    
+            padding: 0 5px;
+        }
+    }
+}
+

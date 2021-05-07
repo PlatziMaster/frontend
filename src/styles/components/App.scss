@@ -1,0 +1,122 @@
+//@import './reset.css';
+@import './_grids.scss';
+
+$color-primario-l: white;
+$color-primario-d: #BDF1D4;
+
+//Mixins
+@mixin display-flex-center {
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    // background: #8f57fd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol, ul{
+	margin: 0;
+	list-style: none; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    @include display-flex-center;
+}
+
+.container-items {
+    @include display-flex-center;
+    padding: 5px;
+}
+.link {
+    grid-area: link;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+    font-size: 0.8em;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    padding: 0.5em;
+}
+
+.grid1 {
+    max-width:1024px;
+    margin:0 auto;
+    @include display-grid;
+    grid-template-areas: 'link link about'
+    'header header about'
+    'profile profile about'
+    'search search search'
+    'empty empty empty';
+    @include grid-template-rows(50px 500px 200px 80px 100PX);
+    @include grid-template-columns(40% 40% 20%);
+    //gap: 10px;
+}
+
+.search {
+    grid-area: search;
+    @include display-flex-center;
+    justify-content: flex-end;
+    width: 530px;
+    margin-left: 30px;
+    //margin-bottom: 35px;
+    border-left: 1px solid black;
+}
+
+.empty {
+    grid-area: empty;
+    margin-left: 30px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.search-container{
+    position: relative;
+    right: 10px;
+    left: 400px;
+    top: -40px;
+    z-index: 2;
+    width: 520px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.search-text{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.search-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.search-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}

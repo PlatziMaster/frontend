@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/components/Languages.scss';
 import Profile from '../components/Profile';
+import '../styles/components/Languages.scss';
 
 const Languages = ({title, children }) => (
   <Profile title={title}>

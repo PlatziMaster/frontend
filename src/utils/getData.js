@@ -1,14 +1,8 @@
-import axios from 'axios';
-
-export function getData(URL) {
-  return fetch(URL);
-}
-
-export function getData2(URL) {
-  return axios
-    .get(URL)
-    .then(({ data }) => {
-      return data;
-    })
-    .catch(error => console.error(error));
+export default function getData(URL) {
+  return new Promise((resolve, reject) => {
+    fetch(URL)
+      .then(req => req.json())
+      .then(res => resolve(res))
+      .catch(err => reject(err));
+  });
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getData2 } from '../utils/getData';
+import { getData } from '../utils/getData';
 class Skills extends React.Component {
   state = {
     data: {},
@@ -9,7 +9,7 @@ class Skills extends React.Component {
   }
 
   fetchData = async () => {
-    let res = getData2('http://localhost:3000/data');
+    let res = getData('http://localhost:3000/data');
     let data = await res;
 
     this.setState({ data });

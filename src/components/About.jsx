@@ -1,5 +1,5 @@
 import React from 'react';
-import { getData2 } from '../utils/getData';
+import { getData } from '../utils/getData';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 class About extends React.Component {
@@ -11,7 +11,7 @@ class About extends React.Component {
   }
 
   fetchData = async () => {
-    let res = getData2('http://localhost:3000/data');
+    let res = getData('http://localhost:3000/data');
     let data = await res;
 
     this.setState({ data });

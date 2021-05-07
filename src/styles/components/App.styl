@@ -1,2 +1,134 @@
+$mintcolor = #c8f9e4
+$headercolor = #e0f4ff
+html
+  font-size: 62.5%
+  font-family: Arial, Helvetica, sans-serif
+  font-weight: lighter
+.mintColor 
+  background-color: $mintcolor
 body
-  background-color blue
+  background-color white
+  padding: 1vw
+  box-sizing: border-box
+  margin: 0
+  font-size: 1.6rem
+#app
+  width: 100%
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+/*Common*/
+p
+  margin: 5px 10px 5px 0px 
+  font-size: 1.8rem
+  color: #47525e
+  font-weight: lighter
+h1
+  display: block
+  margin-block-end: 0
+  color: #47525e
+.commonText
+  margin:2rem 2rem
+/*Containers Layout*/
+.headerColor
+  background-color: $headercolor
+.mintColor 
+  background-color: $mintcolor
+.fullWidth
+  min-height: 15rem
+  max-height: 20rem
+  width: 100%
+  margin: 5px 0
+.halfWidth
+  min-height: 15rem
+  max-height: 20rem
+  width: 49.8%
+  margin: 5px 0
+.leftContainer
+  margin: 1rem .2% 1rem 0rem
+.rightContainer
+  margin: 1rem 0rem 1rem 0.2%
+/*HeaderContainer*/
+.HeaderClass
+  max-height: 25rem!important
+  padding-inline-start: 3vw
+  display: flex
+  align-items:flex-start
+  flex-direction: row
+  align-content: center
+
+
+.infoHeader
+  display: flex
+  flex-direction: column
+  flex: 5
+img
+  border-radius: 100%
+  height: 15rem
+  width: 15rem
+  margin: 1rem 3.5rem
+  align-self: center
+/*About Nested in Header*/
+.About
+  display: flex
+  align-items:flex-start
+  flex-wrap: wrap
+  margin: 1rem 0
+.About .address
+  display: block
+  width: 100%
+
+/*Experience*/
+.tablecolumn
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  max-height: 10rem
+.listeditems
+  min-height: 2rem
+  
+/*Interest*/
+.tablecolumn
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  max-height: 10rem
+.listeditemsInterest
+  border-left: 3px solid gray;
+  margin-bottom: 2px 
+  font-size: 1.8rem
+/*Languages*/
+.tablerow
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  max-height: 10rem
+  margin-right: 5rem
+  border-left: 3px solid gray;
+  margin-bottom: 2px 
+
+
+/*Academic*/
+.listeditemsAcademic
+  font-size: 1.2rem
+  
+.infoAcademic
+  display: flex
+  flex-direction: column
+  
+.infoSkills
+  display: flex
+  flex-direction: column
+.flexingRow
+  display: flex
+  flex-direction: row
+  border-left: 3px solid gray;
+  margin-bottom: 2px 
+.flexingRow p
+  display: inline
+.flexColumn
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+.flexColumn  p
+  display: inline

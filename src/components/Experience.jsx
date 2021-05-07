@@ -9,7 +9,6 @@ const Experience = () => {
       .then(response => response.json())
       .then(data => setDataInfo(data.experience));
   }, []);
-
   return (
     <div className='Experience main'>
       <h2 className='Experience-title'>

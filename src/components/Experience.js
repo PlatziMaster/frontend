@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../styles/components/Experience.styl';
 
@@ -21,5 +22,9 @@ const Experience = ({ experience = [] }) => (
     </div>
   </section>
 );
+
+Experience.propTypes = {
+  experience: PropTypes.array.isRequired,
+};
 
 export default Experience;

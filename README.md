@@ -44,11 +44,6 @@ npm run test
 npm run lint
 ```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
 
 ### Licencia
 frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).

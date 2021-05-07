@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import '../styles/components/Languages.styl';
 
 const Languages = ({ languages = [] }) => (
@@ -15,5 +17,9 @@ const Languages = ({ languages = [] }) => (
     </div>
   </section>
 );
+
+Languages.propTypes = {
+  languages: PropTypes.array.isRequired,
+};
 
 export default Languages;

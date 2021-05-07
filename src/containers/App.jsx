@@ -32,8 +32,8 @@ const App = () => {
     <div className='app'>
       <Header>
         <About
-          title={name}
-          jobTitle={profession}
+          name={name}
+          profession={profession}
           email={email}
           phone={phone}
           website={website}

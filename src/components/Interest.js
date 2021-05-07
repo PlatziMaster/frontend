@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import '../styles/components/Interest.styl';
 
 const Interest = ({ interest = [] }) => (
@@ -13,5 +15,9 @@ const Interest = ({ interest = [] }) => (
     </div>
   </section>
 );
+
+Interest.propTypes = {
+  interest: PropTypes.array.isRequired,
+};
 
 export default Interest;

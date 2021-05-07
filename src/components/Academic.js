@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import '../styles/components/Academic.styl';
 
@@ -23,5 +24,13 @@ const Academic = ({ academic = [] }) => (
     </div>
   </section>
 );
+
+Academic.defaultProps = {
+  academic: [],
+};
+
+Academic.propTypes = {
+  academic: PropTypes.array,
+};
 
 export default Academic;

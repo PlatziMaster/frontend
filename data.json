@@ -1,13 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Sergio Alonzo Piña",
+    "age": "21 years old",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Guadalajara, Jalisco, Mexico.",
+    "email": "alonzopina7@gmail.com",
+    "website": "https://spina7.github.io/portafolio/",
+    "phone": "+52-3325-2428-38",
+    "avatar": "https://avatars.githubusercontent.com/u/27663893",
+    "Profile": "I am currently a software engineering student at the University of Guadalajara, I really like programming and proposing new challenges, that is why I started studying in Platzi, currently I focus more on frontend development to develop web applications and my favorite framework to achieve it is React.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +25,81 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "High School",
+        "description": "Zapopan, Jalisco",
+        "endDate": "Dec 2018",
+        "institution": "Preparatoria 7 - UDG",
+        "startDate": "Jan 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "High School",
+        "description": "Avondale, Arizona",
+        "endDate": "Dec 2016",
+        "institution": "Westview",
+        "startDate": "Jan 2016"
+      },
+      {
+        "degree": "Software Enginner",
+        "description": "Guadalajara, Jalisco",
+        "endDate": "Expect to - Jan 2023",
+        "institution": "CUCEI - UDG",
+        "startDate": "Jan 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Orbis Logistics",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Operation of Cargo Loads from Texas to Mexico",
+        "jobTitle": "Operations Assistant",
+        "startDate": "Mar 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Popeyes Lousiana Kitchen",
+        "endDate": "Dec 2018",
+        "jobDescription": "Fast food store",
+        "jobTitle": "Chef",
+        "startDate": "May 2018"
+      },
+      {
+        "company": "Fishing store",
+        "endDate": "Apr 2017",
+        "jobDescription": "Sale of fishing accessories",
+        "jobTitle": "Salesman",
+        "startDate": "Jan 2017"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
+        "percentage": "80%"
+      },
+      {
+        "name": "Linux",
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
       }
     ],
     "social": [
@@ -95,15 +109,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/codymaveriick/"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Spina7/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/sergio-pi%C3%B1a-98518a1bb/"
       }
     ]
   }

@@ -3,7 +3,16 @@ import { mount } from 'enzyme';
 import Header from '../../components/Header';
 
 describe('<Header />', () => {
-  const header = mount(<Header />);
+  const data = { name: 'Johnnie',
+    profession: 'Fisico',
+    address: 'Pereira',
+    email: 'Johesloc',
+    phone: '1345',
+    avatar: 'ava',
+    social: ['1', '2'],
+    website: 'web' };
+
+  const header = mount(<Header {...data} />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);

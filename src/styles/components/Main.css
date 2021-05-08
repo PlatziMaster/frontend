@@ -1,0 +1,7 @@
+main {
+    width: 100vw;
+    min-width: 700px;
+    padding-top: 25px;
+    /* display: flex;
+    flex-direction: column; */
+  }

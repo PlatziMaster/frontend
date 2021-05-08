@@ -1,0 +1,25 @@
+:root {
+    --background-header: linear-gradient(
+      51deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(5, 95, 138, 1) 0%,
+      rgba(15, 178, 212, 1) 100%
+    );
+    --lines-border-header: rgb(5, 96, 138);
+    --background-body: #f3f8fb;
+    --main-container: #ffffff;
+    --shadow-main-container: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    background-color: var(--background-body);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: "DM Sans", sans-serif;
+    width: 100vw;
+  }

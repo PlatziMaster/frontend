@@ -1,0 +1,11 @@
+.educ-skill-container {
+    width: 80%;
+    min-width: 600px;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }

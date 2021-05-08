@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Sergio Piña",
+    "name": "Sergio Alonzo Piña",
     "profession": "FrontEnd Developer",
     "address": "Guadalajara, Jalisco, Mexico.",
     "email": "alonzopina@gmail.com",
     "website": "https://spina7.github.io/portafolio/",
     "phone": "+52-3325-2428-38",
     "avatar": "https://avatars.githubusercontent.com/u/27663893",
-    "Profile": "I'm a Software Enginner student at the University of Guadalajara (CUCEI), electronic music producer and  React passionate",
+    "Profile": "I am currently a software engineering student at the University of Guadalajara, I really like programming and proposing new challenges, that is why I started studying in Platzi, currently I focus more on frontend development to develop web applications and my favorite framework to achieve it is React.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -75,11 +75,11 @@
       },
       {
         "name": "CSS",
-        "percentage": "80%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "70%"
+        "percentage": "80%"
       },
       {
         "name": "React",
@@ -87,7 +87,7 @@
       },
       {
         "name": "Linux",
-        "percentage": "80%"
+        "percentage": "90%"
       }
     ],
     "interest": ["javascript", "develop", "backend", "frontend"],

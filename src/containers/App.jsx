@@ -26,10 +26,11 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const App = () => {
+  const API = 'http://localhost:3000/data';
   const classes = useStyles();
   const [data, setData] = React.useState({});
   React.useEffect(() => {
-    getData('http://localhost:3000/data').then(data => {
+    getData(API).then(data => {
       setData(data || 'No data');
     });
   }, []);

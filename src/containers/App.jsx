@@ -8,7 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-
+import Social from '../components/Social'
 
 const App = () => {
   
@@ -17,7 +17,9 @@ const App = () => {
       <Header>
         <About />
       </Header>
-      <Profile/>
+      <Profile>
+        <Social/>
+      </Profile>
       <Experience/>
       <Academic/>
       <Skills/>

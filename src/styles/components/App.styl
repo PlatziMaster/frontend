@@ -1,5 +1,6 @@
 $mintcolor = #c8f9e4
 $headercolor = #e0f4ff
+/*Common*/
 html
   font-size: 62.5%
   font-family: Arial, Helvetica, sans-serif
@@ -12,12 +13,16 @@ body
   box-sizing: border-box
   margin: 0
   font-size: 1.6rem
+a
+  margin-left: .2rem
+
+//The whole app container
 #app
   width: 100%
   display: flex
   flex-direction: row
   flex-wrap: wrap
-/*Common*/
+
 p
   margin: 5px 10px 5px 0px 
   font-size: 1.8rem
@@ -27,8 +32,20 @@ h1
   display: block
   margin-block-end: 0
   color: #47525e
+h3
+  display: block
+  margin-block-end: 0
+  color: #47525e
+img
+  border-radius: 100%
+  height: 15rem
+  width: 15rem
+  margin: 1rem 3.5rem
+  align-self: center
+  object-fit: cover;
 .commonText
   margin:2rem 2rem
+
 /*Containers Layout*/
 .headerColor
   background-color: $headercolor
@@ -36,38 +53,58 @@ h1
   background-color: $mintcolor
 .fullWidth
   min-height: 15rem
-  max-height: 20rem
+  max-height: 45rem
   width: 100%
   margin: 5px 0
+  @media (max-width: 1000px)
+    flex-direction: column
+.social
+  width: 70%
+  margin: 1px 0
+  padding: 4px 2rem 
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  @media (max-width: 1000px)
+    width: 100%
 .halfWidth
   min-height: 15rem
   max-height: 20rem
   width: 49.8%
   margin: 5px 0
+  @media (max-width: 1000px)
+    width: 100%
 .leftContainer
   margin: 1rem .2% 1rem 0rem
 .rightContainer
   margin: 1rem 0rem 1rem 0.2%
+
+
+//Social
+.socialContainer
+  width: 100%
+  display: flex
+  flex-direction: row
+  justify-content: start
+
 /*HeaderContainer*/
 .HeaderClass
-  max-height: 25rem!important
+  max-height: 55rem!important
   padding-inline-start: 3vw
   display: flex
   align-items:flex-start
   flex-direction: row
   align-content: center
-
+  @media (max-width: 510px)
+    flex-direction: column
 
 .infoHeader
   display: flex
   flex-direction: column
-  flex: 5
-img
-  border-radius: 100%
-  height: 15rem
-  width: 15rem
-  margin: 1rem 3.5rem
-  align-self: center
+  flex: wrap
+
+
+
 /*About Nested in Header*/
 .About
   display: flex
@@ -83,18 +120,19 @@ img
   display: flex
   flex-direction: column
   flex-wrap: wrap
-  max-height: 10rem
+  max-height: 15rem
+  @media (max-width: 1000px)
+    flex-direction: row
+    max-height: 45rem
+
+.tableExp
+  max-height: 45rem
 .listeditems
   min-height: 2rem
   
 /*Interest*/
-.tablecolumn
-  display: flex
-  flex-direction: column
-  flex-wrap: wrap
-  max-height: 10rem
 .listeditemsInterest
-  border-left: 3px solid gray;
+  border-left: 3px solid rgb(180,10,110);
   margin-bottom: 2px 
   font-size: 1.8rem
 /*Languages*/
@@ -104,11 +142,11 @@ img
   flex-wrap: wrap
   max-height: 10rem
   margin-right: 5rem
-  border-left: 3px solid gray;
+  border-left: 3px solid rgb(180,10,110);
   margin-bottom: 2px 
 
 
-/*Academic*/
+/*Academic and Half sections*/
 .listeditemsAcademic
   font-size: 1.2rem
   
@@ -122,7 +160,7 @@ img
 .flexingRow
   display: flex
   flex-direction: row
-  border-left: 3px solid gray;
+  border-left: 3px solid rgb(180,10,110);
   margin-bottom: 2px 
 .flexingRow p
   display: inline

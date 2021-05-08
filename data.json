@@ -1,109 +1,113 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Jose Guadalupe Hernandez Rosas",
+    "profession": "Videogame Engineer",
+    "address": "Michoacan, Mexico.",
+    "email": "jghr053@gmail.com",
+    "website": "https://abstractstudios.com.mx",
+    "phone": "4432548090",
+    "avatar": "https://i.imgur.com/D09VdEq.png",
+    "Profile": "Learned to make games that will change our reality",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Nov 2019",
+        "description": "Cultural and artistic project with VR “Altar de muertos”",
+        "institution": "Centro Cultural Clavijero - Morelia",
+        "name": "Altar de muertos VR - Expo"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Jan 2020",
+        "description": "Three times winner of best graphic design in 3D video games.",
+        "institution": "Global Game Jam",
+        "name": "Chanakua"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Video Game Bachelor's Degree",
+        "description": "Engineering related to playable and interactive software for the most important platforms in the market.",
+        "endDate": "Sep 2019",
+        "institution": "UDEMorelia",
+        "startDate": "Sep 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Student",
+        "description": "Multiple finished courses related to web development, marketing, business, ML and video games. Never stop learning. ",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "Dec 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Abstract Studios",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobDescription": "An entrepreneurship project of virtual and augmented reality projects for tourism, education and culture sectors in Morelia city. I have the responsibilities of leading projects and designing the economic and structural strategy.",
+        "jobTitle": "CEO",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "B-code",
+        "endDate": "Apr 2021",
+        "jobDescription": "Frontend Developer for projects related to public transport and medical services administration",
+        "jobTitle": "Frontend",
+        "startDate": "Dec 2020"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "WEB",
+        "percentage": "60%"
+      },
+      {
+        "name": "C#",
         "percentage": "75%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "Unity",
+        "percentage": "75%"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Python",
+        "percentage": "50%"
       }
     ],
     "interest": [
-      "javascript",
+      "unity",
       "develop",
-      "backend",
-      "frontend"
+      "data science",
+      "machine learning"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Chinese",
+        "percentage": "35%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/Pp.cobain"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/ROSE_AFK"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/R0535"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/r053/"
       }
     ]
   }

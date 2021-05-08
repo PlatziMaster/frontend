@@ -4,4 +4,4 @@ export default function getData(URL) {
     .then(response => response)
     .catch(error => error);
 }
- /* function getData using fetch()to get the data */
+/* function getData using fetch()to get the data */

@@ -27,24 +27,18 @@ class Academic extends React.Component {
             {' - '}
             {this.props.Academic ? this.props.Academic[1].endDate : null}
             {' in '}
-            {this.props.Academic
-              ? this.props.Academic[1].description
-              : null}
+            {this.props.Academic ? this.props.Academic[1].description : null}
           </h4>
           <h4 className="Academic-item">
             {this.props.Academic ? this.props.Academic[0].degree : null}
             {' => '}
-            {this.props.Academic
-              ? this.props.Academic[0].institution
-              : null}
+            {this.props.Academic ? this.props.Academic[0].institution : null}
             <br />
             {this.props.Academic ? this.props.Academic[0].startDate : null}
             {' - '}
             {this.props.Academic ? this.props.Academic[0].endDate : null}
             {' in '}
-            {this.props.Academic
-              ? this.props.Academic[0].description
-              : null}
+            {this.props.Academic ? this.props.Academic[0].description : null}
           </h4>
         </div>
       </React.Fragment>

@@ -10,13 +10,20 @@ class About extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="box">
+          <div className="About-item">
             <h6 className="About-title">{this.props.phone}</h6>
           </div>
-          <div>
+          <div className="About-item">
             <h6>{this.props.email}</h6>
           </div>
-          <div className="box">
+
+          <div className="About-item">
+            <h6>{this.props.age}</h6>
+          </div>
+          <div className="About-item">
+            <h6>{this.props.address}</h6>
+          </div>
+          <div className="About-item">
             <a
               className="social-icon"
               href={this.props.social ? this.props.social[1].url : null}
@@ -39,9 +46,6 @@ class About extends React.Component {
               <LanguageIcon className="social-icon" />
             </a>
           </div>
-          <div className="box">
-            <h6 className="About-item">{this.props.address}</h6>
-          </div>
         </div>
       </div>
     );
@@ -53,5 +57,6 @@ About.propTypes = {
   social: PropTypes.array,
   address: PropTypes.string,
   website: PropTypes.string,
+  age: PropTypes.string,
 };
 export default About;

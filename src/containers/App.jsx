@@ -53,6 +53,7 @@ const App = () => {
                   social={data.social}
                   address={data.address}
                   website={data.website}
+                  age={data.age}
                 />
               </Header>
             </Paper>

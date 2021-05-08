@@ -1,19 +1,6 @@
 import React from 'react';
-import getData from '../utils/getData';
+import PropTypes from 'prop-types';
 class Experience extends React.Component {
-  state = {
-    data: {},
-  };
-  async componentDidMount() {
-    await this.fetchData();
-  }
-
-  fetchData = async () => {
-    let res = getData('http://localhost:3000/data');
-    let data = await res;
-
-    this.setState({ data });
-  };
   render() {
     return (
       <div className="container">
@@ -21,23 +8,19 @@ class Experience extends React.Component {
         <div className="row">
           <div className="col">
             <h4 className="Experience-item">
-              {this.state.data.experience
-                ? this.state.data.experience[0].jobTitle
-                : null}
+              {this.props.experience ? this.props.experience[0].jobTitle : null}
               {' on '}
-              {this.state.data.experience
-                ? this.state.data.experience[0].company
-                : null}
+              {this.props.experience ? this.props.experience[0].company : null}
               {' - '}
-              {this.state.data.experience
-                ? this.state.data.experience[0].endDate
+              {this.props.experience
+                ? this.props.experience[0].endDate
                 : null}
             </h4>
           </div>
           <div className="col">
             <h5 className="Experience-item">
-              {this.state.data.experience
-                ? this.state.data.experience[0].jobDescription
+              {this.props.experience
+                ? this.props.experience[0].jobDescription
                 : null}
             </h5>
           </div>
@@ -45,23 +28,17 @@ class Experience extends React.Component {
         <div className="row">
           <div className="col">
             <h4 className="Experience-item">
-              {this.state.data.experience
-                ? this.state.data.experience[1].jobTitle
-                : null}
+              {this.props.experience ? this.props.experience[1].jobTitle : null}
               {' on '}
-              {this.state.data.experience
-                ? this.state.data.experience[1].company
-                : null}
+              {this.props.experience ? this.props.experience[1].company : null}
               {' - '}
-              {this.state.data.experience
-                ? this.state.data.experience[1].endDate
-                : null}
+              {this.props.experience ? this.props.experience[1].endDate : null}
             </h4>
           </div>
           <div className="col">
             <h5 className="Experience-item">
-              {this.state.data.experience
-                ? this.state.data.experience[1].jobDescription
+              {this.props.experience
+                ? this.props.experience[1].jobDescription
                 : null}
             </h5>
           </div>
@@ -69,23 +46,17 @@ class Experience extends React.Component {
         <div className="row">
           <div className="col">
             <h4 className="Experience-item">
-              {this.state.data.experience
-                ? this.state.data.experience[2].jobTitle
-                : null}
+              {this.props.experience ? this.props.experience[2].jobTitle : null}
               {' on '}
-              {this.state.data.experience
-                ? this.state.data.experience[2].company
-                : null}
+              {this.props.experience ? this.props.experience[2].company : null}
               {' - '}
-              {this.state.data.experience
-                ? this.state.data.experience[2].endDate
-                : null}
+              {this.props.experience ? this.props.experience[2].endDate : null}
             </h4>
           </div>
           <div className="col">
             <h5 className="Experience-item">
-              {this.state.data.experience
-                ? this.state.data.experience[2].jobDescription
+              {this.props.experience
+                ? this.props.experience[2].jobDescription
                 : null}
             </h5>
           </div>
@@ -94,4 +65,7 @@ class Experience extends React.Component {
     );
   }
 }
+Experience.propTypes = {
+  experience: PropTypes.array,
+};
 export default Experience;

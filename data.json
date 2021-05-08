@@ -39,7 +39,7 @@
         "degree": "Student School of Web Development",
         "endDate": "Current",
         "institution": "PLATZI",
-        "startDate": "Jan 2020"
+        "startDate": "Jan 2021"
       },
       {
         "degree": "Medical physics",
@@ -94,11 +94,11 @@
     ],
     "social": [
       {
-        "name": "github",
+        "name": "GitHub",
         "url": "https://github.com/Johnnie-LC"
       },
       {
-        "name": "linkedin",
+        "name": "Linkedin",
         "url": "https://www.linkedin.com/in/johnnie-lopez-3343008/"
       }
     ]

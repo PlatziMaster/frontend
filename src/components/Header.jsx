@@ -12,7 +12,7 @@ class Header extends React.Component {
             <img
               className="avatar"
               src={this.props.avatar}
-              alt="Photo of Sergio"
+              alt={this.props.name}
             />
           </div>
           <div className="col">

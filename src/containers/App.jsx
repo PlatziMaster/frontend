@@ -13,6 +13,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import getData from '../utils/getData';
 
+
+ /* some styles from the grid of material-ui library */
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -28,14 +30,18 @@ const useStyles = makeStyles(theme => ({
 const App = () => {
   const API = 'http://localhost:3000/data';
   const classes = useStyles();
+
+   /* using useState to save the data from the API */
   const [data, setData] = React.useState({});
+
+   /* Here we are getting the data from the API of the server then saving in data object */
   React.useEffect(() => {
     getData(API).then(data => {
       setData(data || 'No data');
     });
   }, []);
   console.log(data);
-
+ /* I use PropTypes to pass the data to the components that i made and i also use material-ui to set some cool styles acording to the rules of this challengue*/
   return (
     <>
       <div className={classes.root}>

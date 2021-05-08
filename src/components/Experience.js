@@ -13,6 +13,7 @@ class Experience extends React.Component {
     /**data brought from the api request */
     data: undefined,
   };
+
   /**componentDidMount: Default function to manage the data request */
   async componentDidMount() {
     /**Inner Component  data manager Function */
@@ -32,6 +33,7 @@ class Experience extends React.Component {
       this.setState({ loading: false, error });
     }
   };
+
   /**HTML info sent to the navigator */
   render() {
     /**Loading manager information sent to the navigator */
@@ -44,10 +46,10 @@ class Experience extends React.Component {
     }
     /**Main info manager information sent to the navigator */
     return (
-      <div className=" fullWidth mintColor ">
-        <div className=" commonText ">
+      <div className=' fullWidth mintColor '>
+        <div className=' commonText '>
           <h1>Experience</h1>
-          <div className="tablecolumn">
+          <div className='tablecolumn'>
             {/**From the component state is brought the Certification achievements Array
              * Mapped and showed in the following tags
              * @ this.state.data.certificate is the Array
@@ -55,21 +57,21 @@ class Experience extends React.Component {
              */}
             {this.state.data.certificate.map((item, id) => {
               return (
-                <div className="tableExp">
+                <div className='tableExp'>
                   {/**Name of the achievement */}
-                  <h3 className="listeditems" id={id}>
+                  <h3 className='listeditems' id={id}>
                     {item.name}
                   </h3>
                   {/**Place or institution */}
-                  <p className="listeditems" id={id}>
+                  <p className='listeditems' id={id}>
                     {item.institution}
                   </p>
                   {/**Date of the achievement */}
-                  <p className="listeditems" id={id}>
+                  <p className='listeditems' id={id}>
                     {item.date}
                   </p>
                   {/**Description of the achievement */}
-                  <p className="listeditems" id={id}>
+                  <p className='listeditems' id={id}>
                     {item.description}
                   </p>
                 </div>

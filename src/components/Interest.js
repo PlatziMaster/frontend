@@ -13,6 +13,7 @@ class Interest extends React.Component {
     /**data brought from the api request */
     data: undefined,
   };
+
   /**componentDidMount: Default function to manage the data request */
   async componentDidMount() {
     /**Inner Component  data manager Function */
@@ -32,6 +33,7 @@ class Interest extends React.Component {
       this.setState({ loading: false, error });
     }
   };
+
   /**HTML info sent to the navigator */
   render() {
     /**Loading manager information sent to the navigator */

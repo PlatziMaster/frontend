@@ -3,7 +3,7 @@ import api from '../api.js';
 import 'babel-polyfill';
 
 class Languages extends React.Component {
-    /** Component <<Academic>> shows the education information of the person */
+  /** Component <<Academic>> shows the education information of the person */
   /**State related to the component Academic. Managing the Api request data and the info for the user interface */
   state = {
     /**Loading when the info request is being processed */
@@ -13,6 +13,7 @@ class Languages extends React.Component {
     /**data brought from the api request */
     data: undefined,
   };
+
   /**componentDidMount: Default function to manage the data request */
   async componentDidMount() {
     /**Inner Component  data manager Function */
@@ -32,6 +33,7 @@ class Languages extends React.Component {
       this.setState({ loading: false, error });
     }
   };
+
   /**HTML info sent to the navigator */
   render() {
     /**Loading manager information sent to the navigator */

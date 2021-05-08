@@ -1,5 +1,5 @@
 import 'babel-polyfill';
-/**General function to fetch the data from @data .json 
+/**General function to fetch the data from @data .json
  * @const data is the full info
  * @url may change, depends of your server configuration
 */

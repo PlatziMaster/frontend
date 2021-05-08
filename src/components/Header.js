@@ -2,7 +2,7 @@ import React from 'react';
 import api from '../api.js';
 import 'babel-polyfill';
 import About from './About';
-import Social from "../components/Social"
+import Social from './Social';
 
 class Header extends React.Component {
   /** Component <<Academic>> shows the education information of the person */
@@ -15,6 +15,7 @@ class Header extends React.Component {
     /**data brought from the api request */
     data: undefined,
   };
+
   /**componentDidMount: Default function to manage the data request */
   async componentDidMount() {
     /**Inner Component  data manager Function */
@@ -34,6 +35,7 @@ class Header extends React.Component {
       this.setState({ loading: false, error });
     }
   };
+
   /**HTML info sent to the navigator */
   render() {
     /**Loading manager information sent to the navigator */
@@ -64,13 +66,13 @@ class Header extends React.Component {
            * @email the mail
            * @website link to the web
            * @address the address --State/country-- */}
-          
+
           {/**Imported Section from @About Component*/}
           <About className='About' phone={this.state.data.phone} email={this.state.data.email} website={this.state.data.website} address={this.state.data.address} />
-        {/**Imported Section form @Social Component
+          {/**Imported Section form @Social Component
          * The Social media links reference
          */}
-        <Social/>
+          <Social />
         </div>
       </div>
     );

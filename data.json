@@ -1,109 +1,99 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Andres Fernando Moreno",
+    "profession": "Frontend Web Developer",
+    "address": "Bucaramanga, Colombia.",
+    "email": "andres.fernando08@gmail.com",
+    "website": "https://www.ferdinania.com",
+    "phone": "+573167240030",
+    "avatar": "https://andresfmj-portfolio-images.s3.amazonaws.com/andres.jpg",
+    "Profile": "Web developer with over 5 years of experience, working most of the time with cutting-edge open source technologies, leading best practices by building quality apps in order to deliver a rich UI experience to the end user. Special skills and experience on startups.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Nov 2020",
+        "description": "Certificado de aprobacion de carerra",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Frontend con React.js"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Oct 2020",
+        "description": "Certificado de aprobacion de carrera",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Escuela de Javascript"
+      },
+      {
+        "date": "Aug 2020",
+        "description": "Certificado de aprobacion de carrera",
+        "institution": "Platzi",
+        "name": "Escuela de Ingles"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Diseño y Administracion de Sistemas",
+        "description": "Nivel de Tecnologo/Tecnico",
+        "endDate": "Oct 2014",
+        "institution": "Unidades Tecnologicas de Santander. Bucaramanga, Colombia.",
+        "startDate": "Jun 2010"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Synaptek S.A.S",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobDescription": "Development of an information system named as “DentOS”, based on cloud technology through Amazon Webservices (EC2, S3 Buckets) driven on the health sector of Colombia. I helped integrating modules like, Medical Records, Treatment Plans, Payments list, Odontogram, and so on.",
+        "jobTitle": "Fullstack Developer",
+        "startDate": "Feb 2018"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "aws",
+      "ci"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/ferdr0id8o8o"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/andresfmj"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/andres-fernando-m-0293661a2/"
       }
     ]
   }

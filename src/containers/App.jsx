@@ -10,6 +10,7 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
 const App = () => {
+
   return (
     <>
       <Header>
@@ -22,7 +23,7 @@ const App = () => {
       <Interest />
       <Languages />
     </>
-  )
+  );
 };
 
 export default App;

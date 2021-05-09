@@ -8,6 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import ProfileInfo from '../components/ProfileInfo';
 
 const App = () => {
   return (
@@ -17,10 +18,12 @@ const App = () => {
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <ProfileInfo>
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </ProfileInfo>
     </>
   );
 };

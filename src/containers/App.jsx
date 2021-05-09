@@ -9,20 +9,31 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+/** Import General Context */
+import { UserInformationProvider } from '../context/UserInformationContext';
+
 const App = () => {
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <UserInformationProvider>
+        <div className="container">
+          <Header>
+            <About />
+          </Header>
+          <Profile />
+          <Experience />
+          <div className="row">
+            <Academic />
+            <Skills />
+          </div>
+          <div className="row">
+            <Interest />
+            <Languages />
+          </div>
+        </div>
+      </UserInformationProvider>
     </>
-  )
+  );
 };
 
 export default App;

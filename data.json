@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Juan David Alcala Sanchez",
+    "profession": "FullStack Developer",
+    "address": "Medellín, Colombia.",
+    "email": "juan.alcala0204@gmail.com",
+    "website": "https://github.com/juanAlcala0204",
+    "phone": "3504671760",
+    "avatar": "https://ahmadnaser.com/wp-content/uploads/2013/10/programmer_creattica_full.jpg",
+    "Profile": "Fuertemente enfocado, con la habilidad de completar tareas de forma precisa en un entorno rápido con plazos de entrega conflictivos. Con el estudio realizado puedo aplicar y consolidar  conocimientos básicos en el campo informático y gracias a mi estudio autónomo estoy en  constante aprendizaje sobre nuevos conocimientos y mejorando los ya obtenidos, para ejercer cargos de responsabilidad, con capacidad de trabajar  en equipo, motivar grupos para el logro de los objetivos, adaptación al cambio, aprendizaje  continuo y persistencia. Analítica, dinámica, con iniciativa, y excelentes relaciones personales,  responsable, cumplidor con esmero y dedicación al trabajo asignado ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,52 +24,70 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Técnico en Desarrollo de Software",
+        "description": " Próximo a graduación en la carrera de Técnica como desarrollador de software",
+        "endDate": "Jan 2018",
+        "institution": "Politecnico Jaime Isaza Cadavid",
+        "startDate": "May 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Certificación Fundamentos de JavaScript",
+        "description": " Aprobado certificado en platzi.",
+        "endDate": "Jan 2020",
+        "institution": "Platzi",
+        "startDate": "Dic 2020"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "ICG SOFTWARE",
+        "endDate": "Mar 2020",
+        "jobDescription": " Cumplimiento de funciones como desarrollador Backend con lenguaje PHP, Desarrollo FrontEnd con HTML, CSSS, JAVASCRIPT.",
+        "jobTitle": "FullStack",
+        "startDate": "Mar 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "ePayco",
+        "endDate": "Mar 2020",
+        "jobDescription": " Cumplimiento de funciones como desarrollador Backend con lenguaje NodeJS, Desarrollo FrontEnd con React.",
+        "jobTitle": "FullStack",
+        "startDate": "Jul 2020"
+      },
+      {
+        "company": "Scrummers",
+        "endDate": "Feb 2021",
+        "jobDescription": " Cumplimiento de funciones como desarrollador FrontEnd con React, React Native.",
+        "jobTitle": "FrontEnd",
+        "startDate": "Abr 2021"
+      },
+      {
+        "company": "Proyecto Freelance Web Page",
+        "endDate": "Jan 2020",
+        "jobDescription": " Cumplimiento de funciones como desarrollador FrontEnd con HTML, CSSS, JAVASCRIPT.",
+        "jobTitle": "FrontEnd",
+        "startDate": "May 2020"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "React",
+        "percentage": "80%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "NodeJS",
+        "percentage": "70%"
+      },
+      {
+        "name": "React Native",
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "HTML5",
+        "percentage": "50%"
       }
     ],
     "interest": [
@@ -81,11 +99,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [

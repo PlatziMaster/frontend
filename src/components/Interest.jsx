@@ -7,12 +7,12 @@ const Interest = () => {
 
   return (
     <Section>
-      <Title>Habilidades</Title>
+      <Title classifier='Interest-title'>Habilidades</Title>
       <Section>
         <div>
           { data.interest.map((itm, ix) => (
             // eslint-disable-next-line react/no-array-index-key
-            <Chip key={ix}>{itm}</Chip>
+            <Chip classifier='Interest-item' key={ix}>{itm}</Chip>
           ))}
         </div>
       </Section>

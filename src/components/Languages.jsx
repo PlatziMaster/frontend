@@ -7,12 +7,12 @@ const Languages = () => {
 
   return (
     <Section>
-      <Title>Lenguajes</Title>
+      <Title classifier='Languages-title'>Lenguajes</Title>
       <Section>
         <div>
           { data.languages.map((itm, ix) => (
             // eslint-disable-next-line react/no-array-index-key
-            <Chip key={ix}>
+            <Chip classifier='Languages-item' key={ix}>
               {itm.name}
               {' '}
               (

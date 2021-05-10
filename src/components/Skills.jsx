@@ -3,7 +3,7 @@ import { ColumnLayout, Section, SubTitle, Title } from '../styles/styles';
 import { ProfileStore } from '../store/ProfileStore';
 
 const SkillItem = ({ name, percentage }) => (
-  <SubTitle>
+  <SubTitle classifier='Skills-item'>
     {name}
     {' '}
     (
@@ -16,7 +16,7 @@ const Skills = () => {
   const data = useContext(ProfileStore);
   return (
     <Section>
-      <Title>Habilidades</Title>
+      <Title classifier='Skills-title'>Habilidades</Title>
       <Section>
         <ColumnLayout columns='1fr 1fr'>
           { data.skills.map((itm, ix) => (

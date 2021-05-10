@@ -3,13 +3,13 @@ import styled from 'styled-components';
 const gap = '10px';
 const columnGap = gap;
 
-const Title = styled.h2`
+const Title = styled.h2.attrs(props => ({ className: props.classifier || '' }))`
     font-size: 2rem;
     font-weight: 300;
     margin: 0;
 `;
 
-const SubTitle = styled.h3`
+const SubTitle = styled.h3.attrs(props => ({ className: props.classifier || '' }))`
     font-size: 1.2rem;
     font-weight: 300;
     margin:0;
@@ -20,7 +20,7 @@ const Image = styled.img`
     height: 128px;
 `;
 
-const AboutItem = styled.span`
+const AboutItem = styled.span.attrs(props => ({ className: 'About-item' }))`
     display: inline-block;
     padding-right: 1rem;
 `;
@@ -36,11 +36,11 @@ const ColumnLayout = styled.div`
     column-gap: ${columnGap};
 `;
 
-const Section = styled.section`
+const Section = styled.section.attrs(props => ({ className: props.classifier || '' }))`
     padding-top: ${gap};
 `;
 
-const Chip = styled.div`
+const Chip = styled.div.attrs(props => ({ className: props.classifier || '' }))`
     background-color: gray;
     border-radius: 10px;
     padding: 7px;

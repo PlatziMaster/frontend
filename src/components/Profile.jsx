@@ -7,8 +7,8 @@ const Profile = () => {
 
   return (
     <Section>
-      <Title>Perfil</Title>
-      <div>{data.Profile}</div>
+      <Title classifier='Profile-title'>Perfil</Title>
+      <div className='Profile-desc'>{data.Profile}</div>
     </Section>
   );
 };

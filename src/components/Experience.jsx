@@ -3,7 +3,7 @@ import { ColumnLayout, Section, SubTitle, Title } from '../styles/styles';
 import { ProfileStore } from '../store/ProfileStore';
 
 const ExperienceItem = ({ jobTitle, jobDescription, company, startDate, endDate }) => (
-  <Section>
+  <Section classifier='Experience-item'>
     <SubTitle>{jobTitle}</SubTitle>
     <div>
       <i>{company}</i>
@@ -21,7 +21,7 @@ const Experience = () => {
 
   return (
     <Section>
-      <Title>Experiencia</Title>
+      <Title classifier='Experience-title'>Experiencia</Title>
       <ColumnLayout columns='1fr 1fr'>
         { data.experience.map((itm, ix) => (
           // eslint-disable-next-line react/no-array-index-key

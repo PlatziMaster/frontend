@@ -1,13 +1,12 @@
 import React, { useContext } from 'react';
 import { ProfileStore } from '../store/ProfileStore';
-import { Title, SubTitle, AboutItem, LineLayout } from '../styles/styles';
+import { SubTitle, AboutItem, LineLayout } from '../styles/styles';
 
 const About = () => {
   const data = useContext(ProfileStore);
   return (
-    <div>
-      <Title>{data.name}</Title>
-      <SubTitle>{data.profession}</SubTitle>
+    <>
+      <SubTitle classifier='About-title'>{data.profession}</SubTitle>
       <LineLayout gap='20px'>
         <AboutItem>{data.phone}</AboutItem>
         <AboutItem>{data.email}</AboutItem>
@@ -16,7 +15,7 @@ const About = () => {
       <LineLayout>
         <AboutItem>{data.address}</AboutItem>
       </LineLayout>
-    </div>
+    </>
   );
 };
 

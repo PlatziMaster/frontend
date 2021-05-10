@@ -29,7 +29,6 @@ const ProfileProvider = ({ children }) => {
   useEffect(() => {
     const logic = async () => {
       const result = await getData();
-      console.log(result);
       setData(result);
     };
     logic();

@@ -24,6 +24,13 @@
     ],
     "Academic": [
       {
+        "degree": "DeepLearnig Specialization",
+        "description": "Deeplearning.Ai",
+        "endDate": "Present",
+        "institution": "Coursera",
+        "startDate": "2021"
+      },
+      {
         "degree": "Ingeniero de Sistemas",
         "description": "Bucaramanga - Santander",
         "endDate": "2016",
@@ -124,6 +131,14 @@
       {
         "name": "English",
         "percentage": "70%"
+      },
+      {
+        "name": "Java",
+        "percentage": "90%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
       }
     ],
     "social": [

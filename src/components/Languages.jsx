@@ -4,9 +4,7 @@ import { ProfileStore } from '../store/ProfileStore';
 
 const Languages = () => {
   const data = useContext(ProfileStore);
-  if (!data) {
-    return <div />;
-  }
+
   return (
     <Section>
       <Title>Lenguajes</Title>

@@ -18,9 +18,7 @@ const ExperienceItem = ({ jobTitle, jobDescription, company, startDate, endDate 
 
 const Experience = () => {
   const data = useContext(ProfileStore);
-  if (!data) {
-    return <div />;
-  }
+
   return (
     <Section>
       <Title>Experiencia</Title>

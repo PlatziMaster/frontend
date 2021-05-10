@@ -4,9 +4,7 @@ import { Section, Title } from '../styles/styles';
 
 const Profile = () => {
   const data = useContext(ProfileStore);
-  if (!data) {
-    return <div />;
-  }
+
   return (
     <Section>
       <Title>Perfil</Title>

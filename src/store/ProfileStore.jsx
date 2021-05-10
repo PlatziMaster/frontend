@@ -4,10 +4,33 @@ import getData from '../utils/getData';
 const ProfileStore = createContext(null);
 
 const ProfileProvider = ({ children }) => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState({
+
+    'certificate': [
+
+    ],
+    'Academic': [
+
+    ],
+    'experience': [
+
+    ],
+    'skills': [
+
+    ],
+    'interest': [
+    ],
+    'languages': [
+    ],
+    'social': [
+
+    ],
+  });
   useEffect(() => {
     const logic = async () => {
-      setData(await getData());
+      const result = await getData();
+      console.log(result);
+      setData(result);
     };
     logic();
   }, []);

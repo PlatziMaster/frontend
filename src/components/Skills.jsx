@@ -14,9 +14,6 @@ const SkillItem = ({ name, percentage }) => (
 
 const Skills = () => {
   const data = useContext(ProfileStore);
-  if (!data) {
-    return <div />;
-  }
   return (
     <Section>
       <Title>Habilidades</Title>

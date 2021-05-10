@@ -4,9 +4,7 @@ import { ColumnLayout, Image, Section } from '../styles/styles';
 
 const Header = ({ children }) => {
   const data = useContext(ProfileStore);
-  if (!data) {
-    return <div />;
-  }
+
   return (
     <Section>
       <ColumnLayout columns='max-content 1fr'>

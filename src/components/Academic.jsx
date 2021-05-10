@@ -18,9 +18,7 @@ const AcademicItem = ({ degree, description, institution, startDate, endDate }) 
 
 const Academic = () => {
   const data = useContext(ProfileStore);
-  if (!data) {
-    return <div />;
-  }
+
   return (
     <Section>
       <Title>Estudios</Title>

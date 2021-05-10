@@ -1,5 +1,5 @@
 import React from 'react';
-// import foto from '../assets/fotomiap.jpg';
+import foto from '../assets/fotomiap.jpg';
 import '../styles/components/About.styl';
 
 const About = ({name, profession, phone, email, website, address}) => {
@@ -7,7 +7,7 @@ const About = ({name, profession, phone, email, website, address}) => {
     <div className="card about">
       <div className="about__content">
         <div>
-          <img src="../assets/fotomiap.jpg" alt="foto perfil"/>
+          <img src={foto} alt="foto perfil"/>
         </div>
         <div>
           <h1 className="About-title">{name}</h1>

@@ -11,6 +11,7 @@
 
 .Header-title img {
   border-radius: 50%;
+  max-height: 150px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -26,9 +27,5 @@
     align-items: center;
     background: var(--primary-blue);
     border-radius: 10px 0 0 10px;
-  }
-  
-  .Header-image img {
-    max-height: 150px;
   }
 }

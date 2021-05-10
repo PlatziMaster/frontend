@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Santiago Sucerquia",
+    "profession": "Frontend Developer",
+    "address": "Medellin, Colombia.",
+    "email": "santo.113gmail.com",
+    "website": "http://santiagosucerquia.com",
+    "phone": "3137908877",
+    "avatar": "https://avatars.githubusercontent.com/u/4369986?v=4",
+    "Profile": "Hello, I'm a young front-end developer from Medellin city, always looking for personal growth. I like to be in search of new references, good books, everything that allows me to be better every day and well, to be able to give you some of what I learned to my friends and colleagues. As a frontend developer I have experience in the ReactJS framework, state management, route management with React Routes, knowledge of agile methodologies as well as javascript, code versioning such as git and github.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +24,72 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Frontend Development",
+        "description": "My goal is to be a frontend with great skill in managing the DOM, I take advantage of courses to develop personal projects and thus acquire more practice and ability to solve problems, my focus is on having the ability to use reactjs in a very agile and very efficient way.",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "Dec 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Tecnologia de Sistemas",
+        "description": "I acquired general knowledge of software development: topics such as data structures, object-oriented programming, algorithmic logic. I also made some emphasis on web programming.",
+        "endDate": "Agosto 2013",
+        "institution": "Fund. Atonoma Las Americas",
+        "startDate": "Jan 2009 "
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Independent",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "my main activities to develop personal applications in web technologies, mainly with the reactjs library, redux, javascript vanilla for some cases integrations with API",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Jan 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Sura",
+        "endDate": "Present",
+        "jobDescription": "my responsibilities are to train clients in the use of the platform, identify improvements on the platform and propose it to the digital transformation area and identify errors that applications can generate",
+        "jobTitle": "Adviser",
+        "startDate": "Jan 2011"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Git&gitHub",
+        "percentage": "80%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "React",
+      "Redux",
+      "Nodejs"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "95%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "30%"
       }
     ],
     "social": [

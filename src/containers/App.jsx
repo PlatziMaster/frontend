@@ -9,18 +9,24 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+import GetData from '../utils/getData';
+
+const API = "http://localhost:3000/data";
+
 const App = () => {
+  const information = GetData(API);
+
   return (
     <>
       <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+        <About information={information} />
+      </Header> 
+      <Profile information={information}/>
+      <Experience title="Experience" experience = {information.experience}/>
+      <Academic title="Academic" academic = {information.academic} />
+      <Skills title="Skills" skills = {information.skills}/>
+      <Interest title="Interest" interest = {information.interest} />
+      <Languages title="Languages" languages = {information.languages}/>
     </>
   )
 };

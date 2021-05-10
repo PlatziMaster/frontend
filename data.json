@@ -10,18 +10,21 @@
     "Profile": "Web developer with over 5 years of experience, working most of the time with cutting-edge open source technologies, leading best practices by building quality apps in order to deliver a rich UI experience to the end user. Special skills and experience on startups.",
     "certificate": [
       {
+        "id": 1,
         "date": "Nov 2020",
         "description": "Certificado de aprobacion de carerra",
         "institution": "Platzi",
         "name": "Frontend con React.js"
       },
       {
+        "id": 2,
         "date": "Oct 2020",
         "description": "Certificado de aprobacion de carrera",
         "institution": "Platzi",
         "name": "Escuela de Javascript"
       },
       {
+        "id": 3,
         "date": "Aug 2020",
         "description": "Certificado de aprobacion de carrera",
         "institution": "Platzi",
@@ -30,36 +33,74 @@
     ],
     "Academic": [
       {
+        "id": 1,
         "degree": "Diseño y Administracion de Sistemas",
         "description": "Nivel de Tecnologo/Tecnico",
         "endDate": "Oct 2014",
         "institution": "Unidades Tecnologicas de Santander. Bucaramanga, Colombia.",
         "startDate": "Jun 2010"
+      },
+      {
+        "id": 3,
+        "degree": "Dummy Degree ...",
+        "description": "Dummy Level",
+        "endDate": "Dummy Date",
+        "institution": "Dummy Institution",
+        "startDate": "Dummy Date"
+      },
+      {
+        "id": 4,
+        "degree": "Dummy Degree ...",
+        "description": "Dummy Level",
+        "endDate": "Dummy Date",
+        "institution": "Dummy Institution",
+        "startDate": "Dummy Date"
       }
     ],
     "experience": [
       {
+        "id": 1,
         "company": "Synaptek S.A.S",
         "endDate": "Present",
         "jobDescription": "Development of an information system named as “DentOS”, based on cloud technology through Amazon Webservices (EC2, S3 Buckets) driven on the health sector of Colombia. I helped integrating modules like, Medical Records, Treatment Plans, Payments list, Odontogram, and so on.",
         "jobTitle": "Fullstack Developer",
         "startDate": "Feb 2018"
+      },
+      {
+        "id": 2,
+        "company": "Dummy Company",
+        "endDate": "Dummy Date",
+        "jobDescription": "Dummy Description",
+        "jobTitle": "Dummy Job Title",
+        "startDate": "Dummy Date"
+      },
+      {
+        "id": 3,
+        "company": "Dummy Company",
+        "endDate": "Dummy Date",
+        "jobDescription": "Dummy Description",
+        "jobTitle": "Dummy Job Title",
+        "startDate": "Dummy Date"
       }
     ],
     "skills": [
       {
+        "id": 1,
         "name": "HTML5",
         "percentage": "80%"
       },
       {
+        "id": 2,
         "name": "CSS",
         "percentage": "50%"
       },
       {
+        "id": 3,
         "name": "JavaScript",
         "percentage": "60%"
       },
       {
+        "id": 4,
         "name": "React",
         "percentage": "60%"
       }
@@ -74,24 +115,34 @@
     ],
     "languages": [
       {
+        "id": 1,
         "name": "Spanish",
         "percentage": "100%"
       },
       {
+        "id": 2,
         "name": "English",
         "percentage": "60%"
+      },
+      {
+        "id": 3,
+        "name": "Japanese",
+        "percentage": "10%"
       }
     ],
     "social": [
       {
+        "id": 1,
         "name": "twitter",
         "url": "https://twitter.com/ferdr0id8o8o"
       },
       {
+        "id": 2,
         "name": "github",
         "url": "https://github.com/andresfmj"
       },
       {
+        "id": 3,
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/andres-fernando-m-0293661a2/"
       }

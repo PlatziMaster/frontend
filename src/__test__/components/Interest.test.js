@@ -2,6 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
 
+import data from '../../../data.json';
+
 describe('<Interest />', () => {
   const interest = mount(<Interest />);
 
@@ -14,7 +16,7 @@ describe('<Interest />', () => {
   });
 
   test('Interest has 3 items', () => {
-    expect(interest.find('.Interest-item').length).toBeGreaterThan(2);
+    expect(data.data.interest.length).toBeGreaterThan(2);
   });
 
 });

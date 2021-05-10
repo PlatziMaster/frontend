@@ -8,21 +8,35 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import ProfileInfo from '../components/ProfileInfo';
+import Social from '../components/Social';
+
+import Layout from '../components/Layout';
+
+import AppContext from '../utils/AppContext';
+import useData from '../hooks/useData';
 
 const App = () => {
+  const state = useData();
+
   return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+    <AppContext.Provider value={state}>
+      <Layout>
+        <Header>
+          <About />
+        </Header>
+        <Profile />
+        <Experience />
+        <ProfileInfo>
+          <Academic />
+          <Skills />
+          <Interest />
+          <Languages />
+        </ProfileInfo>
+        <Social />
+      </Layout>
+    </AppContext.Provider>
+  );
 };
 
 export default App;

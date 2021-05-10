@@ -16,7 +16,9 @@ function Skills() {
               <li key={item.id} className='Skills-item'>
                 <div className='Skills--Percentage'>
                   <p>{item.name}</p>
-                  <div className='progress'>{item.percentage}</div>
+                  <div className='progress'>
+                    <div className='progress--inner' style={{ width: item.percentage }} />
+                  </div>
                 </div>
               </li>
             ),

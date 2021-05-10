@@ -16,7 +16,9 @@ function Languages() {
               <li key={item.id} className='Languages-item'>
                 <div className='Languages--Percentage'>
                   <p>{item.name}</p>
-                  <div className='progress'>{item.percentage}</div>
+                  <div className='progress'>
+                    <div className='progress--inner' style={{ width: item.percentage }} />
+                  </div>
                 </div>
               </li>
             ),

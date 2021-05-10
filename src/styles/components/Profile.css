@@ -1,0 +1,12 @@
+.Profile-title {
+  background: var(--primary-blue);
+  background: var(--primary-blue);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Profile-desc {
+  font-size: 1.6rem;
+  text-align: justify;
+}

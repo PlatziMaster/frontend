@@ -1,6 +1,7 @@
-async function getData(data) {
-  const response = await fetch(data);
-  return response;
+async function getData(API) {
+  const response = await fetch(API);
+  const data = await response.json();
+  return data;
 }
 
 export default getData;

@@ -1,0 +1,18 @@
+:root {
+  --primary-blue: rgb(56, 60, 78);;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #1d2736;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content:center;
+}

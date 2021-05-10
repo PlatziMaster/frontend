@@ -1,0 +1,24 @@
+.About-title {
+  background: var(--primary-blue);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.About-title h1 {
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+.About-item {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .About-title {
+    width: 72%;
+    margin-top: 0;
+    border-radius: 0 10px 10px 0;
+  }
+}

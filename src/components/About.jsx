@@ -3,10 +3,6 @@ import '../styles/components/About.styl';
 
 import AppContext from '../utils/AppContext';
 
-import IconPhone from '../images/icon_phone.png';
-import IconMail from '../images/icon_mail.png';
-import IconWeb from '../images/icon_website.png';
-
 function About() {
   const state = useContext(AppContext);
 
@@ -17,17 +13,17 @@ function About() {
       <ul>
         <li className='About-item'>
           <a href={`tel:${state.phone}`}>
-            <img src={IconPhone} width='24' title={state.phone} alt='Icon--Phone' />
+            <img src='https://andresfmj-portfolio-images.s3.amazonaws.com/icon_phone.png' width='24' title={state.phone} alt='Icon--Phone' />
           </a>
         </li>
         <li className='About-item'>
           <a href={`mailto:${state.email}`}>
-            <img src={IconMail} width='24' alt='Icon--Mail' title={state.email} />
+            <img src='https://andresfmj-portfolio-images.s3.amazonaws.com/icon_mail.png' width='24' alt='Icon--Mail' title={state.email} />
           </a>
         </li>
         <li className='About-item'>
           <a href={state.website} target='_blank' rel='noreferrer'>
-            <img src={IconWeb} width='24' alt='Icon--Website' title={state.website} />
+            <img src='https://andresfmj-portfolio-images.s3.amazonaws.com/icon_website.png' width='24' alt='Icon--Website' title={state.website} />
           </a>
         </li>
       </ul>

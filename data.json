@@ -1,82 +1,127 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Heli Fernando Jerez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
+    "address": "Bucaramanga, Colombia.",
     "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "website": "https://github.com/fernandojerez",
+    "phone": "3003578612",
+    "avatar": "https://gravatar.com/avatar/f7638d8901b007d9a1a50461f814b9b6?s=400&d=robohash&r=x",
+    "Profile": "Unicornio, me encanta el front, el back y analizar datos, respiro código en mis tiempos libres me gusta leer sobre programación, arquitectura, ciencia y filosofia.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Abril 2021",
+        "description": "Neural Networks and Deep Learning",
+        "institution": "Coursera",
+        "name": "Deeplearning"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Abril 2021",
+        "description": "Neural Networks and Deep Learning",
+        "institution": "Coursera",
+        "name": "Deeplearning"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "DeepLearnig Specialization",
+        "description": "Deeplearning.Ai",
+        "endDate": "Present",
+        "institution": "Coursera",
+        "startDate": "2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniero de Sistemas",
+        "description": "Bucaramanga - Santander",
+        "endDate": "2016",
+        "institution": "Uniciencia",
+        "startDate": "2011"
+      },
+      {
+        "degree": "Bachiller Técnico",
+        "description": "Bucaramanga - Santander",
+        "endDate": "2000",
+        "institution": "Instituto Tecnico Superior Damaso Zapata",
+        "startDate": "1994"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Mensajeros Urbanos",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Desarrollo backend spring boot con kotlin y grpc streaming aplicación de entregas masivas, Desarrollo Frontend Plataforma Unificada Angular",
+        "jobTitle": "Principal Technical Engineer",
+        "startDate": "2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Shareppy",
+        "endDate": "2019",
+        "jobDescription": "Desarrollo de la arquitectura del producto SmartRoad. Un sistema workflow para la fuerza de ventas de entidades financieras que opera en campo y fuera de linea",
+        "jobTitle": "Arquitecto de Software",
+        "startDate": "2009"
+      },
+      {
+        "company": "Pensemos",
+        "endDate": "2013",
+        "jobDescription": "Desarrollo de la arquitectura de Software Visión Empresarial usando Java EE, Implementación de software de rondas en refinerias usando .Net",
+        "jobTitle": "Arquitecto de Software",
+        "startDate": "2003"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
+      },
+      {
+        "name": "Typescript",
+        "percentage": "90%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "90%"
       },
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Java",
+        "percentage": "90%"
+      },
+      {
+        "name": "Kotlin",
+        "percentage": "90%"
+      },
+      {
+        "name": "Spring",
+        "percentage": "90%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "java",
+      "python",
+      "flutter",
+      "android",
+      "ios",
+      "Microservices",
+      "neural networks"
     ],
     "languages": [
       {
@@ -85,25 +130,29 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Java",
+        "percentage": "90%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/fernandojerez"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/fernandojerez"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/helifernandojerez"
       }
     ]
   }

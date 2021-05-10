@@ -27,7 +27,15 @@ const App = () => {
   return (
     <>
       <Header>
-        <About name={information?.name} profession={information?.profession} phone={information?.profession} email={information?.email} website={information?.website} address />
+        <About 
+          name={information?.name} 
+          profession={information?.profession} 
+          phone={information?.profession} 
+          email={information?.email} 
+          website={information?.website} 
+          address={information?.address} 
+          avatar={information?.avatar}
+        />
       </Header> 
       <Profile title="Profile" profession={information?.profession} profile={information?.profile}/>
       <Experience title="Experience" experience = {information?.experience}/>

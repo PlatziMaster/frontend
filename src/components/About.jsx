@@ -1,13 +1,12 @@
 import React from 'react';
-import foto from '../assets/fotomiap.jpg';
 import '../styles/components/About.styl';
 
-const About = ({name, profession, phone, email, website, address}) => {
+const About = ({name, profession, phone, email, website, address, avatar}) => {
   return (
     <div className="card about">
       <div className="about__content">
         <div>
-          <img src={foto} alt="foto perfil"/>
+          <img src={avatar} alt="foto perfil"/>
         </div>
         <div>
           <h1 className="About-title">{name}</h1>

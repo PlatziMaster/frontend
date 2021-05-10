@@ -39,22 +39,6 @@
         "endDate": "Oct 2014",
         "institution": "Unidades Tecnologicas de Santander. Bucaramanga, Colombia.",
         "startDate": "Jun 2010"
-      },
-      {
-        "id": 3,
-        "degree": "Dummy Degree ...",
-        "description": "Dummy Level",
-        "endDate": "Dummy Date",
-        "institution": "Dummy Institution",
-        "startDate": "Dummy Date"
-      },
-      {
-        "id": 4,
-        "degree": "Dummy Degree ...",
-        "description": "Dummy Level",
-        "endDate": "Dummy Date",
-        "institution": "Dummy Institution",
-        "startDate": "Dummy Date"
       }
     ],
     "experience": [
@@ -65,22 +49,6 @@
         "jobDescription": "Development of an information system named as “DentOS”, based on cloud technology through Amazon Webservices (EC2, S3 Buckets) driven on the health sector of Colombia. I helped integrating modules like, Medical Records, Treatment Plans, Payments list, Odontogram, and so on.",
         "jobTitle": "Fullstack Developer",
         "startDate": "Feb 2018"
-      },
-      {
-        "id": 2,
-        "company": "Dummy Company",
-        "endDate": "Dummy Date",
-        "jobDescription": "Dummy Description",
-        "jobTitle": "Dummy Job Title",
-        "startDate": "Dummy Date"
-      },
-      {
-        "id": 3,
-        "company": "Dummy Company",
-        "endDate": "Dummy Date",
-        "jobDescription": "Dummy Description",
-        "jobTitle": "Dummy Job Title",
-        "startDate": "Dummy Date"
       }
     ],
     "skills": [

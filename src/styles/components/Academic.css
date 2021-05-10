@@ -1,0 +1,24 @@
+.Academic-title {
+  background: var(--primary-blue);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%
+}
+
+.Academic-item {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.6rem;
+  text-align: justify;
+  border: solid 1px rgb(107, 109, 136);
+  border-radius: 10px;
+  display: 	flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .Academic-title {
+    width: 47%;
+  }
+}

@@ -1,0 +1,38 @@
+.Item {
+  padding-bottom: 8px;
+}
+
+.Item-title {
+  font-size: 1.8rem;
+  width: 100%
+}
+.Item-organization {
+
+}
+.Item-description {
+
+}
+
+.Item-start-date {
+  width: 40%;
+  text-align: left;
+}
+
+.Item-end-date {
+  padding: 0;
+  width: 50%;
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .Item-start-date {
+    width: 30%;
+    text-align: left;
+  }
+
+  .Item-end-date {
+    padding: 0;
+    width: 50%;
+    text-align: left;
+  }
+}

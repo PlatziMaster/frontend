@@ -1,0 +1,35 @@
+.Interest-title {
+  background: var(--primary-blue);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+
+}
+.Interest-title ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Interest-item {
+  display: flex;
+}
+
+.Interest-item p {
+  font-size: 1.6rem;
+  border-radius: 5px;
+  padding: 0;
+  padding-left: 15px;
+  margin: 2px;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: rgb(107, 109, 136);
+}
+
+@media only screen and (min-width: 768px) {
+  .Interest-title {
+    width: 47%;
+  }
+}

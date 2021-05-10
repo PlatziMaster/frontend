@@ -9,6 +9,7 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import ProfileInfo from '../components/ProfileInfo';
+import Social from '../components/Social';
 
 import Layout from '../components/Layout';
 
@@ -32,6 +33,7 @@ const App = () => {
           <Interest />
           <Languages />
         </ProfileInfo>
+        <Social />
       </Layout>
     </AppContext.Provider>
   );

@@ -102,16 +102,19 @@
       {
         "id": 1,
         "name": "twitter",
+        "icon": "https://andresfmj-portfolio-images.s3.amazonaws.com/icon_twitter.png",
         "url": "https://twitter.com/ferdr0id8o8o"
       },
       {
         "id": 2,
         "name": "github",
+        "icon": "https://andresfmj-portfolio-images.s3.amazonaws.com/icon_github.png",
         "url": "https://github.com/andresfmj"
       },
       {
         "id": 3,
         "name": "linkedin",
+        "icon": "https://andresfmj-portfolio-images.s3.amazonaws.com/icon_linkedin.png",
         "url": "https://www.linkedin.com/in/andres-fernando-m-0293661a2/"
       }
     ]

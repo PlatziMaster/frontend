@@ -2,6 +2,8 @@ import React from 'react';
 import { mount } from 'enzyme';
 import Experience from '../../components/Experience';
 
+import data from '../../../data.json';
+
 describe('<Experience />', () => {
   const experience = mount(<Experience />);
 
@@ -14,7 +16,7 @@ describe('<Experience />', () => {
   });
 
   test('Experience haves 3 items', () => {
-    expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
+    expect(data.data.experience.length).toBeGreaterThanOrEqual(1);
   });
 
 });

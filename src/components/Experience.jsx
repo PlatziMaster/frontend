@@ -4,20 +4,25 @@ import '../styles/components/Experience.styl';
 const Experience = ({experience, title}) => {
   return (
     <div className="card experience">
-      <div className="experience__title">
-        <h2>{title}</h2>
-      </div>
+      <h2 className="Experience-title">{title}</h2>
       <div className="experience__items">
         {
-          experience?.map(item =>
-            <div className="experience__item" key={item.id}>
-              <h3>{item.jobTitle}</h3> 
-              <p>{item.company}</p> 
-              <p>{item.startDate} to {item.endDate}</p> 
-              <p>{item.jobDescription}</p> 
-            </div>
-            
-          )
+          experience?
+            experience?.map(item =>
+              <div className="Experience-item" key={item.id}>
+                <h3>{item.jobTitle}</h3> 
+                <p>{item.company}</p> 
+                <p>{item.startDate} to {item.endDate}</p> 
+                <p>{item.jobDescription}</p> 
+              </div>
+              
+            )
+            :
+            <>
+              <div className="Experience-item"></div>
+              <div className="Experience-item"></div>
+              <div className="Experience-item"></div>
+            </>
         }
       </div>
     </div>

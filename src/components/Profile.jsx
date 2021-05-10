@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/components/Profile.styl';
 
-const Profile = (props) => {
-  const {profession, profile } = props.information;
+const Profile = ({title, profession, profile}) => {
   return (
     <div className="card profile">
       <div>
-        <h2>{profession? profession : ''}</h2>
-        <h3>{profile}</h3>
+        <h2 className="Profile-title">{title}</h2>
+        <h2>{profession}</h2>
+        <h3 className="Profile-desc">{profile}</h3>
       </div>
     </div>
   );

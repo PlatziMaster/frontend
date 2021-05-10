@@ -29,6 +29,20 @@
         "endDate": "Jan 2007",
         "institution": "UNIVERSIDAD MARIANA",
         "startDate": "Jan 2001"
+      },
+      {
+        "degree": "English",
+        "description": "English Pre-intermediate",
+        "endDate": "March 2010",
+        "institution": "Shafston",
+        "startDate": "July 2010"
+      },
+      {
+        "degree": "Technological Marketing Internship",
+        "description": "Technological Marketing Internship",
+        "endDate": "Jun 2015",
+        "institution": "Universidad Alicante ",
+        "startDate": "July 2015"
       }
     ],
     "experience": [

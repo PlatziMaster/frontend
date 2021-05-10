@@ -1,67 +1,84 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Diana Florez Bravo",
+    "profession": "Ingeniera de Sistemas",
+    "address": "Pasto, Colombia.",
+    "email": "dianaflorezbravo@gmail.com",
+    "website": "https://ideartics.com",
+    "phone": "3017546678",
+    "avatar": "https://s.gravatar.com/avatar/f22b2acc6bf4dc2c024ff19e919f3464?s=80",
+    "profile": "IT Engineer dedicated to the development and implementation of web applications and mobile. I have experience as webMaster, I developed web applications with YII framework, know php, javascript, html5, css3, as postgres database and MySql, I worked on developing mobile applications with Titanium appcelerator. I developed a component of e-commerce for a clothing store that dynamically updates its inventory. ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "July 2018",
+        "description": "MongoDB Basics. a course of study offered by MongoDB, Inc.",
+        "institution": "MongoDB University",
+        "name": "MongoDB Basics"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "March 2010",
+        "description": "English Pre-intermediate",
+        "institution": "Shafston",
+        "name": "English"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ingenieria de Sistema",
+        "description": "The Systems Engineering Professional at Universidad Mariana focuses on the planning, analysis, design and development of software projects",
+        "endDate": "Jan 2007",
+        "institution": "UNIVERSIDAD MARIANA",
+        "startDate": "Jan 2001"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "English",
+        "description": "English Pre-intermediate",
+        "endDate": "March 2010",
+        "institution": "Shafston",
+        "startDate": "July 2010"
+      },
+      {
+        "degree": "Technological Marketing Internship",
+        "description": "Technological Marketing Internship",
+        "endDate": "Jun 2015",
+        "institution": "Universidad Alicante ",
+        "startDate": "July 2015"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "id": "1",
+        "company": "ParqueSoft Pasto",
+        "endDate": "Feb 2018",
+        "jobDescription": "Software development mainly in php with Yii framework, relational and non-relational database model design",
+        "jobTitle": "Full Stack",
+        "startDate": "March 2007"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": "2",
+        "company": "MTOnline",
+        "endDate": "Jun2 2013",
+        "jobDescription": "E-commerce component for a clothing store that updates its inventory dynamically. This system for the commercialization of clothing by means of online sales internationally. e-commerce component for a clothing store that updates your inventory dynamically.",
+        "jobTitle": "Full Stack",
+        "startDate": "Sept 2013"
+      },
+      {
+        "id": "3",
+        "company": "Wiwo",
+        "endDate": "Nov 2016",
+        "jobDescription": "Tourist sites application developed in android studio and backend in php with Yii",
+        "jobTitle": "Full Stack",
+        "startDate": "Dic 2016"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
@@ -69,14 +86,36 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "70%"
+      },
+      {
+        "name": "Postgres",
+        "percentage": "70%"
+      },
+      {
+        "name": "MySql",
+        "percentage": "70%"
+      },
+      {
+        "name": "MongoDB",
+        "percentage": "50%"
+      },
+      {
+        "name": "Android",
+        "percentage": "50%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "english",
+      "french"
     ],
     "languages": [
       {
@@ -85,25 +124,29 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
+      },
+      {
+        "name": "French",
+        "percentage": "30%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/DianaCrysFlorezBrav"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/DianaCrysFlorez"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/dianaflorez"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/diana-florez-bravo-8411004b//"
       }
     ]
   }

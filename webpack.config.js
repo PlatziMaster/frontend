@@ -10,6 +10,10 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+    alias:{
+      '@images': path.resolve(__dirname, 'src/assets/images/'),
+    }
+    
   },
   module: {
     rules: [
@@ -36,6 +40,15 @@ module.exports = {
           },
           'css-loader',
           'stylus-loader',
+        ],
+      },
+      {
+        test: /\.(png|gif|jpg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: { name: 'assets/[hash].[ext]' },
+          }
         ],
       },
     ],

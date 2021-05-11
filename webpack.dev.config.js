@@ -6,7 +6,7 @@ module.exports = {
   mode: 'development',
   devServer: {
     port: 3000,
-    open: false,
+    open: true,
     hot: true,
     historyApiFallback: true,
   },

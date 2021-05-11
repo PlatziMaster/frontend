@@ -1,18 +1,12 @@
-# frontend
+# Curriculum Vitae 😁
 
-## React Curriculum vitae
+Se realiza el reto del curriculum vitae en React.js!!! 
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+## Challenge 😎
+Solución al reto de Platzi Master.
+## Overview 🔖
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
-
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+![Img overview project](public/cover-cv.png)
 
 ### Instalación
 ```
@@ -44,11 +38,10 @@ npm run test
 npm run lint
 ```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
-
 ### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Curriculum Vitae se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+## Contact
+
+- Linkedin [YaduLopez](https://www.linkedin.com/in/yadu-lopez/)
+- Twitter [@YaduLopezRivera](https://twitter.com/YaduLopezRivera)

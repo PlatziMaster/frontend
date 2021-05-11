@@ -1,28 +1,21 @@
 import React from 'react';
-import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import Loading from '../components/Loading';
+import NotFound from '../components/NotFound';
+
+import useFetchData from '../hooks/useFetchData';
+import CurriculumVitae from './CurriculumVitae';
 
 const App = () => {
+  const { data, loading, error } = useFetchData();
+
+  if (loading) return <Loading />;
+  if (error) return <NotFound error={error} />;
+
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      {Object.keys(data).length && <CurriculumVitae data={data} />}
     </>
-  )
+  );
 };
 
 export default App;

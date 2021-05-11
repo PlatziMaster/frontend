@@ -3,14 +3,14 @@ import { mount } from 'enzyme';
 import Profile from '../../components/Profile';
 
 describe('<Profile />', () => {
-  const profile = mount(<Profile />);
+  const profile = mount(<Profile profile='Despcription' />);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);
   });
 
   test('Profile title', () => {
-    expect(profile.find('.Profile-title').length).toEqual(1);
+    expect(profile.find('.Title').length).toEqual(1);
   });
 
   test('Profile have a description', () => {

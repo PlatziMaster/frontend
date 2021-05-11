@@ -1,0 +1,25 @@
+#experienceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .exp {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    > * {
+      margin: 30px 10px;
+    }
+    h4 {
+      font-size: inherit;
+    }
+    p, h4 {
+      margin: 0;
+    }
+    .expDescription {
+      text-align: center;
+      width: 200px;
+      color: gray;
+      font-size: 14px;
+    }
+  }
+}

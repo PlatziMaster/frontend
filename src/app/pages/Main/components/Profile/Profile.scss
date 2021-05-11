@@ -1,0 +1,21 @@
+#sideProfile {
+  grid-area: side;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 35px;
+  font-size: 14px;
+
+  p {
+    margin: 0;
+    color: gray;
+  }
+  :nth-child(2) {
+    > * {
+      margin: 10px auto;
+    }
+  }
+  > * {
+    margin: 50px auto;
+  }
+}

@@ -1,10 +1,25 @@
-# frontend
+# Getting started
+This project is Luis Martinez' proposal to the Platzi Master Frontend challenge.
+
+To run locally:  
+  First off you better install deps required:  
+  `npm i`  
+
+  Now, the data used for the UI gets fetched from a fake API, so we need to serve the data to successfully render the UI:  
+  `npm run server`  
+
+  Finally, at any other terminal run:  
+  `npm start`  
 
 ## React Curriculum vitae
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Initial structure:
+<br/>
+<img src="https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true" width="500">
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+Proposal answer:
+<br/>
+<img src="./result.png" width="500">
 
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
@@ -44,11 +59,5 @@ npm run test
 npm run lint
 ```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
-
 ### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+[MIT](https://opensource.org/licenses/MIT).

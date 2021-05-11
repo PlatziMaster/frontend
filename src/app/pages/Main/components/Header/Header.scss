@@ -1,0 +1,26 @@
+#header {
+  grid-area: header;
+  background-color: #7EBB1D;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 40px;
+  h1 {
+    font-size: 33px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h1, p {
+    margin: 0;
+  }
+  .luisMartinezPic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('./assets/Me.jpeg');
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    background-size: cover;
+  }
+}

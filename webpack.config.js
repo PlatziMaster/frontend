@@ -1,52 +1,76 @@
 const path = require('path');
-const HtmlWebPackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
+const TerserWebpackPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+  mode: 'production',
+  entry: {
+    app: path.resolve(__dirname, 'src/index.js'),
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.scss'],
   },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].[hash].js',
+    publicPath: '/',
+  },
+  optimization: {
+    minimizer: [
+      new TerserWebpackPlugin(),
+    ],
+  },
+  plugins: [
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['dist/'],
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'public/index.html'),
+    }),
+    new MiniCSSExtractPlugin({
+      filename: 'styles/[name].[hash].css',
+    }),
+  ],
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
-      },
-      {
-        test: /\.html$/,
         use: [
-          {
-            loader: 'html-loader',
-          },
+          'babel-loader',
         ],
       },
       {
-        test: /\.css|.styl$/,
+        test: /\.css$/,
+        use: [
+          MiniCSSExtractPlugin.loader,
+          'css-loader',
+        ],
+      },
+      {
+        test: /\.s(a|c)ss$/,
+        use: [
+          MiniCSSExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+      {
+        test: /\.(png|jpg|jpeg|svg|gif|ico)$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader,
+            loader: 'url-loader',
+            options: {
+              limit: 1000,
+              // if file is heavier, file-loader will play.
+              name: '[name].[hash].[ext]',
+              outputPath: 'assets/images',
+            },
           },
-          'css-loader',
-          'stylus-loader',
         ],
       },
     ],
   },
-  plugins: [
-    new HtmlWebPackPlugin({
-      template: './public/index.html',
-      filename: './index.html',
-    }),
-    new MiniCssExtractPlugin({
-      filename: 'assets/[name].css',
-    }),
-  ],
 };

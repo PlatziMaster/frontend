@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-      {Object.keys(data).length && <CurriculumVitae data={data} />}
+      {Object.keys(data).length ? <CurriculumVitae data={data} /> : null}
     </>
   );
 };

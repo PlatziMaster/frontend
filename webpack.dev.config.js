@@ -6,12 +6,12 @@ module.exports = {
   mode: 'development',
   devServer: {
     port: 3000,
-    open: true,
+    open: false,
     hot: true,
     historyApiFallback: true,
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.scss'],
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
@@ -30,15 +30,22 @@ module.exports = {
         },
       },
       {
-        test: /\.(s*)css$/,
-        use: [
+        test: /\.css$/,
+        loader: [
+          'style-loader',
+          'css-loader',
+        ],
+      },
+      {
+        test: /\.s(a|c)ss$/,
+        loader: [
           'style-loader',
           'css-loader',
           'sass-loader',
         ],
       },
       {
-        test: /\.(png|jpg|svg|gif|ico)$/,
+        test: /\.(png|jpeg|jpg|svg|gif|ico)$/,
         use: {
           loader: 'file-loader',
         },

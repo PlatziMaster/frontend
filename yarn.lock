@@ -742,6 +742,18 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
+"@babel/plugin-transform-runtime@^7.13.15":
+  version "7.13.15"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.13.15.tgz#2eddf585dd066b84102517e10a577f24f76a9cd7"
+  integrity sha1-Lt31hd0Ga4QQJRfhCld/JPdqnNc=
+  dependencies:
+    "@babel/helper-module-imports" "^7.13.12"
+    "@babel/helper-plugin-utils" "^7.13.0"
+    babel-plugin-polyfill-corejs2 "^0.2.0"
+    babel-plugin-polyfill-corejs3 "^0.2.0"
+    babel-plugin-polyfill-regenerator "^0.2.0"
+    semver "^6.3.0"
+
 "@babel/plugin-transform-shorthand-properties@^7.12.13":
   version "7.12.13"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@babel/plugin-transform-shorthand-properties/-/plugin-transform-shorthand-properties-7.12.13.tgz#db755732b70c539d504c6390d9ce90fe64aff7ad"
@@ -903,7 +915,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.13.8", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.14.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
   integrity sha1-RnlLwgthLF915i3QceJN/ZXxy+Y=
@@ -1138,6 +1150,24 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@popperjs/core@^2.8.6":
+  version "2.9.2"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
+  integrity sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M=
+
+"@restart/context@^2.1.4":
+  version "2.1.4"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@restart/context/-/context-2.1.4.tgz#a99d87c299a34c28bd85bb489cb07bfd23149c02"
+  integrity sha1-qZ2HwpmjTCi9hbtInLB7/SMUnAI=
+
+"@restart/hooks@^0.3.26":
+  version "0.3.26"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@restart/hooks/-/hooks-0.3.26.tgz#ade155a7b0b014ef1073391dda46972c3a14a129"
+  integrity sha1-reFVp7CwFO8Qczkd2kaXLDoUoSk=
+  dependencies:
+    lodash "^4.17.20"
+    lodash-es "^4.17.20"
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -1190,6 +1220,13 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/classnames@^2.2.10":
+  version "2.3.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/classnames/-/classnames-2.3.1.tgz#3c2467aa0f1a93f1f021e3b9bcf938bd5dfdc0dd"
+  integrity sha1-PCRnqg8ak/HwIeO5vPk4vV39wN0=
+  dependencies:
+    classnames "*"
+
 "@types/favicons@5.5.0":
   version "5.5.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/favicons/-/favicons-5.5.0.tgz#c1cb3d2a14955eedf479f3cc51948630c56e3a64"
@@ -1216,6 +1253,11 @@
   version "5.1.1"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/html-minifier-terser/-/html-minifier-terser-5.1.1.tgz#3c9ee980f1a10d6021ae6632ca3e79ca2ec4fb50"
   integrity sha1-PJ7pgPGhDWAhrmYyyj55yi7E+1A=
+
+"@types/invariant@^2.2.33":
+  version "2.2.34"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/invariant/-/invariant-2.2.34.tgz#05e4f79f465c2007884374d4795452f995720bbe"
+  integrity sha1-BeT3n0ZcIAeIQ3TUeVRS+ZVyC74=
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
@@ -1267,10 +1309,41 @@
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/prettier/-/prettier-1.19.1.tgz#33509849f8e679e4add158959fdb086440e9553f"
   integrity sha1-M1CYSfjmeeSt0ViVn9sIZEDpVT8=
 
+"@types/prop-types@*", "@types/prop-types@^15.7.3":
+  version "15.7.3"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
+
+"@types/react-transition-group@^4.4.1":
+  version "4.4.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/react-transition-group/-/react-transition-group-4.4.1.tgz#e1a3cb278df7f47f17b5082b1b3da17170bd44b1"
+  integrity sha1-4aPLJ4339H8XtQgrGz2hcXC9RLE=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@>=16.9.11", "@types/react@>=16.9.35":
+  version "17.0.5"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/react/-/react-17.0.5.tgz#3d887570c4489011f75a3fc8f965bf87d09a1bea"
+  integrity sha1-PYh1cMRIkBH3Wj/I+WW/h9CaG+o=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
+  integrity sha1-GIRSBehv8AOFF6q3oYpiprn3EnU=
+
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha1-CoUdO9lkmPolwzq3J47TvWXwbD4=
+
+"@types/warning@^3.0.0":
+  version "3.0.0"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/@types/warning/-/warning-3.0.0.tgz#0d2501268ad8f9962b740d387c4654f5f8e23e52"
+  integrity sha1-DSUBJorY+ZYrdA04fEZU9fjiPlI=
 
 "@types/yargs-parser@*":
   version "20.2.0"
@@ -2098,6 +2171,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap@^5.0.0:
+  version "5.0.0"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/bootstrap/-/bootstrap-5.0.0.tgz#97635ac0e0d6cb466700ebf0fd266bfabf352ed2"
+  integrity sha1-l2NawODWy0ZnAOvw/SZr+r81LtI=
+
 boxen@^3.0.0:
   version "3.2.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/boxen/-/boxen-3.2.0.tgz#fbdff0de93636ab4450886b6ff45b92d098f45eb"
@@ -2443,6 +2521,11 @@ chardet@^0.7.0:
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
+chart.js@^3.2.1:
+  version "3.2.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/chart.js/-/chart.js-3.2.1.tgz#1a17d6a88cef324ef711949e227eb51d6c4c26d3"
+  integrity sha1-GhfWqIzvMk73EZSeIn61HWxMJtM=
+
 cheerio-select@^1.4.0:
   version "1.4.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/cheerio-select/-/cheerio-select-1.4.0.tgz#3a16f21e37a2ef0f211d6d1aa4eff054bb22cdc9"
@@ -2538,6 +2621,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+classnames@*, classnames@^2.2.6:
+  version "2.3.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha1-38+jiR4wbsHa0QXQ6I9EF7hTXo4=
 
 clean-css@4.2.x, clean-css@^4.2.3:
   version "4.2.3"
@@ -3002,6 +3090,11 @@ cssstyle@^2.0.0:
   dependencies:
     cssom "~0.3.6"
 
+csstype@^3.0.2:
+  version "3.0.8"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
+  integrity sha1-0iZqeScp+yJ80hb7Vy9Dco4a00A=
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -3277,6 +3370,14 @@ dom-converter@^0.2:
   integrity sha1-ZyGp2u4uKTaClVtq/kFncWJ7t2g=
   dependencies:
     utila "~0.4"
+
+dom-helpers@^5.0.1, dom-helpers@^5.1.2, dom-helpers@^5.2.0:
+  version "5.2.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/dom-helpers/-/dom-helpers-5.2.1.tgz#d9400536b2bf8225ad98fe052e029451ac40e902"
+  integrity sha1-2UAFNrK/giWtmP4FLgKUUaxA6QI=
+  dependencies:
+    "@babel/runtime" "^7.8.7"
+    csstype "^3.0.2"
 
 dom-serializer@0:
   version "0.2.2"
@@ -5118,6 +5219,13 @@ interpret@^1.4.0:
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha1-Zlq4vE2iendKQFhOgS4+D6RbGh4=
 
+invariant@^2.2.4:
+  version "2.2.4"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
+  dependencies:
+    loose-envify "^1.0.0"
+
 ip-regex@^2.1.0:
   version "2.1.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
@@ -6256,6 +6364,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.20:
+  version "4.17.21"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha1-Q+YmxG5lkbd1C+srUBFzkMYJ4+4=
+
 lodash-id@^0.14.0:
   version "0.14.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/lodash-id/-/lodash-id-0.14.0.tgz#baf48934e543a1b5d6346f8c84698b1a8c803896"
@@ -6303,7 +6416,7 @@ lolex@^5.0.0:
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -6872,10 +6985,10 @@ node-releases@^1.1.71:
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/node-releases/-/node-releases-1.1.71.tgz#cb1334b179896b1c89ecfdd4b725fb7bbdfc7dbb"
   integrity sha1-yxM0sXmJaxyJ7P3UtyX7e738fbs=
 
-node-sass@^6.0.0:
-  version "6.0.0"
-  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/node-sass/-/node-sass-6.0.0.tgz#f30da3e858ad47bfd138bc0e0c6f924ed2f734af"
-  integrity sha1-8w2j6FitR7/ROLwODG+STtL3NK8=
+node-sass@^5.0.0:
+  version "5.0.0"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/node-sass/-/node-sass-5.0.0.tgz#4e8f39fbef3bac8d2dc72ebe3b539711883a78d2"
+  integrity sha1-To85++87rI0txy6+O1OXEYg6eNI=
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -7700,6 +7813,14 @@ prop-types-exact@^1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
+prop-types-extra@^1.1.0:
+  version "1.1.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/prop-types-extra/-/prop-types-extra-1.1.1.tgz#58c3b74cbfbb95d304625975aa2f0848329a010b"
+  integrity sha1-WMO3TL+7ldMEYll1qi8ISDKaAQs=
+  dependencies:
+    react-is "^16.3.2"
+    warning "^4.0.0"
+
 prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -7877,6 +7998,37 @@ rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-bootstrap@^1.5.2:
+  version "1.5.2"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-bootstrap/-/react-bootstrap-1.5.2.tgz#07dabec53d10491a520c49f102170b440fa89008"
+  integrity sha1-B9q+xT0QSRpSDEnxAhcLRA+okAg=
+  dependencies:
+    "@babel/runtime" "^7.13.8"
+    "@restart/context" "^2.1.4"
+    "@restart/hooks" "^0.3.26"
+    "@types/classnames" "^2.2.10"
+    "@types/invariant" "^2.2.33"
+    "@types/prop-types" "^15.7.3"
+    "@types/react" ">=16.9.35"
+    "@types/react-transition-group" "^4.4.1"
+    "@types/warning" "^3.0.0"
+    classnames "^2.2.6"
+    dom-helpers "^5.1.2"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
+    prop-types-extra "^1.1.0"
+    react-overlays "^5.0.0"
+    react-transition-group "^4.4.1"
+    uncontrollable "^7.2.1"
+    warning "^4.0.3"
+
+react-chartjs-2@^3.0.3:
+  version "3.0.3"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-chartjs-2/-/react-chartjs-2-3.0.3.tgz#9cb1981396f9574afebd29aff4e6df71ed615596"
+  integrity sha1-nLGYE5b5V0r+vSmv9Obfce1hVZY=
+  dependencies:
+    lodash "^4.17.19"
+
 react-dom@^16.12.0:
   version "16.14.0"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
@@ -7887,10 +8039,29 @@ react-dom@^16.12.0:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
+react-is@^16.12.0, react-is@^16.13.1, react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha1-TxonOv38jzSIqMUWv9p4+HI1I2I=
+
+react-overlays@^5.0.0:
+  version "5.0.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-overlays/-/react-overlays-5.0.1.tgz#7e2c3cd3c0538048b0b7451d203b1289c561b7f2"
+  integrity sha1-fiw808BTgEiwt0UdIDsSicVht/I=
+  dependencies:
+    "@babel/runtime" "^7.13.8"
+    "@popperjs/core" "^2.8.6"
+    "@restart/hooks" "^0.3.26"
+    "@types/warning" "^3.0.0"
+    dom-helpers "^5.2.0"
+    prop-types "^15.7.2"
+    uncontrollable "^7.2.1"
+    warning "^4.0.3"
 
 react-router-dom@^5.2.0:
   version "5.2.0"
@@ -7930,6 +8101,16 @@ react-test-renderer@^16.0.0-0:
     prop-types "^15.6.2"
     react-is "^16.8.6"
     scheduler "^0.19.1"
+
+react-transition-group@^4.4.1:
+  version "4.4.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
+  integrity sha1-Y4aPkyWjjqXulTXYKDJ/hXczRck=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
 
 react@^16.12.0:
   version "16.14.0"
@@ -8443,13 +8624,16 @@ sass-graph@2.2.5:
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
-sass-loader@^11.0.1:
-  version "11.0.1"
-  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/sass-loader/-/sass-loader-11.0.1.tgz#8672f896593466573b904f47693e0695368e38c9"
-  integrity sha1-hnL4llk0Zlc7kE9HaT4GlTaOOMk=
+sass-loader@^10.1.1:
+  version "10.1.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
+  integrity sha1-Td1aPXY455SQZd1unHwEA39+Zj0=
   dependencies:
     klona "^2.0.4"
+    loader-utils "^2.0.0"
     neo-async "^2.6.2"
+    schema-utils "^3.0.0"
+    semver "^7.3.2"
 
 saxes@^3.1.9:
   version "3.1.11"
@@ -9522,6 +9706,16 @@ unbox-primitive@^1.0.0:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
+uncontrollable@^7.2.1:
+  version "7.2.1"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/uncontrollable/-/uncontrollable-7.2.1.tgz#1fa70ba0c57a14d5f78905d533cf63916dc75738"
+  integrity sha1-H6cLoMV6FNX3iQXVM89jkW3HVzg=
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+    "@types/react" ">=16.9.11"
+    invariant "^2.2.4"
+    react-lifecycles-compat "^3.0.4"
+
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
@@ -9776,6 +9970,13 @@ walker@^1.0.7, walker@~1.0.5:
   integrity sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=
   dependencies:
     makeerror "1.0.x"
+
+warning@^4.0.0, warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://artifacts.eng.venafi.com:443/artifactory/api/npm/Venafi-NPM/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha1-Fungd+uKhtavfWSqHgX9hbRnjKM=
+  dependencies:
+    loose-envify "^1.0.0"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"

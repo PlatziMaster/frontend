@@ -1,0 +1,23 @@
+.mainPageContainer {
+  // max-width: 793px; // Common paper sheet width
+  max-width: 1024px; // Common paper sheet width
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas:
+  "header header"
+  "side experience"
+  "side skills"
+  "side about";
+  font-family: 'Ubuntu', sans-serif;
+  &.loading {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a {
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+  }
+}

@@ -1,110 +1,100 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+    "header": {
+      "title": "Software Developer",
+      "subtitle": "Frontend focus"
+    },
+    "sidePane": {
+      "top": "All Ive learned has been through onine courses at 2 amazing platforms: Platzi and PluralSight. (And, of course, reading docs, practicing, failling a lot and asking people online/offline)",
+      "middle": {
+        "portfolio": {
+          "label": "My-Portfolio",
+          "href": "https://my-portfolio-chi.vercel.app/",
+          "text": "Its quite outdated."
+        },
+        "github": {
+          "label": "Github",
+          "href": "https://github.com/JarlMartinez",
+          "text": "Though BB and Gitlab used where Im working."
+        },
+        "tel": "(+521)9992-65-51-15",
+        "mail": "luis98mardi@gmail.com"
       },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
+      "bottom": "I like our world. Has much for us, and people are amazing. I think positively about our future. Lets keep it up."
+    },
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "id": "1",
+        "org": "Venafi Inc",
+        "website": "https://www.venafi.com/",
+        "sub": "via Kwan Tec",
+        "duration": "June 2020 - Present",
+        "description": "Successfully manage Certificates and keys (PKI) across your network."
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": "2",
+        "org": "Kwan Tec",
+        "website": "https://www.kwantec.com/",
+        "duration": "April 2020 - Present",
+        "description": "Outsourcing company providing top trained engineers to visionary companies."
       }
     ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "skills": {
+      "abilities": [
+        {
+          "id": 1,
+          "label": "Micro-frontends architecture for scalable and flexible grow."
+        },
+        {
+          "id": 2,
+          "label": "React / Angular / Backbone"
+        },
+        {
+          "id": 3,
+          "label": "Python web scrappers."
+        },
+        {
+          "id": 4,
+          "label": "NodeJS scripts."
+        },
+        {
+          "id": 5,
+          "label": "NodeJS basic web server."
+        }
+      ],
+      "radarChart": [
+        {
+          "id": 1,
+          "label": "TypeScript",
+          "value": "8",
+          "color": "#0176C5"
+        },
+        {
+          "id": 2,
+          "label": "Python",
+          "value": "4",
+          "color": "#F6CD42"
+        },
+        {
+          "id": 3,
+          "label": "Golang",
+          "value": "2",
+          "color": "#6BD0DC"
+        },
+        {
+          "id": 4,
+          "label": "C#",
+          "value": "2",
+          "color": "#6939B3"
+        },
+        {
+          "id": 5,
+          "label": "JavaScript",
+          "value": "9",
+          "color": "#EFD81D"
+        }
+      ]
+    },
+    "interests": "Problems solver. Team player. Solutions oriented. I like to get to the guts of processes. Details matter! Maintainable code matters! No matter how good you think you are, is better doing as a team. Code to simplify, code for everyone. Enjoying the process :-)"
   }
 }

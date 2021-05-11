@@ -1,7 +1,18 @@
 import React from 'react';
 
-export default () => {
+import SectionContainer from '../../../../components/SectionContainer';
+
+import './Header.scss';
+
+export default ({ data }) => {
+
   return (
-    <p>Header</p>
+    <SectionContainer id='header'>
+      <div>
+        <h1>{data.title}</h1>
+        <p>{data.subtitle}</p>
+      </div>
+      <div className='luisMartinezPic' />
+    </SectionContainer>
   );
 };

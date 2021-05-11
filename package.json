@@ -4,7 +4,7 @@
   "description": "Platzi Master - Frontend Test",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.dev",
+    "build": "webpack --config webpack.config.js",
     "start": "webpack serve --config webpack.dev.config.js",
     "server": "json-server data.json --port 3500",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",

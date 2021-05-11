@@ -1,0 +1,15 @@
+.skills-item {
+    display: inline-block;
+    width: 33%;
+    color: #272d53;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .skills-item {
+        width: 50%;
+    }
+}

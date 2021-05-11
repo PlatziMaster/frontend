@@ -1,0 +1,110 @@
+.about {
+    padding: 40px 15vw;
+    display: flex;
+    background-color: #272d53; /*#5569dc;*/
+    color: white;
+    height: 450px;
+}
+.img-profile{
+    width: 300px;
+    height: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    filter: sepia(0.2);
+    align-self: center;
+}
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+.personal-information h1 {
+    font-size: 50px;
+    font-weight: 200;
+}
+.personal-information h5 {
+    font-size: 22px;
+    margin-right: 15px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+.about-title {
+    font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.contact-information div {
+    display: inline-flex;
+    align-self: center;
+    margin-bottom: 15px;
+}
+.contact-information a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .about {
+        padding: 40px 5vw;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .img-profile {
+        width: 20vw;
+        margin-bottom: 30px;
+    }
+    .personal-information h3 {
+        font-size: 7vw;
+    }
+    .personal-information h1 {
+        font-size: 4vw;
+    }
+    .contact-information a {
+        font-size: 2.5vw;
+        font-weight: 300;
+    }
+    .personal-information h5 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-information div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .personal-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        width: 100%;
+    }
+    .contact-information a {
+        font-size: 4.5vw;
+        font-weight: 300;
+        text-align: center;
+    }
+    .personal-information h5 {
+        font-size: 4.5vw;
+        margin-bottom: 15px;
+    }
+    .personal-information h1 {
+        font-size: 5.5vw;
+    }
+}

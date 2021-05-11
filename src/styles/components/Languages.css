@@ -1,0 +1,34 @@
+  .language {
+    width: 50%;
+    margin: 0 0 0 15px;
+    width: 50%;
+    background-color: white;
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 5px 15px #aaaaaa;
+}
+
+.language-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #5569dc;
+    font-weight: 500;
+    background-color: #c7dfc1;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .language {
+        width: 100%;
+        margin: 0;
+    }
+    .language-title {
+        color: #c7dfc1;
+        background-color: #5569dc;
+    }
+}
+
+@media (max-width: 480px) {
+    .language-title {
+        text-align: center;
+    }
+  }

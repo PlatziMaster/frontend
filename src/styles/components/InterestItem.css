@@ -1,0 +1,10 @@
+.interest-container {
+    width: 50%;
+    color: #272d53;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 30px 30px 0;
+}

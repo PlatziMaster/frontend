@@ -10,11 +10,11 @@ describe('<Profile />', () => {
   });
 
   test('Profile title', () => {
-    expect(profile.find('.Profile-title').length).toEqual(1);
+    expect(profile.find('.profile-title').length).toEqual(1);
   });
 
   test('Profile have a description', () => {
-    expect(profile.find('.Profile-desc').length).toEqual(1);
+    expect(profile.find('.profile-description').length).toEqual(1);
   });
 
 });

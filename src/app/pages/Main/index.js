@@ -19,9 +19,13 @@ export default () => {
   useEffect(() => {
     (async function () {
       try {
+        const tm = setTimeout(() => {
+          throw new Error();
+        }, 3000);
         const resp = await fetch(DATA_API, { method: 'GET' });
         const data = await resp.json();
         setData(data);
+        clearTimeout(tm);
       } catch (e) {
         setError(e);
       } finally {
@@ -34,7 +38,7 @@ export default () => {
     <div className={loading || error ? 'mainPageContainer loading' : 'mainPageContainer'}>
       {loading && <Spinner animation='border' />}
       {!loading && error && (
-        <div>Something bad happended fetching the data. Try reloading the page.</div>
+        <div>Something bad happended fetching the data. Please make sure data is served at localhost:3500/data. Try reloading the page.</div>
       )}
       {!loading && data && (
         <>

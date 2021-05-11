@@ -1,25 +1,79 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Rolando Semehí Sumoza Rivas",
+    "profession": "Web and Mobile Developer",
+    "address": "Zapopan, Jalisco, México.",
+    "email": "rolandosumoza@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "phone": "+52 1 3321236934",
+    "avatar": "https://i.ibb.co/Dz4tL35/circle-cropped.png",
+    "Profile": "I am a tech person who is always trying to learn new things about the geek world and new technologies. As a musician, I like to think of technology as the art of creating new things that improve someones life.",
+    "certificates": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "",
+        "description": "English School Route",
+        "type": "English",
+        "name": "English School"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "",
+        "description": "iOS Mobile Developer route",
+        "type": "Mobile Development",
+        "name": "iOS Mobile Developer"
+      },
+      {
+        "date": "",
+        "description": "React Native Developer route",
+        "type": "Mobile Development",
+        "name": "React Native Development"
+      },
+      {
+        "date": "",
+        "description": "JavaScript School",
+        "type": "Web Development",
+        "name": "Javascript Fundamentals"
+      },
+      {
+        "date": "",
+        "description": "iOS Route",
+        "type": "Mobile Development",
+        "name": "Swift Introduction"
+      },
+      {
+        "date": "",
+        "description": "Marketing route",
+        "type": "Marketing",
+        "name": "Lean UX"
+      },
+      {
+        "date": "",
+        "description": "",
+        "type": "Startups Creation",
+        "name": "Personal Brand Course"
+      },
+      {
+        "date": "",
+        "description": "Android Apps Developent ",
+        "type": "Mobile Development",
+        "name": "Flutter Course"
+      },
+      {
+        "date": "",
+        "description": "",
+        "type": "Startup Creation",
+        "name": "Personal Finances Course"
+      },
+      {
+        "date": "",
+        "description": "",
+        "type": "Startup Creation",
+        "name": "Business Analytics for Data Science Course"
+      },
+      {
+        "date": "",
+        "description": "",
+        "type": "Software Development",
+        "name": "Introduction to Terminal and Command Line 2018 Course"
       }
     ],
     "Academic": [
@@ -40,70 +94,132 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Industrias Resser",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "",
+        "jobTitle": "Web and Mobile Dev",
+        "startDate": "July 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "PiceSoftware",
+        "endDate": "2018",
+        "jobDescription": "",
+        "jobTitle": "FrontEnd Developer",
+        "startDate": "2018"
+      },
+      {
+        "company": "Current student of software engineering",
+        "endDate": "",
+        "jobDescription": "",
+        "jobTitle": "Tecmilenio University",
+        "startDate": ""
+      },
+      {
+        "company": "Student of platzi",
+        "endDate": "",
+        "jobDescription": "",
+        "jobTitle": "Since 2018!",
+        "startDate": ""
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Effective communication",
+        "percentage": "",
+        "icon": "speak"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "Team leaderhip",
+        "percentage": "",
+        "icon": "people"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "Agile technologies implementation",
+        "percentage": "",
+        "icon": "face"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "- %90",
+        "icon": "web"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "- %90",
+        "icon": "web"
+      },
+      {
+        "name": "iOS",
+        "percentage": "- %95",
+        "icon": "mobile"
+      },
+      {
+        "name": "Android",
+        "percentage": "- %80",
+        "icon": "mobile"
+      },
+      {
+        "name": "ASP.NET (C#)",
+        "percentage": "- %70",
+        "icon": "web"
+      },
+      {
+        "name": "SQL",
+        "percentage": "- %80",
+        "icon": "web"
+      },
+      {
+        "name": "NodeJS",
+        "percentage": "- %60",
+        "icon": "web"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+    "interests": [
+      {
+        "name": "Swim",
+        "description": "I love swimming and I've participated in competitions",
+        "image": "https://s3-us-west-2.amazonaws.com/melingoimages/Images/94351.jpg"
+      },
+      {
+        "name": "Dogs",
+        "description": "I'm a dog lover and actually, I have 3 cute pugs",
+        "image": "https://i1.wp.com/www.sopitas.com/wp-content/uploads/2018/10/Captura-de-pantalla-2018-10-20-a-las-04.21.38.png"
+      },
+      {
+        "name": "Music",
+        "description": "I play guitar, drums and bass. I have a band so... Yeah!",
+        "image": "https://meadowscastlerock.com/wp-content/uploads/2016/07/Learn-to-Play-Guitar-in-a-Day-at-The-Grange-The-Meadows-Castle-Rock-1.jpg"
+      },
+      {
+        "name": "Books",
+        "description": "My favourite books are: 'Never Split The Difference' and 'No Filter'",
+        "image": "https://api.time.com/wp-content/uploads/2019/11/top-10-fiction-2019.jpg"
+      }
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Mexico.png"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/RolukasTimes"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
+        "name": "platzi",
+        "url": "https://platzi.com/p/Rolukas/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/rolando-sumoza/"
       }
     ]
   }

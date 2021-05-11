@@ -1,63 +1,71 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Yadurani López",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "email": "info@gmail.com",
+    "website": "www.yadu.co",
+    "phone": "",
+    "avatar": "https://res.cloudinary.com/kitfood/image/upload/v1620755608/yadu.jpg",
+    "profile": "Front-end Developer and knowledge of UX, I have knowledge of Layout and Web protocols HTML, pure CSS, Javascript, Stylus, LESS, SASS, Styled Components and libraries, frameworks such as: Bootstrap, Reactjs, Next.js, Gatsby.js - CMS: Wordpress. Creative, innovative that seeks to generate the best experiences for its clients and users through agile proposals that optimize its processes, time and resources.",
+    "certificate": [],
+    "academic": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "degree": "Frontend React.js",
+        "description": "",
+        "endDate": "Present",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "startDate": "Oct 2020"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Design Graphic",
+        "description": "",
+        "endDate": "Mar 2017",
+        "institution": "Fundación los libertadores",
+        "startDate": "Jan 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Casa editorial el Tiempo",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Layout and Development of web applications in next.js and react.js",
+        "jobTitle": "Developer Frontend",
+        "startDate": "May 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Kitfood",
+        "endDate": "Jan 2020",
+        "jobDescription": "Application that connects housewives with people who like to eat homemade, developed in react.js",
+        "jobTitle": "Developer Frontend Jr.",
+        "startDate": "Apr 2019"
+      },
+      {
+        "company": "Foundard",
+        "endDate": "Aug 2021",
+        "jobDescription": "Designer and Front-end Developer of applications in the legal sector at vue.js",
+        "jobTitle": "Developer Frontend Jr.",
+        "startDate": "Feb 2019"
+      },
+      {
+        "company": "iPalmera",
+        "endDate": "Jan 2019",
+        "jobDescription": "Design of proposals for websites, website development, creation of 100% responsive sites from scratch, handling of HTML5, CSS3, WORDPRESS and PRESTASHOP. Adaptation of the design to the website. Use of frameworks such as bootstrap, foundation and materialize.css for the construction of sites.",
+        "jobTitle": "Web Designer",
+        "startDate": "Apr 2017"
+      },
+      {
+        "company": "EGO Grupo creativo",
+        "endDate": "Mar 2017",
+        "jobDescription": "Design, layout and development of functional and non-functional web proposals, experience in html5 and css3 programming through the construction of responsive pages from scratch. UI, UX design for mobile application interfaces and web applications. ",
+        "jobTitle": "Web Designer",
+        "startDate": "Jan 2016"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
@@ -70,18 +78,41 @@
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Redux",
+        "percentage": "70%"
+      },
+      {
+        "name": "Styled components",
+        "percentage": "80%"
+      },
+      {
+        "name": "SASS",
+        "percentage": "70%"
+      },
+      {
+        "name": "Figma",
+        "percentage": "80%"
+      },
+      {
+        "name": "Adobe XD",
+        "percentage": "80%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "frontend",
+      "react.js",
+      "vue.js",
+      "css",
+      "animations",
+      "next.js"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Nativo"
       },
       {
         "name": "English",
@@ -90,20 +121,16 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/YaduLopezRivera"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/yadurani"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/yadu-lopez/"
       }
     ]
   }

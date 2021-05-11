@@ -3,18 +3,18 @@ import { mount } from 'enzyme';
 import Languages from '../../components/Languages';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const languages = mount(<Languages languages={[{ name: 'Spanish', percenteage: 'nativo' }, { name: 'English', percenteage: '50%' }]} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);
   });
 
   test('Languages title', () => {
-    expect(languages.find('.Languages-title').length).toEqual(1);
+    expect(languages.find('.Title').length).toEqual(1);
   });
 
-  test('Languages has 3 items', () => {
-    expect(languages.find('.Languages-item').length).toBeGreaterThan(2);
+  test('Languages has 2 items', () => {
+    expect(languages.find('.Languages-item').length).toEqual(2);
   });
 
 });

@@ -1,0 +1,60 @@
+.About {
+  display grid
+  align-items center
+  &__title {
+    color white
+    font-size 3rem
+    font-weight 400
+    letter-spacing 3px
+    margin-bottom 0
+    margin-top 0
+    text-transform uppercase
+    @media(max-width: 767px) {
+      margin-bottom 1rem
+      text-align center
+    }
+  }
+  &__job {
+    color white
+    font-size 1.1rem
+    font-weight 400
+    letter-spacing 2.5px
+    margin 0
+    margin-bottom -0.5rem
+    text-transform uppercase
+    @media(max-width: 767px) {
+      text-align center
+      margin-bottom 0.5rem
+    }
+  }
+  &__info {
+    display flex
+    padding 0
+    margin 0
+    @media(max-width: 767px){
+      align-items center
+      flex-direction column
+    }
+  }
+  &-item {
+    font-size 0.85rem
+    list-style none
+    margin-right 1rem
+    padding 0
+    @media(max-width: 767px){
+      margin-bottom 0.5rem
+    }
+    a {
+      color white
+      text-decoration none
+      @media(hover: hover ){
+        &:hover {
+          text-decoration underline
+        }
+      }
+    }
+    i {
+      margin-right 0.5rem
+    }
+  }
+}

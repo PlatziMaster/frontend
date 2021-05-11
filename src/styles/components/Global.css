@@ -1,0 +1,138 @@
+:root {
+  --bg-gradient: linear-gradient(145deg, rgba(226,0,92,1) 0%, rgba(144,44,249,1) 100%);
+  --color-title: rgba(226,0,92,1);
+  --bg: #110125
+}
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+b {
+  font-weight: 800;
+}
+
+#app {
+  display: grid;
+  grid-gap: 0 3rem;
+  grid-template-areas: 'header header header' 'profile profile profile' 'aside experience experience' 'aside skills languages';
+  max-width: 1140px;
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 1140px) {
+  #app {
+    max-width: 960px;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  #app {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #app {
+    grid-template-areas: 'header' 'profile' 'experience' 'aside' 'skills' 'languages';
+    margin: 1rem;
+    /* width: calc(100% - 2rem); */
+  }
+}
+
+.Aside {
+  grid-area: aside;
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--color-title);
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.Loader {
+  align-items: center;
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.NotFound {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.NotFound img {
+  width: 50%;
+}
+
+.NotFound p {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

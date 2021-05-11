@@ -1,0 +1,26 @@
+.Header {
+  background var(--bg-gradient)
+  box-shadow 0 0 10px rgba(0,0,0,0.5)
+  grid-area header
+  padding 2rem
+  margin-bottom 2rem
+  @media(max-width: 767px) {
+    padding 1rem
+    margin -1rem -1rem 2rem
+  }
+  &-img {
+    box-shadow 0 0 10px rgba(0,0,0,0.5)
+    max-height 140px
+  }
+  &__container {
+    display grid
+    grid-template-columns 150px  1fr 50px
+    grid-gap 1rem
+    @media(max-width: 767px) {
+      grid-template-columns 1fr
+      grid-gap 1.5rem
+      justify-items center
+      padding 1rem
+    }
+  }
+}

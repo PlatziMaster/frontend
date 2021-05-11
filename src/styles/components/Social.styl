@@ -1,0 +1,31 @@
+.Social {
+  align-content center
+  display grid
+  &__list {
+    padding 0
+    margin 0
+    @media(max-width: 767px) {
+      display flex
+    }
+  }
+  &__item {
+    list-style none
+    padding 0
+    margin-bottom 0.5rem
+    font-size 1.5rem
+    @media(max-width: 767px) {
+      margin-right 1rem
+      &:last-child {
+        margin-right 0
+      }
+    }
+    @media(hover: hover) {
+      &:hover {
+        opacity 0.8
+      }
+    }
+    a {
+      color white
+    }
+  }
+}

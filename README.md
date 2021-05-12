@@ -1,6 +1,6 @@
 # Alejandro Dotor Curriculum vitae 🙎🏻‍♂️
 
-## RETO Plarzi Master React ⚛️ CV
+## RETO Platzi Master React ⚛️ CV
 
 ![react-cv](https://github.com/alejandrodotor8/frontend/blob/main/cv.png?raw=true)
 

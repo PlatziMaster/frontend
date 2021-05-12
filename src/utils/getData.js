@@ -1,7 +1,10 @@
-function getData(url) {
-  return fetch(url)
-    .then(res => res.json())
-    .catch(error => error);
+async function getData(url) {
+  try {
+    const ans = await fetch(url);
+    const result = await ans.json();
+    return result;
+  } catch (error) {
+    return error;
+  }
 }
-
 export default getData;

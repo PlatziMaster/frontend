@@ -1,4 +1,4 @@
-# Alejandro Dotor Curriculum vitae 🙎🏻‍♂️
+# [Alejandro Dotor Curriculum vitae 🙎🏻‍♂️](https://alejandrodotor8cv.netlify.app/)
 
 ## RETO Platzi Master React ⚛️ CV
 

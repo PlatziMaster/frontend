@@ -1,110 +1,138 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Alejandro Dotor",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://www.gravatar.com/avatar/8b826022fff415e2284865cf928eb56b",
-    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "adotorca@gmail.com",
+    "website": "https://alejandrodotor8.com",
+    "phone": "+ 57 300 8833 644",
+    "avatar": "8b826022fff415e2284865cf928eb56b",
+    "profile": "Junior web developer with experience in JavaScript, HTML and CSS, passionate about the creation (development & design) of interfaces and user experiences, lover of learning and sports.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "2021",
+        "description": [
+          "- HTML, CSS and JavaScript",
+          "- Git and GitHub",
+          "- Design systems",
+          "- Webpack, NPM",
+          "- SASS, Tailwind",
+          "- Vue.js, React.js, Svelte.js & Angular",
+          "- Node.js, Express and NestJS"
+        ],
+        "institution": "PLATZI",
+        "name": "WEB DEVELOPMENT SCHOOL"
       }
     ],
     "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "MULTIMEDIA ENGINEERING",
+        "description": [
+          "- Software development (C ++, Java)",
+          "- Web development",
+          "- Databases, SQL",
+          "- UI, UX",
+          "- 3D modeling, animation and rendering",
+          "- Image and video editing"
+        ],
+        "endDate": "2021",
+        "institution": "UNIVERSIDAD MILITAR NUEVA GRANADA",
+        "startDate": "2016"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "ENGLISH",
+        "description": ["- Conversational B2"],
+        "endDate": "2019",
+        "institution": "CENTRO DE LENGUAS UPN",
+        "startDate": "2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Techedge",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": [
+          "- Frontend / Backend development with Java, Groovy, Javascript",
+          "- Web Forms Development",
+          "- SOAP, REST integrations",
+          "- Development of SQL Querys",
+          "- Document management consulting"
+        ],
+        "jobTitle": "EIM ANALYST DEVELOPER",
+        "startDate": "2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "GEO PUBLICIDAD",
+        "endDate": "2020",
+        "jobDescription": [
+          "- Web development",
+          "- Graphic design with Adobe suite",
+          "- Video editing and 3D rendering"
+        ],
+        "jobTitle": "MULTIMEDIA ENGINEERING",
+        "startDate": "2019"
+      },
+      {
+        "company": "FREELANCE",
+        "endDate": "2019",
+        "jobDescription": [
+          "- Web development",
+          "- Web interface design",
+          "- SEO"
+        ],
+        "jobTitle": "WEB DEVELOPER",
+        "startDate": "2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML, CSS and JavaScript"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "Vue.js & React.js"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "Responsive Design: mobile first"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "User interface design"
+      },
+      {
+        "name": "User experience"
+      },
+      {
+        "name": "SCRUM"
+      },
+      {
+        "name": "Empathy"
+      },
+      {
+        "name": "Adobe XD"
       }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Native Spanish"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "English B2"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "behance",
+        "url": "https://behance.net/"
       },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
+
       {
         "name": "github",
         "url": "https://github.com/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/"
       }
-    ]
+    ],
+    "username": "alejandrodotor8"
   }
 }

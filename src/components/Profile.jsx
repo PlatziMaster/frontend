@@ -3,7 +3,8 @@ import React from 'react';
 const Profile = ({ data = '' }) => {
   return (
     <div className='Profile'>
-      <span className='Profile-title'>Profile</span>
+      <span className='title'>PROFILE</span>
+      <div className='short-line'>_</div>
       <p className='Profile-desc'>{data}</p>
     </div>
   );

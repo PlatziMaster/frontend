@@ -10,7 +10,7 @@ describe('<Skills />', () => {
   });
 
   test('Skills title', () => {
-    expect(skills.find('.Skills-title').length).toEqual(1);
+    expect(skills.find('.title').length).toEqual(1);
   });
 
 });

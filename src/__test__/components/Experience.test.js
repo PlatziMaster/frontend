@@ -10,7 +10,7 @@ describe('<Experience />', () => {
   });
 
   test('Experience title', () => {
-    expect(experience.find('.Experience-title').length).toEqual(1);
+    expect(experience.find('.title').length).toEqual(1);
   });
 
 });

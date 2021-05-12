@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import '../styles/containers/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -8,17 +8,18 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Languages from '../components/Languages';
 import Social from '../components/Social';
-import getData from '../utils/getData';
+//import getData from '../utils/getData';
+import dataJson from '../utils/data';
 
 const App = () => {
-  const url = 'http://localhost:3000/data';
-  const [data, setData] = useState([]);
+  //const url = 'http://localhost:3000/data';
+  //const [data, setData] = useState([]);
 
-  useEffect(() => {
+  /* useEffect(() => {
     getData(url)
       .then(res => setData(res))
       .catch(error => console.log(error));
-  }, [url]);
+  }, [url]); */
 
   const {
     name,
@@ -36,7 +37,7 @@ const App = () => {
     languages,
     social,
     username,
-  } = data;
+  } = dataJson;
 
   return (
     <>

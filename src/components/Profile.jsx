@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Profile = ({ data = '' }) => {
+const Profile = ({ data = 'No Data' }) => {
   return (
     <div className='Profile'>
       <span className='title'>PROFILE</span>

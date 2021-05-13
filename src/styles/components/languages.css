@@ -1,0 +1,33 @@
+.languages__container{
+    width: 50%;
+    height: auto;
+    padding: 20px 50px;
+    background-color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+
+}
+.languages__items__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.languages__container--title{
+    border-top: 2px solid var(--principal-color);
+    padding: 30px 0;
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;   
+}
+.languages__container--item{
+    padding: 50px 50px;
+}
+.languages__item--name{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--principal-color);
+}
+.languages__item--percentage{
+    color: var(--light-color);
+    font-size: 20px;
+}

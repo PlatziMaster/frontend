@@ -1,0 +1,25 @@
+.interest__container{
+    width: 50%;
+    height: auto;
+    padding: 20px 50px;
+    background-color: var(--dark-color);
+}
+.interest__container--title{
+    border-top: 2px solid var(--principal-color);
+    padding: 30px 0;
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;   
+}
+.interest__items--container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.interest__container--item{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 50px;
+    color: var(--principal-color);
+}

@@ -1,0 +1,25 @@
+:root{
+    --principal-color: #f0f712;
+    --dark-color: #0b1a21;
+    --light-color: #fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Rajdhani', sans-serif;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}::-webkit-scrollbar {
+  display: none;
+}
+.first__section, .second__section{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}

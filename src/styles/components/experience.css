@@ -1,0 +1,30 @@
+.experience__container{
+    width: 100vw;
+    height: auto;
+    padding: 20px 50px;
+    background-color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.experience__items__container{
+    display: flex;
+    flex-direction: row;
+}
+.experience__container--title{
+    border-top: 2px solid var(--principal-color);
+    padding: 30px 0;
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;   
+}
+.experience__container--item{
+    padding: 0 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--principal-color);
+}
+.experience__item--position{
+    color: var(--light-color);
+}

@@ -1,29 +1,42 @@
 {
   "data": {
-    "name": "Alexander Lansdorp",
+    "name": "Alexander Lansdorp Girón",
     "profession": "FrontEnd Developer JR",
     "address": "Bogotá, Colombia.",
     "email": "alexlansdorprs@gmail.com",
     "website": "https://github.com/AlexanderLGRS",
-    "phone": "3143773909",
-    "avatar": "https://lh3.googleusercontent.com/ogw/ADGmqu-CjndHNZ0OaSpTEHNeR4gmTh9Pyl7Z0cnke-N86ks=s32-c-mo",
-    "Profile": "Front-end developer passionate about technology, with capacity learning, organized and focused on the goal. I do not have work experience but I am looking for that first chance to show my skills and commitment."
+    "phone": "+57 3143773909",
+    "avatar": "https://pbs.twimg.com/profile_images/1298724749523132422/9Qxh0A8h_400x400.jpg",
+    "profile": "Front-end developer passionate about technology, with capacity learning, organized and focused on the goal. I do not have work experience but I am looking for that first chance to show my skills and commitment."
   },
-  "certificate": [
+  "academic": [
     {
-      "date": "Present",
+      "startDate": "Jan 2015",
+      "endDate": "Jan 2017",
+      "description": "Industrial Electromechanical Maintenance Technologist",
+      "institution": "SENA",
+      "name": "Industrial Electromechanical Maintenance Technologist"
+    },
+    {
+      "startDate": "oct 2020",
+      "endDate": "present",
       "description": "Javascript School",
       "institution": "Platzi",
       "name": "Javascript School"
-    }
-  ],
-  "Academic": [
+    },
     {
-      "degree": "Industrial Electromechanical Maintenance Technologist",
-      "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-      "endDate": "Jan 2017",
-      "institution": "SENA",
-      "startDate": "Jan 2015"
+      "startDate": "oct 2020",
+      "endDate": "present",
+      "description": "Web development school",
+      "institution": "Platzi",
+      "name": "Web development school"
+    },
+    {
+      "startDate": "oct 2020",
+      "endDate": "present",
+      "description": "Front-end architecture school",
+      "institution": "Platzi",
+      "name": "Front-end architecture school"
     }
   ],
   "experience": [
@@ -37,15 +50,15 @@
     {
       "company": "Servicloro SAS",
       "endDate": "Sep 2020",
-      "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-      "jobTitle": "Backend",
+      "jobDescription": "",
+      "jobTitle": "Maintenance technician",
       "startDate": "Jun 2018"
     },
     {
       "company": "Sitara SAS",
       "endDate": "Apr 2018",
-      "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-      "jobTitle": "Backend",
+      "jobDescription": "",
+      "jobTitle": "Maintenance technician",
       "startDate": "Jun 2016"
     }
   ],
@@ -96,9 +109,11 @@
     }
   ],
   "interest": [
-    "javascript",
-    "develop",
-    "frontend"
+    "Javascript",
+    "Develop",
+    "Frontend",
+    "CSS",
+    "HTML"
   ],
   "languages": [
     {
@@ -107,20 +122,23 @@
     },
     {
       "name": "English",
-      "percentage": "30%"
+      "percentage": "40%"
     }
   ],
   "social": [
     {
-      "name": "twitter",
+      "name": "Twitter",
+      "username": "@GironLansdorp",
       "url": "https://twitter.com/GironLansdorp"
     },
     {
-      "name": "github",
-      "url": "github.com/alexanderlgrs"
+      "name": "Github",
+      "username": "AlexanderLGRS",
+      "url": "https://github.com/alexanderlgrs"
     },
     {
-      "name": "linkedin",
+      "name": "Linkedin",
+      "username": "AlexanderLGRS",
       "url": "https://www.linkedin.com/in/alexanderlgrs"
     }
   ]

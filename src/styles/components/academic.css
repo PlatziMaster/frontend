@@ -1,0 +1,30 @@
+.academic__container{
+    width: 50%;
+    height: auto;
+    padding: 20px 50px;
+    background-color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+}
+.academic__items__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.academic__container--title{
+    border-top: 2px solid var(--principal-color);
+    padding: 30px 0;
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;   
+}
+.academic__container--item{
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--principal-color);
+}
+.academic__item--title{
+    max-width: 500px;
+    color: var(--light-color);
+}

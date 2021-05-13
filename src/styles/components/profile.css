@@ -1,0 +1,19 @@
+.profile__container{
+    width: 100vw;
+    height: 150px;
+    padding: 20px 50px;
+    background-color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile__container--title{
+    color: var(--light-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+.profile__container--desc{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--principal-color);
+}

@@ -1,0 +1,46 @@
+.bar{
+    width: 100vw;
+    height: 20px;
+    background-color: var(--principal-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    width: 100vw;
+    height: 200px;
+    background-image: url("https://images.pexels.com/photos/479444/pexels-photo-479444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.container__image{
+    padding: 10px;
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.container__info{
+    display: flex;
+    flex-direction: column;
+}
+.container__info--profession{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container__info--contact{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.content{
+    width: 50%;
+    font-weight: 600;
+}

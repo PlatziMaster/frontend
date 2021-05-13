@@ -10,12 +10,20 @@ const Languages = ()=>{
             align="left"
         >
             <ul className="Languages__body">
-                {
-                    <SkillPercent
-                        name="Español"
-                        percentage="100%"
-                    />
-                }
+            
+                <SkillPercent
+                    name="Español"
+                    percentage="100%"
+                />
+                <SkillPercent
+                    name="Español"
+                    percentage="100%"
+                />
+                <SkillPercent
+                    name="Español"
+                    percentage="100%"
+                />
+                
             </ul>
 
         </Tile>

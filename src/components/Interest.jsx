@@ -9,9 +9,9 @@ const Interest = ()=>{
             align="left"
         >
         <ul className="Interest__body">
-            {
-                <span className="Interest__item">Javascript</span>
-            }
+            <li className="Interest__item Interest-item">Javascript</li>
+            <li className="Interest__item Interest-item">Javascript</li>
+            <li className="Interest__item Interest-item">Javascript</li>
         </ul>
 
         </Tile>

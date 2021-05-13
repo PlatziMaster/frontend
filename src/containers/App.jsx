@@ -17,6 +17,7 @@ import { AppContext } from '../context/AppContext';
 import useInitialData from '../hooks/useInitialData';
 
 const App = () => {
+  const state = useInitialData();
   return (
     <>
       <AppContext.Provider value={state}>

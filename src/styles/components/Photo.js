@@ -10,8 +10,9 @@ export const Img = styled.img`
   object-fit: cover;
 
   @media ${device.mobileL} {
-   width: 130px;
-   height: 130px;
+   width: 140px;
+   height: 140px;
    margin: 20px;
   }
+
 `;

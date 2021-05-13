@@ -17,15 +17,13 @@ import AppContext from '../context/AppContext';
 import useInitialData from '../hooks/useInitialData';
 
 const App = () => {
-  const state = useInitialData();
+  const data = useInitialData();
   return (
     <>
-      <AppContext.Provider value={state}>
+      <AppContext.Provider value={data}>
         <Bg />
         <GlobalStyle />
-        <Header>
-          <About />
-        </Header>
+        <Header />
         <Profile />
         <Experience />
         <Wrapper>
@@ -36,6 +34,7 @@ const App = () => {
           <Interest />
           <Languages />
         </Wrapper>
+        <About />
       </AppContext.Provider>
     </>
   );

@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import AppContext from '../context/AppContext';
+import { Wrapper } from '../styles/components/Wrapper';
 
 const About = () => {
+  const data = useContext(AppContext);
   return (
-    <div>
+    <Wrapper>
       <h3 className='About-title'>About</h3>
-      <div>
-        <div className='About-item'>About Item</div>
-        <div className='About-item'>About Item</div>
-        <div className='About-item'>About Item</div>
-      </div>
-    </div>
+      <ul>
+        {
+          data.social && data.social.map(
+            item => (
+              <li key={item.id}>
+                <h3>{`${item.name}`}</h3>
+                <h3>{`${item.url}`}</h3>
+              </li>
+            ),
+          )
+        }
+      </ul>
+    </Wrapper>
   );
 };
 

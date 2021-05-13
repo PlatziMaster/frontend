@@ -12,13 +12,21 @@ const Skills = ()=>{
         align="left"
         >
             <ul className="Skills__body">
-            {
-                <SkillPercent
-                    name="React"
-                    percentage="50%"
-                    key="obo"
-                />
-            }
+            
+            <SkillPercent
+                name="React"
+                percentage="50%"
+            />
+            <SkillPercent
+                name="React"
+                percentage="50%"
+            />
+            <SkillPercent
+                name="React"
+                percentage="50%"
+            />
+            
+            
             </ul>
         </Tile>
     )

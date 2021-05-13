@@ -1,12 +1,12 @@
-#Platzi Master
-##Frontend Challenge: Resume
+# Platzi Master
+## Frontend Challenge: Resume
 
-###Local environment configuration
+### Local environment configuration
 1. Create repository fork.
 2. Clone repository to local.
 4. Intall dependences and make necessary configurations.
 5. Explore and check project structure and files.
-6. Start coding! :tw-1f603: :tw-1f60a: :tw-1f60d::
+6. Start coding! :smile: :smiling_face_with_three_hearts: :heartbeat: :heartbeat: :heartbeat:
 
 
 ###  1. Create components

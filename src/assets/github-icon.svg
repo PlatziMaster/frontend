@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.901" height="55.053" viewBox="0 0 51.901 55.053">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #f2b705;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="github-icon" transform="translate(-1023.968 -163.447)">
+    <rect id="Rectángulo_14" data-name="Rectángulo 14" class="cls-1" width="50" height="50" transform="translate(1025 166)"/>
+    <path id="github_1_" data-name="github(1)" class="cls-2" d="M18.645,43.839C6.756,47.406,6.756,37.895,2,36.706M35.291,50.973v-9.2a8.014,8.014,0,0,0-2.235-6.206c7.467-.832,15.314-3.662,15.314-16.645A12.934,12.934,0,0,0,44.8,10a12.056,12.056,0,0,0-.216-8.966S41.783.2,35.291,4.556a31.817,31.817,0,0,0-16.645,0C12.154.2,9.348,1.037,9.348,1.037A12.056,12.056,0,0,0,9.134,10,12.936,12.936,0,0,0,5.567,18.99c0,12.888,7.847,15.718,15.314,16.645a8.014,8.014,0,0,0-2.235,6.135v9.2" transform="translate(1025 165.027)"/>
+  </g>
+</svg>

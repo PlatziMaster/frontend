@@ -1,0 +1,13 @@
+header {
+  background: #e0f4ff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	padding: 1rem;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}

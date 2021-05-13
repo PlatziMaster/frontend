@@ -3,7 +3,16 @@ import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const interest = mount(
+    <Interest
+      interest={[
+        'Programing',
+        'Videogames',
+        'Movies',
+        'Biking',
+      ]}
+    />,
+  );
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

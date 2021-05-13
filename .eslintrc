@@ -28,6 +28,7 @@
   "rules": {
     "react/jsx-filename-extension": 0,
     "array-bracket-spacing": 2,
+    "import/prefer-default-export": "off",
     "arrow-body-style": 0,
     "block-scoped-var": 2,
     "brace-style": [

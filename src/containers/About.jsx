@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/components/About.css';
+import '../../styles/About.css';
 
 const About = ({ title, jobTitle, phone, email, website, adress }) => {
   return (

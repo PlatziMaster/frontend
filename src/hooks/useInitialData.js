@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
 const useInitialData = () => {
-
   const [state, setState] = useState({});
 
-  const data = getData();
-  setState(data);
+  useEffect(() => {
+    getData()
+      .then((res) => { setState({ ...res }); })
+      .catch(err => console.error(err));
+  }, []);
 
   return state;
 };

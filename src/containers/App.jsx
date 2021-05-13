@@ -13,7 +13,7 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import Bg from '../components/Bg';
 
-import { AppContext } from '../context/AppContext';
+import AppContext from '../context/AppContext';
 import useInitialData from '../hooks/useInitialData';
 
 const App = () => {

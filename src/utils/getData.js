@@ -1,5 +1,5 @@
 
-const initialData = '../../data.json';
+const initialData = 'http://localhost:8080/data.json';
 
 const getData = () => {
   return fetch(initialData)

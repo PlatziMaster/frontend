@@ -11,6 +11,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -51,18 +52,18 @@ module.exports = {
           loader: 'url-loader',
           options: {
             limit: 10000,
-            mimetype: "application/font-woff",
-            name: "[name].[contenthash].[ext]",
-            outputPath: "./assets/fonts/",
-            publicPath: "./assets/fonts/",
+            mimetype: 'application/font-woff',
+            name: '[name].[contenthash].[ext]',
+            outputPath: './assets/fonts/',
+            publicPath: './assets/fonts/',
             esModule: false,
           },
         },
       },
       {
-           test: /\.mp4$/,
-           loader: 'file-loader?name=videos/[name].[ext]',
-       },
+        test: /\.mp4$/,
+        loader: 'file-loader?name=videos/[name].[ext]',
+      },
     ],
   },
   plugins: [

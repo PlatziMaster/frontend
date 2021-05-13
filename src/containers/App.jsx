@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Profile from './components/Profile';
-import Experience from './components/Experience';
-import Academic from './components/Academic';
-import Skills from './components/Skills';
-import Interest from './components/Interest';
-import Languages from './components/Languages';
+import Header from './Header';
+import About from './About';
+import Profile from './Profile';
+import Experience from './Experience';
+import Academic from './Academic';
+import Skills from './Skills';
+import Interest from './Interest';
+import Languages from './Languages';
 
 import data from '../../data.json';
 

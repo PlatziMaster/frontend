@@ -1,0 +1,35 @@
+@import '../Variables'
+
+.Card
+  margin 20px auto
+  padding 20px 25px 
+  border-radius 15px
+  box-sizing border-box
+  background-color $dark-card
+
+  h2
+    margin 0 0 15px
+    padding 0
+    font-size 1.5rem
+    font-weight 400
+    color $titles
+
+  h2::after, .Header-title::after
+    content ''
+    display block
+    width 0.8rem
+    height 3px
+    background-color: $enfasis
+
+  p
+    margin 0
+    font-size 1rem
+
+  ul
+    display grid
+    margin 0
+    padding 0
+    grid-row-gap 5px
+
+  li
+    list-style none

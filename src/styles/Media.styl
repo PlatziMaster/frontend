@@ -1,0 +1,31 @@
+@media screen and (max-width 659px)
+  .Card
+    width 85%
+    max-width 400px
+
+@media screen and (min-width 430px)
+  .Header .Header-container
+    flex-direction row
+
+    div
+      padding-inline-start 15px
+
+@media screen and (min-width 660px)
+  #app
+    display grid
+    max-width 1240px
+    margin 0 auto
+    padding 10px 30px
+    grid-template-columns repeat(2, 1fr)
+    grid-column-gap 30px
+  
+  .Card
+    width 100%
+    max-width 100%
+
+  .Header.Card
+    grid-column-start 1
+    grid-column-end 3
+    
+  .About-list
+    grid-template-columns: repeat(2, auto)

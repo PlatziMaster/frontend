@@ -1,10 +1,11 @@
 # frontend
 
-## React Curriculum vitae
+## React Curriculum vitae 
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Reto curriculum vitae en React completado.
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+### Resultado final:
+![react-cv](https://github.com/danrmrz/frontend/blob/main/screenshot.png?raw=true)
 
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
@@ -43,9 +44,6 @@ npm run test
 ```
 npm run lint
 ```
-
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
 
 ### Contribuir
 Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)

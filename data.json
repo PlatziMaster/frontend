@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Daniel Ramirez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Estado de México, México.",
+    "email": "danrmrz@outlook.com",
+    "website": "https://danrmrz.com",
+    "telegram": "@danrmrz",
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/profile.jpg?alt=media&token=80611309-1500-4a99-9e97-34e06251f4e6",
+    "profile": "Hello, I am Daniel Ramirez, I am a Mexican frontend developer who has been trained mainly on the Internet, I also studied computer engineering at ESIME Culhuacán from the IPN, I didn't finish my degree, but I studied there.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,61 +22,74 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Frontend Developer",
+        "description": "Effective online education 100% real, not fake",
+        "endDate": "Present",
+        "institution": "Platzi.com",
+        "startDate": "May 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Computer Engineering",
+        "description": "Traditional education ... not for everyone (me) I guess",
+        "endDate": "Unfinished",
+        "institution": "ESIME Culhuacán",
+        "startDate": "Jan 2014"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Ramirez Evil Incorporated",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "The best place in the world to work, there are cookies, but the boss is missing a lot.",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "2020"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "JavaScript",
+        "percentage": "75%"
+      },
+      {
+        "name": "HTML",
         "percentage": "75%"
       },
       {
         "name": "CSS",
+        "percentage": "75%"
+      },
+      {
+        "name": "Git",
+        "percentage": "50%"
+      },
+      {
+        "name": "Stylus",
+        "percentage": "50%"
+      },
+      {
+        "name": "ReactJS",
+        "percentage": "75%"
+      },
+      {
+        "name": "Webpack",
+        "percentage": "50%"
+      },
+      {
+        "name": "NodeJS",
+        "percentage": "50%"
+      },
+      {
+        "name": "Figma",
         "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Programing",
+      "Videogames",
+      "Movies",
+      "Biking"
     ],
     "languages": [
       {
@@ -90,20 +103,16 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/soydanrmrz"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/danrmrz"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/danrmrz/"
       }
     ]
   }

@@ -1,5 +1,4 @@
 {
-  "data": {
     "name": "Melissa Walsh",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
@@ -106,5 +105,5 @@
         "url": "https://www.linkedin.com/"
       }
     ]
-  }
+  
 }

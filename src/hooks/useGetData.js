@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
-const useGetData = (api) => {
+const useGetData = api => {
+  // this hook call to the function getData and return the data from the API
+
   const [userData, setUserData] = useState({
     names: '',
     profesion: '',

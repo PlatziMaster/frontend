@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/App.css';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';

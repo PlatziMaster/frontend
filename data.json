@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Edilberto Vazquez Luna",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Tlaxcala, Mexico",
+    "email": "edi_vazquez12@hotmail.com",
+    "website": "https://github.com/Edilberto-Vazquez",
+    "phone": "2471262949",
+    "avatar": "https://www.gravatar.com/avatar/1bf51742e09fee803505b9c0a845e262",
+    "Profile": "I am  Edilberto an i am 23 years old, I am currently as an intern in the starttup <Full/Stack> in Puebla, and i am about to graduate",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,60 +24,48 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Programming technician",
+        "description": "handling and use of programming languages as C++, Java, C# and relational databases",
+        "endDate": "May 2016",
+        "institution": "CBTIS",
+        "startDate": "August 2013"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Industrial Information Technology and Systems Engineering",
+        "description": "General knowledge of tecnologias as DataScience, BigData, Machine Learning, Software Engineering, Software Architectures, Computer Vision",
+        "endDate": "Currently studying",
+        "institution": "BUAP",
+        "startDate": "August 2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Full/Stack",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "FrontEnd developer with React",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Mayo 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "60%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "40%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend", "DataScience"],
     "languages": [
       {
         "name": "Spanish",
@@ -99,7 +87,7 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Edilberto-Vazquez"
       },
       {
         "name": "linkedin",

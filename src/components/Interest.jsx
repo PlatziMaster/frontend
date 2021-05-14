@@ -16,7 +16,6 @@ const Interest = () => {
                 <h4>
                   {`${item}`}
                 </h4>
-                <p>hola</p>
               </li>
             ),
           )

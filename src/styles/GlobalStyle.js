@@ -66,6 +66,7 @@ export const GlobalStyle = createGlobalStyle`
         }
         
         ul, li {
+                display: block;
                 margin: 0;
                 list-style: none;
         }

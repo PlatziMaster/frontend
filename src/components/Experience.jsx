@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
 import AppContext from '../context/AppContext';
-import { Wrapper } from '../styles/components/Wrapperfull';
+import { WrapperExperience } from '../styles/components/Experience';
 
 const Experience = ({ children }) => {
   const data = useContext(AppContext);
   return (
-    <Wrapper>
-      <h1 className='Experience-title'>Experience</h1>
+    <WrapperExperience>
+      <h2 className='Experience-title'>Experience</h2>
       <ul>
         {
           data.experience && data.experience.map(
@@ -21,7 +21,7 @@ const Experience = ({ children }) => {
           )
         }
       </ul>
-    </Wrapper>
+    </WrapperExperience>
   );
 };
 

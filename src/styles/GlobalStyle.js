@@ -4,6 +4,7 @@ import sourceSansRegularWoff from '../assets/fonts/source-sans-regular.woff';
 import sourceSansRegularWoff2 from '../assets/fonts/source-sans-regular.woff2';
 import sourceSans700Woff from '../assets/fonts/source-sans-700.woff';
 import sourceSans700Woff2 from '../assets/fonts/source-sans-700.woff2';
+import { device } from './deviceStyle';
 
 export const GlobalStyle = createGlobalStyle`
         html {
@@ -24,25 +25,48 @@ export const GlobalStyle = createGlobalStyle`
 		url(${sourceSans700Woff}) format('woff');
 	}
 
-        h1, h2, h3, h4 {
+        h1{
                 font-family: 'bold';
+                font-size: 1.5rem;
+                line-height: 0.9;
+                padding: 0;
+                color: #ADC1D7;
+                margin: 0;
+                
+        } 
+        
+        h2 {
+                font-family: 'bold';
+                font-size: 1.2rem;
+                line-height: 0.9;
+                padding: 0;
+                color: #ADC1D7;
+                margin-block-end: 10px;
+        }
+        
+        h3, h4 {
+                font-family: 'bold';
+                font-size: 1rem;
                 line-height: 1;
+                padding: 0;
+                color: #ADC1D7;
+                margin-block: 0;
         }
 
         p {
                 font-family: 'regular';
-                line-height: 1.5;
+                line-height: 1.2;
+                padding:0;
+                margin: 0 0 20px;
+                color: white;
         }			
         
         *, *::before, *::after {
                 box-sizing: inherit;
         }
         
-        ul, li, h1, h2, h3, p, button {
+        ul, li {
                 margin: 0;
-        }
-
-        ul {
                 list-style: none;
         }
 
@@ -62,7 +86,37 @@ export const GlobalStyle = createGlobalStyle`
 
         #app {
                 overflow-x: hidden;
-                min-height: 100vh;
                 padding-bottom: 10px;
+        }
+
+        @media ${device.mobileL}{
+        ul, li {
+              font-size: 1rem;
+        }
+        
+        h1{
+                font-size: 2.5rem;
+
+        }
+
+        h2 {
+                font-size: 2rem;
+                line-height: 1;
+                margin-block: 20px;
+                color: #ADC1D7;
+        }
+
+        h3, h4 {
+              font-size: 1.3rem;
+              margin: 0;
+        }
+
+        p{
+                font-size: 1.3rem;
+                margin: 0;
+                margin: 0 0 20px;
+        }
+
+
         }
 `;

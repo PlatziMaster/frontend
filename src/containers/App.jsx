@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { GlobalStyle } from '../styles/GlobalStyle';
-import { Wrapper } from '../styles/components/WrapperFlex';
+import '../styles/grid.css';
 
 import Header from '../components/Header';
 import About from '../components/About';
@@ -26,14 +26,12 @@ const App = () => {
         <Header />
         <Profile />
         <Experience />
-        <Wrapper>
-          <Academic />
-          <Skills />
-        </Wrapper>
-        <Wrapper>
-          <Interest />
-          <Languages />
-        </Wrapper>
+        <div className='wrapper'>
+          <Academic className='academic' />
+          <Skills className='skills' />
+          <Interest className='interest' />
+          <Languages className='languages' />
+        </div>
         <About />
       </AppContext.Provider>
     </>

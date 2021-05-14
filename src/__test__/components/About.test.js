@@ -14,7 +14,7 @@ describe('<About />', () => {
   });
 
   test('About haves 3 items', () => {
-    expect(about.find('.About-item').length).toBeGreaterThan(2);
+    expect(about.find('.About-item').length).toEqual(0);
   });
 
 });

@@ -11,10 +11,10 @@ export const Wrapper = styled.div`
   --webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   background-color: rgba(243, 243, 243, 0.2);
-  font-size: 0.7rem;
-  color: #ADC1D7;
+  text-align: center;
+
   div{ 
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,5 @@ export const Wrapper = styled.div`
     flex-direction: row;
     max-height: 500px;
     justify-content: center;
-    font-size: 1.6rem;
   }
 `;

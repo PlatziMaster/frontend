@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-//import { device } from '../deviceStyle';
 
-export const Wrapper = styled.div`
+export const WrapperAbout = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100vw;
   padding: 10px 30px;
-  border-radius: 5px;
   background-color: rgba(4, 26, 42, 0.9);
+
 `;
 

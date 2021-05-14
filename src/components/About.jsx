@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
 import AppContext from '../context/AppContext';
-import { Wrapper } from '../styles/components/Wrapper';
+import { WrapperAbout } from '../styles/components/About';
 
 const About = () => {
   const data = useContext(AppContext);
   return (
-    <Wrapper>
-      <h3 className='About-title'>About</h3>
+    <WrapperAbout>
+      <h3 className='About-title'>Contact Me</h3>
       <ul>
         {
           data.social && data.social.map(
@@ -19,7 +19,7 @@ const About = () => {
           )
         }
       </ul>
-    </Wrapper>
+    </WrapperAbout>
   );
 };
 

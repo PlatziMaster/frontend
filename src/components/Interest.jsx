@@ -7,7 +7,7 @@ const Interest = () => {
   const data = useContext(AppContext);
   return (
     <Wrapper>
-      <h3 className='Interest-title'>Interest</h3>
+      <h2 className='Interest-title'>Interest</h2>
       <ul>
         {
           data.interest && data.interest.map(

@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
 import AppContext from '../context/AppContext';
-import { Wrapper } from '../styles/components/Wrapperfull';
+import { WrapperProfile } from '../styles/components/ProfileStyle';
 
 const Profile = () => {
   const data = useContext(AppContext);
 
   return (
-    <Wrapper>
-      <h3 className='Profile-title'>Profile</h3>
+    <WrapperProfile>
+      <h2 className='Profile-title'>Profile</h2>
       <div>
         <div className='Profile-desc'>
           <p>
@@ -16,7 +16,7 @@ const Profile = () => {
         </div>
       </div>
 
-    </Wrapper>
+    </WrapperProfile>
   );
 };
 

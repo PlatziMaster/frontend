@@ -6,7 +6,7 @@ const Academic = () => {
   const data = useContext(AppContext);
   return (
     <Wrapper>
-      <h3 className='Academic-title'>Academic</h3>
+      <h2 className='Academic-title'>Academic</h2>
       <ul>
         {
           data.Academic && data.Academic.map(

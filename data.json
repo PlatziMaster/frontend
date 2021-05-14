@@ -1,82 +1,82 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Antonio Guzmán Vilchis",
+    "profession": "Frontend Developer",
+    "address": "CDMX, México.",
+    "email": "aguzmanv09@gmail.com",
+    "website": "http://www.agvcoder.com",
+    "phone": "+52 55-1826-2252",
+    "avatar": "https://lh3.googleusercontent.com/a-/AOh14GhOZiWa0VfcC5HBx3OkFUk-es3xa4Uf7pIfg0NOog=s96-c-rg-br100",
+    "Profile": "I am 24 years old, I am currently studying a degree in computer engineering at the 'Universidad Autónoma Metropolitana' (UAM-C) I am passionate about the world of web development, my main focus is to create applications with high impact on society, my goals as a developer web is to specialize within the fullstack area in a company that fits my values.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2020",
+        "description": "Know the Javascript language, developing basic routines and programs using the language and Develop static websites using HTML and CSS",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Javascript School"
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "description": "Apply different techniques and technologies to carry out a desired UI and UX.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Frontend architecture"
+      },
+      {
+        "date": "Current",
+        "description": "To train critical, creative professionals, with social responsibility and ethical commitment, qualified in advanced technologies, as well as in the design and production of quality software, with the ability to work in multidisciplinary teams, as well as qualified to identify and solve problems in an innovative way , in various areas of technology.",
+        "institution": "UAM-C",
+        "name": "Computer Engineering"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
+        "degree": "Computer Engineering",
+        "description": "To train critical, creative professionals, with social responsibility and ethical commitment, qualified in advanced technologies, as well as in the design and production of quality software, with the ability to work in multidisciplinary teams, as well as qualified to identify and solve problems in an innovative way , in various areas of technology.",
+        "endDate": "Current",
         "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "startDate": "Aug 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "SitDigital",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Work as a team to create frontend solutions for different types of clients",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Feb 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Freelance",
+        "endDate": "Feb 2021",
+        "jobDescription": "Develop landing pages, web aplications an e-commerce for different clients, and work in a personal proyects",
+        "jobTitle": "Fullstack",
+        "startDate": "Jul 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Develop",
+      "Backend",
+      "Frontend",
+      "UI & UX"
     ],
     "languages": [
       {
@@ -95,15 +95,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/agvcoder"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/strcoder"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/agvcoder/"
       }
     ]
   }

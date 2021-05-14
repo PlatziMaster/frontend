@@ -29,7 +29,9 @@ const About = ({ profession, phone, email, website, address, avatar }) => {
         <p className='About-title'><strong>{profession || 'Profession'}</strong></p>
         <ul className='About-list flex'>
           <li className='About-item'>{phoneFormat || 'Phone number'}</li>
-          <li className='About-item'>{website || 'Website'}</li>
+          <li className='About-item'>
+            <a href={website} target='_blank' rel='noreferrer'>{website || 'Website'}</a>
+          </li>
           <li className='About-item'>{email || 'Email'}</li>
         </ul>
         <p className='About-adress'>{address || 'Address'}</p>

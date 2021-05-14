@@ -1,67 +1,67 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Christian Elías Cruz González",
+    "profession": "Frontend Developer",
+    "address": "Mixquiahuala, México.",
+    "email": "hello@christianecg.com",
+    "website": "https://christianecg.com",
+    "phone": "772 120 2886",
+    "avatar": "https://christianecg.com/wp-content/uploads/2021/04/profile-150x150.png",
+    "profile": "I am a frontend developer, contributing and participating in communities. In general, I admire people who insist on finding ways to get excited.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Apr 2021",
+        "description": "Learn the fundamentals of hardware development, understand what robotics is, create your devices connected to the internet.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Internet of Things"
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+        "institution": "freeCodeCamp",
+        "name": "Responsive Web Design"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "ICT Engineering",
+        "description": "Provide a wider perspective on the nature of technology, its use and application to the living world.",
+        "endDate": "Aug 2018",
+        "institution": "ITSOEH",
+        "startDate": "Dec 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Technical Programmer",
+        "description": "Computer programmers need to have a wide range of skills to perform the many responsibilities of the position at the highest level of professionalism.",
+        "endDate": "Aug 2015",
+        "institution": "CBTis 199",
+        "startDate": "Jun 2018"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Telesecundaria 454",
+        "endDate": "Dec 2022",
+        "jobDescription": "A full stack web developer is a person who can develop both client and server software. ",
+        "jobTitle": "Full-stack dev",
+        "startDate": "Dec 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Developer Student Club ITSOEH",
+        "endDate": "Jun 2021",
+        "jobDescription": "Google Developer Student Club Leads are passionate leaders at their university who are dedicated to helping their peers learn and connect.",
+        "jobTitle": "Lead",
+        "startDate": "Jul 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "95%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
@@ -69,14 +69,20 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "25%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "65%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "communities",
+      "ui/ux"
     ],
     "languages": [
       {
@@ -85,25 +91,29 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "40%"
+      },
+      {
+        "name": "Latin",
+        "percentage": "5%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/christianeliascg"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/ChristianECG_"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/ChristianECG"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/christianeliascg/"
       }
     ]
   }

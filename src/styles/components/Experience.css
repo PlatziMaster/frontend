@@ -1,0 +1,7 @@
+/* .Experience__body  >  * + *,
+.Experience__body > li:first-child
+{border-top: 5px  solid black ;} */
+
+.Experience__body {display: flex;}
+.Experience__body  >  * + *{border-left: 5px  solid black ;}
+.Experience__body  > * {border-top: 5px  solid black  ;}

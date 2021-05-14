@@ -1,0 +1,27 @@
+.Tile{
+    padding-top: 1.875em ;
+}
+.Tile__header{
+    font-size: 2.5em ;
+    margin-bottom: .5em;
+    
+}
+
+.Tile__header--left{text-align: left;margin-left: .75em;}
+.Tile__header--right{text-align: right; margin-right:  .75em;}
+
+
+
+
+.Tile--blue{background-color: var(--blue);}
+.Tile--blue > .Tile__header{color: var(--yellow)}
+
+.Tile--yellow{background-color: var(--yellow);}
+.Tile--yellow > .Tile__header{color: var(--red)}
+
+.Tile--red{background-color: var(--red);}
+.Tile--red > .Tile__header{color: white}
+
+.Tile--white{background-color: var(--white);}
+.Tile--white > .Tile__header{color: var(--blue)}
+

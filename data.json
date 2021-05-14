@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Javier Saviñon",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "address": "Tabasco Mexico",
+    "email": "mengeroshi@outlook.com",
+    "website": "mengeroshi.github.io",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://scontent.fvsa2-1.fna.fbcdn.net/v/t1.6435-9/131238835_3640998512634228_5934162352860048767_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=174925&_nc_ohc=WWzhUuhiavUAX8zUxVi&_nc_ht=scontent.fvsa2-1.fna&oh=17f0601cbf621364ab4fd4b1a507ded0&oe=60C3A276",
+    "Profile": "Hi I’m Javier  Saviñon, also known as “mengeroshi” in crypto space. I’m frontend developer, mengerian monetary theory expert and cryptocurrency’s enthusiast. I am founder of Hashger, a blockchain consultancy and early member team of Domitai, a cryptocurrency exchange in Mexico. Did I already mention that I like cryptocurrencies? ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +24,87 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Junior Accountant",
+        "description": "Posting and processing journal entries to ensure all business transactions are recorded",
+        "endDate": "Jun 2016",
+        "institution": "CBTis 32",
+        "startDate": "Aug 2013"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "degree": "Blockchain Advisor",
+        "description": "Able to advise a software team on a blockchain development application",
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Junior Developer",
+        "description": "Entry-level software developers that assist the development team with all aspects of software design and coding.",
+        "endDate": "Feb 2020",
+        "institution": "Xpectre Labs",
+        "startDate": "Oct 2018"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Domitai",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Lead and Design the new image for the company's internationalization. In charge of UI/UX design of the web and mobile apps in Adobe XD.",
+        "jobTitle": "Product Designer",
+        "startDate": "Sept 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "Cuidamed",
+        "endDate": "Feb 2021",
+        "jobDescription": "Oversight the progress of software development roadmap. Responsible of the agilitization of development tasks to optimize the team's work.",
+        "jobTitle": "Scrum Master",
+        "startDate": "Oct 2020"
+      },
+      {
+        "company": "GreenScrapp",
+        "endDate": "Apr 2021",
+        "jobDescription": "Oversight the progress of software development roadmap. Responsible of the agilitization of development tasks to optimize the team's work",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Mar 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "94%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "96%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "40%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
-      "backend",
-      "frontend"
+      "frontend", 
+      "bitcoin",
+      "blockchain"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "99%"
       },
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Latin",
+        "percentage": "10%"
       }
     ],
     "social": [

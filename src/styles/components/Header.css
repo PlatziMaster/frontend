@@ -1,0 +1,42 @@
+.Header{
+    display: flex;
+    align-items: center;
+}
+
+.Header > * + *{border-left:.3125em solid black;}
+
+.Header__img{
+    display: block;
+    width:18.4%;
+    background-color: var(--red);
+    height: 100%;
+    object-fit: cover;
+}
+
+.Header__presentation{
+    background-color: var(--red);
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 0;
+    flex-shrink: 2;
+}
+.Header__presentation > * + *{margin-top: .625em;}
+.Header__presentation__main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:1em ;
+}
+.Header__title{
+    font-size: 3.75em;
+    color: white;
+}
+.Header__job-title{
+    font-size: 2.5em ;
+    color: var(--blue);
+}
+.Header__presentation__secundary{
+    font-size: 1.2em;
+    color: var(--yellow);
+    display: flex;
+    justify-content: space-around;
+}

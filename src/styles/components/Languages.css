@@ -1,0 +1,8 @@
+.Languages__body{font-size: 1rem;}
+
+.Languages__body > * + *,
+.Languages__body > li:first-child
+{border-top: 5px  solid black ;}
+
+.Languages__body > li:last-child
+{border-bottom: 5px  solid black ;}

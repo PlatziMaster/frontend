@@ -1,0 +1,2 @@
+.Academic__body > li + li{border-top: 0.3125em solid black ;}
+.Academic__body > li:first-child{border-top: 0.3125em solid black ;}

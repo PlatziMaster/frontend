@@ -1,0 +1,5 @@
+.Languages__body{font-size: 1rem;}
+
+.Languages__body > * + *,
+.Languages__body > li:first-child
+{border-top: 5px  solid black ;}

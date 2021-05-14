@@ -1,0 +1,16 @@
+.Interest__body{
+    list-style: none;
+}
+.Interest__body > * + *,
+.Interest__body > li:first-child
+{border-top: 5px  solid black ;}
+
+/* .Interest__body > li:last-child{border-bottom: 5px  solid black ;} */
+
+.Interest__item{
+    color: white;
+    text-align: center;
+    font-size: 1.875rem;
+    padding: 1em 0;
+    background-color: var(--red);
+}

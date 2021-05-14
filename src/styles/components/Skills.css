@@ -1,0 +1,6 @@
+.Skills__body > * + *,
+.Skills__body > li:first-child
+{border-top: 5px  solid black ;}
+
+.Skills__body > li:last-child
+{border-bottom: 5px  solid black ;}

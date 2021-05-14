@@ -1,0 +1,17 @@
+.SkillPercent{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.875rem;
+    padding: 1em 0;
+}
+.SkillPercent_key{}
+.SkillPercent_value{}
+
+.SkillPercent--white{background: white;}
+.SkillPercent--white > .SkillPercent_key{color:var(--blue)}
+.SkillPercent--white > .SkillPercent_value{color:var(--red)}
+
+.SkillPercent--yellow{background: var(--yellow);}
+.SkillPercent--yellow > .SkillPercent_key{color:var(--red)}
+.SkillPercent--yellow > .SkillPercent_value{color:var(--blue)}

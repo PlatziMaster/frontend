@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/Experience.css';
 
 import Tile from './Tile';
 import SubTile from './SubTile';
@@ -12,7 +13,7 @@ const Experience = ()=>{
         >
             <ul className="Experience__body ">
                     <SubTile
-                    color="red"
+                    color="white"
                     company="domitai"
                     jobTitle="Blog Editor"
                     startDate="Oct 2018"
@@ -20,7 +21,7 @@ const Experience = ()=>{
                     jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis voluptatibus in odio at quasi officia mollitia soluta, sed eum temporibus excepturi quas ipsa maxime atque rerum sint facilis illo."
                     />
                     <SubTile
-                    color="red"
+                    color="white"
                     company="domitai"
                     jobTitle="Blog Editor"
                     startDate="Oct 2018"
@@ -28,7 +29,7 @@ const Experience = ()=>{
                     jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis voluptatibus in odio at quasi officia mollitia soluta, sed eum temporibus excepturi quas ipsa maxime atque rerum sint facilis illo."
                     />
                     <SubTile
-                    color="red"
+                    color="white"
                     company="domitai"
                     jobTitle="Blog Editor"
                     startDate="Oct 2018"

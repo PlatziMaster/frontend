@@ -1,6 +1,8 @@
 import React from 'react';
+import '../styles/components/Profile.css';
 
 import Tile from './Tile';
+
 
 const Profile = ()=>{
     return(

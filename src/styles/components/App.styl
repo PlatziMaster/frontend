@@ -1,2 +1,86 @@
+@import '../variables.styl'
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
 body
-  background-color blue
+  background-color $bg-color
+  font-size $font-size-base
+  font-family $font-family-base
+
+#app
+  gap 8px
+  padding 20px
+  display grid
+
+h1
+h2
+h3
+h4
+h5
+h6
+  font-weight normal
+  font-family $font-family-headers
+
+h1
+  font-size $h1-font-size
+
+h2
+  font-size $h2-font-size
+
+h3
+  font-size $h3-font-size
+
+h4
+  font-size $h4-font-size
+
+h5
+  font-size $h5-font-size
+
+h6
+  font-size $h6-font-size
+
+ul
+  list-style none
+
+.flex
+  display flex
+
+.grid
+  display grid
+
+.card
+  gap 8px
+  padding 20px
+  display grid
+  background-color $white
+  border-radius $border-radius
+  border $border-width solid $border-color
+  &.primary
+    background-color: $primary-color
+
+.badge
+  font-weight bold
+  padding 2.5px 5px
+  border-radius 2rem
+  font-size: $font-size-sm
+
+.dot
+  width 15px
+  height 15px
+  margin 0 5px
+  border-radius $circle-radius
+  border $border-width solid $gray
+
+.dot.complete
+    border: none
+
+@media screen and (min-width 768px)
+  #app
+    grid-template-columns repeat(2, 1fr)
+
+@media screen and (min-width 1024px)
+  #app
+    padding: 20px 20%

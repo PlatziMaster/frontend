@@ -1,2 +1,66 @@
+bg-color = #E0F4FF
+
+bg-base = #1B1B1B
+color-text = #BB0538
+color-text-secundary = #EBF5FF
+
 body
-  background-color white
+  width 90vw
+  margin 0 auto
+  padding  .5em .5em
+  font-family 'Nunito', sans-serif
+
+main
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-template-rows repeat(5, 1fr)
+  grid-template-areas "Header Header"\
+                       "Profile Profile"\
+                       "Experience Experience"\
+                       "Academic Skills"\
+                       "Interest Languages"
+  grid-row-gap 1em
+  grid-column-gap: .5em
+  height 100vh
+  
+
+@media only screen and (max-width: 680px)
+  body
+    width 96vw
+    padding 0 8px
+
+  main
+    grid-template-columns: 1fr
+    grid-template-rows: repeat(7, 1fr)
+    grid-template-areas "Header"\
+                         "Profile"\
+                         "Experience"\
+                         "Academic"\
+                         "Skills"\
+                         "Interest"\
+                         "Languages"
+
+.Header
+  background-color bg-color
+  grid-area Header 
+
+.Profile
+  grid-area Profile
+
+.Experience
+  grid-area Experience
+
+.Academic
+  grid-area Academic
+
+.Skills
+  grid-area Skills
+
+.Interest
+  grid-area Interest
+
+.Lenguage
+  grid-area Languages
+
+.div 
+  background-color: #bdf1d4

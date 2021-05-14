@@ -1,11 +1,7 @@
 import React from 'react'
 
 const Languages = () => {
-    return (
-        <div>
-            Languages
-        </div>
-    )
+    return <section className="div Lenguage">Languages</section>;
 }
 
 export default Languages

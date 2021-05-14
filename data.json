@@ -1,82 +1,97 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Nicolas Jiménez",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "nicolasj680@gmail.com",
+    "website": "https://cutt.ly/GbLxhfn",
+    "phone": "+57 3176235068",
+    "avatar": "https://cutt.ly/1bLxq0s",
+    "Profile": "Web development enthusiast, mainly interested in client-side development, I like to offer good browsing experiences, eager to learn every technology about both front-end and backend web development.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Abril 2021",
+        "description": "Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, SASS, Multiple Routers",
+        "institution": "Udemy",
+        "name": "React: De cero a experto "
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "October 2020",
+        "description": "Crea una SPA (Single Page Aplication) con JavaScript Vanilla. Diseña una experiencia de navegación fluida para tus usuarios a través del manejo de rutas y el llamado a una API para mostrar la información y navegar entre los detalles de cada personaje.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Single Page Application con JavaScript Vanilla"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Technology in software development.",
+        "description": "Remote",
+        "endDate": "Present",
+        "institution": "Institución Universitaria Digital de Antioquia.",
+        "startDate": "July 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software programming technician.",
+        "description": "Presential",
+        "endDate": "Decenber 2021",
+        "institution": "Servicio Nacional de Aprendizaje (Sena)",
+        "startDate": "July 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "projectName": "Developer Road",
+        "complete": true,
+        "url": "http://developerroad.herokuapp.com/",
+        "projectDescription": "The platform where Developers share knowledge about technology and programming, I helped to Built a responsive web app using Django and Bootstrap that allows users to write tech post.",
+        "stak": "Django Bootstrap Css"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "projectName": "Classic-Instagram-Clone",
+        "complete": false,
+        "url": "https://github.com/Dvs-Projects/Classic-Instagram-Clone",
+        "projectDescription": "Classic clone of Instagram.",
+        "stak": "Typescript Reactjs Sass"
+      },
+      {
+        "projectName": "Box Shadow Generator",
+        "complete": true,
+        "url": "https://github.com/Nicolas-alt/shadow-generator",
+        "projectDescription": "Simple box shadow generator.",
+        "stak": "Typescript Reactjs Tailwind"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
+      },
+      {
+        "name": "Typescript",
+        "percentage": "80%"
+      },
+      {
+        "name": "Tailwind Css",
+        "percentage": "80%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "JavaScript",
+      "Typescript",
+      "Mobile development",
+      "Front-end"
     ],
     "languages": [
       {
@@ -90,20 +105,16 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/Nicolas35103573"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Github",
+        "url": "https://github.com/Nicolas-alt"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/nicolas-jimenez-b20660184/"
       }
     ]
   }

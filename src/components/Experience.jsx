@@ -1,11 +1,7 @@
 import React from 'react'
 
 const Experience = () => {
-    return (
-        <div>
-            Experience
-        </div>
-    )
+    return <section className="div Experience">Experience</section>;
 }
 
 export default Experience

@@ -1,11 +1,7 @@
 import React from 'react'
 
 const Interest = () => {
-    return (
-        <div>
-            Interest
-        </div>
-    )
+    return <section className="div Interest">Interest</section>;
 }
 
 export default Interest

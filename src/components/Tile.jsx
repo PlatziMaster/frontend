@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/Tile.css'
 
 const Tile = ({title, children, color, align})=>{
     return(

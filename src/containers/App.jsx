@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/App.css';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
@@ -14,10 +14,14 @@ const App = () => {
       <Header/>
       <Profile />
       <Experience />
-      <Academic />
+     <div className="row">
+     <Academic />
       <Skills />
+     </div>
+      <div className="row">
       <Interest />
       <Languages />
+      </div>
     </>
   )
 };

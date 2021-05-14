@@ -5,11 +5,11 @@ import React from 'react';
 // import githubIcon  from '../assets/github-icon.svg';
 // import facebookIcon  from '../assets/facebook-icon.svg';
 
-
+import '../styles/components/Header.css';
 
 const Header = () =>{
     return(
-        <header>
+        <header className="Header">
             <img className="Header__img" src='https://arepa.s3.amazonaws.com/melissa.jpg' alt="" />
             <div className="Header__presentation">
                 <div className="Header__presentation__main">
@@ -20,7 +20,7 @@ const Header = () =>{
                 <div className="Header__presentation__secundary">
                     <span className="Header__phone">9932415892</span>
                     <span className="Header__email">mengeroshi@outlook.com</span>
-                    <span className="Header__website">https://mengeroshi.github.io/</span>
+                    <span className="Header__website">mengeroshi.github.io/</span>
                 </div>
             </div>
             {/* <div className="Header__social-networks">

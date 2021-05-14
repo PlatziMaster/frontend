@@ -1,0 +1,42 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+  box-sizing: border-box;
+  --red:#f23846;
+  --blue: #048abf;
+  --yellow: #f2b705;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans';
+}
+
+html{
+  /* font-family: 'Dosis', sans-serif; */
+}
+img{max-width: 100%;}
+
+body{
+  background-color: white ;
+}
+
+#app{
+  border: .3125em solid black ;
+}
+
+#app > * + *{
+  border-top: .3125em solid black ;
+}
+
+.row{
+  display: flex;
+  
+}
+.row > * {width: 100%;}
+.row > * + *{border-left:.3125em solid black;}

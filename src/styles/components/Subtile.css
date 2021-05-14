@@ -1,0 +1,44 @@
+.Subtile {
+    list-style-type: none;
+    padding: 1.875em;
+}
+
+.Subtile > * + *{margin-top: .5em;}
+
+.Subtile__company{
+    font-size: 1.875em;
+    font-weight: normal;
+}
+
+
+.Subtile__jobTitle,
+.Subtile__date,
+.Subtile__jobDescription{
+    font-size: 1.25em;
+    font-weight: normal;
+    text-align: justify;
+}
+
+
+.Subtile__jobTitle{}
+.Subtile__date{}
+.Subtile__jobDescription{}
+
+.Subtile--red{background-color: var(--red);}
+.Subtile--red >.Subtile__company{color:var(--yellow)}
+.Subtile--red >.Subtile__jobTitle{color:var(--blue)};
+.Subtile--red >.Subtile__jobDescription{color:white}
+
+
+.Subtile--blue{background-color: var(--blue);}
+.Subtile--blue >.Subtile__company{color:white}
+.Subtile--blue >.Subtile__jobTitle{color: var(--yellow)}
+.Subtile--blue >.Subtile__date{color: var(--red)}
+.Subtile--blue >.Subtile__jobDescription{color: black;}
+
+.Subtile--white{background-color:white;}
+.Subtile--white >.Subtile__company{color:var(--yellow)}
+.Subtile--white >.Subtile__jobTitle{color:var(--blue)};
+.Subtile--white >.Subtile__jobDescription{color: var(--red);}
+
+

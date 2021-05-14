@@ -1,6 +1,9 @@
 import React from 'react';
 import Tile from './Tile';
+import '../styles/components/Languages.css'
 import SkillPercent from './SkillPercent';
+
+
 
 const Languages = ()=>{
     return(
@@ -12,14 +15,17 @@ const Languages = ()=>{
             <ul className="Languages__body">
             
                 <SkillPercent
+                    color="yellow"
                     name="Español"
                     percentage="100%"
                 />
                 <SkillPercent
+                    color="yellow"
                     name="Español"
                     percentage="100%"
                 />
                 <SkillPercent
+                    color="yellow"
                     name="Español"
                     percentage="100%"
                 />

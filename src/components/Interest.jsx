@@ -3,7 +3,7 @@ import Tile from './Tile';
 
 import '../styles/components/Interest.css';
 
-const Interest = ()=>{
+const Interest = ({interest})=>{
     return(
         <Tile
             title="Interest"
@@ -11,9 +11,9 @@ const Interest = ()=>{
             align="left"
         >
             <ul className="Interest__body">
-                <li className="Interest__item Interest-item">Javascript</li>
-                <li className="Interest__item Interest-item">Javascript</li>
-                <li className="Interest__item Interest-item">Javascript</li>
+                {interest.map(item =>{
+                    return <li key={item} className="Interest__item Interest-item">{item}</li>
+                })}
             </ul>
 
         </Tile>

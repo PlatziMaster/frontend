@@ -5,7 +5,7 @@ import '../styles/components/Skills.css';
 import Tile from './Tile';
 
 
-const Skills = ()=>{
+const Skills = ({skills})=>{
     return(
         <Tile
         title="Skills"
@@ -13,24 +13,16 @@ const Skills = ()=>{
         align="left"
         >
             <ul className="Skills__body">
-            
-            <SkillPercent
-                color="white"
-                name="React"
-                percentage="50%"
-            />
-            <SkillPercent
-                color="white"
-                name="React"
-                percentage="50%"
-            />
-            <SkillPercent
-                color="white"
-                name="React"
-                percentage="50%"
-            />
-            
-            
+                {
+                    skills.map(skill=>{
+                        return <SkillPercent
+                        color="white"
+                        key={skill.percentage}
+                        name={skill.name}
+                        percentage={skill.percentage}
+                    />
+                    })
+                }            
             </ul>
         </Tile>
     )

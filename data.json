@@ -36,6 +36,13 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Space Engineering",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Decenber 2015",
+        "institution": "Harvard",
+        "startDate": "Jan 2017"
       }
     ],
     "experience": [
@@ -45,6 +52,13 @@
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
         "jobTitle": "Frontend",
         "startDate": "Jan 2020"
+      },
+      {
+        "company": "CatStore",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
       },
       {
         "company": "CatStore",
@@ -86,6 +100,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Latin",
+        "percentage": "10%"
       }
     ],
     "social": [

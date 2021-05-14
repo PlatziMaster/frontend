@@ -1,0 +1,23 @@
+@import '../variables.styl'
+
+.Experience-list
+  gap 20px
+
+.Experience-item
+  gap 4px
+  & .flex:first-child
+    align-items center
+  & .flex:last-child
+    color $gray
+    justify-content flex-end
+  & .badge
+    margin-left 10px
+    color $secondary-color
+    background-color rgba($secondary-color, 0.2)
+
+@media screen and (min-width 768px)
+  .Experience
+    grid-column-end: span 2
+  .Experience-list
+    column-gap 50px
+    grid-template-columns repeat(2, 1fr)

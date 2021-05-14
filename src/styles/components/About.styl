@@ -1,0 +1,33 @@
+@import '../variables.styl'
+
+.About
+  gap 20px
+  align-items center
+
+.About-list
+  gap 4px
+  flex-wrap wrap
+  list-style none
+
+.About-item
+  padding-right 10px
+  & a
+    color $bg-color
+
+.About-content
+  gap 4px
+
+.About-avatar
+  width 80px
+  height 80px
+  border-radius $circle-radius
+  border: $border-width solid $border-color;
+  & img
+    width 100%
+    height 100%
+    object-fit cover
+    border-radius $circle-radius
+
+@media screen and (min-width 375px)
+  .About
+    grid-template-columns auto 1fr

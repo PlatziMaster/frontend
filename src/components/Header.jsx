@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import '../styles/components/Header.css';
 
 const Header = ({name, profession, address,email, website, phone, avatar}) =>{

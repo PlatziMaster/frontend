@@ -6,7 +6,11 @@
 .Header > * + *{border-left:.3125em solid black;}
 
 .Header__img{
-    flex-basis: 20%;
+    display: block;
+    width:18.4%;
+    background-color: var(--red);
+    height: 100%;
+    object-fit: cover;
 }
 
 .Header__presentation{
@@ -14,6 +18,7 @@
     width: 100%;
     text-align: center;
     padding: 1.5em 0;
+    flex-shrink: 2;
 }
 .Header__presentation > * + *{margin-top: .625em;}
 .Header__presentation__main{

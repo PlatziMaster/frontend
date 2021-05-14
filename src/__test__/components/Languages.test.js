@@ -16,5 +16,4 @@ describe('<Languages />', () => {
   test('Languages has 3 items', () => {
     expect(languages.find('.Languages-item').length).toBeGreaterThan(2);
   });
-
 });

@@ -1,0 +1,15 @@
+.Header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-image > div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 192, 194);
+}
+
+.Header-Information {
+    /* display: flex; */
+}

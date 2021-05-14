@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^3.4.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",

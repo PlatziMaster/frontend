@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// const CopyPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -48,5 +49,16 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+  //   new CopyPlugin({
+  //     //configuracion para decir que archivos vamos a copiar
+  //     patterns: [
+  //         {
+  //             // ruta con los archivos a copiar
+  //             from: path.resolve(__dirname, "src", "assets/images"),
+  //             // ruta para dejar los archivos copiados
+  //             to: "assets/images"
+  //         }
+  //     ]
+  // }),
   ],
 };

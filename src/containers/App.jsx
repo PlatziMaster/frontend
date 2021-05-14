@@ -9,7 +9,7 @@ import {
   Interest,
   Languages,
 } from '../components';
-import '../styles/components/App.styl';
+import '../styles/containers/App.styl';
 
 const App = () => {
   return (

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "start": "webpack serve --mode development --env development",
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
@@ -22,16 +22,16 @@
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
+    "jest-fetch-mock": "^3.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "webpack": "^5.37.0",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2",
-    "enzyme": "^3.11.0",
-    "jest-fetch-mock": "^3.0.3",
-    "enzyme-adapter-react-16": "^1.15.6"
+    "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

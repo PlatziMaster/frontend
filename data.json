@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Daniel Herrera Romano",
+    "profession": "BI Developer",
+    "address": "Tlaxcala, México",
+    "email": "daniel.herrerarom@gmail.com",
+    "website": "danielherrom.github.io",
+    "phone": "522411156298",
+    "avatar": "https://i.imgur.com/JsFxKdJ.jpg?2",
+    "profile": "I am an ambitious person and open to new challenges and opportunities. I like teamwork and challenges that drive you to be better.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,42 +22,49 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "International Business",
+        "description": "I got into studies of economics and international finance as well as foreign trade. I specialized in negotiation",
+        "endDate": "Jul 2016",
+        "institution": "Autonomous University of Tlaxcala",
+        "startDate": "Ago 2012"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Business Administration",
+        "description": "I did a school exchange and studied my finance and accounting subjects at this university.",
+        "endDate": "Jul 2016",
+        "institution": "Autonomous University of Nuevo Leon",
+        "startDate": "Jan 2016"
+      },
+      {
+        "degree": "Administration of international business",
+        "description": "I did a school exchange and studied my trade and logistics subjects at this university.",
+        "endDate": "Jul 2015",
+        "institution": "Universidad Veracruzana",
+        "startDate": "Jan 2015"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "DTI Consultores",
+        "endDate": "Apr 2021",
+        "jobDescription": "Development of dashboards and analysis for the management areas of other companies.",
+        "jobTitle": "BI Consultant",
+        "startDate": "Nov 2016"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Restaurantes Toks",
+        "endDate": "Apr 2021",
+        "jobDescription": "Development of reports and data models in Oracle cloud tools",
+        "jobTitle": "Oracle Cloud technician",
+        "startDate": "Jan 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "50%"
       },
       {
         "name": "CSS",
@@ -65,23 +72,32 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "35%"
       },
       {
-        "name": "React",
+        "name": "SQL",
         "percentage": "90%"
+      },
+      {
+        "name": "Java",
+        "percentage": "50%"
+      },
+      {
+        "name": "Python",
+        "percentage": "60%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "data science",
+      "machine learning",
+      "artificial intelligence",
       "backend",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
@@ -91,19 +107,19 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/DanielHerreraRom"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/DanielHerRom"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/DanielHerrom"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/danielherrerarom/"
       }
     ]
   }

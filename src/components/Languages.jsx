@@ -5,7 +5,7 @@ import SkillPercent from './SkillPercent';
 
 
 
-const Languages = ()=>{
+const Languages = ({languages})=>{
     return(
         <Tile
             title="Languages"
@@ -13,23 +13,16 @@ const Languages = ()=>{
             align="left"
         >
             <ul className="Languages__body">
-            
-                <SkillPercent
+                {
+                languages.map(lang =>{
+                    return<SkillPercent
+                    key={lang.percentage}
                     color="yellow"
-                    name="Español"
-                    percentage="100%"
+                    name={lang.name}
+                    percentage={lang.percentage}
                 />
-                <SkillPercent
-                    color="yellow"
-                    name="Español"
-                    percentage="100%"
-                />
-                <SkillPercent
-                    color="yellow"
-                    name="Español"
-                    percentage="100%"
-                />
-                
+            })
+                }
             </ul>
 
         </Tile>

@@ -1,6 +1,7 @@
 .Subtile {
     list-style-type: none;
     padding: 1.875em;
+    width: 100%;
 }
 
 .Subtile > * + *{margin-top: .5em;}

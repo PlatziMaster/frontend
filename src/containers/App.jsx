@@ -12,26 +12,41 @@ import getData from '../utils/getData';
 
 const App = () => {
 
-  const [data, setData] = useState({});
+  const [data, setData] = useState({
+    experience:[],
+    Academic:[],
+    skills:[],
+    interest:[],
+    languages:[],
+  });
+  
   useEffect( () => {
     getData('http://localhost:3000/data')
       .then( data => setData(data))
   }, [])
 
-  console.log(data)
-  
   return (
     <>
-      <Header/>
-      <Profile />
-      <Experience />
+      <Header 
+        name={data.name}
+        profession={data.profession}
+        address={data.address}
+        email={data.email}
+        website={data.website}
+        phone={data.phone}
+        avatar={data.avatar}
+      />
+      <Profile profile={data.Profile} />
+      <Experience
+        experience={data.experience}
+       />
      <div className="row">
-     <Academic />
-      <Skills />
+     <Academic Academic={data.Academic}/>
+      <Skills skills={data.skills} />
      </div>
       <div className="row">
-      <Interest />
-      <Languages />
+      <Interest interest={data.interest}  />
+      <Languages languages={data.languages}  />
       </div>
     </>
   )

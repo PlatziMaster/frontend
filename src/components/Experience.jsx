@@ -4,7 +4,7 @@ import '../styles/components/Experience.css';
 import Tile from './Tile';
 import SubTile from './SubTile';
 
-const Experience = ()=>{
+const Experience = ({experience})=>{
     return(
         <Tile
         title="Experience"
@@ -12,30 +12,19 @@ const Experience = ()=>{
         align="right"
         >
             <ul className="Experience__body ">
-                    <SubTile
-                    color="white"
-                    company="domitai"
-                    jobTitle="Blog Editor"
-                    startDate="Oct 2018"
-                    endDate="Sept 2020"
-                    jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis voluptatibus in odio at quasi officia mollitia soluta, sed eum temporibus excepturi quas ipsa maxime atque rerum sint facilis illo."
-                    />
-                    <SubTile
-                    color="white"
-                    company="domitai"
-                    jobTitle="Blog Editor"
-                    startDate="Oct 2018"
-                    endDate="Sept 2020"
-                    jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis voluptatibus in odio at quasi officia mollitia soluta, sed eum temporibus excepturi quas ipsa maxime atque rerum sint facilis illo."
-                    />
-                    <SubTile
-                    color="white"
-                    company="domitai"
-                    jobTitle="Blog Editor"
-                    startDate="Oct 2018"
-                    endDate="Sept 2020"
-                    jobDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis voluptatibus in odio at quasi officia mollitia soluta, sed eum temporibus excepturi quas ipsa maxime atque rerum sint facilis illo."
-                    />
+                {
+                    experience.map( job =>{
+                        return <SubTile
+                            key={job.startDate}
+                            color="white"
+                            company={job.company}
+                            jobTitle={job.jobTitle}
+                            startDate={job.startDate}
+                            endDate={job.endDate}
+                            jobDescription={job.jobDescription}
+                        />
+                    })
+                }
             </ul>
         </Tile>
     )

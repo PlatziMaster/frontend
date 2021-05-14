@@ -4,7 +4,7 @@ import '../styles/components/Academic.css'
 import Tile from './Tile';
 import SubTileAcademic from './SubTileAcademic';
 
-const Academic = ()=>{
+const Academic = ({Academic})=>{
     return(
         <Tile
         title="Academic"
@@ -12,31 +12,19 @@ const Academic = ()=>{
         align="left"
         >
             <ul className="Academic__body">
-                
-                    <SubTileAcademic
-                    color="blue" 
-                    degree="Technician Acountant"
-                    description="I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms" 
-                    endDate="Aug 2013"
-                    startDate="Jun 2016"
-                    institution="CBTis 32"
-                    />
-                    <SubTileAcademic
-                    color="blue" 
-                    degree="Technician Acountant"
-                    description="I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms" 
-                    endDate="Aug 2013"
-                    startDate="Jun 2016"
-                    institution="CBTis 32"
-                    />
-                    <SubTileAcademic
-                    color="blue" 
-                    degree="Technician Acountant"
-                    description="I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms" 
-                    endDate="Aug 2013"
-                    startDate="Jun 2016"
-                    institution="CBTis 32"
-                    />
+                {
+                    Academic.map(item =>{
+                        return<SubTileAcademic
+                           key={item.startDate}
+                           color="blue" 
+                           degree={item.degree}
+                           description={item.description}
+                           endDate={item.endDate}
+                           startDate={item.startDate}
+                           institution={item.institution}
+                        />
+                   })
+                }
             </ul>
         </Tile>
     )

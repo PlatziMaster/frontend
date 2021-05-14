@@ -1,0 +1,22 @@
+header {
+  grid-column: 1/3;
+  width: 100%;
+  height: 200px;
+  display: grid;
+  padding: 10px 50px;
+}
+
+header .Header-title {
+  justify-self: center;
+}
+
+header div {
+  display: flex;
+  height: 120px;
+}
+
+header img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}

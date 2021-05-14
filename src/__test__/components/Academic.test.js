@@ -16,5 +16,4 @@ describe('<Academic />', () => {
   test('Academic has 3 items', () => {
     expect(academic.find('.Academic-item').length).toBeGreaterThan(2);
   });
-
 });

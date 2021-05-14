@@ -1,0 +1,15 @@
+.About-container {
+  width: 600px;
+  margin-inline-start: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.About-container .About-title {
+  margin-block-end: 10px;
+}
+
+.About-container div:nth-child(3n) {
+  display: flex;
+  justify-content: space-between;
+}

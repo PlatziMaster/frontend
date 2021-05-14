@@ -1,2 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700&display=swap');
+
+*
+  padding 0
+  margin 0
+  border 0
+  box-sizing border-box
+
 body
-  background-color blue
+  background-color #f6f6f6
+  font-family 'Heebo', sans-serif
+
+h1
+  font-size 2rem
+
+h2
+  font-size 1.5rem
+  font-weight 600
+
+p
+  margin 0.3rem 0
+  width 90%
+
+section
+  max-width 1000px
+  margin 0 auto
+
+#app .items
+  display grid
+  grid-template-columns 50% 50%
+
+#app .items section
+  margin 0
+
+.Profile, .Experience, #app .items
+  padding 2rem 4rem
+
+.Academic, .Skills, .Interest, .Languages
+  padding 2rem 0
+
+.Academic, .Skills, .Profile, .Experience
+  border-bottom 1px solid #777777a0
+
+.Header
+  background-color #081824
+  color #fff
+  padding 4rem
+  max-width initial
+  display flex
+  justify-content center
+
+.Header section
+  max-width initial
+  margin 0
+
+.Header > section
+  display flex
+  justify-content space-evenly
+  max-width 1000px
+  margin 0 auto
+  width 100%
+
+.Header figure
+  display flex
+  align-items center
+
+.Header figure img
+  width 170px
+  height 170px
+
+.Header div
+  display flex
+  flex-direction column
+  justify-content center
+
+.three-cols
+  display flex
+
+.Experience .items
+  display grid
+  grid-template-columns 50% 50%
+  max-width initial
+  padding 0 !important
+
+.Interest .items
+  display grid
+  grid-template-columns 50% 50%
+  padding 0 !important
+
+.Languages .items
+  display grid
+  grid-template-columns 33% 34% 33%
+  padding 0 !important
+
+.Academic .Academic-item
+  padding-bottom 1rem

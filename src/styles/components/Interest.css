@@ -1,0 +1,19 @@
+h4 {
+    font-size: 2.4rem;
+}
+.interest {
+    margin: 10px;
+    padding: 15px;
+    background: #bdf1d4;
+}
+.interest-list {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+.interest-list ol ul {
+    width: 300px;
+}
+.interest-list ol {
+    display: flex;
+    justify-content: left;
+}

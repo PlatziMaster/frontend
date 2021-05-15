@@ -1,0 +1,22 @@
+h4 {
+    font-size: 2.4rem;
+}
+.languages {
+    margin: 10px;
+    padding: 15px;
+    background: #bdf1d4;
+}
+.languages-list {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+.languages-list ol ul {
+    width: 300px;
+}
+.languages-list span {
+    font-weight: bold;
+}
+.languages-list ol {
+    display: flex;
+    justify-content: left;
+}

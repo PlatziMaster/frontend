@@ -1,0 +1,22 @@
+h4 {
+    font-size: 2.4rem;
+}
+.skills {
+    margin: 10px;
+    padding: 15px;
+    background: #bdf1d4;
+}
+.skills-list {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+.skills-list ol ul {
+    width: 300px;
+}
+.skills-list span {
+    font-weight: bold;
+}
+.skills-list ol {
+    display: flex;
+    justify-content: left;
+}

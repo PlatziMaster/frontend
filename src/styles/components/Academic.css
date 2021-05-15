@@ -1,0 +1,23 @@
+h4 {
+    font-size: 2.4rem;
+}
+.academic {
+    margin: 10px;
+    padding: 15px;
+    background: #bdf1d4;
+}
+.academic-list {
+    font-size: 1.6rem;
+    margin-top: 25px;
+}
+.academic-list ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.academic-list ul {
+    width: 300px;
+}
+.academic-list span {
+    font-weight: bold;
+}

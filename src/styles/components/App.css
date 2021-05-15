@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family:Arial, Helvetica, sans-serif;
+  background: #fafbfb;
+  color: gray;
+}
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+header {
+  width: 100%;
+}
+.profile {
+  width: 100%;
+}
+.experience {
+  width: 100%;
+}
+.academic {
+  width: 100%;
+}
+.skills {
+
+  flex-grow: 1;
+}

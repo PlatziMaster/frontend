@@ -2,6 +2,6 @@ import React from 'react';
 import '../styles/components/Header.css';
 
 const Header = ( {children}) => (
-    <header>{children}</header>
+    <header className="Header-title">{children}</header>
 );
 export default Header;

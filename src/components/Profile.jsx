@@ -3,8 +3,8 @@ import '../styles/components/Profile.css';
 
 const About = ({ profileDesc }) => (
 	<div className="profile">
-		<h3>Profile:</h3>
-		<p>{profileDesc}</p>
+		<h3 className="Profile-title">Profile:</h3>
+		<p className="Profile-desc">{profileDesc}</p>
 	</div>
 );
 export default About;

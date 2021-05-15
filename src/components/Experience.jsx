@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/components/Experience.css';
 
 const Experience = ({ experience }) => (
-	<div className="experience">
-		<h4>Experience:</h4>
-        {experience.map(item =>{
+    <div className="Experience-title">
+        <h4>Experience:</h4>
+        {experience.map(item => {
             return (
                 <div className="experience-list">
                     <ol>
@@ -16,7 +16,7 @@ const Experience = ({ experience }) => (
                     <p><span>Description: </span>{item.jobDescription}</p>
                 </div>
             );
-        })};
-	</div>
+        })}
+    </div>
 );
 export default Experience;

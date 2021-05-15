@@ -8,14 +8,14 @@ const About = ({ nameTitle, professionJob, phone, email, website, address, avata
         <img src={`https://www.gravatar.com/avatar/{avatar}?d=identicon`} alt="Avatar" />
       </div>
       <div className="about">
-        <h1>{nameTitle}</h1>
+        <h1 className="About-title">{nameTitle}</h1>
         <h2>{professionJob}</h2>
         <div className="about-list">
           <ol>
-            <ul>Cel: {phone}</ul>
-            <ul>Email: {email}</ul>
-            <ul>Website: {website}</ul>
-            <ul>Address: {address}</ul>
+            <ul className="About-item">Cel: {phone}</ul>
+            <ul className="About-item">Email: {email}</ul>
+            <ul className="About-item">Website: {website}</ul>
+            <ul className="About-item">Address: {address}</ul>
           </ol>
         </div>
       </div>

@@ -6,18 +6,18 @@ h4 {
     padding: 15px;
     background: #bdf1d4;
 }
-.academic-list {
+.Academic-item {
     font-size: 1.6rem;
     margin-top: 25px;
 }
-.academic-list ol {
+.Academic-item ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
 }
-.academic-list ul {
+.Academic-item ul {
     width: 300px;
 }
-.academic-list span {
+.Academic-item span {
     font-weight: bold;
 }

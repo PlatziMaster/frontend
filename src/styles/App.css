@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: snow;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'header header' 'profile profile' 'experience experience ' 'academic skills' 'interest languages' 'about about';
+  gap: .5em;
+}
+
+.page > div {
+  -webkit-box-shadow: 0px 10px 8px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 8px -9px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 8px -9px rgba(0,0,0,0.75);
+}
+
+.header {
+  grid-area: header;
+  background-color: lightskyblue;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 10px 8px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 8px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 8px -9px rgba(0,0,0,0.75);
+}
+
+.profile {
+  grid-area: profile;
+  background-color: aquamarine;
+  border-radius: .5em;
+}
+
+.experience {
+  grid-area: experience;
+  background-color: aquamarine;
+  border-radius: .5em;
+
+}
+
+.academic {
+  grid-area:academic;
+  background-color: aquamarine;
+  border-radius: .5em;
+
+}
+
+.skills{
+  grid-area: skills;
+  background-color: aquamarine;
+  border-radius: .5em;
+
+}
+
+.interest {
+  grid-area: interest;
+  background-color: aquamarine;
+  border-radius: .5em;
+
+}
+
+.languages {
+  grid-area: languages;
+  background-color: aquamarine;
+  border-radius: .5em;
+
+}
+
+.about {
+  grid-area: about;
+  background-color: aquamarine;
+  border-radius: .5em;
+}
+
+@media (max-width: 900px) {
+  .page {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header' 'profile' 'experience' 'academic' 'skills' 'interest' 'languages' 'about';
+  }
+
+
+}

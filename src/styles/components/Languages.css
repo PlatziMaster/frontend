@@ -1,0 +1,20 @@
+.languages {
+    padding: 1em;
+    height: auto;
+}
+
+.languages h1 {
+    margin-bottom: .5em;
+}
+
+.languages-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.Languages-item p {
+   margin-bottom: 1em;
+}

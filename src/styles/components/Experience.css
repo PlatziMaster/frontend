@@ -1,0 +1,44 @@
+.experience {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.experience h1 {
+    margin-bottom: .5em;
+}
+
+.experience-items-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.Experience-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10em;
+    width: 40%;
+}
+
+@media (max-width: 900px) {
+    .experience-items-list div{
+        margin-top: 1em;
+    }
+    .Experience-item {
+        width: 100%;
+    }
+
+    .experience-items-list {
+        flex-direction: column;
+    }
+    .Experience-item:not(:last-child) {
+        border-bottom: 1px solid gray;
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+    }
+}

@@ -8,7 +8,7 @@ const SkillsItem = (props) => {
       {data.map((skill, index) => {
         return (
           <div className="Skills-item shadow-border" key={index}>
-            <h4 className="Skills-item__title shadow-border">{skill.name}</h4>
+            <h4 className="Skills-item__title title">{skill.name}</h4>
             <div className="Skills-item__percentage shadow-border">{skill.percentage}</div>
           </div>
         );

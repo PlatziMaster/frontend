@@ -7,21 +7,11 @@
     margin-top .3rem
     padding .2rem
     border-radius .4rem
+    background-color white
     color transparent
+    text-align center
+    transition 1s
 
-    &::before
-      content '90%'
-      position absolute
-      top 0
-      left 0
-      width 0%
-      height 100%
-      border-radius inherit
-      text-align center
-      color transparent
-      background-color #e6e6e6
-      transition 1s
-
-    &:hover::before
-      width 90%
+    &:hover
+      background-color #57c457
       color black

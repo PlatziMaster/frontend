@@ -37,7 +37,7 @@ class Academic extends Component {
     }
     return (
       <div className="container container--semi Academic">
-        <h1 className="Academic-title">Academic</h1>
+        <h1 className="Academic-title title">Academic</h1>
         <div className="Academic-item-list list">
           <AcademicItem academic={this.state.data}/>
         </div>

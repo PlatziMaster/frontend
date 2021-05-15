@@ -41,7 +41,7 @@ class About extends Component {
           <img className="About__picture-image shadow-border" src={data.avatar} alt={`Photo: ${data.name}`} />
         </div>
         <div className="About__info">
-          <h1 className="About-title">{data.name}</h1>
+          <h1 className="About-title title">{data.name}</h1>
           <h4 className="About-job-title">{data.profession}</h4>
           <div className="About__contact">
             <a className="About-item About-item--phone" href={`tel:${data.phone}`} target="_blank">{data.phone}</a>

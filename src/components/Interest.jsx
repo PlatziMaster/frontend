@@ -38,7 +38,7 @@ class Interest extends Component {
     }
     return (
       <div className="container container--semi">
-        <h1 className="Interest-title">Interest</h1>
+        <h1 className="Interest-title title">Interest</h1>
         <div className="Interest-items-list list">
           <InterestItem className="Interest-item" interest={this.state.data} />
         </div>

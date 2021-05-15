@@ -37,7 +37,7 @@ class Experience extends Component {
     }
     return (
       <div className="container container--full Experience">
-        <h1 className="Experience-title">Experience</h1>
+        <h1 className="Experience-title title">Experience</h1>
         <div className="Experience-item-list list">
           <ExperienceItem experience={this.state.data} />
         </div>

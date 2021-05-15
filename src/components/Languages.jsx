@@ -38,7 +38,7 @@ class Languages extends Component {
     }
     return (
       <div className="container container--semi">
-        <h1>Languages</h1>
+        <h1 className="title">Languages</h1>
         <div className="Language-items-list list">
           <LanguagesItem languages={this.state.data} />
         </div>

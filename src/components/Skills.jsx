@@ -38,7 +38,7 @@ class Skills extends Component {
     }
     return (
       <div className="container container--semi Skills">
-        <h1 className="Skills-title">Skills</h1>
+        <h1 className="Skills-title title">Skills</h1>
         <div className="Skills-item-list list">
           <SkillsItem skills={this.state.data} />
         </div>

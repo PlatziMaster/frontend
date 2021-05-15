@@ -36,7 +36,7 @@ class Profile extends Component {
     }
     return (
       <div className="container container--full">
-        <h1 className="Profile-title">{data.profession}</h1>
+        <h1 className="Profile-title title">{data.profession}</h1>
         <p className="Profile-desc">{data.Profile}</p>
       </div>
     );

@@ -1,0 +1,31 @@
+DOCUMENTATION:
+
+If you open the website for first time and is not showing the information, please wait 1 or 2 minutes to
+the Heroku server backend to start and then try again.
+
+1.- Creating project components:
+
+	-Analizying the components provided on the App.js file, I saw that I needed to create
+	 a folder called components so I create it then I start to create the components
+	 inside that folder, and following the structure recomended in the App.js file.
+
+2.- Add Styles:
+
+	-For creating the styles I followed the same folder structure as the components folder
+	 to have a good folder managment, I only keep the App.stly that comes with the repo itself.
+
+3.-Create a getData.js function:
+
+	-To this problem I create edit the file GetData.js in the utils folder, using async-await
+	 and a try/catch to handle errors in the API a problem surge when I tried to run the app because
+	 I needed to add a node target in the .babelrc file to use async-await.
+
+4.- Integrate API:
+
+	-Here I call the getData function in the App.jsx file, and then I distributed the data for each
+	 component by props.
+
+5.-Custom API:
+
+	-I customized the file with my own info and then I make a static server to consume the api using
+	 Heroku.

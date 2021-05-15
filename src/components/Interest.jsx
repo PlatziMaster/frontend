@@ -32,7 +32,6 @@ class Interest extends Component {
   }
 
   render() {
-    const data = this.state.data;
     if (this.state.error || !this.state.data) { // Show an error if we catch it
       return this.state.error || 'No data found';
     }

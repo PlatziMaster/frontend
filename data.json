@@ -8,20 +8,6 @@
     "phone": "(+57) 3102752395",
     "avatar": "https://s.gravatar.com/avatar/b8f08ff3f8554eb4714b95e7aeaf3286?s=80",
     "Profile": "Hello, my name is Jozek, I am a Colombian-Polish passionate about learning new things and growing professionally and personally in the area of ​​web development on the client and server side 🚀. I have a facility in self-taught, fast and effective learning about topics of great need for the professional field in which I work, as well as many other areas that are not part of it.As a web developer 💻 I am a fan of minimalist designs that provide elegance, simplicity, beauty and impact people by their ease of interacting with them and great designs based on the “less is more” quote.I am currently studying systems engineering at El Bosque University, at the same time that I complement my studies and knowledge in various virtual platforms such as Platzi, where I am strengthening said knowledge in various disciplines, technologies and tools in the world of web development ; Well, in this vast world of knowledge that lies ahead, I identify myself with the phrase: 📗 'Never stop learning.'",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
     "Academic": [
       {
         "degree": "Academic Bachelor",
@@ -154,15 +140,18 @@
     "social": [
       {
         "name": "twitter",
-        "url": "https://twitter.com/HajdukJozek"
+        "url": "https://twitter.com/HajdukJozek",
+        "image": "https://img.icons8.com/android/24/000000/twitter.png"
       },
       {
         "name": "github",
-        "url": "https://github.com/HajdukSanchez"
+        "url": "https://github.com/HajdukSanchez",
+        "image": "https://img.icons8.com/material-sharp/24/000000/github.png"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/jozek-hajduk-873924165/"
+        "url": "https://www.linkedin.com/in/jozek-hajduk-873924165/",
+        "image": "https://img.icons8.com/android/24/000000/linkedin.png"
       }
     ]
   }

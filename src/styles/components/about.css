@@ -1,0 +1,19 @@
+.About_container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    font-size: 1.6rem;
+    justify-content: center;
+    
+}
+
+.About_container h1, h4{
+    margin: 0;
+}
+
+.about_contact{
+    display: inherit;
+
+}
+

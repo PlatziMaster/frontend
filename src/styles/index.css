@@ -1,0 +1,17 @@
+:root{
+    --backgroundColor_DarkMode : #0c1532;
+    --backgroundColorComponent_DarkMode: #343e5f;
+    --fontColor_DarkMode: #fff;
+
+
+    --backgroundColor_LigthMode: #fff;
+    --fontColor_LighMode: #000;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    background-color: var(--backgroundColor_DarkMode)
+}

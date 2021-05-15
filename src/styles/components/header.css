@@ -1,0 +1,16 @@
+.header_container{
+    display: flex;
+    width: 98%;
+    height: 25vh;
+    margin-top: 10px;
+    background-color: var(--backgroundColorComponent_DarkMode);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_profile{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}

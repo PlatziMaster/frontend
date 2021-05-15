@@ -1,28 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Brandon Argel",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
+    "address": "Zapopan, Jalisco",
+    "email": "brandargel@gmail.com",
+    "website": "https://brandonargel.github.io/",
+    "phone": "3327161523",
+    "avatar": "https://i.imgur.com/Kgm9urk.jpg",
+    "profile": "Soy un desarrollador web especializado en el frontend. Y trabajo principalmente en la creación de sitios web estáticos, como: landing pages, portafolios, blogs y páginas para negocios.",
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -86,24 +72,6 @@
       {
         "name": "English",
         "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
       }
     ]
   }

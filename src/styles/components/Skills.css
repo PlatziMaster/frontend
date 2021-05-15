@@ -1,0 +1,32 @@
+.skills {
+    padding: 1em;
+}
+
+.skill-list {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#progressbar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar>div {
+    background-color: orange;
+    /* width: 40%; */
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px){
+    .skill-list {
+        height: 15em;
+    }
+}

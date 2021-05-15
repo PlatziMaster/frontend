@@ -1,0 +1,30 @@
+.academic {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.academic h1 {
+    margin-bottom: .5em;
+}
+
+.academic-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.Academic-item:not(:last-child){
+    border-bottom: 1px solid gray;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+.Academic-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10em;
+    width: 100%;
+    
+}

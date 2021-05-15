@@ -1,0 +1,11 @@
+.profile {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.profile h1 {
+    margin-bottom: .5em;
+}

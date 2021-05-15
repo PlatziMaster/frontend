@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    padding: 1em;
+}
+
+.header-container {
+    width: 80%;
+}
+
+.header-image {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-image img {
+    width: 95px;
+    border-radius: 50%;
+}
+
+.Header-title h1 {
+    margin: 0;
+}
+
+.header-job-title {
+    font-weight: bold;
+    color: gray;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.header-website a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .header-container {
+        width: 100%;
+      }
+    
+      .Header-title, .header-job-title {
+        text-align: center;
+      }
+    
+      .header .header-container > ul {
+        margin-top: 5vw;
+      }
+}

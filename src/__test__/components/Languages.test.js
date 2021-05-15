@@ -3,7 +3,24 @@ import { mount } from 'enzyme';
 import Languages from '../../components/Languages';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+
+  const lang = [
+    {
+      'name': 'Spanish',
+      'percentage': '90%',
+    },
+    {
+      'name': 'English',
+      'percentage': '45%',
+    },
+    {
+      'name': 'Polish',
+      'percentage': '45%',
+    },
+
+  ];
+
+  const languages = mount(<Languages info={lang} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

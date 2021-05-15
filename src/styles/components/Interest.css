@@ -1,0 +1,27 @@
+.interest {
+    padding: 1em;
+}
+.interest h1 {
+    margin-bottom: .5em;
+}
+.interest-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 50%;
+    align-items: center;
+}
+
+.Interest-item {
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+@media (max-width: 900px){
+    .interest-list{
+        flex-wrap: wrap;
+        height: 10em;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,57 +1,50 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Camilo Saavedra Salas",
+    "profession": "UI FrontEnd Developer",
+    "address": "Santiago, Chile.",
+    "email": "ci.saavedras@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+569 59077329",
+    "avatar": "https://i.imgur.com/jpEwBzY.png",
+    "Profile": "Self-taught and creative UI Frontend Developer with 2 years of experience in building Front-end/UI-oriented Web applications creating re-usable components and completely responsive websites. Always looking for new technologies to be able to apply to the next challenges. Highly skillful in HTML, CSS, and JavaScript. Passionate about simplicity, successful designs, and good practices.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Dic 2020",
+        "description": "Aprende a trabajar con git, conceptos básicos, clonar un repositorio y gestionar tus proyectos alojándolos en tu repositorio local y en GitHub. ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso Profesional de Git y GitHub"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Feb 2021",
+        "description": "Conoce estrategias para presentar sistemas de diseño y usarlos como herramientas de discusión que faciliten la toma de decisión entre equipos.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Sistemas de Diseño"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingenieria Agronegocios",
+        "description": "Ingeniería en Agronegocios se enfoca en el desarrollo de nuevas organizaciones y productos para satisfacer los gustos del consumidor contemporáneo.",
+        "endDate": "Feb 2013",
+        "institution": "USACH",
+        "startDate": "Mar 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Practices",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Building complete web app with the same design of Disney+ website.",
+        "jobTitle": "Disney Clone",
+        "startDate": "Jan 2021"
       },
       {
-        "company": "CatStore",
+        "company": "Practices",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Feb 2021"
       }
     ],
     "skills": [
@@ -61,7 +54,7 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
@@ -69,19 +62,19 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
-      "backend",
+      "UI/UX",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "99%"
       },
       {
         "name": "English",

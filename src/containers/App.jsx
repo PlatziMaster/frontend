@@ -1,26 +1,42 @@
-import React from 'react';
-import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import React, {useState, useEffect } from 'react'
+import '../styles/assets/App.css'
+import Header from '../components/Header'
+import Main from '../Components/Main'
+import Profile from '../Components/Profile'
+import Experience from '../Components/Experience'
+import Courses from '../Components/Courses'
+import Languages from '../Components/Languages'
+import Skills from '../Components/Skills'
+import Interest from '../Components/Interest'
+import getData from '../utils/getData'
+
 
 const App = () => {
+  const [user, setUser] = useState([])
+
+  useEffect(() => {
+    try {
+      getData('/data.json').then(({ data }) => {
+        setUser(data);
+      });
+    } catch (error) {}
+  }, []);
+
+// console.log(user);
+
+  
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+   
+      <Header/>
+      <Main>
+        <Profile />
+        <Experience />
+        <Courses />
+        <Languages/>
+        <Skills />
+        <Interest />
+      </Main>
     </>
   )
 };

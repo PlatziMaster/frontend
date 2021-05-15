@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -9,7 +9,11 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+import getData from '../utils/getData.js';
+
 const App = () => {
+
+  
   return (
     <>
       <Header>

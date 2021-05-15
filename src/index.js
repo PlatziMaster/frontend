@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './containers/App';
+import AppContext from './containers/AppContext';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+  <AppContext>
+    <App />
+  </AppContext>,
+  document.getElementById('app')
+);

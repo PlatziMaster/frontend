@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
   Header,
   About,
@@ -8,23 +8,33 @@ import {
   Skills,
   Interest,
   Languages,
+  Loading,
 } from '../components';
-import AppContext from './AppContext';
+import { appContext } from './AppContext';
 import '../styles/containers/App.styl';
 
 const App = () => {
+  const { data:{loading} } = useContext(appContext);
+  
   return (
-    <AppContext>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </AppContext>
+    <>
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          {' '}
+          <Header>
+            <About />
+          </Header>
+          <Profile />
+          <Experience />
+          <Academic />
+          <Skills />
+          <Interest />
+          <Languages />
+        </>
+      )}
+    </>
   );
 };
 

@@ -14,6 +14,10 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
 6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
 
+
+### API
+[Api](https://shrouded-thicket-27001.herokuapp.com/)
+
 ### Instalación
 ```
 npm install

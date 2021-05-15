@@ -6,6 +6,7 @@ import Interest from './Interest';
 import Languages from './Languages';
 import Profile from './Profile';
 import Skills from './Skills';
+import Loading from './Loading'
 
 export {
   Academic,
@@ -16,4 +17,5 @@ export {
   Profile,
   Skills,
   About,
+  Loading,
 };

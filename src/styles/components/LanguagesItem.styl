@@ -3,12 +3,25 @@
   width 40%
 
   &-percentage
+    position relative
     margin-top .3rem
     padding .2rem
     border-radius .4rem
-    text-align center
     color transparent
-    transition .5s
 
-    &:hover
-      color: black;
+    &::before
+      content '90%'
+      position absolute
+      top 0
+      left 0
+      width 0%
+      height 100%
+      border-radius inherit
+      text-align center
+      color transparent
+      background-color #e6e6e6
+      transition 1s
+
+    &:hover::before
+      width 90%
+      color black

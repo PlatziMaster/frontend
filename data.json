@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Jozek Andrzej Hajduk Sánchez",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "hajduksanchez.dev@gmail.com",
+    "website": "https://hajduk-sanchez.com",
+    "phone": "(+57) 3102752395",
+    "avatar": "https://s.gravatar.com/avatar/b8f08ff3f8554eb4714b95e7aeaf3286?s=80",
+    "Profile": "Hello, my name is Jozek, I am a Colombian-Polish passionate about learning new things and growing professionally and personally in the area of ​​web development on the client and server side 🚀. I have a facility in self-taught, fast and effective learning about topics of great need for the professional field in which I work, as well as many other areas that are not part of it.As a web developer 💻 I am a fan of minimalist designs that provide elegance, simplicity, beauty and impact people by their ease of interacting with them and great designs based on the “less is more” quote.I am currently studying systems engineering at El Bosque University, at the same time that I complement my studies and knowledge in various virtual platforms such as Platzi, where I am strengthening said knowledge in various disciplines, technologies and tools in the world of web development ; Well, in this vast world of knowledge that lies ahead, I identify myself with the phrase: 📗 'Never stop learning.'",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +24,145 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Academic Bachelor",
+        "description": "Bachelor academic graduate",
+        "endDate": "Dec 2016",
+        "institution": "Colegio San Viator Bogotá",
+        "startDate": "Jan 2011"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "System Engineer",
+        "description": "Professional in System Engineering",
+        "endDate": "Dec 2023",
+        "institution": "Universidad El Bosque Bogotá",
+        "startDate": "Jan 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "COMPANY_NAME",
+        "endDate": "END_DATE",
+        "jobDescription": "DESCRIPTION",
+        "jobTitle": "JOB_TITLE",
+        "startDate": "START_DATE"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%",
+        "class": "html"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "80%",
+        "class": "css"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75%",
+        "class": "js"
+      },
+      {
+        "name": "TypeScript",
+        "percentage": "75%",
+        "class": "ts"
+      },
+      {
+        "name": "Angular",
+        "percentage": "50%",
+        "class": "angular"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "25%",
+        "class": "react"
+      },
+      {
+        "name": "Stylus",
+        "percentage": "70%",
+        "class": "sty"
+      },
+      {
+        "name": "Less",
+        "percentage": "68%",
+        "class": "less"
+      },
+      {
+        "name": "Sass",
+        "percentage": "72%",
+        "class": "sass"
+      },
+      {
+        "name": "Bootstarp",
+        "percentage": "60%",
+        "class": "boot"
+      },
+      {
+        "name": "Pug",
+        "percentage": "50%",
+        "class": "pug"
+      },
+      {
+        "name": "Java",
+        "percentage": "85%",
+        "class": "java"
+      },
+      {
+        "name": "Python",
+        "percentage": "75%",
+        "class": "python"
+      },
+      {
+        "name": "SQl-server",
+        "percentage": "60%",
+        "class": "server"
+      },
+      {
+        "name": "PL/SQL",
+        "percentage": "65%",
+        "class": "pl"
       }
     ],
     "interest": [
       "javascript",
       "develop",
-      "backend",
-      "frontend"
+      "databases",
+      "frontend",
+      "angular",
+      "react",
+      "vue.js",
+      "sass",
+      "stylus",
+      "java",
+      "sql-server",
+      "bI",
+      "html",
+      "typescript",
+      "css"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "75%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/HajdukJozek"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/HajdukSanchez"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jozek-hajduk-873924165/"
       }
     ]
   }

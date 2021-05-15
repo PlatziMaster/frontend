@@ -15,8 +15,22 @@
     text-align: center;
 
   &__percentage
+    position relative
     padding .1rem
     margin-left 1rem
     padding-left 1rem
     width 80%
     border-radius 2rem
+    background-color white
+
+    &::before
+      content '90%'
+      position absolute
+      top 0
+      left 0
+      width 60%
+      height 100%
+      border-radius inherit
+      text-align center
+      color black
+      background-color #e6e6e6

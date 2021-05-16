@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap')
+
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
+html
+  font-family 'Poppins'
+  font-size 62.5%
+
+body
+  background-color #FDF3E8
+  color #141414
+  font-size 1.4rem
+
+li
+  list-style none
+  display: inline-block
+  margin-right: 30px
+
+.Academic
+  li
+    list-style none
+    display: inline-block
+    margin-right: 50px
+
+a
+  text-decoration none
+
+#app
+  max-width 1000px
+  margin 30px auto
+
+.body_cv
+  width 100%
+  display flex
+.left
+  width calc(100%/2)
+.right
+  width calc(100%/2)
+
+.title
+  font-weight 600
+  font-size 2rem
+
+.company
+  font-size 1.5rem
+  margin-top 4px
+  font-weight 500
+
+.About
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #F25270
+  padding 30px
+
+.Skills
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #FFC225
+  padding 30px
+
+.Languages
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #FFC225
+  padding 30px
+
+.Profile
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #05f2c7
+  padding 30px
+
+.Academic
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #4557BF
+  color #FFFFFF
+  padding 30px
+
+.Experience 
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #05f2c7
+  padding 30px
+
+.Interests
+  width 100%
+  padding-top 12px
+  padding-bottom 12px
+  background #FFC225
+  padding 30px
+  padding-bottom 67px
+
+.list-item
+  padding 10px 0
+
+@media only screen and (max-width 900px)
+  .body_cv
+    display block
+    display flex
+    flex-direction column
+  .left, .right
+    width 100%
+  .left
+    position relative
+
+  .right
+    border none
+    padding-left 0
+  .About, .Skills, .Interests, .Languages
+    width 100%
+    float left
+    padding-left 20px
+  .Languages
+    position static
+    top 26rem
+    padding 30px
+  .Interests
+    position static
+    top 40rem
+    padding 30px
+    
+
+@media only screen and (max-width 630px)
+  #app
+    margin 0 auto
+    -webkit-box-shadow none
+    box-shadow none
+    border-radius 0
+
+  .About, .Skills, .Interests, .Languages
+    width 100%
+    padding-left 0
+    padding 30px
+
+  .Interests, .Languages
+    position static
+
+  .Languages, .Skills
+    ul
+      display block
+      flex-direction row
+      flex-wrap wrap
+      justify-content center
+
+  .About
+    ul
+      columns 1
+
+@media only screen and (max-width 410px)
+  .About
+    ul
+      columns 1

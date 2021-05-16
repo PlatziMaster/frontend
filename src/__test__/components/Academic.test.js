@@ -10,11 +10,7 @@ describe('<Academic />', () => {
   });
 
   test('Academic title', () => {
-    expect(academic.find('.Academic-title').length).toEqual(1);
-  });
-
-  test('Academic has 3 items', () => {
-    expect(academic.find('.Academic-item').length).toBeGreaterThan(2);
+    expect(academic.find('.title').length).toEqual(1);
   });
 
 });

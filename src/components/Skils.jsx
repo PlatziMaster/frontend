@@ -1,28 +1,28 @@
 import React from 'react'
 import '../styles/components/Skills.css'
 
-const Skills = () => {
+const Skills = (props) => {
     return (
     <div className="Skills">
         <h1>Skills-title</h1>
-        <div className="Skills-item">
-            <p>Name: HTML5(75%)</p>
-            <div className="percentage">
-                <div className="percentage-bar"></div>
-            </div>
-        </div>
-        <div className="Skills-item">
-            <p>Name: HTML5(75%)</p>
-            <div className="percentage">
-                <div className="percentage-bar"></div>
-            </div>
-        </div>
-        <div className="Skills-item">
-            <p>Name: HTML5(75%)</p>
-            <div className="percentage">
-                <div className="percentage-bar"></div>
-            </div>
-        </div>
+        { props.skills ?
+        
+        props.skills.map((skill, index) => {
+            return(
+                <div key={index} className="Skills-item">
+                    <p>{skill.name} ({skill.percentage})</p>
+                    <div className="percentage">
+                        <div className="percentage-bar"></div>
+                    </div>
+                </div>
+            )
+        }) :
+
+        <h1>cargando...</h1>
+
+        }
+
+
     </div>
     )
 }

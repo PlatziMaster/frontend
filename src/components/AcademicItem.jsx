@@ -1,24 +1,16 @@
 import React from 'react'
 import '../styles/components/AcademicItem.css'
 
-const AcademicItem = () => {
+const AcademicItem = ({item}) => {
     return (
         <>
         <article className="AcademicItem">
-            <h1><strong>Degree:</strong> Atomic Master</h1>
-            <p><strong>Description:</strong>  I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms</p>
-            <p><strong>StartDate:</strong> Jan 2018</p>
-            <p><strong>EndDate:</strong> Jan 2017</p>
-            <p><strong>Institution:</strong> MIT</p>
+            <h1><strong>Degree:</strong>{item.degree}</h1>
+            <p><strong>Description:</strong>{item.description}</p>
+            <p><strong>StartDate:</strong>{item.startDate}</p>
+            <p><strong>EndDate:</strong>{item.endDate}</p>
+            <p><strong>Institution:</strong>{item.institution}</p>
         </article>
-        <article className="AcademicItem">
-            <h1><strong>Degree:</strong> Atomic Master</h1>
-            <p><strong>Description:</strong>  I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms</p>
-            <p><strong>StartDate:</strong> Jan 2018</p>
-            <p><strong>EndDate:</strong> Jan 2017</p>
-            <p><strong>Institution:</strong> MIT</p>
-        </article>
-
         </>
     )
 }

@@ -13,7 +13,8 @@ import Languages from '../components/Languages';
 import '../styles/containers/Layout.css'
 
 
-const Layout = ({data}) => {
+const Layout = () => {
+
   const [ApiData, setData] = useState([])
 
   useEffect(() => {
@@ -21,8 +22,8 @@ const Layout = ({data}) => {
       .then(response => response.json())
       .then(data => setData(data))
   }, [])
-  console.log(ApiData.experience)
-  // console.log(data.experience)
+
+  
   return (
     <div className="Layout">
       <Header>
@@ -30,22 +31,26 @@ const Layout = ({data}) => {
       </Header>
       <Profile personalInfo={ApiData.Profile}/>
       <Experience >
-
-        <ExperienceItem experience={ApiData.experience}></ExperienceItem>
-        {ApiData.experience.map(item => 
-          <ExperienceItem key={item}/>
-
-        )}
-
+        {ApiData.experience ?
+           ApiData.experience.map((item, index) => 
+            <ExperienceItem key={index} item={item}/>
+  
+          ) : 
+          <h1>cargando...</h1>
+        }
       </Experience>
       <Academic>
-        <AcademicItem>
-          
-        </AcademicItem>
+        {ApiData.Academic ?
+           ApiData.Academic.map((item, index) => 
+            <AcademicItem key={index} item={item}/>
+  
+          ) : 
+          <h1>cargando...</h1>
+        }
       </Academic>
-      <Skills/>
-      <Interest/>
-      <Languages/>
+      <Skills skills={ApiData.skills}/>
+      <Interest interest={ApiData.interest}/>
+      <Languages languages ={ApiData.languages}/>
     </div>
   )
 };

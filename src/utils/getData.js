@@ -1,22 +1,7 @@
-/* .Header {
-    grid-area: "areaA";
+async function getData(API) {
+    fetch('http://localhost:3000/data')
+        .then(response => response.json())
+        .then(data => data)
 }
 
-.Profile {
-    grid-area: "areaB";
-} */
-/* .Experience {
-    grid-area: areaC;
-} */
-/* .Academic {
-    grid-area: areaD;
-} */
-/* .Skills {
-    grid-area: areaE;
-} */
-/* .Interest {
-    grid-area: areaF;
-}
-.Languages {
-    grid-area: areaG;
-} */
+

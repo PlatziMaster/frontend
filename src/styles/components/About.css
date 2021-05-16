@@ -8,7 +8,7 @@
 .Header-image{
     margin: 0;
 }
-.Header-image > div {
+.Header-image > img {
     width: 171px;
     height: 171px;
     background-color: white;

@@ -6,7 +6,8 @@ const About = ({personalInfo}) => {
     return (
         <div className="Header-container">
         <figure className="Header-image">
-            <div>foto</div>
+            <img src={personalInfo.avatar} alt="" />
+            {/* <div>foto</div> */}
         </figure>
         <section className="Header-Information">
             <h1 className="Header-title">{personalInfo.name}</h1>

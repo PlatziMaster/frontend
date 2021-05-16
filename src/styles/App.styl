@@ -1,0 +1,35 @@
+$white-color = #f6f6f6
+$red-color = #ee2b47
+$blue-color = #34374c
+$dark-color = #2c2e3e
+$head1 = 3.0rem
+$head2 = 2.6rem
+$head3 = 2.4rem
+$head4 = 2.2rem
+$head5 = 2.0rem
+$small-text = 1.2rem
+$normal-text = 1.4rem
+$large-text = 1.6rem
+$xlarge-text = 1.8rem
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+h1, h2, h3, h4, h5
+  font-family: 'Fira Sans', sans-serif
+
+html
+  font-size: 62.5%
+
+body
+  background-color: $dark-color
+  font-family: 'Quicksand', sans-serif
+
+.container
+  display: flex
+
+@media (max-width: 760px)
+  .container
+    flex-direction: column

@@ -1,0 +1,41 @@
+@import '../App.styl'
+
+.experience
+    display: flex
+    flex-direction: column
+    padding: 2rem
+    margin: 1rem
+    border-radius: 2rem
+    box-shadow: 2px 1rem 1rem rgba(0, 0, 0, 0.5)
+    background-color: $white-color
+    color: $blue-color
+    font-size: $normal-text
+    font-weight: 600
+    width: 100%
+
+
+.experience-title
+    font-size: $head1
+    color: $red-color
+
+.experience-item
+    box-shadow: 5px 1px 1px rgba(0,0,0,0.5)
+    margin-bottom: 2rem
+    margin-top: 1rem
+    padding: 1rem
+
+.experience-jobTitle
+    font-size: $head4
+    text-decoration: underline
+
+.experience-company
+    font-size: $head5
+
+.experience-container
+    display: flex
+    justify-content: space-between
+    margin: .5rem 0
+
+@media (max-width: 700px)
+    .experience
+        width: auto

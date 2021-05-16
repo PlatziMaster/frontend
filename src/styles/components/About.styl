@@ -1,0 +1,37 @@
+@import '../App.styl'
+
+.about
+    align-self: center
+
+.about-list
+    display: flex
+    flex-direction: column
+    align-items: left
+    justify-content: center
+    list-style: none
+    font-size: $normal-text
+
+.about-item
+    display: flex
+    align-items: center
+    margin: .5rem
+    color: $dark-color
+    font-weight: 800
+    text-decoration: none
+    &:hover
+        color: $red-color
+
+
+.about-icon
+    width: 2.2rem
+    margin-right: .5rem
+
+@media (max-width: 900px)
+    .about-list
+        flex-direction: row
+
+@media (max-width: 700px)
+    .about
+        width: 100%
+    .about-list
+        flex-direction: column

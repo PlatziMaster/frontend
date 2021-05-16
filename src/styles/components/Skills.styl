@@ -1,0 +1,28 @@
+@import '../App.styl'
+
+.skills
+    display: flex
+    flex-direction: column
+    padding: 2rem
+    margin: 1rem
+    border-radius: 2rem
+    box-shadow: 2px 1rem 1rem rgba(0, 0, 0, 0.5)
+    background-color: $white-color
+    color: $blue-color
+    font-size: $normal-text
+    font-weight: 600
+    width: 100%
+
+.skills-title
+    font-size: $head1
+    color: $red-color
+
+.skills-item
+    display: flex
+    justify-content: space-between
+    margin: .5rem 0
+    border-bottom: 1px solid $dark-color
+
+@media (max-width: 700px)
+    .skills
+        width: auto

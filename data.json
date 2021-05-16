@@ -1,109 +1,108 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Ramón Ruiz",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Jalisco, México",
+    "email": "ramonruizrc@gmail.com",
+    "website": "https://ramonruizrc.github.io",
+    "phone": "3330656409",
+    "addressIcon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/home.svg?alt=media&token=00ec7a8a-023c-48c7-bb51-d964460bbb02",
+    "emailIcon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/email.svg?alt=media&token=bcc7724f-dd72-4819-830b-94e7f866e35c",
+    "websiteIcon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/globe.svg?alt=media&token=6f1f810c-4196-471e-802d-f46de12112ed",
+    "phoneIcon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/phone-call.svg?alt=media&token=1b396c04-03af-4c07-9910-108ce5eb47ec",
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/avatar.jpg?alt=media&token=c1b73881-02f4-4b1c-aeec-f3d77668f0c8",
+    "profile": "Soy desarrollador web especializado en Frontend. Me encanta estar en constante aprendizaje de las nuevas tecnologías. Busco crear software genial con mis conocimientos.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Enero 2020",
+        "description": "Domina las bases de HTML y CSS. Define la arquitectura de tu código y construye un sitio web usando componentes estáticos.",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Diciembre 2019",
+        "description": "Deja de versionar tus proyectos usando tu propio sistema de control de versiones. Mejor usa Git, el sistema de control de versiones por excelencia que utiliza la industria tecnológica.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Git y GitHub"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Tecnólogo Profesional en Informática",
+        "description": "Carrera enfocada en el aprendizaje de tecnologías de la información.",
+        "endDate": "Junio 2021",
+        "institution": "Politécnico Jorge Matute Remus",
+        "startDate": "Agosto 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Trato Hecho",
+        "endDate": "Junio 2020",
+        "jobDescription": "Ayudé al desarrollo frontend del sitio web trato-hecho.com usando React JS.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Marzo 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "95%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "95%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Data Science",
+      "Audiovisual Production",
+      "Frontend"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "95%"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "Inglés",
+        "percentage": "60%"
+      },
+      {
+        "name": "Francés",
+        "percentage": "5%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/ramonruizrc",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/twitter.svg?alt=media&token=e304e39d-08f3-47e9-9d42-51612f301c1a"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Github",
+        "url": "https://github.com/ramonruizrc",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/github.svg?alt=media&token=af7e5ca5-3ef6-4df2-bbe4-f62ba77c208b"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/ramonruizrc",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/linkedin.svg?alt=media&token=9a9963da-e88d-44f7-8c2f-dc32782cce22"
+
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Platzi",
+        "url": "https://platzi.com/p/ramonruiz/",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/platzi-master-frontend.appspot.com/o/platzi.svg?alt=media&token=c93564ec-7213-4040-b600-7c02193d0da9"
       }
     ]
   }

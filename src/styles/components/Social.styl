@@ -1,0 +1,37 @@
+@import '../App.styl'
+
+.social
+    align-self: center
+
+.social-list
+    display: flex
+    flex-direction: column
+    align-items: left
+    justify-content: center
+    list-style: none
+    font-size: $normal-text
+
+.social-item
+    display: flex
+    align-items: center
+    margin: .5rem
+    color: $dark-color
+    font-weight: 800
+    text-decoration: none
+    &:hover
+        color: $red-color
+
+
+.social-icon
+    width: 2.2rem
+    margin-right: .5rem
+
+@media (max-width: 900px)
+    .social-list
+        flex-direction: row
+
+@media (max-width: 700px)
+    .social
+        width: 100%
+    .social-list
+        flex-direction: column

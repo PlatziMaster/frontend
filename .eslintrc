@@ -2,10 +2,12 @@
   "env": {
     "browser": true,
     "es6": true,
-    "node": true,
+    "node": true
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "react-app",
+    "prettier"
   ],
   "globals": {
     "document": false,
@@ -23,9 +25,11 @@
   "plugins": [
     "react",
     "jsx-a11y",
-    "import"
+    "import",
+    "prettier"
   ],
   "rules": {
+    "prettier/prettier" : "error",
     "react/jsx-filename-extension": 0,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,

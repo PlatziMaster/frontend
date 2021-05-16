@@ -1,25 +1,17 @@
 import React from 'react';
+import { CardDeck } from 'react-bootstrap';
+import ExperienceItem from './ExperienceItem';
 //import PropTypes from 'prop-types';
 
 const Experience = ({ experience }) => {
   return (
     <div>
-      <span className='Experience-title' />
-
-      {
-              experience?.map((item, id) => {
-                return (
-                  <span
-                    key={id}
-                    className='Experience-item'
-                  >
-                    {item.company}
-                  </span>
-                );
-              })
-
-      }
-
+      <h4 className='Experience-title'>experience</h4>
+      <CardDeck>
+        {experience?.map((item, id) => {
+          return <ExperienceItem key={id} {...item} className='Experience-item' />;
+        })}
+      </CardDeck>
       <span className='Experience-item' />
       <span className='Experience-item' />
       <span className='Experience-item' />
@@ -27,8 +19,6 @@ const Experience = ({ experience }) => {
   );
 };
 
-Experience.propTypes = {
-
-};
+Experience.propTypes = {};
 
 export default Experience;

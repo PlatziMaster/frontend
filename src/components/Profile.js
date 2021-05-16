@@ -4,8 +4,8 @@ import React from 'react';
 const Profile = ({ profile }) => {
   return (
     <div>
-      <span className='Profile-title' />
-      <span className='Profile-desc'>{ profile}</span>
+      <h4 className='Profile-title'>description</h4>
+      <p className='Profile-desc'>{ profile}</p>
 
     </div>
   );

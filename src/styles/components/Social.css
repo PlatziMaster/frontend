@@ -1,0 +1,19 @@
+h4 {
+    font-size: 2.4rem;
+}
+.social {
+    margin: 10px;
+    padding: 15px;
+    background: #bdf1d4;
+}
+.social-list {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+.social-list ol ul {
+    width: 300px;
+}
+.social-list ol {
+    display: flex;
+    justify-content: left;
+}

@@ -1,109 +1,121 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Daniel Oyama",
+    "profession": "Ing. Industrial",
+    "address": "CDMX, México",
+    "email": "deoa_17@hotmail.com.com",
+    "website": "https://deoa17.github.io/Web-personal---Daniel-Oyama/",
+    "phone": "5532386054",
+    "avatar": "deoa17@gmail.com",
+    "Profile": "I consider myself a lifelong learner and I am looking forward to being part of a team that is developing cutting-edge technologies. Disciplines of study and interest: machine learning, big data, IoT, cloud services, business models and startups. I enjoy making decisions, facing challenges that involve professional growth and a positive impact on the company.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Feb 2020",
+        "description": "Ruta de bases de datos",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Carrera de bases de datos"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Mar 2020",
+        "description": "Ruta de data science",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Carrera de big data y data science"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ing. Industrial",
+        "endDate": "Aug 2007",
+        "institution": "UNAM",
+        "startDate": "May 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "El Taco en Llamas",
+        "endDate": "May 2020",
+        "jobDescription": "started the restaurant in the city of Toluca, concept of Mexican snacks. Rating 4.3 google maps and uber eats. In charge of all the administrative, marketing, finance and some operative areas of the restaurant. Payroll of 8 people. Business transfer due to change of personal objectives and lack of growth.",
+        "jobTitle": "Owner",
+        "startDate": "Aug 2016"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Braskem Idesa",
+        "endDate": "May 2016",
+        "jobDescription": "Assigned as Facilities Manager of the Philips Mexicana’s building. In charge of security personnel, receptionists, drivers, cleaners, technicians and maintenance providers. Staffed by 40 people. Monthly Budget $400 000 MN. Savings of 10% per year were achieved.",
+        "jobTitle": "Maintenance Planner",
+        "startDate": "Jan 2013"
+      },
+      {
+        "company": "Cushman & Wakefield",
+        "endDate": "Jan 2013",
+        "jobDescription": "Technical reviewer for the hiring of 80 technicians. Creation of predictive, preventive and corrective maintenance plans, approximately 80. Creation of bill of materials and list of critical equipment for the maintenance module for SAP. In charge of make the weekly compliance report of scheduled maintenance.",
+        "jobTitle": "Facilities Manager",
+        "startDate": "Jul 2012"
+      },
+      {
+        "company": "Señor Cactus",
+        "endDate": "Dec 2011",
+        "jobDescription": "Review inventories (Days/weeks on hand, stock to sales ratio, backorder rate, average inventory, stock-outs, etc) of more than 300 point of sales establishments (Walmart, Soriana, Comercial Mexicana) In charge of make the daily sales report of all the products of the company. Assigned to planning the logistic of the relocation in Zacatecas’plant to the industrial park El Marques in Queretaro",
+        "jobTitle": "Data Analyst",
+        "startDate": "Jan 2011"
       }
     ],
     "skills": [
       {
+        "name": "Python",
+        "percentage": "70%"
+      },
+      {
+        "name": "Machine Learning",
+        "percentage": "60%"
+      },
+      {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "60%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Machine Learning",
+      "Develop",
+      "Backend",
+      "Frontend",
+      "Marketing",
+      "Business"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/danieloyama?lang=en"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/deoa17"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/daniel-oyama"
       }
     ]
   }

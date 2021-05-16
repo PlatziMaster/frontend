@@ -1,0 +1,14 @@
+h3 {
+    font-size: 2.4rem;
+}
+.profile{
+    margin: 10px;
+    padding: 15px;
+    background: #bdf1d4;
+  }
+.profile p {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}

@@ -1,81 +1,148 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Omar Palacios",
+    "profession": "FrontEnd Developer and Hydrosanitary Networks Designer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "omarpal88@gmail.com",
+    "website": "https://github.com/kikepal88",
+    "phone": "3015417060",
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/ImagenOP_compresed.png?alt=media&token=49dca78a-a15f-4487-ae2d-e776c59eadb2",
+    "Profile": "I am a Civil engineer with 7 years of experience in design and management of hydrosanitary networks projects. During the pandemic I decided to reinvent myself by discovering in the Web development a passion and a great way to develop a new professional career. I focused on Front-End Web Development, I have the ability to build responsive web pages (mobile first) adaptable to any device. I have notions of object-oriented programming, project management with NPM and Webpack. My short and medium term goal is to learn and improve every day to program web pages in a professional way.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "April 2021",
+        "description": "In this course you will learn how manage and configure webpack in yours projects.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Webpack Course"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "March 2021",
+        "description": "In this course you will learn how manage and configure yours projects with NPM packages.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Dependencies and Packages Course with NPM"
+      },
+      {
+        "date": "February 2021",
+        "description": "In this course you will learn how work the main preprocessors to CSS and HTML.",
+        "institution": "Platzi",
+        "name": "CSS preprocessors"
+      },
+      {
+        "date": "January 2021",
+        "description": "In this course you will learn how create different data structures of Javascript and work it.",
+        "institution": "Platzi",
+        "name": "Data Structures with Javascript"
+      },
+      {
+        "date": "January 2021",
+        "description": "In this course you will learn how work Javascript with the asynchronism and their different methods.",
+        "institution": "Platzi",
+        "name": "Asynchronism with Javascript"
+      },
+      {
+        "date": "November 2020",
+        "description": "In this course, you will learn how to create web pages that are responsive to any device.",
+        "institution": "Platzi",
+        "name": "Responsive Design: Mobile First"
+      },
+      {
+        "date": "September 2020",
+        "description": "In this course you will learn the basic and good practices to create web pages.",
+        "institution": "Platzi",
+        "name": "Definitive HTML and CSS"
+      },
+      {
+        "date": "August 2020",
+        "description": "In this course you will learn the Javascript basic aspects and how to use it.",
+        "institution": "Platzi",
+        "name": "Basic Javascript"
+      },
+      {
+        "date": "July 2020",
+        "description": "In this course you will learn how work git and gitHub, create versions of your projects and publice in Internet.",
+        "institution": "Platzi",
+        "name": "Git and GitHub Professional"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Civil Engineer",
+        "description": "Is engineering that uses knowledge of calculation, mechanics, hydraulics and physics to carry out the design, construction and maintenance of infrastructures.",
+        "endDate": "Postponed (eighth semester)",
+        "institution": "University Corporation God's Minute",
+        "startDate": "August 2014"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Technology in Civil Constructions",
+        "description": "Is engineering that uses knowledge of calculation, mechanics, hydraulics and physics to carry out the design, construction and maintenance of infrastructures.",
+        "endDate": "Abandoned",
+        "institution": "District University",
+        "startDate": "January 2006"
+      },
+      {
+        "degree": "Technical bachelor in drawing",
+        "description": "Bachelor with a specialization in technical architectural drawing.",
+        "endDate": "November 2005",
+        "institution": "Centro Don Bosco Industrial Technical Institute",
+        "startDate": "January 1999"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Freelance",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Construction of Melifluo a pre-launch page for an online school for music fans. (Construction in progress).",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "April 2021",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
+        "repository": "https://github.com/kikepal88/Melifluo-Web",
+        "GitHubPages": "https://kikepal88.github.io/Melifluo-Web/"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Personal Project",
+        "endDate": "Present",
+        "jobDescription": "Design and construction of the website of MiniTutorialesWebDev. (Construction in progress).",
+        "jobTitle": "UI Designer and Frontend",
+        "startDate": "April 2021",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=40f58d16-04ed-485b-9b0f-a53e2f369b13",
+        "repository": "https://github.com/kikepal88/MiniTutorialesWebDev",
+        "GitHubPages": "https://kikepal88.github.io/MiniTutorialesWebDev/"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "70%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "40%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "10%"
+      },
+      {
+        "name": "Adobe XD",
+        "percentage": "50%"
+      },
+      {
+        "name": "Git",
+        "percentage": "50%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
+      "Javascript",
+      "React",
+      "Typescript",
+      "Vue",
+      "Angular",
+      "Svelte",
+      "UI design",
       "frontend"
     ],
     "languages": [
@@ -90,20 +157,19 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "instragram",
+        "url": "https://www.instagram.com/kikepal88/?hl=es-la",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/instagram_naranja.svg?alt=media&token=f5d7e23d-67a2-47d8-acc6-da34a4ed60cd"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
+        "url": "https://twitter.com/kikepal88",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/twitter_naranja.svg?alt=media&token=4226810e-a5ad-43a2-aad3-b1a8f50b5496"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/omarpal/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/linkedin2_naranja.svg?alt=media&token=89598570-0041-4d83-acfc-f3c3a4eb1fb8"
       }
     ]
   }

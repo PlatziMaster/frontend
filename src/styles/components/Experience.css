@@ -1,5 +1,34 @@
 .Experience {
     grid-area: areaC;
+    padding: 0 60px;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.3);;
+
+}
+
+.Experience h1 {
+    color: rgb(33, 157, 161);
+}
+
+.Experience-Container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.Experience-Container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.Experience-Container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.Experience-Container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
 }

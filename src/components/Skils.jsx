@@ -5,7 +5,24 @@ const Skills = () => {
     return (
     <div className="Skills">
         <h1>Skills-title</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique excepturi quisquam maxime, perferendis aspernatur totam, eaque minus saepe fugit eos blanditiis commodi accusamus natus sed quam laborum eum voluptate.</p>
+        <div className="Skills-item">
+            <p>Name: HTML5(75%)</p>
+            <div className="percentage">
+                <div className="percentage-bar"></div>
+            </div>
+        </div>
+        <div className="Skills-item">
+            <p>Name: HTML5(75%)</p>
+            <div className="percentage">
+                <div className="percentage-bar"></div>
+            </div>
+        </div>
+        <div className="Skills-item">
+            <p>Name: HTML5(75%)</p>
+            <div className="percentage">
+                <div className="percentage-bar"></div>
+            </div>
+        </div>
     </div>
     )
 }

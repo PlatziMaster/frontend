@@ -1,5 +1,14 @@
 .Academic {
     grid-area: areaD;
+    padding: 0 60px;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.3);;
+    max-height: 500px;
+    overflow: auto;
+   
 }
+
+.Academic > h1 {
+    color: #219DA1;
+    margin-bottom: 0;
+}
+

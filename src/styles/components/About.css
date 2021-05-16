@@ -1,15 +1,44 @@
 .Header-container {
     width: 100%;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
+    color: black;
+}
+.Header-image{
+    margin: 0;
+}
+.Header-image > div {
+    width: 171px;
+    height: 171px;
+    background-color: white;
 }
 
-.Header-image > div {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(128, 192, 194);
+.Header-title {
+    margin: 0px;
+}
+.Header-job-title {
+    margin-top: 0px;
 }
 
 .Header-Information {
-    /* display: flex; */
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 100%;
+    padding: 10px 0 20px 30px;
+    box-shadow: 60px -16px rgba(0, 0, 0, 0.35); 
+}
+
+.Header-Information > article > p {
+    margin-left: 18px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.Header-Information > article > p:first-child {
+    margin-left: 0px;
+}
+
+.Header-Information > article > p:last-child {
+    margin-left: 0px;
+    display: block;
 }

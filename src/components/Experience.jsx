@@ -1,14 +1,20 @@
 import React from 'react'
 import '../styles/components/Experience.css'
 
-const Experience = () => {
+const Experience = ({children, experience}) => {
+    // console.log(experience)
     return (
     <div className="Experience">
-        <h1>Experience-title</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique excepturi quisquam maxime, perferendis aspernatur totam, eaque minus saepe fugit eos blanditiis commodi accusamus natus sed quam laborum eum voluptate.</p>
+        <h1>Experience</h1>
+        <div className="Experience-Container">
+         {children}
+        </div>
+        
     </div>
     )
 }
 
 
 export default Experience
+
+

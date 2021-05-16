@@ -1,0 +1,11 @@
+.AcademicItem > p {
+    margin: 0;
+}
+
+.AcademicItem{
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}

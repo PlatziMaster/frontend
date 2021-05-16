@@ -1,5 +1,26 @@
 .Interest {
     grid-area: areaF;
+    padding: 0 60px;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Interest h1{
+    color: rgb(33, 157, 161);
+}
+
+.Interest > ul {
+    list-style: none;
+}
+.Interest > ul > li {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.Interest > ul > li::before  {
+    content: "·";
+    color: rgb(33, 157, 161);
+    font-size: 60px;
+
+
 }

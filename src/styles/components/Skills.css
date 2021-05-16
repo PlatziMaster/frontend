@@ -1,5 +1,20 @@
 .Skills {
     grid-area: areaE;
+    padding: 0 60px;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Skills h1{
+    color: rgb(33, 157, 161);
+}
+
+.percentage {
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    max-width: 300px;
+    height: 10px;
+}
+.percentage-bar {
+    background-color: rgb(33, 157, 161);
+    width: 75%;
+    height: 100%;
 }

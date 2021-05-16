@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/components/Profile.css'
 
-const Profile = () => {
+const Profile = ({personalInfo}) => {
     return (
     <div className="Profile">
-        <h1>Profile-title</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique excepturi quisquam maxime, perferendis aspernatur totam, eaque minus saepe fugit eos blanditiis commodi accusamus natus sed quam laborum eum voluptate.</p>
+        <h1 className="Profile-title">Profile</h1>
+        <p className="Profile-desc">{personalInfo}</p>
     </div>
     )
 }

@@ -1,9 +1,10 @@
 .Header {
     grid-area: areaA;
     display: flex;
-    width: 100%;
+    padding: 0 60px;
+    width: auto;
     height: 100%;
-    background-color: white;
+    background-color: rgb(33, 157, 161);
     border: 1px solid rgba(0, 0, 0, 0.3);
     
 }

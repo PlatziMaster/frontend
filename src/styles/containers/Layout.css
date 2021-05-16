@@ -1,7 +1,9 @@
 .Layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-rows: 1fr auto 300px auto 300px;
     grid-template-areas: "areaA areaA" "areaB areaB" "areaC areaC" "areaD areaE" "areaF areaG";
+    /* padding: 0 60px; */
+
 }
 

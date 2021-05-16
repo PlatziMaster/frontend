@@ -1,0 +1,42 @@
+.Experience {
+    grid-area: areaC;
+    padding: 0 130px;
+    background-color: white;
+
+}
+
+.Experience-title {
+    color: rgb(33, 157, 161);
+}
+
+.Experience-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.Experience-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.Experience-container::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.Experience-container::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+
+
+@media (min-width:1500px) {
+    .Experience{
+        padding: 0 250px;
+    }
+}

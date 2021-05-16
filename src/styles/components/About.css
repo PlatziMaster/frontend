@@ -1,0 +1,58 @@
+.Header-image {
+    margin: 0;
+}
+.Header-image > img {
+    width: 171px;
+    height: 171px;
+}
+
+.Header-title {
+    margin: 0px;
+}
+.Header-job-title {
+    margin-top: 0px;
+}
+
+.Header-information {
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 100%;
+    padding: 10px 30px;
+    box-shadow: 60px -16px rgba(0, 0, 0, 0.35); 
+}
+
+
+.Header-phone,.Header-email,.Header-website,.Header-adress {
+    margin: 0px 0px 10px 18px;
+    /* margin-left: 18px;
+    margin-bottom: 0; */
+    display: inline-block;
+}
+
+.Header-phone {
+    margin-left: 0px;
+}
+
+.Header-adress {
+    margin-left: 0px;
+    display: block;
+}
+
+
+@media (max-width:1100px) {
+    .Header-adress {
+        margin-left: 0px;
+        display: inline-block;
+    }
+
+}
+
+@media (max-width:1099px) {
+    .Header-website {
+        margin: 18px 0px;
+    }
+    .Header-adress {
+        margin-left: 18px;
+        display: inline-block;
+    }
+
+}

@@ -1,0 +1,33 @@
+.Interest {
+    grid-area: areaF;
+    padding: 0 130px;
+}
+
+.Interest-title{
+    color: rgb(33, 157, 161);
+}
+
+.Interest-container {
+    list-style: none;
+}
+.Interest-container > li {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.Interest-container > li::before  {
+    content: "·";
+    color: rgb(33, 157, 161);
+    font-size: 60px;
+
+
+}
+
+
+
+@media (min-width:1500px) {
+    .Interest{
+        padding: 0 250px;
+    }
+}

@@ -1,54 +1,30 @@
-# frontend
+# Desafío frontend Platzi master - Sergio sanhueza
 
-## React Curriculum vitae
+## React Curriculum vitae, resultado final:
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
 
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+## Pasos en el proyecto:
+### Crear los componentes del proyecto
+Los componentes del proyecto fueron creados en base a la estructura propuesta para representar la información.
 
-### Instalación
-```
-npm install
-```
+### Añade estilos
+El estilo incorporado viene de una inspiracion que obtuve al ver proyectos web en www.behance.net:
 
-### Ejecución
-```
-npm run start
-```
 
-### Server
-```
-npm run server
-```
+este diseño en particular me ayudo a decidir el diseño que crearía para completar el reto.
 
-### Compilar
-```
-npm run build
-```
 
-### Pruebas Unitarias
-```
-npm run test
-```
+### Crear función getData, integrar API (useInitialState)
+Utilizando los archivos recibidos al inicio creé la funcion **getData** que recibe la API a utilizar y la funcion que modifica el estado de un custom hook**(useInitialState) **para enviar la informacion a los componentes de manera independiente separando la lógica de la petición a la API de los componentes del proyecto.
 
-### ESlint
-```
-npm run lint
-```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
+### Cosas pendientes
+No alcansé a pasar todos los test para el reto, además me ubiera gustado hacer un diseño responsivo para visualizarlo en movil pero el tiempo no me alcanzó.
+Tambien podría haber incorporado variables de entorno a utilizar para acceder a la API
 
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
+### Opinion personal
 
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Este es mi primer gran desafío en react, postular a platzi master me ayudó a poner aprueba mis habilidades y a exigirme para pulir mi conocimiento a lo largo del reto.
+
+Aunque hay cosas del proyecto que me gustaría cambiar estoy contento por participar en esto porque ayudó a crecer más mi motivacion para seguir adelante.

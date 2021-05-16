@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Languages extends Component {
   render() {
     const data = this.props.data.languages;
-    console.log(data);
+    // console.log(data);
 
     return (
       <React.Fragment>

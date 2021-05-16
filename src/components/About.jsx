@@ -5,7 +5,7 @@ const About = ({ nameTitle, professionJob, phone, email, website, address, avata
   return (
     <>
       <div className="about-img">
-        <img src={`https://www.gravatar.com/avatar/{avatar}?d=identicon`} alt="Avatar" />
+        <img src="https://s.gravatar.com/avatar/5e41181c357da517998cf17978285fdb?s=80" alt="Avatar" />
       </div>
       <div className="about">
         <h1 className="About-title">{nameTitle}</h1>

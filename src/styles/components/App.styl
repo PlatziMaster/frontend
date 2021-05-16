@@ -1,2 +1,135 @@
-body
-  background-color blue
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+base-color= #E6E6E6;
+profile-color= #1F2021;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Como por defecto el font-size es 16px, el 62,5% nos daría 10px*/
+    html {
+	font-size: 62.5%;
+    }
+    body {
+	font-size: 1.6rem; /*  1.6 x 10 = 16px */		
+    }
+/*entonces podemos calcular rem fácilmente multiplicando por 10 */
+
+body{
+  background-color: base-color
+  color: profile-color
+  font-family: 'Raleway', sans-serif
+}
+
+.wrapper{
+  display: flex
+}
+
+.perfil-container{
+  max-width: 300px
+  color: white
+  background: profile-color
+  height: 100vh
+}
+
+.perfil-img{
+    margin-bottom:40px
+  }
+
+.perfil-container-box{
+  padding: 0 20px 40px 
+  --padding: 2rem
+  padding: --var(padding)
+}
+
+.perfil-lista{
+  padding: 20px 0 0 20px  
+}
+
+.perfil-titulo{
+  position: relative
+  }
+
+.perfil-titulo::after{
+  content: ''
+  position: absolute
+  height: 3px;
+  background: base-color
+  width: calc(100% + var(--padding))
+  right: calc(var(--padding) * -1)
+  bottom: 0
+}
+
+
+.obj-container {
+  width: 80%
+  padding: 40px
+}
+
+.obj-container h1{
+  font-size: 5rem;
+  }
+
+.boton{
+  background: #D9D9D9
+  width: max-content
+  padding: 10px
+  letter-spacing: 2px
+}
+
+.obj-prof-titulo {
+  margin:30px 0 10px 0
+  }
+
+.exp-pro-lista{
+  margin: 20px 0 0 30px
+  }
+
+.exp-pro-titulo{
+  display: flex
+  }
+
+.exp-pro-titulo span{
+  padding: 0 0 0 15px
+  line-height: 2rem
+  font-weight: bold
+  }
+
+.fecha{
+  display: absolute
+  top:-10px
+  font-size: 1.5rem
+  background: profile-color
+  color: base-color
+  padding: 3px 15px
+  border-radius: 15px
+}
+
+.exp-pro{
+  margin-top: 30px}
+
+.exp-pro-titulo:nth-last-child(1){
+  margin-top:20px
+  }
+
+.footer{
+  display: flex
+}
+
+.idiomas {
+  width: 50%
+  padding-right: 20px
+}
+
+.habilidades{
+  width: 50%
+}
+
+.wrapper{
+  width: 900px
+  margin: 0 auto
+}
+
+

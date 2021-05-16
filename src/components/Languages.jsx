@@ -13,7 +13,7 @@ const Languages = () => {
   } = useContext(appContext);
 
   return (
-      <section className="Lenguage Container Card-glass">
+    <section className="Lenguage Container Card-glass">
       <h4 className="H4-title">Languages</h4>
       {languages.map(({ name, percentage }) => (
         <Item key={name} name={name} percentage={percentage} />

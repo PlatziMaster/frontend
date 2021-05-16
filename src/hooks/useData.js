@@ -1,17 +1,17 @@
-import { useContext, useState } from 'react'
+import { useContext, useState } from 'react';
 import { appContext } from '../containers/AppContext';
 
 const useData = (element) => {
-    const {
-      data: {
-        dataFromApi: {
-          data: { element },
-        },
+  const {
+    data: {
+      dataFromApi: {
+        data: { element },
       },
-    } = useContext(appContext);
+    },
+  } = useContext(appContext);
 
-    const [data, setData] = useState([])
-    return [data, setData]
-}
+  const [data, setData] = useState([]);
+  return [data, setData];
+};
 
-export default useData
+export default useData;

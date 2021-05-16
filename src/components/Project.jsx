@@ -29,5 +29,4 @@ Project.propTypes = {
   stak: PropTypes.string.isRequired,
 };
 
-
 export default Project;

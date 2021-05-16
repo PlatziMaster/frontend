@@ -9,16 +9,19 @@ import {
   Interest,
   Languages,
   Loading,
-  ErrorMessage
 } from '../components';
 import { appContext } from './AppContext';
 import '../styles/containers/App.styl';
 
 const App = () => {
+  /**
+   * Ponemos un loader mientras traemos la data.
+   * @type {Boolen} 
+   */
   const {
-    data: { loading, error },
+    data: { loading },
   } = useContext(appContext);
-  
+
   return (
     <>
       {loading ? (
@@ -36,7 +39,6 @@ const App = () => {
           <Languages />
         </>
       )}
-      {error && <ErrorMessage />}
     </>
   );
 };

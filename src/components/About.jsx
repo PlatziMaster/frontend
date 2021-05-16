@@ -19,7 +19,7 @@ const About = () => {
       },
     },
   } = useContext(appContext);
-  
+
   return (
     <section className="Header-section Container Card-glass">
       <img className="Header-img" src={avatar} alt="Nicolas Jimenez" />
@@ -62,9 +62,7 @@ const About = () => {
             target="_blank"
             className="Header-website"
           >
-            <i
-              className={'bx bxl-' + name.toLowerCase()}
-            ></i>
+            <i className={'bx bxl-' + name.toLowerCase()}></i>
           </a>
         ))}
       </div>

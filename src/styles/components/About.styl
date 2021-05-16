@@ -19,12 +19,18 @@
     margin-left: 2em
     border-radius: 50%
     object-fit: cover
+    min-height: 3em
+    min-width: 3em
 
 .Header-DivInfo
     display flex
     flex-wrap: wrap
     align-items: center
     justify-content: space-around
+
+.bx 
+    margin-right: .3em
+
 
 .Header-DivInfo a 
     margin: 0 .5em
@@ -70,6 +76,10 @@
         justify-content: center
 
     .Div-aboutMedia
-        right: .5em
+        right: -3px
     
-    
+
+@media only screen and (max-width: 480px)
+    .Header-DivInfo
+       flex-direction: column
+       

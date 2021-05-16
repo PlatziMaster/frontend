@@ -14,7 +14,7 @@ const Experience = () => {
 
   return (
     <section className="Container Experience Card-glass">
-      <h4 className="H4-title">Experience</h4>
+      <h4 className="H4-title Experience-title">Experience</h4>
       <div className="Experience-wrapper">
         {experience.map(
           ({ complete, projectDescription, projectName, stak, url }) => (

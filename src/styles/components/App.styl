@@ -1,2 +1,32 @@
+html
+  font-size 62.5%
+
 body
-  background-color blue
+  background-color white
+  margin 0
+  padding 0
+
+.main
+  width 90%
+  margin 50px auto
+  box-shadow 0px 0px 20px 10px #00000044
+  display flex
+  flex-direction row
+
+a
+  text-decoration none
+  color #16FFE2aa
+
+a:hover
+  color #16FFE2
+
+@media (max-width: 1023px)
+  .main
+    margin 25px auto
+    flex-direction column
+
+@media (max-width: 450px)
+  .main
+    margin 0
+    width 100%
+    box-shadow none

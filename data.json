@@ -1,110 +1,119 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "avatar": "https://i.imgur.com/Kgm9urk.jpg",
+    "about": {
+      "address": "Zapopan, Jalisco",
+      "phone": "3327161523",
+      "email": "brandargel@gmail.com",
+      "website": "brandonargel.github.io/",
+      "linkedin": "@brandargel",
+      "skills": [
+        {
+          "name": "HTML5",
+          "percentage": "90%"
+        },
+        {
+          "name": "CSS3",
+          "percentage": "85%"
+        },
+        {
+          "name": "JavaScript",
+          "percentage": "70%"
+        },
+        {
+          "name": "Git",
+          "percentage": "85%"
+        },
+        {
+          "name": "GitHub",
+          "percentage": "85%"
+        },
+        {
+          "name": "Figma",
+          "percentage": "85%"
+        },
+        {
+          "name": "Terminal",
+          "percentage": "60%"
+        },
+        {
+          "name": "React",
+          "percentage": "40%"
+        }
+      ],
+      "interest": [
+        "Aprender todos los días algo nuevo.",
+        "Formarme como desarrollador web.",
+        "Ciencias de datos.",
+        "Inteligencia Artificial y Machine Learning.",
+        "Seguridad Informática.",
+        "Leer."
+      ],
+      "objectives": [
+        "Crear Software de calidad y accesible para todas las personas.",
+        "Nunca parar de aprender.",
+        "Adquirir nuevas habilidades todos los días."
+      ]
+    },
+    "profile": {
+      "name": "Brandon Argel",
+      "profession": "FrontEnd Developer",
+      "professionalProfile": "Soy un desarrollador web especializado en el frontend. Y trabajo principalmente en la creación de sitios web estáticos, como: landing pages, portafolios, blogs y páginas para negocios.",
+      "experience": [
+        {
+          "project": "Proyecto Innovador",
+          "company": "Neurona UDG ",
+          "startDate": "Ene 2021",
+          "endDate": "May 2021",
+          "jobDescription": "Desarrollamos un proyecto innovador utilizando las habilidades adquiridas a lo largo de la carrera."
+        },
+        {
+          "project": "Portafolio Personal",
+          "startDate": "Feb 2021",
+          "endDate": "Mar 2021",
+          "jobDescription": "Creación de portafolio personal, en el que utilizo herramientas como HTML, CSS y JavaScript, Git y GitHub, Figma (Para el diseño y prototipado) y la terminal de linux.",
+          "link": "brandonargel.github.io",
+          "jobDescription2": "En este portafolio encontrará todos los proyectos que he realizado a lo largo de mi carrera."
+        }
+      ],
+      "academic": [
+        {
+          "degree": "Tecnólogo Profesional en Informática",
+          "description": "Estudio una carrera técnica de informática donde he aprendido las bases de la programación y el desarrollo Web. Haciendo también prácticas profesionales y proyectos que me permitieron desarrollar y practicar mis conocimientos.",
+          "endDate": "Jun 2021",
+          "institution": "Escuela Politécnica Ing. Jorge Matute Remus",
+          "startDate": "Ago 2017"
+        },
+        {
+          "degree": "Frontend, English, Software Development",
+          "description": "Soy un estudiante de la plataforma de educación online Platzi. En donde he aprendido sobre Desarrollo Web, programación, Inglés y también he desarrollado algunas habilidades blandas.",
+          "endDate": "Actualidad",
+          "institution": "Platzi",
+          "startDate": "Sep 2019"
+        }
+      ],
+      "softSkills": [
+        "Gestión del tiempo",
+        "Productividad",
+        "Trabajo en equipo",
+        "Disciplina",
+        "Adaptación",
+        "Compromiso"
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglés",
+          "level": "Intermedio Avanzado"
+        },
+        {
+          "name": "Francés",
+          "level": "Básico"
+        }
+      ]
+    }
   }
 }

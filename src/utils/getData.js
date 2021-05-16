@@ -8,6 +8,7 @@ const getData = async (url) => {
     return data;
   } catch (e) {
     console.error(e);
+    return {};
   }
 };
 

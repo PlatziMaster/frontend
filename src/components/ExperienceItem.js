@@ -1,6 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Card, Badge, Row, Col } from 'react-bootstrap';
+//import PropTypes from 'prop-types';
+import { Card, Badge } from 'react-bootstrap';
 
 const ExperienceItem = ({
   company,

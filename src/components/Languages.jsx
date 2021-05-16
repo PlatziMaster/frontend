@@ -1,12 +1,13 @@
 import React from 'react'
 import '../styles/components/Languages.css'
 
-const Languages = (props) => {
+const Languages = ({ languages }) => {
     return (
     <div className="Languages">
-        <h1>Lenguage-title</h1>
-        { props.languages ?
-            props.languages.map((language,index) =>{
+        <h1 className="Languages-title">Lenguage</h1>
+        <div className="Languages-container">
+        { languages ?
+            languages.map((language,index) =>{
                 return(
                     <div key={index} className="Languages-item">
                         <p>{language.name} {language.percentage}</p>
@@ -19,7 +20,7 @@ const Languages = (props) => {
             <h1>cargando....</h1>
 
         }
-        
+        </div>
     </div>
     )
 }

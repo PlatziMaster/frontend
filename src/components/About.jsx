@@ -2,14 +2,13 @@ import React from 'react'
 import '../styles/components/About.css'
 
 
-const About = ({personalInfo}) => {
+const About = ({ personalInfo }) => {
     return (
-        <div className="Header-container">
+        <>
         <figure className="Header-image">
             <img src={personalInfo.avatar} alt="" />
-            {/* <div>foto</div> */}
         </figure>
-        <section className="Header-Information">
+        <section className="Header-information">
             <h1 className="Header-title">{personalInfo.name}</h1>
             <p className="Header-job-title">{personalInfo.profession}</p>
             <article >
@@ -19,14 +18,9 @@ const About = ({personalInfo}) => {
                 <p className="Header-adress"><strong>Adress:</strong> {personalInfo.address}</p>
             </article>
         </section>
-        </div>
+        </>
     )
 }
-
-<strong></strong>
-
-
-
 
 
 export default About

@@ -1,6 +1,6 @@
-.Experience-Item {
+.Experience-item {
      background-color: rgba(240, 240, 232, 0.397);
-     min-width: 480px;
+     max-width: 480px;
      max-height: 125px;
      padding: 20px;
      border-radius: 5px;
@@ -11,17 +11,17 @@
 
 }
 
-.Experience-Item p {
+.Experience-item p {
     margin: 0;
     margin-bottom: 5px;
-    position:relative;
+    position: relative;
     z-index:20;
 }
 
 
 
 
-.container-father {
+.Container-img {
 	  width: 55px;
     height: 65px;
     position:relative;
@@ -30,14 +30,14 @@
     bottom: 15%;
    
   }
-  .box1 {
+  .Box1 {
     width: 55px;
     height: 65px;
     background:#21A6B9;
     z-index:1;
     position:relative;
   }
-   .box2 {
+   .Box2 {
     width: 50px;
     height: 50px;  
     background-color: #F9F9F6;

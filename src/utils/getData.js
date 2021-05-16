@@ -1,7 +1,9 @@
-async function getData(API) {
-    fetch('http://localhost:3000/data')
+function getData(API, setData) {
+    fetch(API)
         .then(response => response.json())
-        .then(data => data)
+        .then(data => setData(data))
 }
+
+export default getData
 
 

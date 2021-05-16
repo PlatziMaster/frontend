@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles/components/Interest.css'
 
-const Interest = (props) => {
+const Interest = ({ interest }) => {
     return (
     <div className="Interest">
-        <h1>Interest-title</h1>
-        <ul>
-            {props.interest ?
-                props.interest.map((item, index) => {
+        <h1 className="Interest-title">Interest</h1>
+        <ul className="Interest-container">
+            {interest ?
+                interest.map((item, index) => {
                     return(
                         <li key={index}>{item}</li>
                     )

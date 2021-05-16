@@ -1,15 +1,15 @@
 .Experience {
     grid-area: areaC;
-    padding: 0 60px;
+    padding: 0 130px;
     background-color: white;
 
 }
 
-.Experience h1 {
+.Experience-title {
     color: rgb(33, 157, 161);
 }
 
-.Experience-Container {
+.Experience-container {
     width: 100%;
     height: 200px;
     display: flex;
@@ -19,16 +19,24 @@
 }
 
 
-.Experience-Container::-webkit-scrollbar {
+.Experience-container::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
-.Experience-Container::-webkit-scrollbar:horizontal {
+.Experience-container::-webkit-scrollbar:horizontal {
     height: 10px;
 }
 
-.Experience-Container::-webkit-scrollbar-thumb {
+.Experience-container::-webkit-scrollbar-thumb {
     background-color: #797979;
     border-radius: 20px;
     border: 2px solid #f1f2f3;
+}
+
+
+
+@media (min-width:1500px) {
+    .Experience{
+        padding: 0 250px;
+    }
 }

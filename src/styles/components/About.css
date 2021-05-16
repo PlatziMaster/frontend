@@ -1,17 +1,9 @@
-.Header-container {
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: row;
-    color: black;
-}
-.Header-image{
+.Header-image {
     margin: 0;
 }
 .Header-image > img {
     width: 171px;
     height: 171px;
-    background-color: white;
 }
 
 .Header-title {
@@ -21,24 +13,46 @@
     margin-top: 0px;
 }
 
-.Header-Information {
+.Header-information {
     background-color: rgba(255, 255, 255, 0.35);
     width: 100%;
-    padding: 10px 0 20px 30px;
+    padding: 10px 30px;
     box-shadow: 60px -16px rgba(0, 0, 0, 0.35); 
 }
 
-.Header-Information > article > p {
-    margin-left: 18px;
-    margin-bottom: 0;
+
+.Header-phone,.Header-email,.Header-website,.Header-adress {
+    margin: 0px 0px 10px 18px;
+    /* margin-left: 18px;
+    margin-bottom: 0; */
     display: inline-block;
 }
 
-.Header-Information > article > p:first-child {
+.Header-phone {
     margin-left: 0px;
 }
 
-.Header-Information > article > p:last-child {
+.Header-adress {
     margin-left: 0px;
     display: block;
+}
+
+
+@media (max-width:1100px) {
+    .Header-adress {
+        margin-left: 0px;
+        display: inline-block;
+    }
+
+}
+
+@media (max-width:1099px) {
+    .Header-website {
+        margin: 18px 0px;
+    }
+    .Header-adress {
+        margin-left: 18px;
+        display: inline-block;
+    }
+
 }

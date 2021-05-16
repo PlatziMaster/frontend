@@ -2,15 +2,15 @@ import React from 'react'
 import '../styles/components/Header.css'
 
 
-const Header = ({children}) => {
+const Header = ({ children }) => {
     return (
         <header className="Header">
-            {children}
+            <div className="Header-container">
+                {children}
+            </div>
         </header>
     )
 }
-
-
 
 
 export default Header

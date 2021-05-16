@@ -1,14 +1,24 @@
 .Academic {
     grid-area: areaD;
-    padding: 0 60px;
-    background-color: white;
-    max-height: 500px;
-    overflow: auto;
-   
+    padding-left: 130px;
+    max-height: 550px;
+
 }
 
-.Academic > h1 {
+.Academic-title {
     color: #219DA1;
     margin-bottom: 0;
 }
 
+
+.Academic-container {
+    width: 100%;
+    max-height: 500px;
+    overflow: auto;
+}
+
+@media (min-width:1500px) {
+    .Academic{
+        padding-left: 250px;
+    }
+}

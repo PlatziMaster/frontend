@@ -1,18 +1,18 @@
 import React from 'react'
 import '../styles/components/ExperienceItem.css'
 
-const ExperienceItem = ({item}) => {
+const ExperienceItem = ({ experience }) => {
     return (
         <>
-        <section className="Experience-Item">
-            <p><strong>Company:</strong> {item.company}</p>
-            <p><strong>JobDescription:</strong> {item.jobDescription}</p>
-            <p><strong>JobTitle:</strong> {item.jobTitle}</p>
-            <p><strong>StartDate:</strong> {item.startDate}</p>
-            <div className="container-father">
-                <div className="box1">
+        <section className="Experience-item">
+            <p><strong>Company:</strong> {experience.company}</p>
+            <p><strong>JobDescription:</strong> {experience.jobDescription}</p>
+            <p><strong>JobTitle:</strong> {experience.jobTitle}</p>
+            <p><strong>StartDate:</strong> {experience.startDate}</p>
+            <div className="Container-img">
+                <div className="Box1">
                 </div>
-                <div className="box2">
+                <div className="Box2">
                 </div>
             </div>
         </section>               

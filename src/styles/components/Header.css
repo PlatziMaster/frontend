@@ -1,11 +1,25 @@
 .Header {
     grid-area: areaA;
     display: flex;
-    padding: 0 60px;
+    padding: 0 130px;
     width: auto;
     height: 100%;
     background-color: rgb(33, 157, 161);
     border: 1px solid rgba(0, 0, 0, 0.3);
     
+}
+
+.Header-container {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    color: black;
+}
+
+
+@media (min-width:1500px) {
+    .Header{
+        padding: 0 250px;
+    }
 }
 

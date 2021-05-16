@@ -12,12 +12,15 @@
       {
         "date": "Jan 2021",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "img": "https://www.aerocivil.gov.co/Style%20Library/Aerocivil/img/img.jpg",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
+        
       },
       {
         "date": "Jan 2021",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "img": "https://www.aerocivil.gov.co/Style%20Library/Aerocivil/img/img.jpg",
         "institution": "Platzi",
         "name": "Backend Developer"
       }

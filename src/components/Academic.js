@@ -9,7 +9,7 @@ const Academic = ({ certificate, Academic }) => {
       <h4 className='Academic-title'> Academic</h4>
       {Academic?.map(({ degree, description, endDate, institution, startDate }) => {
         return (
-          <Card key={degree} className='Academic-item'>
+          <Card key={degree} className='Academic-item border-0'>
             <Card.Body className='pb-2'>
               <Card.Title>{degree}</Card.Title>
               <Card.Subtitle className='mb-2 text-muted'>{institution}</Card.Subtitle>

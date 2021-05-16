@@ -10,7 +10,7 @@ const ExperienceItem = ({
   startDate,
 }) => {
   return (
-    <Card>
+    <Card className='border-0'>
       <Card.Body className='pb-2'>
         <Card.Title>{jobTitle}</Card.Title>
         <Card.Subtitle className='mb-2 text-muted'>{company}</Card.Subtitle>

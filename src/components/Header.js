@@ -4,6 +4,7 @@ import { Row, Col, Image } from 'react-bootstrap';
 //import PropTypes from 'prop-types';
 
 const Header = ({
+  children,
   avatar,
   name,
   phone,
@@ -13,19 +14,16 @@ const Header = ({
   address,
 }) => {
   return (
-    <Row>
-      <Col xs='auto' className='d-flex justify-content-center align-self-center py-0 pr-0'>
-        <Image src={avatar} roundedCircle className='' />
+    <Row >
+      <span className='Header-title'></span>
+      <Col className='d-flex m-0 py-0 pr-0'>
+        {children}
       </Col>
-      <Col>
-        <h1 className='Header-title d-block'>{name}</h1>
-        <span className='Header-job-title d-block'>{phone}</span>
-        <span className='Header-phone mr-4'>{profession}</span>
-        <span className='Header-email mr-4'>{email}</span>
-        <span className='Header-website mr-4'>{website}</span>
-        <span className='Header-adress d-block'>{address}</span>
+      <Col xs='auto' className='m-0 p-0'>
+        <a href='/' className='float-left'>
+          <Image src={avatar} roundedCircle />
+        </a>
       </Col>
-
     </Row>
   );
 };

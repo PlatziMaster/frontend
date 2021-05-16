@@ -3,7 +3,23 @@ import { mount } from 'enzyme';
 import Languages from '../../components/Languages';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const languages = mount(
+    <Languages languages={[
+      {
+        'name': 'Spanish',
+        'level': 'Native',
+      },
+      {
+        'name': 'English',
+        'level': 'Proficient',
+      },
+      {
+        'name': 'French',
+        'level': 'Basic',
+      },
+    ]}
+    />,
+  );
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

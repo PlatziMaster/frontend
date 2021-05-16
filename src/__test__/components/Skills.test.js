@@ -3,7 +3,26 @@ import { mount } from 'enzyme';
 import Skills from '../../components/Skills';
 
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  const skills = mount(
+    <Skills skills={[
+      {
+        'name': 'HTML5',
+      },
+      {
+        'name': 'CSS',
+      },
+      {
+        'name': 'JavaScript',
+      },
+      {
+        'name': 'React',
+      },
+      {
+        'name': 'Vue',
+      },
+    ]}
+    />,
+  );
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);

@@ -1,2 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+
+// Component modules
+@import "Header"
+@import "About"
+@import "Profile"
+@import "Experience"
+@import "LastSections"
+
+// Global styles
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: inherit
+
+html 
+  font-size: 100%
+  box-sizing: border-box
+
 body
-  background-color blue
+  font-family: 'Open Sans', sans-serif
+  background-color #e7f8f8
+
+#app
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  grid-auto-rows: minmax(6rem, auto)
+  grid-gap: 1rem
+
+section 
+  background-color: #c2e7f0
+  color: #0f343e
+  padding: 1.5rem 1.5rem
+
+
+
+

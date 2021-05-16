@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "José Hernández",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Tabasco, México",
+    "email": "josehtrevino10@gmail.com",
+    "website": "https://github.com/josehtrevino",
+    "phone": "9932066855",
+    "avatar": "https://avatars.githubusercontent.com/u/71796947?s=400&u=e2dc8e0bca19023eb5c0ec06a593d1b7e2ac177d&v=4",
+    "Profile": "Engineer. Experience in teaching. I'm currently learning about Web Development, especially FrontEnd technologies. ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +24,63 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Petroleum Engineering",
+        "description": "",
+        "endDate": "August 2016",
+        "institution": "UAG",
+        "startDate": "August 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Harmon Hall",
+        "endDate": "April 2020",
+        "jobDescription": "To teach children, teenagers and adults English lessons.",
+        "jobTitle": "English Teacher",
+        "startDate": "October 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Freelance",
+        "endDate": "March 2018",
+        "jobDescription": "To help children study for their English quizzes.",
+        "jobTitle": "English Teacher",
+        "startDate": "May 2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML5"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "JavaScript"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "React"
+      },
+      {
+        "name": "Vue"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Frontend",
+      "Backend",
+      "UI/UX Design"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "Proficient"
+      },
+      {
+        "name": "French",
+        "level": "Basic"
       }
     ],
     "social": [

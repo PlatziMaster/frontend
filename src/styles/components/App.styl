@@ -1,2 +1,67 @@
+Fuente1 = 'Lato', sans-serif
+Color-primario = #0d0801;
+Color-secundario = #335b9c;
+Color-variante = #e28e00;
+Color-complemento = #141f30;
+Color-claro = #ffffff;
+
+section-styles()
+  width: 95%
+  margin: 10px auto
+  padding: 20px
+  background-color: Color-complemento
+  border: 1px solid Color-variante
+  border-radius: 10px
+  box-shadow: 1px 1px 4px 0px Color-variante
+
+box-styles()
+  padding: 15px 30px
+  background-color: Color-primario
+  border: 2px solid Color-variante
+  border-radius: 10px
+
+h2-title()
+  margin-block-end: 20px
+  color: Color-variante
+
+h4-title()
+  color: Color-secundario
+  font-size: 1.8rem
+
+for header in 3 2 1
+  h{header}
+    font-size: 45px - (6*header)
+    line-height: (45px - (6*header))*1.2
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html
+  font-size: 62.5%
+
 body
-  background-color blue
+  font-size: 1.6rem
+  line-height: 2.4rem
+  font-family: Fuente1
+  color: Color-claro
+  background-color: Color-primario
+
+@import "Header.styl"
+@import "About.styl"
+@import "Profile.styl"
+@import "Experience.styl"
+@import "Certificates.styl"
+@import "Academic.styl"
+@import "Skills.styl"
+@import "Interest.styl"
+@import "Languages.styl"
+
+main
+  display: flex
+  justify-content: center
+  align-items: start
+  flex-wrap: wrap
+  section
+    section-styles()

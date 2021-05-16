@@ -1,0 +1,41 @@
+.Main__experience
+  .Experience-title
+    h2-title()
+  .Experience-container
+    width: 100%
+    height: auto
+    margin: 0 auto
+    .Experience-item
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      flex-wrap: nowrap
+      margin-block-end: 20px
+      box-styles()
+      .Item-img
+        max-width: 250px
+        width: 25%
+        margin-inline-end: 30px
+        a
+          width: 100%
+          height: 100%
+          img
+            display: block
+            width: 100%
+            object-fit: cover
+      .Item-dates
+        display: flex
+        justify-content: flex-start
+        align-items: start
+        flex-wrap: wrap
+        width: 75%
+        h4
+          width: 20%
+          margin-block-end: 5px
+          h4-title()
+        p
+          width: 80%
+          margin-block-end: 5px
+          a
+            color: Color-secundario
+            text-decoration: none

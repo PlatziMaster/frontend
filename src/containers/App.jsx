@@ -9,12 +9,15 @@ import {
   Interest,
   Languages,
   Loading,
+  ErrorMessage
 } from '../components';
 import { appContext } from './AppContext';
 import '../styles/containers/App.styl';
 
 const App = () => {
-  const { data:{loading} } = useContext(appContext);
+  const {
+    data: { loading, error },
+  } = useContext(appContext);
   
   return (
     <>
@@ -22,7 +25,6 @@ const App = () => {
         <Loading />
       ) : (
         <>
-          {' '}
           <Header>
             <About />
           </Header>
@@ -34,6 +36,7 @@ const App = () => {
           <Languages />
         </>
       )}
+      {error && <ErrorMessage />}
     </>
   );
 };

@@ -7,6 +7,8 @@ import Languages from './Languages';
 import Profile from './Profile';
 import Skills from './Skills';
 import Loading from './Loading'
+import Project from './Project'
+import ErrorMessage from './ErrorMessage';
 
 export {
   Academic,
@@ -18,4 +20,6 @@ export {
   Skills,
   About,
   Loading,
+  Project,
+  ErrorMessage,
 };

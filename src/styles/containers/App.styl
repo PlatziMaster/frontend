@@ -1,37 +1,129 @@
-bg-color = #E0F4FF
+/* -> Base styles  <- */
+* 
+  box-sizing: border-box
 
-bg-base = #1B1B1B
-color-text = #BB0538
-color-text-secundary = #EBF5FF
+::-webkit-scrollbar 
+  width: 6px
+  height: 6px
+
+::-webkit-scrollbar-button 
+  width: 0px
+  height: 0px
+
+::-webkit-scrollbar-thumb 
+  background: #A39CF4
+  border: 0px none #A39CF4
+  border-radius: 50px
+
+::-webkit-scrollbar-thumb:hover 
+  background: #A39CF4;
+
+::-webkit-scrollbar-thumb:active 
+  background: #FEFEFE
+
+::-webkit-scrollbar-track 
+  background: #666666
+  border: 0px none #ffffff
+  border-radius: 50px
+
+::-webkit-scrollbar-track:hover 
+  background: #666666
+
+::-webkit-scrollbar-track:active 
+  background: #A39CF4
+
+::-webkit-scrollbar-corner 
+  background: transparent
+
+::selection {
+  color: #fafafa;
+  background: #A39CF4;
+}
 
 body
   width 90vw
   margin 0 auto
-  padding  .5em .5em
+  padding  1em
   font-family 'Nunito', sans-serif
+  background: rgb(117,29,43)
+  background: linear-gradient(29deg, rgba(117,29,43,1) 0%, rgba(73,67,150,1) 50%, rgba(33,36,81,1) 100%)
+  overflow-x: hidden
+
+body::after, body::before
+  position: absolute
+  z-index: 5
+  display: block
+  content: ""
+  height: 50em
+  width: 50em
+  border-radius: 50%
+
+body::before
+  transform: translate(100%, 50%)
+  background-color:#c3b1e475
+  
+body::after
+  top: -50%
+  left: -25%
+  background-color: #8E2938
 
 main
+  position: relative
+  z-index: 20
   display grid
   grid-template-columns 1fr 1fr
-  grid-template-rows repeat(5, 1fr)
+  grid-template-rows repeat(5, minmax(120px,auto))
   grid-template-areas "Header Header"\
                        "Profile Profile"\
                        "Experience Experience"\
                        "Academic Skills"\
                        "Interest Languages"
-  grid-row-gap 1em
+  grid-row-gap .8em
   grid-column-gap: .5em
-  height 100vh
-  
+  min-height 100vh
+  background: rgba( 12, 1, 1, 0.50 )
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 )
+  backdrop-filter: blur( 3.5px )
+  -webkit-backdrop-filter: blur( 3.5px )
+  border-radius: 10px
+  border: 1px solid rgba( 255, 255, 255, 0.18 )
 
-@media only screen and (max-width: 680px)
+a 
+  text-decoration: none
+  color: #3B6CEF
+
+h1, h2, h3, h4, b, p, span
+  margin: 0
+  color: #FEFEFE
+
+.Card-glass
+  transition: width .5s, height .5s;
+  margin: .5em
+  padding: 1em
+  border-radius: 5px
+  background: rgba(173, 173, 173, 12%)
+  border-radius: 10px
+  border-top: .5px solid rgba(173, 173, 173, 50%)
+  border-right: .5px solid rgba(173, 173, 173, 50%)
+
+.Container 
+  padding: 1em
+
+.H4-title
+  font-size 1.5em
+
+@media only screen and (max-width: 860px)
   body
     width 96vw
-    padding 0 8px
+    font-size 14px
+    padding: 1em 5px
+
+  body::after, body::before
+    display: none
 
   main
     grid-template-columns: 1fr
-    grid-template-rows: repeat(7, 1fr)
+    grid-template-rows: repeat(7, minmax(120px,auto))
     grid-template-areas "Header"\
                          "Profile"\
                          "Experience"\
@@ -39,28 +131,14 @@ main
                          "Skills"\
                          "Interest"\
                          "Languages"
+    box-shadow: none
+    justify-content: center
 
-.Header
-  background-color bg-color
-  grid-area Header 
+  .H4-title
+    text-align: center
 
-.Profile
-  grid-area Profile
 
-.Experience
-  grid-area Experience
-
-.Academic
-  grid-area Academic
-
-.Skills
-  grid-area Skills
-
-.Interest
-  grid-area Interest
-
-.Lenguage
-  grid-area Languages
-
-.div 
-  background-color: #bdf1d4
+@media only screen and (max-width: 1080px)
+  body::before
+    top: 120%
+    left: -70%

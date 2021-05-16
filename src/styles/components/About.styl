@@ -1,0 +1,75 @@
+.Header
+  grid-area Header 
+  display flex
+  align-items: center
+
+.Header-section
+    display flex
+    align-items: center
+    width 90vw
+    position relative
+
+.Header-divWrapper
+    display flex
+    flex-direction: column
+    flex-wrap: wrap
+    margin-left: 1em
+
+.Header-img
+    margin-left: 2em
+    border-radius: 50%
+    object-fit: cover
+
+.Header-DivInfo
+    display flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: space-around
+
+.Header-DivInfo a 
+    margin: 0 .5em
+    color: #3B6CEF
+
+.Header-phone, 
+.Header-website, 
+.Header-adress, 
+.Header-email,
+.Header-job-title
+    display flex
+    align-items: center
+
+.Div-aboutMedia
+    position: absolute
+    right: 1em
+    top: .5em
+    display: flex
+    font-size: 1.5em
+
+.Div-aboutMedia a
+    margin: 0 .2em
+
+
+@media only screen and (max-width: 680px)
+    .Header
+        align-items: flex-start
+        margin-top 2em
+
+    .Header-section
+        flex-direction: column
+
+    .Header-img
+        margin: 0
+        margin-bottom: .3em
+    
+    .Header-divWrapper
+        margin: 0
+        text-align: center
+
+    .Header-adress,
+    .Header-job-title
+        justify-content: center
+
+    .Div-aboutMedia
+        right: .5em
+    
+    

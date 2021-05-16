@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+
 import ProfessionalProfile from './ProfessionalProfile';
 import Experience from './Experience';
 import Academic from './Academic';
@@ -7,18 +8,24 @@ import Languages from './Languages';
 
 import './styles/Profile.styl';
 
-export default function Profile() {
-  return (
-    <React.Fragment>
-      <div className='profile__container'>
-        <h1 className='profile__title'>Brandon Argel</h1>
-        <h2 className='profile__subtitle'>Desarrollador Frontend</h2>
-        <ProfessionalProfile />
-        <Experience />
-        <Academic />
-        <SoftSkills />
-        <Languages />
-      </div>
-    </React.Fragment>
-  );
+class Profile extends Component {
+  render() {
+    const data = this.props.data.profile;
+
+    return (
+      <React.Fragment>
+        <div className='profile__container'>
+          <h1 className='profile__title'>{data.name}</h1>
+          <h2 className='profile__subtitle'>{data.profession}</h2>
+          <ProfessionalProfile data={data} />
+          <Experience data={data} />
+          <Academic data={data} />
+          <SoftSkills data={data} />
+          <Languages data={data} />
+        </div>
+      </React.Fragment>
+    );
+  }
 }
+
+export default Profile;

@@ -12,7 +12,7 @@ class About extends Component {
       <React.Fragment>
         <div className='about__container'>
           <div className='photo__container'>
-            <img className='photo' src='https://i.imgur.com/Kgm9urk.jpg' alt='Photo' />
+            <img className='photo' src={this.props.data.avatar} alt='Photo' />
           </div>
           <Contact data={this.props.data} />
           <TechAndTools data={this.props.data} />

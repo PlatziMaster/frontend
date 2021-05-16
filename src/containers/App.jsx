@@ -7,7 +7,7 @@ import getData from '../utils/getData';
 
 
 const App = () => { 
-  const api = '/data.json';
+  const api = 'http://localhost:3000/data';
 
   const [data, setData] = useState([]);
 
@@ -16,28 +16,13 @@ const App = () => {
       .then(response => setData(response))
       .catch(error => error);
   }, []);
-
-  const {
-    name,
-    avatar,
-    profession,
-    address,
-    email,
-    website,
-    phone,
-    profile,
-    experience,
-    academic,
-    skills,
-    interest,
-    languages,
-  } = data;
   
   return (
+    data.length === 0 ? <div>Loading...</div> :
     <>
       <main className="main">
-        <About data={data.data} />
-        <Profile></Profile>
+        <About data={data} />
+        <Profile data={data} />
       </main>
     </>
   )

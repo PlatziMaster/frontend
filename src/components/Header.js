@@ -1,15 +1,15 @@
 import React from 'react';
 //import PropTypes from 'prop-types';
 
-const Header = (props) => {
+const Header = ({ name, phone, profession, email, weebsite, adress }) => {
   return (
     <div>
-      <span className='Header-title' />
-      <span className='Header-job-title' />
-      <span className='Header-phone' />
-      <span className='Header-email' />
-      <span className='Header-website' />
-      <span className='Header-adress' />
+      <span className='Header-title'>{name}</span>
+      <span className='Header-job-title'>{phone}</span>
+      <span className='Header-phone'>{profession}</span>
+      <span className='Header-email'>{email}</span>
+      <span className='Header-website'>{weebsite}</span>
+      <span className='Header-adress'>{adress}</span>
     </div>
   );
 };

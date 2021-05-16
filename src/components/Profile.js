@@ -1,11 +1,11 @@
 import React from 'react';
 //import PropTypes from 'prop-types';
 
-const Profile = (props) => {
+const Profile = ({ profile }) => {
   return (
     <div>
       <span className='Profile-title' />
-      <span className='Profile-desc' />
+      <span className='Profile-desc'>{ profile}</span>
 
     </div>
   );

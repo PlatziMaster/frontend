@@ -4,7 +4,7 @@ import React from 'react';
 const About = (props) => {
   return (
     <div>
-      <span className='About-title' />
+      <span className='About-title'>aaaa</span>
       <span className='About-item' />
       <span className='About-item' />
       <span className='About-item' />

@@ -1,4 +1,4 @@
-import React, {useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -13,18 +13,25 @@ import getData from '../utils/getData.js';
 
 const App = () => {
 
+  const [Info, setInfo] = useState({});
+
+  useEffect(() => {
+    getData('http://localhost:3000/data').then((resp) => {
+      setInfo(resp)
+    });
+  },[])
   
   return (
     <>
-      <Header>
-        <About />
+      <Header {...Info}>
+        <About {...Info}/>
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile {...Info}/>
+      <Experience {...Info}/>
+      <Academic {...Info}/>
+      <Skills {...Info}/>
+      <Interest {...Info}/>
+      <Languages {...Info}/>
     </>
   )
 };

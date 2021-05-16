@@ -1,24 +1,14 @@
 import React from 'react';
+import ProgressItem from './ProgressItem';
 //import PropTypes from 'prop-types';
 
 const Languages = ({ languages }) => {
   return (
     <div>
-      <span className='Languages-title' />
-
-      {
-              languages?.map((item) => {
-                return (
-                  <span
-                    key={item.name}
-                    className='Languages-item'
-                  >
-                    {item.name}
-                  </span>
-                );
-              })
-
-      }
+      <h4 className='Languages-title'> languages</h4>
+      {languages?.map((item) => {
+        return <ProgressItem key={item.name} {...item} className='Languages-item' />;
+      })}
 
       <span className='Languages-item' />
       <span className='Languages-item' />
@@ -27,8 +17,6 @@ const Languages = ({ languages }) => {
   );
 };
 
-Languages.propTypes = {
-
-};
+Languages.propTypes = {};
 
 export default Languages;

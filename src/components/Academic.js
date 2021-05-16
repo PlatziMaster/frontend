@@ -4,19 +4,21 @@ import React from 'react';
 const Academic = ({ certificate, Academic }) => {
   return (
     <div>
-      <span className='Academic-title' />
-      {certificate?.map((item) => {
-        return (
-          <span key={item.name} className='certificate-item'>
-            {item.name}
-          </span>
-        );
-      })}
-
+      <h4 className='Academic-title'> Academic</h4>
       {Academic?.map((item) => {
         return (
           <span key={item.degree} className='Academic-item'>
             {item.degree}
+          </span>
+        );
+      })}
+
+      <h4 className='Certificate-title'> certificate</h4>
+
+      {certificate?.map((item) => {
+        return (
+          <span key={item.name} className='certificate-item'>
+            {item.name}
           </span>
         );
       })}

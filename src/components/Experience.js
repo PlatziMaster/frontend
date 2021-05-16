@@ -9,7 +9,7 @@ const Experience = ({ experience }) => {
       <h4 className='Experience-title'>experience</h4>
       <CardDeck>
         {experience?.map((item) => {
-          return <ExperienceItem key={item.id} {...item} className='Experience-item' />;
+          return <ExperienceItem key={item.company} {...item} className='Experience-item' />;
         })}
       </CardDeck>
       <span className='Experience-item' />

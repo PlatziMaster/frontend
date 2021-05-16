@@ -14,8 +14,8 @@ const Header = ({
 }) => {
   return (
     <Row>
-      <Col xs='auto' className='d-flex justify-content-center align-self-center p-0'>
-        <Image src={avatar} roundedCircle className='m-0' />
+      <Col xs='auto' className='d-flex justify-content-center align-self-center py-0 pr-0'>
+        <Image src={avatar} roundedCircle className='' />
       </Col>
       <Col>
         <h1 className='Header-title d-block'>{name}</h1>

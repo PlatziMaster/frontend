@@ -1,20 +1,17 @@
 import React from 'react';
+import ProgressItem from './ProgressItem';
 //import PropTypes from 'prop-types';
 
 const Skills = ({ skills }) => {
   return (
     <div>
-      <span className='Skills-title' />
+      <h4 className='Skills-title'> skills</h4>
 
       {
               skills?.map((item) => {
                 return (
-                  <span
-                    key={item.name}
-                    className='Skills-item'
-                  >
-                    {item.name}
-                  </span>
+                  <ProgressItem key={item.name} {...item} className='Skills-item' />
+
                 );
               })
 

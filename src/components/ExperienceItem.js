@@ -17,11 +17,11 @@ const ExperienceItem = ({
         <Card.Text className=''>{jobDescription}</Card.Text>
       </Card.Body>
       <div className='d-flex justify-content-between px-3 pb-3 mx-1 mb-1'>
-        <Badge variant='success' d-flex>
+        <Badge variant='secondary'>
           {startDate}
         </Badge>
 
-        <Badge variant='Light'>{endDate}</Badge>
+        <Badge variant='success'>{endDate}</Badge>
       </div>
     </Card>
   );

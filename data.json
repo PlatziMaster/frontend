@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Angel de Jesús Avendaño Cruz",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "CDMX, México.",
+    "email": "angel@example.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "userProfile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "(55) 3042034240",
+    "avatar": "https://secure.gravatar.com/avatar/a66dcce137f23c1cfb9396746550b7da?s=64",
+    "userProfile": "Me considero una persona tenaz y con muchas ganas de alcanzar mis objetivos profesionales, financieros y familiares. Me gusta el deporte y soy apasionado de la tecnología, algunas de mis actividades favoritas en el último año han sido manejar drones e investigar el uso, fundamento y escalabilidad de finanzas descentralizadas en el ecosistema crypto. Busco las formas de poder ayudar a mi entorno mas próximo con los conocimientos que he adquirido a lo largo del tiempo, ya sea haciendo programas pequeños para tareas cotidianas o enseñar finanzas personales a mis amigos y familiares. ",
     "certificate": [
       {
         "date": "Jan 2021",

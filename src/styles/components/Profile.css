@@ -1,0 +1,10 @@
+.profile{
+    grid-area: profile;
+    margin-top: 10px;
+}
+
+.Profile-title{
+    font-size: 18px;
+    border-bottom:  solid white 1px;
+    margin-bottom: 5px;
+}

@@ -32,21 +32,20 @@ const App = () => {
 
   return (
     <>
+      <div className='inicio'>
+        <h1 className='titulo-principal'>Mi web personal</h1>
+      </div>
       <Header avatar={avatar} name={name} job_title={profession}>
         <About phone={phone} email={email} website={website} address={address} />
+        <Profile profile={userProfile} />
       </Header>
-      <span>&nbsp;&nbsp;</span>
-      <Profile profile={userProfile} />
-      <span>&nbsp;&nbsp;</span>
       <Experience experience={data.experience} />
-      <span>&nbsp;&nbsp;</span>
-      <Academic academic={data.userAcademic} />
-      <span>&nbsp;&nbsp;</span>
-      <Skills skills={data.skills} />
-      <span>&nbsp;&nbsp;</span>
-      <Interest interest={data.interest} />
-      <span>&nbsp;&nbsp;</span>
-      <Languages languages={data.languages} />
+      <div className='other'>
+        <Academic academic={data.userAcademic} />
+        <Skills skills={data.skills} />
+        <Interest interest={data.interest} />
+        <Languages languages={data.languages} />
+      </div>
     </>
   );
 };

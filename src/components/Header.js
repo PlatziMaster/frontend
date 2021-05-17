@@ -7,14 +7,14 @@ const Header = ({ children, social }) => {
   return (
     <Row>
       <span className='Header-title' />
-      <Col className='d-flex m-0 py-0 pr-0'>{children}</Col>
+      <Col className='d-flex m-0 py-0 pr-0' xs={12} md="8">{children}</Col>
       <Col xs='auto' className='m-0 p-0 py-2'>
         {social?.map(({ name, icon, url }) => {
           return (
             <a
               key={name}
               href={url}
-              className='float-left ml-3'
+              className='float-left ml-3 '
               target='_blank'
               rel='noreferrer'
             >

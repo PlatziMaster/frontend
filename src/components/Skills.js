@@ -5,27 +5,22 @@ import ProgressItem from './ProgressItem';
 const Skills = ({ skills }) => {
   return (
     <div>
-      <h4 className='Skills-title'> skills</h4>
+      <h4 className="Skills-title"> Skills</h4>
+      <div className="px-3 mt-3">
+        {skills?.map(item => {
+          return (
+            <ProgressItem key={item.name} {...item} className="Skills-item" />
+          );
+        })}
+      </div>
 
-      {
-              skills?.map((item) => {
-                return (
-                  <ProgressItem key={item.name} {...item} className='Skills-item' />
-
-                );
-              })
-
-      }
-
-      <span className='Skills-item' />
-      <span className='Skills-item' />
-      <span className='Skills-item' />
+      <span className="Skills-item" />
+      <span className="Skills-item" />
+      <span className="Skills-item" />
     </div>
   );
 };
 
-Skills.propTypes = {
-
-};
+Skills.propTypes = {};
 
 export default Skills;

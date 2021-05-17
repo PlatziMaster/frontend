@@ -14,18 +14,36 @@ const About = ({
   return (
     <Row>
       <Col
-        xs='auto'
-        className='d-flex justify-content-center align-self-center py-0 pr-0'
+        xs="auto"
+        className="d-flex justify-content-center align-self-center py-0 pr-0"
       >
-        <Image src={avatar} roundedCircle className='' />
+        <Image src={avatar} roundedCircle className="" />
       </Col>
       <Col>
-        <h1 className='About-title d-block'>{name}</h1>
-        <h4 className=' About-item About-job-title d-block'>{profession}</h4>
-        <span className='About-item About-phone mr-4'>{phone}</span>
-        <span className='About-item About-email mr-4'>{email}</span>
-        <span className='About-item About-website mr-4'>{website}</span>
-        <span className='About-item About-adress d-block'>{address}</span>
+        <Row>
+          <Col xs={12 }>
+            <h1 className="About-title d-block">{name}</h1>
+          </Col>
+          <Col xs={12 }>
+            <h4 className=" About-item About-job-title d-block">
+              {profession}
+            </h4>
+          </Col>
+          <Col xs="auto">
+            <span className="About-item About-phone mr-4">{phone}</span>
+          </Col>
+          <Col xs="auto">
+            <span className="About-item About-email mr-4">{email}</span>
+          </Col>
+          <Col xs="auto">
+            <span className="About-item About-website d-xs-block mr-4">
+              {website}
+            </span>
+          </Col>
+          <Col xs={12 }>
+            <span className="About-item About-adress">{address}</span>
+          </Col>
+        </Row>
       </Col>
     </Row>
   );

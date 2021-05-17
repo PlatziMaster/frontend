@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <Container className="mt-5">
+    <Container className="my-4">
       <Row>
         <Col>
         <Header {...Info}>

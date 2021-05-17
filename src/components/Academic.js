@@ -26,8 +26,8 @@ const Academic = ({ certificate, Academic }) => {
         );
       })}
 
-      <h4 className='Certificate-title'> certificate</h4>
-      <Carousel>
+      <h4 className='Certificate-title'> Certificate</h4>
+      <Carousel className="px-3">
         {certificate?.map((item) => {
           return (
             <Carousel.Item interval={1000} key={item.name} className='certificate-item'>

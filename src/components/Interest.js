@@ -5,8 +5,8 @@ import { Badge, Col, Row } from 'react-bootstrap';
 const Interest = ({ interest }) => {
   return (
     <div>
-      <h4 className='Interest-title '> interest</h4>
-      <Row className='justify-content-around px-3'>
+      <h4 className='Interest-title '> Interest</h4>
+      <Row className='justify-content-around px-4 mt-3'>
         {interest?.map((item) => {
           return (
             <Col xs='6' md='3' className='px-1' key={item}>

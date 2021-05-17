@@ -4,7 +4,7 @@
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+![react-cv](https://github.com/AngAven/frontend/blob/prueba_tecnica/src/assets/statics/CV.png?raw=true)
 
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
@@ -44,11 +44,5 @@ npm run test
 npm run lint
 ```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
-
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+### Solución al reto
+Página sencilla para CV 

@@ -1,2 +1,68 @@
 body
-  background-color blue
+  margin 0 auto
+  color #999
+  background-color #F7F7F7
+  font-family "Lato", serif
+  display flex
+  align-items center
+  justify-content center
+
+ul
+  list-style none
+  padding 0
+
+#app
+  overflow auto
+  display grid
+  grid-template-areas "inicio" "header" "profile" "experience" "other"
+  width 100vw
+
+.inicio
+  grid-area inicio
+  background-image url(https://cdn-images-1.medium.com/max/1600/1*5XH40dQSsBVFtvx3MO5VwQ.png)
+  -webkit-background-size cover;
+  background-position center;
+  background-repeat no-repeat;
+
+.titulo-principal
+  text-align center
+  line-height 50vh
+  color white
+
+.other
+  grid-area other
+  display grid
+  justify-content space-around
+  grid-template-areas "academic interest" "skills languages"
+  padding 10px
+
+
+.contenido
+  display grid
+  grid-template-areas "title content"
+  color #422d2d
+
+.contenido-titulo
+  grid-area title
+
+.contenido-detalles
+  grid-area content
+
+.title
+  font-size 20px
+  color #3390bc
+  text-decoration underline;
+
+.title2
+  color #2b2b2b
+
+.subtitles
+  font-size 16px
+
+
+.sub-title
+  font-size 16px
+  color #25b9a5
+
+.descripcion
+  padding 20px

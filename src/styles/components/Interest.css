@@ -1,0 +1,11 @@
+.interest{
+    grid-area: interest;
+    width: 250px;
+}
+
+.lista-de-intereses{
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: minmax(10px, 1fr);
+    padding: 0;
+}

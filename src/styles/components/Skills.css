@@ -1,0 +1,14 @@
+.skills{
+    grid-area: skills;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: space-around;
+}
+
+.borde-habilidades{
+    border: solid #669fbb69 1px;
+    border-radius: 5px;
+    padding: 5px;
+}

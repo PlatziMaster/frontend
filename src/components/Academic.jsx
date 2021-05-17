@@ -18,7 +18,7 @@ export const Academic = () => {
       <div className="academic_info">
         {Academic?.map(item=>(
             <AcademicCart
-                key={makeKey()}
+                key={item.id}
                 Degree={item.degree}
                 Institution={item.institution}
                 StartDate={item.startDate}

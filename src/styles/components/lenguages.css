@@ -1,4 +1,4 @@
-.skills_container{
+.languages_container{
     display: flex;
     flex-direction: column;
     width: 48.8%;
@@ -9,12 +9,13 @@
     font-size:1.4rem;
 }
 
-.skills_container h2{
+.languages_container h2{
     margin: 0 10px;
 }
 
-.skills_info{
+.languages_info{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -23,7 +24,7 @@
     flex-wrap: wrap;
 }
 
-.skill{
+.language{
     width: 40%;
     height: 30px;
     margin: 5px;
@@ -31,7 +32,7 @@
     border-radius: 5px;
 }
 
-.skill_bar{
+.language_bar{
     display: flex;
     justify-content: space-between;
     height: 30px;
@@ -39,19 +40,10 @@
 }
 
 
-#HTML5{
-    background-color: #dd4b24
+#Spanish{
+    background-color: #14e309;
 }
 
-#CSS{
-    background-color: #146daf   ;
-}
-
-#JavaScript{
-    background-color: #f7df1d;
-    color: black;
-}
-
-#React{
-    background-color: #00d2f7;
+#English{
+    background-color: #0059ff;
 }

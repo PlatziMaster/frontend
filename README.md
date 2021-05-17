@@ -17,9 +17,9 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 
 ### Steps taken
 
-1.- At first I read the test to know how to code the components
-2.- Then I check how to use Styl cause was the first time I saw it
-3.- My only blocker here was a misconfiguration on my webpack project that was asking me to define a 'regeneratorRuntime'. Never happened to me before
-4.- After solve that, I coded the getData method
-5.- Then I code each component in a "ugly" way, designed to pass those tests
-6.- For each component I tried to use common styles and only change the className to match those tests
+1. At first I read the test to know how to code the components
+2. Then I check how to use Styl cause was the first time I saw it
+3. My only blocker here was a misconfiguration on my webpack project that was asking me to define a 'regeneratorRuntime'. Never happened to me before
+4. After solve that, I coded the getData method
+5. Then I code each component in a "ugly" way, designed to pass those tests
+6. For each component I tried to use common styles and only change the className to match those tests

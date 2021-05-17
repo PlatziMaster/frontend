@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import About from '../../components/About';
 
 describe('<About />', () => {
-  const about = mount(<About />);
+  const about = mount(<About social={[]} />);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

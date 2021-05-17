@@ -1,91 +1,106 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "name": "Julio Cesar Leyva Guerrero",
+    "profession": "Full Stack Developer",
+    "address": "Querétaro, México.",
+    "email": "leyvag.julio@gmail.com",
+    "website": "tacodebits.com",
+    "phone": "442-320-58-46",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "Profile": "A developer with a lot of willingness to improve products, projects and learn how to be successful. Want to be capable to work on a FAANG or fund my own startup. I have a lot of dreams and wishes, from mastering frontend, be more proficient with linux and backend in general, work with some IOs enviroments, even to learn some Data Science",
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "IT Engineering",
+        "description": "",
+        "endDate": "May 2020",
+        "institution": "UTEQ",
+        "startDate": "Jun 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "IT Superior Technician",
+        "description": "",
+        "endDate": "May 2018",
+        "institution": "UTEQ",
+        "startDate": "Sep 2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Framework Science",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Analize and code an custom web system to make orders, track and notify statuses. Been working with React, GrapghQL as frontend and a Kotlin - Spring backend",
+        "jobTitle": "Full Stack Engineer",
+        "startDate": "Jan 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Storecheck",
+        "endDate": "May 2021",
+        "jobDescription": "Started as a web trainee, then been in charge of the development, day to day situations and some decision of the main product of the company (aka Storecheck Field)",
+        "jobTitle": "Mobile developer",
+        "startDate": "Nov 2018"
+      },
+      {
+        "company": "TI Hyper solutions",
+        "endDate": "Oct 2018",
+        "jobDescription": "Worked on a failed autoparts website, and code some projects for custom clients, solving problems from XML bills managment to edit some wordpress plugins.",
+        "jobTitle": "Internship Student",
+        "startDate": "Sep 2017"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
+      }, 
+      {
+        "name": "Java / Groovy",
+        "percentage": "70%"
+      },
+      {
+        "name": "Spring / Grails",
+        "percentage": "60%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "50%"
+      },
+      {
+        "name": "Kotlin",
+        "percentage": "60%"
+      },
+      {
+        "name": "Android",
+        "percentage": "60%"
       }
+
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Kotlin",
+      "Backend",
+      "Frontend",
+      "Mobile"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [

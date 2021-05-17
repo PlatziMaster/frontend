@@ -1,85 +1,174 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Cristian Arias ",
+    "profession": "Developer",
+    "address": "Bucaramanga, Colombia.",
+    "email": "example@example.com",
+    "website": "https://imcrisam.site/",
+    "phone": "+57 318 0000000",
+    "avatar": "./assets/photo.jpg",
+    "profile": "Soy una persona apasionada por la tecnología, me gusta programar, y en constante aprendizaje. Aunque he pasado y estudiado varias tecnologías o lenguajes, las aplicaciones web me han llamado la atención por el gran potencial que pueden llegar a tener",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "img": "https://www.aerocivil.gov.co/Style%20Library/Aerocivil/img/img.jpg",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "01/2021",
+        "img": "./assets/certificados/Certificado_de_desarrollo_de_software.jpg",
+        "institution": "UTP – MisionTic2022",
+        "name": "Desarrollo de Software"
         
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "img": "https://www.aerocivil.gov.co/Style%20Library/Aerocivil/img/img.jpg",
+        "date": "11/2020",
+        "img": "./assets/certificados/diploma-ciencia.jpg",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Ruta de Aprendizaje Ciencia"
+        
+      },
+      {
+        "date": "08/2020",
+        "img": "./assets/certificados/diploma-desarrollo-unity.jpg",
+        "institution": "Platzi",
+        "name": "Desarrollo de videojuegos con Unity"
+        
+      },
+      {
+        "date": "12/2020",
+        "img": "./assets/certificados/diploma-scrum.jpg",
+        "institution": "Platzi",
+        "name": "SCRUM"
+        
+      },
+      {
+        "date": "08/2020",
+        "img": "./assets/certificados/git-github.jpg",
+        "institution": "Platzi",
+        "name": "Git y GitHub"
+        
+      },
+      {
+        "date": "02/2020",
+        "img": "./assets/certificados/mejor-codigo.jpg",
+        "institution": "Platzi",
+        "name": "Buenas prácticas para la escritura de código"
+        
+      },
+      {
+        "date": "08/2019",
+        "img": "./assets/certificados/TeleTrabajo_Certificado.jpg",
+        "institution": "Ciudadanía Digital",
+        "name": "Teletrabajo, cambio cultural y transformación digital"
+        
+      },
+      {
+        "date": "02/2021",
+        "img": "./assets/certificados/SCRUMstudy.jpg",
+        "institution": "SCRUMstudy",
+        "name": "SCRUM fundamentals"
+        
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Tecnico Programación de software",
+        "description": "ID 9309001801495CC1098765628C",
+        "endDate": "05/2020",
+        "institution": "Servicio Nacional de Aprendizaje (SENA)",
+        "startDate": "05/2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "World Pos Solutions S.A.S.",
+        "endDate": "01/2020",
+        "jobDescription": "Programador de aplicativos para POS Android en desarrollo nativo con java y Android studio.",
+        "jobTitle": "Aprendiz SENA",
+        "startDate": "08/2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "Git",
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "40%"
+      },
+      {
+        "name": "Bootstrap",
+        "percentage": "80%"
+      },
+      {
+        "name": "Vue",
+        "percentage": "90%"
+      },
+      {
+        "name": "Vuerify",
+        "percentage": "80%"
+      },
+      {
+        "name": "Java",
+        "percentage": "80%"
+      },
+      {
+        "name": "C#",
+        "percentage": "20%"
+      },
+      {
+        "name": "Express.js",
+        "percentage": "75%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "60%"
+      },
+      {
+        "name": "SCRUM",
+        "percentage": "30%"
+      },
+      {
+        "name": "Python",
+        "percentage": "50%"
+      },
+      {
+        "name": "POO",
+        "percentage": "90%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "40%"
+      },
+      {
+        "name": "AndroidStudio",
+        "percentage": "70%"
+      },
+      {
+        "name": "Unity",
+        "percentage": "40%"
+      },
+      {
+        "name": "Firebase",
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "25%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Develop",
+      "Unity",
+      "Python",
+      "Backend",
+      "Frontend",
+      "React"
     ],
     "languages": [
       {
@@ -88,34 +177,29 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "15%"
       }
     ],
     "social": [
       {
-        "name": "Facebook",
-        "icon":"./assets/facebook.svg",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "Platzi",
         "icon":"./assets/platzi.png",
-        "url": "https://facebook.com/"
+        "url": "https://platzi.com/p/imcrisam/"
       },
       {
         "name": "Twitter",
         "icon":"./assets/twitter.svg",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/imcrisam"
       },
       {
         "name": "Github",
         "icon":"./assets/github.svg",
-        "url": "https://github.com/"
+        "url": "https://github.com/imcrisam"
       },
       {
         "name": "Linkedin",
         "icon":"./assets/linkedin.svg",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/imcrisam/"
       }
     ]
   }

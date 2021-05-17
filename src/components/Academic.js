@@ -6,7 +6,7 @@ import { Carousel, Card, Badge } from 'react-bootstrap';
 const Academic = ({ certificate, Academic }) => {
   return (
     <div>
-      <h4 className='Academic-title'> Academic</h4>
+      <h4 className='Academic-title'> Estudios</h4>
       {Academic?.map(({ degree, description, endDate, institution, startDate }) => {
         return (
           <Card key={degree} className='Academic-item border-0'>
@@ -26,8 +26,8 @@ const Academic = ({ certificate, Academic }) => {
         );
       })}
 
-      <h4 className='Certificate-title'> Certificate</h4>
-      <Carousel className="px-3">
+      <h4 className='Certificate-title'> Certificados</h4>
+      <Carousel className='px-3'>
         {certificate?.map((item) => {
           return (
             <Carousel.Item interval={1000} key={item.name} className='certificate-item'>
@@ -36,7 +36,7 @@ const Academic = ({ certificate, Academic }) => {
                 src={item.img}
                 alt='First slide'
               />
-              <Carousel.Caption className='bg-dark o-80'>
+              <Carousel.Caption className='bg-dark o-80  d-block'>
                 <h5 className='text-light'>{item.name }</h5>
                 <h6 className='d-block text-white text-italic'>{item.institution}</h6>
                 <span className='text-white text-monospace'>{item.date}</span>

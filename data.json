@@ -1,21 +1,23 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Santiago Lopera",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Medellín, Colombia.",
+    "email": "santiagoln@gmail.com",
+    "website": "https://my.com",
+    "phone": "3042035050",
+    "avatar": "https://en.gravatar.com/userimage/170725584/23d3c5a3b616f0ce46de91424cc74eaf.jpg",
+    "Profile": "Make some new every day! and drink coffe!",
     "certificate": [
       {
+        "id": 100,
         "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "description": "Learn the best library to develop frontend. ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "React Js course"
       },
       {
+        "id": 101,
         "date": "Jan 2021",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
@@ -23,30 +25,42 @@
       }
     ],
     "Academic": [
-      {
+      { 
+        "id": 200,
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
+        "endDate": "Jan 2021",
         "institution": "MIT",
         "startDate": "Jan 2018"
       },
       {
+        "id": 201,
         "degree": "Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
+        "endDate": "December 2017",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "id": 202 ,
+        "degree": "Frontend With React",
+        "description": "React rules!",
+        "endDate": "May 2021",
+        "institution": "Platzi",
+        "startDate": "Dec 2020"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "id": 300,
+        "company": "YouTube",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "I Neither know how recommendations algorithm works.",
         "jobTitle": "Frontend",
         "startDate": "Jan 2020"
       },
       {
+        "id": 301,
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
@@ -56,54 +70,77 @@
     ],
     "skills": [
       {
+        "id": 401,
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "100%"
       },
       {
+        "id": 402,
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "95%"
       },
       {
+        "id": 403,
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
+        "id": 404,
         "name": "React",
         "percentage": "90%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "id": 700,
+        "interest":"javascript"
+      },
+      {
+        "id": 701,
+        "interest":"develop"
+      },
+      {
+        "id": 702,
+        "interest":"backend"
+      },
+      {
+        "id": 703,
+        "interest":"frontend"
+      }        
+      
     ],
     "languages": [
       {
+        "id": 500,
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "95%"
       },
       {
+        "id": 501,
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
+        "id": 600,
         "name": "facebook",
         "url": "https://facebook.com/"
       },
-      {
+      { 
+        "id": 601,
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/SantiagoLN99"
       },
       {
+        "id": 602,
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/sant1ln"
       },
-      {
+      { 
+        "id": 603,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/santiago-lopera-naranjo-3656a31a7/"
       }
     ]
   }

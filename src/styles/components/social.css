@@ -1,0 +1,49 @@
+.social_container{
+    display: flex;
+    flex-direction: column;
+    width: 48.8%;
+    height: 25vh;
+    margin: 10px 5px;
+    background-color: var(--backgroundColorComponent_DarkMode);
+    color: var(--fontColor_DarkMode);
+    font-size:1.4rem;
+}
+
+.social_container h2{
+    margin: 0 10px;
+}
+
+.social_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.social_info a{
+    width: 40%;
+    margin: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#facebook{
+    background-color: #0f90f3;
+}
+
+#twitter{
+    background-color: #1da1f3;
+}
+
+#github{
+    background-color: #fff;
+    color: black
+}
+
+#linkedin{
+    background-color: #0b66c3;
+}

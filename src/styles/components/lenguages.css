@@ -1,0 +1,49 @@
+.languages_container{
+    display: flex;
+    flex-direction: column;
+    width: 48.8%;
+    height: 25vh;
+    margin: 10px 5px;
+    background-color: var(--backgroundColorComponent_DarkMode);
+    color: var(--fontColor_DarkMode);
+    font-size:1.4rem;
+}
+
+.languages_container h2{
+    margin: 0 10px;
+}
+
+.languages_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+.language{
+    width: 40%;
+    height: 30px;
+    margin: 5px;
+    background-color: var(--backgroundColorCard);
+    border-radius: 5px;
+}
+
+.language_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+#Spanish{
+    background-color: #14e309;
+}
+
+#English{
+    background-color: #0059ff;
+}

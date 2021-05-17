@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Header from '../../components/Header';
+import Header from '../../containers/components/Header';
 
 describe('<Header />', () => {
   const header = mount(<Header />);

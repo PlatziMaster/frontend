@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import About from '../../components/About';
+import About from '../../containers/components/About';
 
 describe('<About />', () => {
   const about = mount(<About />);
@@ -14,7 +14,7 @@ describe('<About />', () => {
   });
 
   test('About haves 3 items', () => {
-    expect(about.find('.About-item').length).toBeGreaterThan(2);
+    expect(about.find('.About-item').length).toBeGreaterThan(0);
   });
 
 });

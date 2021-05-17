@@ -1,0 +1,14 @@
+.Header-title{
+  display: flex;
+  background: linear-gradient(to top, rgba(29, 183, 230, 0.7) 0%, rgba(41, 235, 34, 0.8) 100%);
+}
+*{
+  margin: 9px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}

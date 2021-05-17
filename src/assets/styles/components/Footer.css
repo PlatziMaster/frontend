@@ -1,0 +1,8 @@
+footer{
+    margin-top: 0%;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: linear-gradient(to top, rgba(41, 235, 34, 0.8) 0%, rgba(29, 183, 230, 0.7) 100%);
+}

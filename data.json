@@ -93,19 +93,28 @@
     ],
     "social": [
       {
-        "name": "facebook",
+        "name": "Facebook",
+        "icon":"./assets/facebook.svg",
         "url": "https://facebook.com/"
       },
       {
-        "name": "twitter",
+        "name": "Platzi",
+        "icon":"./assets/platzi.png",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "Twitter",
+        "icon":"./assets/twitter.svg",
         "url": "https://twitter.com/"
       },
       {
-        "name": "github",
+        "name": "Github",
+        "icon":"./assets/github.svg",
         "url": "https://github.com/"
       },
       {
-        "name": "linkedin",
+        "name": "Linkedin",
+        "icon":"./assets/linkedin.svg",
         "url": "https://www.linkedin.com/"
       }
     ]

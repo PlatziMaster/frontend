@@ -58,9 +58,10 @@ frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 Es adaptable a multiples tamaños de pantalla.
 Ejemplos:
+
 ![react-cv-360x740](https://github.com/imcrisam/frontend/blob/develop/img/360x740.png?raw=true)
-![react-cv-639x800](https://github.com/PlatziMaster/frontend/blob/develop/img/639x800.png?raw=true)
-![react-cv-769x800](https://github.com/PlatziMaster/frontend/blob/develop/img/769x800.png?raw=true)
-![react-cv-1280x800](https://github.com/PlatziMaster/frontend/blob/develop/img/1280x800.png?raw=true)
+![react-cv-639x800](https://github.com/imcrisam/frontend/blob/develop/img/639x800.png?raw=true)
+![react-cv-769x800](https://github.com/imcrisam/frontend/blob/develop/img/769x800.png?raw=true)
+![react-cv-1280x800](https://github.com/imcrisam/frontend/blob/develop/img/1280x800.png?raw=true)
 
 

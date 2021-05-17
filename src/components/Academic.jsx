@@ -9,13 +9,26 @@ const Academic = ({ academic }) => {
       <ul className='lista-academica'>
         {
           (academic) ?
-            academic.map(item =>
+            academic.map(item => (
               <li key={uniqid()}>
-                <h4 className='title2'>{item.institution} <span className='subtitles'>({item.degree} - {item.endDate} )</span></h4>
+                <h4 className='title2'>
+                  {item.institution}
+                  {' '}
+                  <span className='subtitles'>
+                    (
+                    {item.degree}
+                    {' '}
+                    -
+                    {item.endDate}
+                    {' '}
+                    )
+                  </span>
+                </h4>
                 <section>
                   <p className='contenido-detalles'>{item.description}</p>
                 </section>
-            </li>) :
+              </li>
+            )) :
             null
         }
       </ul>

@@ -14,7 +14,7 @@ const Experience = ({ experience }) => {
               experience.map(item => (
                 <div className='Experience-item' key={uniqid()}>
                   <section>
-                    <h4 className='title'>
+                    <h4 className='title2'>
                       {item.company}
                       {' '}
                       <span className='sub-title'>{item.jobTitle}</span>

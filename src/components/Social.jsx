@@ -14,7 +14,7 @@ export const Social = () => {
         <h2>social Info</h2>
       <div className="social_info">
         {social?.map(item=>(
-          <a href={item.url} id={item.name} key={item.id}>
+          <a target="_blank" href={item.url} id={item.name} key={item.id}>
             {item.name}
           </a>
         ))}

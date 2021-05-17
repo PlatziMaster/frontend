@@ -1,21 +1,32 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+
 //import PropTypes from 'prop-types';
 
-const Header = ({ name, phone, profession, email, weebsite, adress }) => {
+const Header = ({ children, social }) => {
   return (
-    <div>
-      <span className='Header-title'>{name}</span>
-      <span className='Header-job-title'>{phone}</span>
-      <span className='Header-phone'>{profession}</span>
-      <span className='Header-email'>{email}</span>
-      <span className='Header-website'>{weebsite}</span>
-      <span className='Header-adress'>{adress}</span>
-    </div>
+    <Row>
+      <span className='Header-title' />
+      <Col className='d-flex m-0 py-0 pr-0' xs={12} md='8'>{children}</Col>
+      <Col xs='auto' className='m-0 p-0 py-2'>
+        {social?.map(({ name, icon, url }) => {
+          return (
+            <a
+              key={name}
+              href={url}
+              className='float-left ml-3 '
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img height='30' src={icon} alt={name} />
+            </a>
+          );
+        })}
+      </Col>
+    </Row>
   );
 };
 
-Header.propTypes = {
-
-};
+Header.propTypes = {};
 
 export default Header;

@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -10,30 +10,55 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
 import getData from '../utils/getData.js';
+import { Row, Col,Container } from 'react-bootstrap';
 
 const App = () => {
-
   const [Info, setInfo] = useState({});
 
   useEffect(() => {
-    getData('http://localhost:3000/data').then((resp) => {
-      setInfo(resp)
+    getData('http://localhost:3000/data').then(resp => {
+      setInfo(resp);
     });
-  },[])
-  
+  }, []);
+
   return (
-    <>
-      <Header {...Info}>
-        <About {...Info}/>
-      </Header>
-      <Profile {...Info}/>
-      <Experience {...Info}/>
-      <Academic {...Info}/>
-      <Skills {...Info}/>
-      <Interest {...Info}/>
-      <Languages {...Info}/>
-    </>
-  )
+    <Container className="my-4 container">
+      <Row>
+        <Col>
+        <Header {...Info}>
+          <About {...Info} />
+        </Header>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <Profile {...Info} />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <Experience {...Info} />
+        </Col>
+      </Row>
+
+      <Row>
+        <Col sx={12} md={6}>
+          <Academic {...Info} />
+        </Col>
+        <Col sx={12} md={6}>
+          <Skills {...Info} />
+        </Col>
+      </Row>
+      <Row>
+        <Col sx={12} md={6}>
+          <Interest {...Info} />
+        </Col>
+        <Col sx={12} md={6}>
+          <Languages {...Info} />
+        </Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default App;

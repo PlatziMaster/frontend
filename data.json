@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Ruben Peña Parada",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Santiago, Chile.",
+    "email": "rubenpenap@gmail.com",
+    "website": "https://repp.dev",
+    "phone": "+56(9)82749139",
+    "avatar": "https://avatars.githubusercontent.com/u/46791460",
+    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -33,7 +33,7 @@
       {
         "degree": "Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
+        "endDate": "Dec 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
       }
@@ -61,7 +61,7 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
@@ -69,13 +69,13 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
       "javascript",
+      "react",
       "develop",
-      "backend",
       "frontend"
     ],
     "languages": [
@@ -85,25 +85,29 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/rubenpenap",
+        "icon": "Facebook"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/rubenpenap",
+        "icon": "Twitter"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/rubenpenap",
+        "icon": "Github"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/rubenpenap",
+        "icon": "Linkedin"
       }
     ]
   }

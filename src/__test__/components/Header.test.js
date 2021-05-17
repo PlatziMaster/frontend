@@ -8,9 +8,4 @@ describe('<Header />', () => {
   test('Header render', () => {
     expect(header.length).toEqual(1);
   });
-
-  test('Header title', () => {
-    expect(header.find('.Header-title').length).toEqual(1);
-  });
-
 });

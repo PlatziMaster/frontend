@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getAllData } from '../utils/getData';
 import { AcademicCart } from './AcademicCart';
-import { makeKey } from '../utils/makeKey';
 
 import '../styles/components/academic.css'
 export const Academic = () => {
@@ -13,7 +12,7 @@ export const Academic = () => {
     },[])
   return (
       
-    <div className="academic_container">
+    <div className="medium_container">
         <h2>Academic Info</h2>
       <div className="academic_info">
         {Academic?.map(item=>(

@@ -11,7 +11,7 @@ const Certificates = () => {
           .then(res=> setCertificatesInfo(res))
     },[])
     return (
-        <div className="certificates_container">
+        <div className="medium_container">
         <h2>Certificates Info</h2>
         <div className="certificates_info">
         {certificate?.map(item=>(

@@ -6,10 +6,11 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import { Academic } from '../components/Academic';
-
-import '../styles/containerApp.css';
 import Certificates from '../components/Certificates';
 import { Social } from '../components/Social';
+
+import '../styles/containerApp.css';
+import '../styles/shared/container.css'
 const App = () => {
   return (
     <div className="App_container">

@@ -25,3 +25,12 @@
     
 }
 
+
+
+
+@media screen and (max-width: 1200px){
+    .about_contact{
+        flex-direction: column;
+    }
+
+}

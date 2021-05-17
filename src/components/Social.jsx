@@ -10,7 +10,7 @@ export const Social = () => {
     },[])
   return (
       
-    <div className="social_container">
+    <div className="medium_container">
         <h2>social Info</h2>
       <div className="social_info">
         {social?.map(item=>(

@@ -10,7 +10,7 @@ const Profile = () => {
           .then(res=> setProfileInfo(res))
     },[])
     return (
-        <div className="profile_container">
+        <div className="largue_container">
             <div className="profile_info">
                 <h2>{name}</h2>
                 <p>{profile}</p>

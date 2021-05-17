@@ -1,11 +1,12 @@
 .header_container{
     display: flex;
     width: 98%;
-    height: 25vh;
+    height: auto;
     margin-top: 10px;
     background-color: var(--backgroundColorComponent_DarkMode);
     align-items: center;
     justify-content: space-around;
+    padding: 5px;
 }
 
 .header_profile{
@@ -13,4 +14,11 @@
     height: 200px;
     background-color: aliceblue;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px){
+    .header_container{
+        flex-direction: column;
+    }
+
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/components/experience_cart.css'
+import '../styles/components/cart.css'
 
 export const ExperienceCart = ({Job,Company,Description,StartDay,EndDay}) => {
     return (

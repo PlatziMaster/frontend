@@ -16,5 +16,14 @@
 
 .academic_info{
     display: flex;
-    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px){
+    .academic_container{
+        width: 98%;
+    }
+
 }

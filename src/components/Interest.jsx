@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getAllData } from '../utils/getData'
 import '../styles/components/interest.css'
-import { makeKey } from '../utils/makeKey'
 const Interest = () => {
     const [interestInfo, setInterestInfo] = useState()
     const {interest} = interestInfo || []
@@ -10,7 +9,7 @@ const Interest = () => {
           .then(res=> setInterestInfo(res))
     },[])
     return (
-        <div className="interest_container" >
+        <div className="medium_container" >
             <h2>My interests</h2>
             <div className="interest_info">
                 {

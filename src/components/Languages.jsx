@@ -9,7 +9,7 @@ const Languages = () => {
     getAllData().then(res => setLanguagesInfo(res));
   }, []);
   return (
-    <div className="languages_container">
+    <div className="medium_container">
       <h2>Languages</h2>
       <div className="languages_info">
         {languages?.map(item => (

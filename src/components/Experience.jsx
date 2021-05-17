@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { getAllData } from '../utils/getData';
 import '../styles/components/experience.css';
 import { ExperienceCart } from './ExperienceCart';
-import { makeKey } from '../utils/makeKey';
 
 const Experience = () => {
   const [experienceInfo, setExperienceInfo] = useState();
@@ -15,12 +14,12 @@ const Experience = () => {
 
 
   return (
-    <div className="experience_container">
+    <div className="largue_container">
         <h2>Experience</h2>
         <div className="experience_info">
             {experience?.map(item=>(
                 <ExperienceCart
-                key={makeKey()}
+                key={item.id}
                 Job={item.jobTitle}
                 Company={item.company}
                 Description={item.jobDescription}

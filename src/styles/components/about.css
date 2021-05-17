@@ -5,15 +5,23 @@
     height: auto;
     font-size: 1.6rem;
     justify-content: center;
+    color: var(--fontColor_DarkMode)
     
 }
 
-.About_container h1, h4{
+.About_container p{
+    font-weight: 300;
+}
+
+.About_container h1, p{
     margin: 0;
 }
 
 .about_contact{
     display: inherit;
-
+    width: 80%;
+    justify-content: space-between;
+    margin: 10px 0;
+    
 }
 

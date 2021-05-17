@@ -1,8 +1,9 @@
 :root{
     --backgroundColor_DarkMode : #0c1532;
     --backgroundColorComponent_DarkMode: #343e5f;
+    --backgroundColorCard:#454f72;
     --fontColor_DarkMode: #fff;
-
+    --fontColor_secundary: #93c93d;
 
     --backgroundColor_LigthMode: #fff;
     --fontColor_LighMode: #000;
@@ -13,5 +14,6 @@ body{
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    background-color: var(--backgroundColor_DarkMode)
+    background-color: var(--backgroundColor_DarkMode);
+    font-family: 'Montserrat', sans-serif;
 }

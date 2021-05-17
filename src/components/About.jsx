@@ -1,17 +1,17 @@
 import React from 'react'
 import '../styles/components/about.css'
 
-const About = () => {
+const About = ({Title,Job,Phone,Email,Web,Address}) => {
     return (
         <div className="About_container">
-            <h1>Header Title</h1>
-            <h4>Header-job_title</h4>
+            <h1>{Title}</h1>
+            <p>{Job}</p>
             <div className="about_contact">
-                    <h4>Headerh4hone</h4>
-                    <h4>HeaderEmail</h4>
-                    <h4>HeaderWebsite</h4>
+                    <p>{Phone}</p>
+                    <p>{Email}</p>
+                    <p>{Web}</p>
             </div>
-            <h4>HeaderAddres</h4>
+            <p>{Address}</p>
 
         </div>
     )

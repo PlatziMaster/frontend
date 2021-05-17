@@ -1,0 +1,60 @@
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    width: 48.8%;
+    height: 25vh;
+    margin: 10px 5px;
+    background-color: var(--backgroundColorComponent_DarkMode);
+    color: var(--fontColor_DarkMode);
+    font-size:1.4rem;
+}
+
+.skills_container h2{
+    margin: 0 10px;
+}
+
+
+
+
+.skills_info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    width: 40%;
+    height: 30px;
+    margin: 5px;
+    background-color: var(--backgroundColorCard);
+    border-radius: 5px;
+}
+
+.skill_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+#HTML5{
+    background-color: #dd4b24
+}
+
+#CSS{
+    background-color: #146daf   ;
+}
+
+#JavaScript{
+    background-color: #f7df1d;
+    color: black;
+}
+
+#React{
+    background-color: #00d2f7;
+}

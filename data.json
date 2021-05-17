@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Ignacio Bogarin Álvarez",
+    "profession": "FrontEnd-Backend Developer",
+    "address": "Guadalajara, Jalisco México.",
+    "email": "the_boga@hotmail.com",
+    "website": "https://bogarin.com.mx",
+    "phone": "523310237788",
+    "avatar": "https://dl.dropboxusercontent.com/s/vrtay6oorhyaqmp/ignaciobogarin.jpg?dl=0",
+    "profile": "Frontend programmer with React JS - Vue JS, Backend with Laravel and PHP, mobile development with Swift ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,58 +22,82 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Fullstack Mobile & Front",
+        "description": "iOS Mobile Developer & javascript react, vue and related courses",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "2017"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Autodidacta",
+        "description": "For many years I have been learning on my own linux platforms, web design, many books, documentation and most importantly, solving problems on the fly",
+        "endDate": "Present",
+        "institution": "Myself",
+        "startDate": "2001"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Freelace",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Freelance frontend and backend developer React, Vue & Laravel. Application design for iOS with Swift",
+        "jobTitle": "Frontend/Backend & Mobile",
+        "startDate": "Jan 2018",
+        "image":"https://dl.dropboxusercontent.com/s/t2mbxw5351uhenv/freelance.jpeg",
+        "url":"http://bogarin.com.mx"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Megalodonte Design Studio",
+        "endDate": "Jan 2018",
+        "jobDescription": "Project manager and programmer of web sites and applications for different clients and companies. HTML, CSS, JavaScript, PHP, CMS Joomla & Wordpress",
+        "jobTitle": "Web Design - Web App developer",
+        "startDate": "Jul 2011",
+        "image":"https://dl.dropboxusercontent.com/s/rjbqv95zsvsd6h2/megalodonteds.jpg",
+        "url":"http://www.megalodonte.com/"
+      },
+      {
+        "company": "Casa Xavier",
+        "endDate": "May 2011",
+        "jobDescription": "Programmer and Webmaster of ecommerce, Graphic design and brand development for different clients. Casa Xavier is a leading advertising company in Guadalajara.",
+        "jobTitle": "Design - Webmaster",
+        "startDate": "Sep 2001",
+        "image":"https://dl.dropboxusercontent.com/s/owrd3aggptlu08z/casaxavier.jpg",
+        "url":"https://www.casaxavier.com.mx"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "HTML5 / CSS",
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "85%"
+      },
+      {
+        "name": "Vue js",
+        "percentage": "85%"
+      },
+      {
+        "name": "Laravel",
+        "percentage": "70%"
+      },
+      {
+        "name": "Swift",
+        "percentage": "85%"
+      },
+      {
+        "name": "Photoshop / Illustrator",
+        "percentage": "95%"
       }
     ],
     "interest": [
-      "javascript",
       "develop",
       "backend",
       "frontend"

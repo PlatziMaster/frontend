@@ -70,6 +70,18 @@
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Docker",
+        "percentage": "90%"
+      },
+      {
+        "name": "Node",
+        "percentage": "20%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "90%"
       }
     ],
     "interest": [
@@ -92,6 +104,10 @@
       },
       {
         "name": "English",
+        "percentage": "90%"
+      },
+      {
+        "name": "German",
         "percentage": "50%"
       }
     ],

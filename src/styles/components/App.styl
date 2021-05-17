@@ -7,6 +7,9 @@ body
   align-items center
   justify-content center
 
+ul
+  list-style none
+
 #app
   overflow auto
   display grid
@@ -15,30 +18,31 @@ body
 
 .inicio
   grid-area inicio
-  background-image: url(https://cdn-images-1.medium.com/max/1600/1*5XH40dQSsBVFtvx3MO5VwQ.png);
-  -webkit-background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image url(https://cdn-images-1.medium.com/max/1600/1*5XH40dQSsBVFtvx3MO5VwQ.png)
+  -webkit-background-size cover;
+  background-position center;
+  background-repeat no-repeat;
 
 .titulo-principal
   text-align center
-  line-height: 50vh
+  line-height 50vh
   color white
 
 .other
   grid-area other
   display grid
+  justify-content space-around
   grid-template-areas "academic skills" "interest languages"
+  padding 10px
+
 
 .contenido
   display grid
   grid-template-areas "title content"
-  justify-content: space-around;
   color #422d2d
 
 .contenido-titulo
   grid-area title
-  text-decoration: underline;
 
 .contenido-detalles
   grid-area content
@@ -46,6 +50,14 @@ body
 .title
   font-size 20px
   color #3390bc
+  text-decoration underline;
+
+.title2
+  color #2b2b2b
+
+.subtitles
+  font-size 16px
+
 
 .sub-title
   font-size 16px

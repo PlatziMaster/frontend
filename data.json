@@ -76,7 +76,14 @@
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "node",
+      "react",
+      "sql",
+      "java",
+      "c++",
+      "blockchain",
+      "bitcoin"
     ],
     "languages": [
       {

@@ -16,7 +16,7 @@ const About = ({
         <img src={avatar} alt="Avatar" />
       </div>
       <div className="About-info">
-        <h2 className="title">{fullName}</h2>
+        <h2 className="About-title">{fullName}</h2>
         <p className="About-item">{job}</p>
         <div className="About-item contact">
           <p>{phone}</p>

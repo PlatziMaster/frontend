@@ -1,57 +1,50 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Christian Guzmán",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Guanajuato, México",
+    "email": "kris.thian@hotmail.com",
+    "website": "",
+    "phone": "+524775817788",
+    "avatar": "https://scontent.fmty3-1.fna.fbcdn.net/v/t1.6435-9/107538761_4017844388289447_2670559213450645378_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeFnn-JFVX1EptoUWqoBQ66egGRtpDGBxhCAZG2kMYHGEHgAr-wSc-e0mWwhYA-6O8_HMxwp0RqMCnVhbuDpLzBb&_nc_ohc=DC7PFfwQ2YoAX99gSMC&_nc_ht=scontent.fmty3-1.fna&oh=de511d3927929b6ca864c5f0f3af3f58&oe=60C5C66A",
+    "Profile": "Buscando ser un gran desarrollador web. Me gusta estar aprendiendo todo el tiempo, en muchos temas. Soy músico y productor aficionado. Siempre me esfuerzo al 100%.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Marzo 2021",
+        "description": "Aprendí los fundamentos y las buenas prácticas para desarrollar sitios web.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso Definitivo de HTML y CSS"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Abril 2021",
+        "description": "Fundamentos de funcionamiento de javascript en el navegador y manipulación del DOM",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Javascript Engine (V8) y el Navegador"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniero en Mecatrónica",
+        "description": "Estoy capacitado en electrónica analógica, digital y de potencia. Puedo diseñar de elementos electrónicos y mecánicos.",
+        "endDate": "Diciembre 2019",
+        "institution": "Instituto Tecnológico de León",
+        "startDate": "Agosto 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "OfficeYA",
+        "endDate": "Agosto 2020",
+        "jobDescription": "Diseñé y desarrollé el sistema mecánico, electrónico y comuncación IoT para abrir automáticamente puertas de oficinas en renta",
+        "jobTitle": "Encargado de nuevos proyectos",
+        "startDate": "Diciembre 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "YoContigo IT",
+        "endDate": "Febrero 2021",
+        "jobDescription": "Contribuí en proyectos web y aplicaciones móviles para varias startups. Algunas han tenido cierto éxito, como Te Lo Cambio",
+        "jobTitle": "Desarrollador FrontEnd",
+        "startDate": "Agosto 2020"
       }
     ],
     "skills": [
@@ -61,49 +54,52 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "65%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "IoT",
+      "Music",
+      "Shooting"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "95%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/ciangzmn"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/xhian7"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/xhian7"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "spotify",
+        "url": "https://open.spotify.com/artist/1ZLBknafcrSuMN7iPQUFmV?si=UlfJeCI-Tdaw-9stcoe4xA"
       }
     ]
   }

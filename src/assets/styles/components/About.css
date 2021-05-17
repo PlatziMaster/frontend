@@ -1,0 +1,13 @@
+.About-title {
+    margin: 5px;
+}
+.About-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}

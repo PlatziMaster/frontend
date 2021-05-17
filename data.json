@@ -1,21 +1,23 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Uriel Yasuhiro Aguilar Rosales",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "Queretaro, Mexico.",
+    "email": "uriyasu10@gmail.com",
     "website": "https://example.com",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "avatar": "https://lh3.googleusercontent.com/ogw/ADGmqu9ZrL_3AkxoawdgP9xzDpffKnMSuJVeR5Mvwsrs8Qs=s32-c-mo",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
+        "id": 1,
         "date": "Jan 2021",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
+        "id": 2,
         "date": "Jan 2021",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
@@ -24,6 +26,7 @@
     ],
     "Academic": [
       {
+        "id": 3,
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
@@ -31,6 +34,7 @@
         "startDate": "Jan 2018"
       },
       {
+        "id": 4,
         "degree": "Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
@@ -40,6 +44,7 @@
     ],
     "experience": [
       {
+        "id": 5,
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
@@ -47,6 +52,7 @@
         "startDate": "Jan 2020"
       },
       {
+        "id": 6,
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
@@ -56,54 +62,76 @@
     ],
     "skills": [
       {
+        "id": 7,
         "name": "HTML5",
         "percentage": "75%"
       },
       {
+        "id": 8,
         "name": "CSS",
         "percentage": "25%"
       },
       {
+        "id": 9,
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
+        "id": 10,
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
     ],
     "languages": [
       {
+        "id": 11,
         "name": "Spanish",
         "percentage": "90%"
       },
       {
+        "id": 12,
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
+        "id": 13,
         "name": "facebook",
         "url": "https://facebook.com/"
       },
       {
+        "id": 14,
         "name": "twitter",
         "url": "https://twitter.com/"
       },
       {
+        "id": 15,
         "name": "github",
         "url": "https://github.com/"
       },
       {
+        "id": 16,
         "name": "linkedin",
         "url": "https://www.linkedin.com/"
+      }
+    ],
+    "interest": [
+      {
+        "id": 17,
+        "name": "javascript"
+      },
+      {
+        "id": 18,
+        "name": "develop"
+      },
+      {
+        "id": 19,
+        "name": "backend"
+      },
+      {
+        "id": 20,
+        "name": "frontend"
       }
     ]
   }

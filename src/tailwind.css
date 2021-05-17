@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+
+
+.btn {
+  @apply py-2 px-4 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75;
+}
+
+.btn2 {
+  @apply px-4 py-2 bg-blue-500 text-black ;
+}
+
+h1 {
+  @apply text-3xl mt-4
+}
+
+h2 {
+  @apply text-2xl mt-4
+}
+
+h3 {
+  @apply font-semibold 
+}
+
+.section {
+ @apply flex md:space-x-4 container
+}
+
+.profile-image {
+  @apply rounded-lg max-h-60
+}
+.icons {
+  width: 80px
+}
+
+.card {
+@apply rounded-lg border-2 py-2 px-4
+}
+
+.card-title {
+@apply font-semibold text-black text-lg
+
+}
+
+.card-subtitle {
+@apply text-blue-500 text-xs
+}
+
+.card-text {
+@apply mt-2
+}
+
+.time-lap {
+  @apply border-l-8 pl-2 border-blue-700 mt-10 rounded-lg
+}
+
+@tailwind utilities;

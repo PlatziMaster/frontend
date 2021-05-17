@@ -1,13 +1,14 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
+  "initialState": {
+    "data": {
+    "name": "Miguel A. López",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Bucaramanga, Colombia.",
+    "email": "miguelalfonsolopez@gmail.com",
+    "website": "https://blog.panacea-marketing.com/author/miguel/",
+    "phone": "30120247260",
+    "avatar": "https://migueldeveloper.s3.amazonaws.com/IMG_0323.jpg",
+    "Profile": "Invitado en varias ocasiones a dictar diplomados, cursos y conferencias sobre temas de marketing digital. También he sido ganador de 3 becas de los estímulos de Mincultura en temas de emprendimiento y música",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,44 +25,37 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Maestro en Música",
+        "description": "Pregrodo en músca con enfasis en composición de música de Cámara",
+        "endDate": "Diciembre 2016",
+        "institution": "Universidad Autónoma de Bucaramanga",
+        "startDate": "Ago 2008"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Universidad Autónoma de Bucaramanga",
+        "endDate": "2016",
+        "jobDescription": "Encargado de la adminsitración y coordinación del funcionamiento de las orquestas sinfónicas juveniles y profesionales de la universidad",
+        "jobTitle": "Director Ejecutivo - Programa Sinfónico",
+        "startDate": "Jan 2014"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Coporación cultural el Puente",
+        "endDate": "Actual",
+        "jobDescription": "Encargado de los procesos de ventas y anuncios en las distintas paltaformas de publicidad digital",
+        "jobTitle": "Ads Manager",
+        "startDate": "Sept 2016"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
@@ -69,7 +63,7 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "40%"
       }
     ],
     "interest": [
@@ -81,30 +75,32 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "200%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/miguelalfonsolopezm"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/mlopez114"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/mlopezdev"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/mlopezblog/"
       }
     ]
   }
+  }
+  
 }

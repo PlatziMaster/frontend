@@ -1,110 +1,124 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
-  }
+    "data": {
+        "name": "Fabio Andres Geney Barros",
+        "profession": "FrontEnd Developer",
+        "address": "Sahagún Códoba, Colombia.",
+        "email": "fabiogeney96@gmail.com",
+        "website": "https://example.com",
+        "phone": "+57 3184256113",
+        "avatar": "../../assets/images/profile.jpeg",
+        "profile": "Soy una persona a la que le encanta la programación, me gusta aprender nuevas tecnologías para el desarrollo de software, también me gusta mejorar mi código para que sea optimo y facil de entender. A corto y mediano plazo me gustaría mejorar mis conocimientos en el desarrollo web, y a largo plazo me gustaría dedicarme a la Ciencia de Datos. Fuera del mundo de la programación me gusta practicar el running, jugar a video juegos, pasar tiempo con amigos y viajar.",
+        "certificate": [{
+                "date": "Jan 2021",
+                "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+                "institution": "Platzi",
+                "name": "FrontEnd Developer"
+            },
+            {
+                "date": "Jan 2021",
+                "description": "Scratch at the door then walk away wack the mini furry mouse",
+                "institution": "Platzi",
+                "name": "Backend Developer"
+            }
+        ],
+        "Academic": [{
+            "degree": "Ingeniería de Sistemas",
+            "description": "",
+            "endDate": "Abril 2014",
+            "institution": "Universidad Industrial de Santander (UIS)",
+            "startDate": "Diciembre 2019"
+        }],
+        "experience": [{
+                "company": "Puxles S.A.S",
+                "endDate": "Present",
+                "jobDescription": "Desarrollo de librerías Angular para software de gestión documental y un sistema de gestión de contenidos empresarial  (ECM)",
+                "jobTitle": "Frontend",
+                "startDate": "Octubre 2019"
+            },
+            {
+                "company": "Freelancer",
+                "endDate": "Enero 2021",
+                "jobDescription": "Desarrollo de software para conectar empleados y empleadores en el sector salud en USA, mediante App web con Angular y mantenimiento de App móvil con React Native",
+                "jobTitle": "Frontend",
+                "startDate": "Mayo 2020"
+            }
+        ],
+        "skills": [{
+                "name": "HTML5",
+                "percentage": "95%"
+            },
+            {
+                "name": "CSS",
+                "percentage": "75%"
+            },
+            {
+                "name": "JavaScript",
+                "percentage": "85%"
+            },
+            {
+                "name": "Java",
+                "percentage": "75%"
+            },
+            {
+                "name": "Dart",
+                "percentage": "70%"
+            },
+            {
+                "name": "TypeScript",
+                "percentage": "90%"
+            },
+            {
+                "name": "React",
+                "percentage": "60%"
+            },
+            {
+                "name": "Angular",
+                "percentage": "90%"
+            },
+            {
+                "name": "Ngrx",
+                "percentage": "80%"
+            },
+            {
+                "name": "NodeJS",
+                "percentage": "50%"
+            },
+            {
+                "name": "Flutter",
+                "percentage": "50%"
+            },
+            {
+                "name": "Android Studio",
+                "percentage": "50%"
+            }
+        ],
+        "interest": [
+            "Develop",
+            "Backend",
+            "Frontend",
+            "Ciencia de Datos"
+        ],
+        "languages": [{
+                "name": "Español",
+                "percentage": "90%"
+            },
+            {
+                "name": "Ingles",
+                "percentage": "20%"
+            }
+        ],
+        "social": [{
+                "name": "facebook",
+                "url": "https://www.facebook.com/fabioandres.geneybarros/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/FabioGeney"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/fabio-andres-geney-barros-b0a1a3170/"
+            }
+        ]
+    }
 }

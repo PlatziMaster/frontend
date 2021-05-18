@@ -1,28 +1,35 @@
 import React from 'react';
-import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import '../styles/styles.css';
+import Header from '../styles/components/Header';
+import About from '../styles/components/About';
+import Profile from '../styles/components/Profile';
+import Experience from '../styles/components/Experience';
+import Academic from '../styles/components/Academic';
+import Skills from '../styles/components/Skills';
+import Interest from '../styles/components/Interest';
+import Languages from '../styles/components/Languages';
+import Footer from '../styles/components/Footer';
 
 const App = () => {
-  return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+  {
+    return (
+      <React.Fragment>
+        <Header component={Header} />
+        <About component={About} />
+        <Profile component={Profile} />
+        <Experience component={Experience} />
+        <div className='containerOne'>
+          <Academic component={Academic} />
+          <Skills component={Skills} />
+
+        </div>
+        <Interest component={Interest} />
+
+        <Languages component={Languages} />
+        <Footer component={Footer} />
+      </React.Fragment>
+    );
+  };
 };
 
 export default App;

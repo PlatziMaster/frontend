@@ -1,21 +1,16 @@
 import React from 'react';
+import Box from '../Box/Box';
+import ListItems from '../ListItems/ListItems';
 
 const Interest = () => {
-  const items = ['Item 1', 'Item 2', 'Item 3'];
-
-  const renderItems = () => {
-    return items.map(item => <li key={item} className='Interest-item'>{item}</li>);
-  };
-
+  const items = ['.Interest-Item 1', '.Interest-Item 2', '.Interest-Item 3'];
   return (
-    <>
-      <div className='Interest-title'>
-        Interest
-      </div>
-      <ul>
-        {renderItems()}
-      </ul>
-    </>
+    <Box>
+      <h1 className='Interest-title'>
+        .Interest-title
+      </h1>
+      <ListItems listName='Interest' items={items} columnsNumber={2} />
+    </Box>
   );
 };
 

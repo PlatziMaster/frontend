@@ -1,15 +1,16 @@
 import React from 'react';
+import Box from '../Box/Box';
 
 const Profile = () => {
   return (
-    <>
-      <div className='Profile-title'>
-        Profile
-      </div>
+    <Box>
+      <h1 className='Profile-title'>
+        .Profile-title
+      </h1>
       <div className='Profile-desc'>
-        Description
+        .Profile-desc
       </div>
-    </>
+    </Box>
   );
 };
 

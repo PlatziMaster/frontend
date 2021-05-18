@@ -1,21 +1,17 @@
 import React from 'react';
+import Box from '../Box/Box';
+import ListItems from '../ListItems/ListItems';
 
 const Lenguages = () => {
-  const items = ['Item 1', 'Item 2', 'Item 3'];
-
-  const renderItems = () => {
-    return items.map(item => <li key={item} className='Languages-item'>{item}</li>);
-  };
+  const items = ['.Lenguages-Item 1', '.Lenguages-Item 2', '.Lenguages-Item 3'];
 
   return (
-    <>
-      <div className='Languages-title'>
-        Lenguages
-      </div>
-      <ul>
-        {renderItems()}
-      </ul>
-    </>
+    <Box>
+      <h1 className='Languages-title'>
+        .Lenguages-title
+      </h1>
+      <ListItems listName='Languages' items={items} columnsNumber={3} />
+    </Box>
   );
 };
 

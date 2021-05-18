@@ -15,12 +15,16 @@ const App = () => {
       <Header>
         <About />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <div className='Main-information'>
+        <Profile />
+        <Experience />
+      </div>
+      <div className='Other-information'>
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </div>
     </>
   );
 };

@@ -1,20 +1,17 @@
 import React from 'react';
+import Box from '../Box/Box';
+import ListItems from '../ListItems/ListItems';
 
 const Academic = () => {
-  const items = ['Item 1', 'Item 2', 'Item 3'];
+  const items = ['.Academic-Item 1', '.Academic-Item 2', '.Academic-Item 3'];
 
-  const renderItems = () => {
-    return items.map(item => <li key={item} className='Academic-item'>{item}</li>);
-  };
   return (
-    <>
-      <div className='Academic-title'>
-        Academic
-      </div>
-      <ul>
-        {renderItems()}
-      </ul>
-    </>
+    <Box>
+      <h1 className='Academic-title'>
+        .Academic-title
+      </h1>
+      <ListItems listName='Academic' items={items} />
+    </Box>
   );
 };
 

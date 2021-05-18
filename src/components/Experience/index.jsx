@@ -1,21 +1,17 @@
 import React from 'react';
+import Box from '../Box/Box';
+import ListItems from '../ListItems/ListItems';
 
 const Experience = () => {
-  const items = ['Item 1', 'Item 2', 'Item 3'];
-
-  const renderItems = () => {
-    return items.map(item => <li key={item} className='Experience-item'>{item}</li>);
-  };
+  const items = ['.Experience-item 1', '.Experience-item 2', '.Experience-item 3', '.Experience-item 4'];
 
   return (
-    <>
-      <div className='Experience-title'>
-        Experience
-      </div>
-      <ul>
-        {renderItems()}
-      </ul>
-    </>
+    <Box>
+      <h1 className='Experience-title'>
+        .Experience-title
+      </h1>
+      <ListItems listName='Experience' items={items} columnsNumber={2} />
+    </Box>
   );
 };
 

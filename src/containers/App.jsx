@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/components/App.styl';
 
+import Hero from '../components/Hero';
+
 const App = () => {
   return (
     <>
-      <div className="hello">Hello world</div>
+      <Hero />
     </>
   );
 };

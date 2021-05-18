@@ -1,0 +1,19 @@
+b(val) // b for bracket
+  unquote("[") + val + unquote("]")
+
+
+
+.Hero
+    width 100vw
+    height 100vh
+    padding: 10vh 10vw
+    box-sizing border-box
+    background-color: #F7836E
+    color #FFFFFFDE
+    display grid
+    grid-template-rows: b(name)40px b(title) auto b(description) auto
+
+.Hero__name
+    text-align: right
+    font-size: 24px
+    font-weight: 600

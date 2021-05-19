@@ -7,7 +7,7 @@
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -72,12 +72,7 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
@@ -85,6 +80,10 @@
       },
       {
         "name": "English",
+        "percentage": "50%"
+      },
+      {
+        "name": "French",
         "percentage": "50%"
       }
     ],

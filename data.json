@@ -1,110 +1,116 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
-  }
+    "data": {
+        "name": "Alejandro Pulido",
+        "profession": "FrontEnd Developer",
+        "address": "Medellin, Colombia.",
+        "email": "hapulido22@gmail.com",
+        "website": "https://alejandropulido7.github.io/",
+        "phone": "+57 3013877581",
+        "avatar": "../public/images/photo.png",
+        "Profile": "I consider myself a serious, responsible and dynamic person, with ease of adaptation. I enjoy constant learning, which has been a great advantage for my professional career to the extent that I pay special attention to innovation and improvement of the tasks and processes in which I get involved. I have experience in the area of ​​technical support, customer service and in the last year my skills have focused on software development. Currently I work in the field of database management.",
+        "certificate": [{
+                "date": "Jan 2021",
+                "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+                "institution": "Platzi",
+                "name": "FrontEnd Developer"
+            },
+            {
+                "date": "Jan 2021",
+                "description": "Scratch at the door then walk away wack the mini furry mouse",
+                "institution": "Platzi",
+                "name": "Backend Developer"
+            }
+        ],
+        "Academic": [{
+                "degree": "Technician working in Software Development",
+                "description": "",
+                "endDate": "Currently",
+                "institution": "CENSA",
+                "startDate": "Jun 2019"
+            },
+            {
+                "degree": "Information systems technology",
+                "description": "",
+                "endDate": "No finish",
+                "institution": "ITM",
+                "startDate": "Jan 2016"
+            },
+            {
+                "degree": "Telecommunications Systems Technologist",
+                "description": "",
+                "endDate": "Sep 2015",
+                "institution": "SENA",
+                "startDate": "Feb 2013"
+            }
+        ],
+        "experience": [{
+                "company": "INVAMER SAS",
+                "endDate": "May 2021",
+                "jobDescription": "Coding in CSS3 for the web design of the questionnaire screens. Statements in SQL Server for database debugging. Macro programming to streamline processes in Excel. Usability of advanced formulas in Excel. Creation of reports in Excel. Projects management",
+                "jobTitle": "Data processing analyst",
+                "startDate": "Jan 2019"
+            },
+            {
+                "company": "Magnum Logistics",
+                "endDate": "Sep 2018",
+                "jobDescription": "Manage, configure and implement improvements to the Helpdesk platform, Antivirus Server (KAS), Domain Controller, Print Server, NAS, Project implementation and development, management of technicians in charge and Customer Service",
+                "jobTitle": "Technical support analyst",
+                "startDate": "Feb 2014"
+            }
+        ],
+        "skills": [{
+                "name": "HTML5",
+                "percentage": "85"
+            },
+            {
+                "name": "CSS3/Bootstrap",
+                "percentage": "90"
+            },
+            {
+                "name": "JavaScript",
+                "percentage": "70"
+            },
+            {
+                "name": "React",
+                "percentage": "40"
+            },
+            {
+                "name": "PHP/Laravel",
+                "percentage": "80"
+            },
+            {
+                "name": "MySQL/SQLServer",
+                "percentage": "80"
+            },
+            {
+                "name": "Wordpress plugins",
+                "percentage": "50"
+            }
+        ],
+        "interest": [
+            "Javascript",
+            "DevOps",
+            "Scrum Master",
+            "Frontend",
+            "New tecnology"
+        ],
+        "languages": [{
+                "name": "Spanish",
+                "percentage": "90"
+            },
+            {
+                "name": "English",
+                "percentage": "40"
+            }
+        ],
+        "social": [{
+                "name": "Git",
+                "url": "https://github.com/alejandropulido7"
+            },
+            {
+                "name": "Linkedin",
+                "url": "https://www.linkedin.com/in/alejandro-pulido-6a9380206/"
+            }
+        ]
+    }
 }

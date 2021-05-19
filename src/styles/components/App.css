@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+ :root {
+    --middle-blue: rgba(137, 210, 220, 0.4);
+    --oxford-dark: rgba(0, 0, 0, 0.4);
+    --oxford-white: rgba(255, 255, 255, 0.1);
+    --oxford-white-item: rgba(255, 255, 255, 0.1);
+    --rich-black-fogra-29: rgba(13, 19, 23, 0.4);
+}
+
+body {
+    /* background: #B8B8AA; */
+    top: 0;
+    margin: 0;
+    font-family: 'Josefin Sans';
+    background: var(--oxford-white-item);
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    background: var(--oxford-white-item);
+    -webkit-box-shadow: 10px 10px 22px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 22px -6px rgba(0, 0, 0, 0.75);
+}
+
+.header,
+.academic,
+.experience,
+.interest,
+.languages,
+.skills,
+.profile {
+    background-color: var(--oxford-white);
+    padding: 25px;
+}
+
+.header {
+    background-color: #01110A;
+    display: flex;
+    flex-direction: row;
+}
+
+.header>.container-img {
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.header>.container-img>img {
+    width: 100%;
+    background-color: #FFF;
+}
+
+.header>div {
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFF;
+    background: var(--oxford-white-item);
+    padding: 10px;
+}
+
+.container-about>div {
+    margin: 15px 0;
+}
+
+.container-about span {
+    padding: 5px;
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.experience>h3 {
+    display: block;
+    width: 100%;
+}
+
+.experience-item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #01110A;
+    background-color: var(--oxford-white);
+    width: 42%;
+}
+
+.container-cards {
+    display: flex;
+    width: 101%;
+    flex-wrap: wrap;
+}
+
+.container-cards>div {
+    flex-direction: row;
+    width: 45%;
+}
+
+.academic,
+.skills {
+    color: #fff;
+    background-color: #01110A;
+}
+
+.academic-item,
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    background: var(--oxford-white-item);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.skill-item,
+.language-item,
+.interest-item {
+    margin: 10px;
+}
+
+.skill-item>div,
+.language-item>div {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.interest {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest>h3 {
+    width: 100%;
+}
+
+.language-item,
+.interest-item {
+    border: 1px solid #01110A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.interest-item {
+    width: 20%;
+}
+
+progress {
+    height: 20px;
+    -webkit-appearance: none;
+}
+
+.skill-item>div>::-webkit-progress-value {
+    background-color: #01110a6e;
+}
+
+.language-item>div>::-webkit-progress-value {
+    background-color: #01110A;
+}
+
+ ::-webkit-progress-inner-element {
+    border-radius: 15px;
+}
+
+.academic-item>span {
+    margin: 3px 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px;
+}
+
+.social>a {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .header,
+    .academic,
+    .experience,
+    .interest,
+    .languages,
+    .skills,
+    .profile {
+        padding: 20px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header>div {
+        width: 90%;
+    }
+    .header>.container-img {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+    .experience {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .container-cards {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .container-cards>div {
+        flex-direction: column;
+        width: 89%;
+    }
+    .academic-item,
+    .skill-item,
+    .experience-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-item {
+        width: 90%;
+        margin: 5px 0;
+    }
+    .skill-item>div,
+    .language-item>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 5px 0;
+    }
+    .interest-item {
+        width: 90%;
+        margin: 5px auto;
+    }
+}

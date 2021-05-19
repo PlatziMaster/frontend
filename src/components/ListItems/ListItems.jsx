@@ -3,7 +3,7 @@ import '../../styles/components/ListItems.styl';
 
 const ListItems = ({ listName, items, columnsNumber = 1 }) => {
   const renderItems = () => {
-    return items.map(item => <li key={item} className={`${listName}-item`}>{item}</li>);
+    return items.map((item, index) => <li key={`${item}-${index * 2}`} className={`${listName}-item`}>{item}</li>);
   };
   return (
     <div className='List'>

@@ -2,13 +2,30 @@ import React from 'react';
 import Box from '../Box/Box';
 import ListItems from '../ListItems/ListItems';
 
-const Experience = () => {
-  const items = ['.Experience-item 1', '.Experience-item 2', '.Experience-item 3', '.Experience-item 4'];
+const Experience = ({ data }) => {
+
+  const createExperienceItem = (experiences) => {
+    return experiences.map(experience => (
+      <div>
+        <b>{experience.jobTitle}</b>
+        <br />
+        {experience.jobDescription}
+        <br />
+        {experience.company}
+        <br />
+        {experience.startDate}
+        <br />
+        {experience.endDate}
+      </div>
+    ));
+  };
+
+  const items = [...createExperienceItem(data), '', '', ''];
 
   return (
     <Box>
       <h1 className='Experience-title'>
-        .Experience-title
+        Experience
       </h1>
       <ListItems listName='Experience' items={items} columnsNumber={2} />
     </Box>

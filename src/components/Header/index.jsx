@@ -2,24 +2,25 @@ import React from 'react';
 import Box from '../Box/Box';
 import '../../styles/components/Header.styl';
 
-const Header = () => {
+const Header = ({ data }) => {
+  const { name, avatar, profession, phone, address, email, website } = data;
   return (
     <Box className='Header'>
-      <img className='Profile-image' src='public/avatar.jpg' alt='profile' />
+      <img className='Profile-image' src={avatar} alt='profile' />
       <div>
-        <h1 className='Header-title'>.Header-title</h1>
-        .Header-job-title
+        <h1 className='Header-title'>{name}</h1>
+        {profession}
         <div className='Header-data'>
           <div className='Header-item'>
-            .Header-phone
+            {phone}
             <br />
-            .Header-adress
+            {address}
           </div>
           <div className='Header-item'>
-            .Header-email
+            {email}
           </div>
           <div className='Header-item'>
-            .Header-website
+            {website}
           </div>
         </div>
       </div>

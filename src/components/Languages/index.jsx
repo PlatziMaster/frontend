@@ -2,17 +2,28 @@ import React from 'react';
 import Box from '../Box/Box';
 import ListItems from '../ListItems/ListItems';
 
-const Lenguages = () => {
-  const items = ['.Lenguages-Item 1', '.Lenguages-Item 2', '.Lenguages-Item 3'];
+const Languages = ({ data }) => {
+  console.log(data);
+  const createLanguagesItem = (languages) => {
+    return languages.map(language => (
+      <div>
+        <b>{language.name}</b>
+        <br />
+        {language.percentage}
+      </div>
+    ));
+  };
+
+  const items = [...createLanguagesItem(data)];
 
   return (
     <Box>
       <h1 className='Languages-title'>
-        .Lenguages-title
+        Languages
       </h1>
       <ListItems listName='Languages' items={items} columnsNumber={3} />
     </Box>
   );
 };
 
-export default Lenguages;
+export default Languages;

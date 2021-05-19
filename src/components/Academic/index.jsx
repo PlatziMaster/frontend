@@ -2,13 +2,30 @@ import React from 'react';
 import Box from '../Box/Box';
 import ListItems from '../ListItems/ListItems';
 
-const Academic = () => {
-  const items = ['.Academic-Item 1', '.Academic-Item 2', '.Academic-Item 3'];
+const Academic = ({ data }) => {
+
+  const createAcademicItem = (academics) => {
+    return academics.map(academic => (
+      <div>
+        <b>{academic.degree}</b>
+        <br />
+        {academic.description}
+        <br />
+        {academic.institution}
+        <br />
+        {academic.startDate}
+        <br />
+        {academic.endDate}
+      </div>
+    ));
+  };
+
+  const items = [...createAcademicItem(data), '', ''];
 
   return (
     <Box>
       <h1 className='Academic-title'>
-        .Academic-title
+        Academic
       </h1>
       <ListItems listName='Academic' items={items} />
     </Box>

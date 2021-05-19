@@ -2,15 +2,25 @@ import React from 'react';
 import Box from '../Box/Box';
 import ListItems from '../ListItems/ListItems';
 
-const Skills = () => {
-  const items = ['.Experience-Item 1', '.Experience-Item 2', '.Experience-Item 3'];
+const Skills = ({ data }) => {
+
+  const createSkillsItem = (skills) => {
+    return skills.map(skill => (
+      <div>
+        <b>{skill.name}</b>
+        <br />
+        {skill.percentage}
+      </div>
+    ));
+  };
+  const items = [...createSkillsItem(data)];
 
   return (
     <Box>
       <h1 className='Skills-title'>
-        .Skills-title
+        Skills
       </h1>
-      <ListItems listName='Skills' items={items} />
+      <ListItems listName='Skills' items={items} columnsNumber={3} />
     </Box>
   );
 };

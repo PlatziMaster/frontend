@@ -18,7 +18,7 @@ const App = () => {
   }, []);
   
   return (
-    data.length === 0 ? <div>Loading...</div> :
+    data.length != null ? <div></div>:
     <>
       <main className="main">
         <About data={data} />

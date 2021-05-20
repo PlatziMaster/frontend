@@ -14,10 +14,10 @@ class About extends Component {
           <div className='photo__container'>
             <img className='photo' src={this.props.data.avatar} alt='Photo' />
           </div>
-          <Contact data={this.props.data} />
-          <TechAndTools data={this.props.data} />
-          <Objectives data={this.props.data} />
-          <Interests data={this.props.data} />
+          <Contact className="about-item" data={this.props.data} />
+          <TechAndTools className="about-item" data={this.props.data} />
+          <Objectives className="about-item" data={this.props.data} />
+          <Interests className="about-item" data={this.props.data} />
 
         </div>
       </React.Fragment>

@@ -17,7 +17,7 @@ class Profile extends Component {
         <div className='profile__container'>
           <h1 className='profile__title'>{data.name}</h1>
           <h2 className='profile__subtitle'>{data.profession}</h2>
-          <ProfessionalProfile className="profile-description" data={data} />
+          <ProfessionalProfile className='profile-description' data={data} />
           <Experience data={data} />
           <Academic data={data} />
           <SoftSkills data={data} />

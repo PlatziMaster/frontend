@@ -15,19 +15,11 @@ const App = () => {
     });
   }, []);
 
-  console.log(data);
-
   return (
     <>
-      <div>
-        {data && (
-          <Hero
-            title={data.title}
-            name={data.name}
-            description={data.profile}
-          />
-        )}
-      </div>
+      {data && (
+        <Hero title={data.title} name={data.name} description={data.profile} />
+      )}
     </>
   );
 };

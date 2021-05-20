@@ -9,10 +9,10 @@ export const Experience = ({ experience }) => (
         <h1 className='bottomline' id='Experience-title'>Experiencia Laboral</h1>
       </a>
     </div>
-    <div className='botonned rightboxes' id='#Experience-item'>
+    <div className='botonned rightboxes'>
       {experience.map((exp, index) => (
         <React.Fragment key={exp.code}>
-          <div className='leftsectiontable'>
+          <div className='leftsectiontable' id='Experience-item'>
             <h2>{`${exp.startDate} - ${exp.endDate}`}</h2>
           </div>
           <div className='rightsectiontable'>

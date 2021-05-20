@@ -1,6 +1,6 @@
 {
     "data": {
-        "logo": "https://jesuskata.com/assets/logo-jesuskata.png",
+        "logo": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/logo-jesuskata_jz4n7z.png",
         "name": "Jesús Alejandro Romero Zárate",
         "profession": "Energía Solar | Software Developer | Designer",
         "position": "CEO en Kata | Software Engineer en SoftTek",
@@ -14,19 +14,19 @@
             {
                 "name": "Pokédex in ReactJS",
                 "stack": "ReactJS | Github",
-                "image": "https://jesuskata.com/assets/card-pokedex.jpg",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285308/jesuskata/card-pokedex_qq6778.jpg",
                 "url": "https://jesuskata.github.io/pokedex-react/"
             },
             {
                 "name": "Goodfetch",
                 "stack": "MERN Stack",
-                "image": "https://jesuskata.com/assets/card-goodfetch.jpg",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285308/jesuskata/card-goodfetch_pqy7hg.jpg",
                 "url": "https://goodfetch.com"
             },
             {
                 "name": "YelpCamp",
                 "stack": "NodeJS | Mongo | EJS",
-                "image": "https://jesuskata.com/assets/card-yelpcamp.jpg",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/card-yelpcamp_xr1ggi.jpg",
                 "url": "https://lovely-yellowstone-70997.herokuapp.com/"
             }
         ],
@@ -152,22 +152,22 @@
             {
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/jesuskata",
-                "image": "https://jesuskata.com/assets/icon-linkedin.png"
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/icon-linkedin_oxz7ha.png"
             },
             {
                 "name": "platzi",
                 "url": "https://platzi.com/@jesuskata",
-                "image": "https://jesuskata.com/assets/icon-platzi.png"
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/icon-platzi_xfoy94.png"
             },
             {
                 "name": "github",
                 "url": "https://github.com/jesuskata",
-                "image": "https://jesuskata.com/assets/icon-github.png"
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/icon-github_nvszji.png"
             },
             {
                 "name": "gitlab",
                 "url": "https://gitlab.com/jesuskata",
-                "image": "https://jesuskata.com/assets/icon-gitlab.png"
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285308/jesuskata/icon-gitlab_wlvqgn.png"
             }
         ],
         "footer": {

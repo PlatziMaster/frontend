@@ -8,7 +8,7 @@ import { LeftSectionStyled } from './styles';
 
 export const LeftSection = ({ resumeInfo }) => {
   console.log('resumeInfo: ', resumeInfo);
-  const { data: { logo, ...data } } = resumeInfo;
+  const { logo, ...data } = resumeInfo;
   return (
     <LeftSectionStyled className='splitleft'>
       <UserLogo logo={logo} />

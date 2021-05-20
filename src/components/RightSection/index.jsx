@@ -10,7 +10,7 @@ import { Education } from '../Education';
 import { Footer } from '../Footer';
 
 export const RightSection = ({ resumeInfo }) => {
-  const { data: { projects, experience, education, footer } } = resumeInfo;
+  const { projects, experience, education, footer } = resumeInfo;
   return (
     <RightSectionStyled className='splitright'>
       <Projects projects={projects} />

@@ -8,12 +8,14 @@ import { Resume } from '../components/Resume';
 import { RightSection } from '../components/RightSection';
 
 // Utils
-import { getData } from '../utils/getData';
+import getData from '../utils/getData';
 
 const App = () => {
   const [resumeInfo, setResumeInfo] = useState(null);
+
   useEffect(() => {
-    setTimeout(() => setResumeInfo(getData()), 1000);
+    getData('http://localhost:3000/data')
+      .then((res) => setResumeInfo(res));
   }, []);
 
   return (

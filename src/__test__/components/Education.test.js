@@ -2,8 +2,11 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { Education } from '../../components/Education';
 
+// Data
+import { data } from '../../../data.json';
+
 describe('<Education />', () => {
-  const academic = mount(<Education />);
+  const academic = mount(<Education education={data.education} />);
 
   test('Education render', () => {
     expect(academic.length).toEqual(1);

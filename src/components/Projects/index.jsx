@@ -9,9 +9,9 @@ export const Projects = ({ projects }) => (
         <h1 className='bottomline' id='Projects-title'>Algunos Proyectos de Desarrollo de Software</h1>
       </a>
     </div>
-    <div className='bottoned rightboxes' id='Projects-item'>
+    <div className='bottoned rightboxes'>
       {projects?.map((project) => (
-        <a key={project.name} href={project.url} target='_blank' rel='noreferrer'>
+        <a key={project.name} href={project.url} target='_blank' rel='noreferrer' id='Projects-item'>
           <div className='card'>
             <img src={project.image} alt='pokedex project' />
             <div className='cardcontainer'>

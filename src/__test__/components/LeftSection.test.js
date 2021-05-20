@@ -2,8 +2,11 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { LeftSection } from '../../components/LeftSection';
 
+// Data
+import { data } from '../../../data.json';
+
 describe('<LeftSection />', () => {
-  const about = mount(<LeftSection />);
+  const about = mount(<LeftSection resumeInfo={data} />);
 
   test('LeftSection render', () => {
     expect(about.length).toEqual(1);

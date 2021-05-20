@@ -5,6 +5,7 @@
 Creacion de Curriculum vitae con mi información reciente
 
 ![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+<img src="../public/images/page.png">
 
 ### Retos
 1. [Crear los componentes del proyecto] - Cumplido

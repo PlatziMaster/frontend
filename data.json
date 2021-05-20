@@ -1,110 +1,178 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
-  }
+    "data": {
+        "logo": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/logo-jesuskata_jz4n7z.png",
+        "name": "Jesús Alejandro Romero Zárate",
+        "profession": "Energía Solar | Software Developer | Designer",
+        "position": "CEO en Kata | Software Engineer en SoftTek",
+        "address": "Huajuapan de Leon, Oaxaca, Mexico",
+        "email": "me@jesuskata.com",
+        "website": "https://jesuskata.com",
+        "phone": "+52 953 11 90765",
+        "avatar": "https://avatars.githubusercontent.com/u/24985495?v=4",
+        "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+        "projects": [
+            {
+                "name": "Pokédex in ReactJS",
+                "stack": "ReactJS | Github",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285308/jesuskata/card-pokedex_qq6778.jpg",
+                "url": "https://jesuskata.github.io/pokedex-react/"
+            },
+            {
+                "name": "Goodfetch",
+                "stack": "MERN Stack",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285308/jesuskata/card-goodfetch_pqy7hg.jpg",
+                "url": "https://goodfetch.com"
+            },
+            {
+                "name": "YelpCamp",
+                "stack": "NodeJS | Mongo | EJS",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/card-yelpcamp_xr1ggi.jpg",
+                "url": "https://lovely-yellowstone-70997.herokuapp.com/"
+            }
+        ],
+        "certificate": [
+            {
+                "date": "Jan 2021",
+                "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+                "institution": "Platzi",
+                "name": "FrontEnd Developer"
+            },
+            {
+                "date": "Jan 2021",
+                "description": "Scratch at the door then walk away wack the mini furry mouse",
+                "institution": "Platzi",
+                "name": "Backend Developer"
+            }
+        ],
+        "education": [
+            {
+                "startDate": "2003",
+                "endDate": "2009",
+                "degree": "Egresado de Ingeniería Industrial",
+                "institution": "Universidad Tecnológica de la Mixteca",
+                "description": {
+                    "title": "Plan de estudios terminado",
+                    "url": "http://www.utm.mx/ing_industrial.html#plan"
+                }
+            },
+            {
+                "startDate": "2017",
+                "endDate": "actualidad",
+                "degree": "Ingeniería en Desarrollo de Software",
+                "institution": "Universidad Abierta y a Distancia de México",
+                "description": {
+                    "title": "Mapa curricular",
+                    "url": "https://www.unadmexico.mx/images/descargables/MC_licenciatura/ING_DESARROLLO_SOFTWARE.pdf"
+                }
+            },
+            {
+                "startDate": "2015",
+                "endDate": "actualidad",
+                "degree": "Software | Diseño | Marketing",
+                "institution": "Platzi",
+                "description": {
+                    "title": "Cursos terminados",
+                    "url": "https://platzi.com/@jesuskata"
+                }
+            }
+        ],
+        "experience": [
+            {
+                "code": "010421",
+                "startDate": "ene/2021",
+                "endDate": "actualidad",
+                "company": "SoftTek",
+                "jobTitle": "Software Engineer",
+                "activities": [
+                    "Diseño y desarrollo de features con ReactJS",
+                    "Review de código del equipo de Desarrollo",
+                    "Implementación de test unitarios con herramientas de Desarrollo"
+                ]
+            },
+            {
+                "code": "061518",
+                "startDate": "jun/2018",
+                "endDate": "dic/2020",
+                "company": "Datyra, Inc",
+                "jobTitle": "Software Engineer | Program Manager",
+                "activities": [
+                    "Actualmente desarrollando un proyecto de ML",
+                    "Previamente en un proyecto con el stack PERN",
+                    "Actualizada una App de iOS con XCode"
+                ]
+            },
+            {
+                "code": "110113",
+                "startDate": "nov/2013",
+                "endDate": "actualidad",
+                "company": "Kata",
+                "jobTitle": "CEO & Co-Founder",
+                "activities": [
+                    "Comercialización y ejecución de obras fotovoltaicas",
+                    "Diseño de soluciones fotovoltaicas",
+                    "Asesoría en ahorro de energìa eléctrica"
+                ]
+            }
+        ],
+        "skills": [
+            {
+                "name": "HTML5",
+                "percentage": "75%"
+            },
+            {
+                "name": "CSS",
+                "percentage": "25%"
+            },
+            {
+                "name": "JavaScript",
+                "percentage": "55%"
+            },
+            {
+                "name": "React",
+                "percentage": "90%"
+            }
+        ],
+        "interest": [
+            "javascript",
+            "develop",
+            "backend",
+            "frontend"
+        ],
+        "languages": [
+            {
+                "name": "Spanish",
+                "percentage": "90%"
+            },
+            {
+                "name": "English",
+                "percentage": "50%"
+            }
+        ],
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/jesuskata",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/icon-linkedin_oxz7ha.png"
+            },
+            {
+                "name": "platzi",
+                "url": "https://platzi.com/@jesuskata",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/icon-platzi_xfoy94.png"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/jesuskata",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285309/jesuskata/icon-github_nvszji.png"
+            },
+            {
+                "name": "gitlab",
+                "url": "https://gitlab.com/jesuskata",
+                "image": "https://res.cloudinary.com/jesuskata/image/upload/v1621285308/jesuskata/icon-gitlab_wlvqgn.png"
+            }
+        ],
+        "footer": {
+            "year": "2021",
+            "user": "JesusKata"
+        }
+    }
 }

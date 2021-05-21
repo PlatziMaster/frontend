@@ -1,0 +1,28 @@
+$base-color = #8CE6FF
+$cards-color = #004673
+$letters-color = #007AC2
+$subletters-color = #18C2E6
+
+
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+  h1, h2, h3, h4, h5
+    font-family: 'Fira Sans', sans-serif
+
+
+  html
+    font-size: 62.5%
+
+  body
+    background-color $base-color
+
+  .container
+    display: flex
+
+  @media (max-width: 760px)
+    .container
+      flex-direction: column

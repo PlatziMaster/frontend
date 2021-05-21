@@ -1,10 +1,13 @@
-.about__container
-    width 33%
+@import '../App.styl'
+
+.header__container
+    min-width 33%
     background-color #16386b
     height auto
     border 20px solid #5ba7d1
     box-sizing border-box
     color white
+    text-align center
 
 .photo
     width 100%
@@ -17,8 +20,17 @@
         display flex
         justify-content center
 
+.header__title
+    color white
+    font-size 2.5rem
+
+.header__name
+    color white
+    font-size 2rem
+    
+
 @media (max-width: 1023px)
-  .about__container
+  .header__container
     width 100%
 
     .photo__container

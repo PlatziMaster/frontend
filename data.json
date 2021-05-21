@@ -1,119 +1,125 @@
 {
   "data": {
+    "name": "Brandon Argel",
+    "profession": "Frontend Developer",
+    "address": "Zapopan, Jalisco",
+    "email": "brandargel@gmail.com",
+    "website": "https://brandonargel.github.io/",
+    "phone": "3327161523",
+    "linkedin": "https://www.linkedin.com/in/brandargel/",
     "avatar": "https://i.imgur.com/Kgm9urk.jpg",
-    "about": {
-      "address": "Zapopan, Jalisco",
-      "phone": "3327161523",
-      "email": "brandargel@gmail.com",
-      "website": "brandonargel.github.io/",
-      "linkedin": "@brandargel",
-      "skills": [
-        {
-          "name": "HTML5",
-          "percentage": "90%"
-        },
-        {
-          "name": "CSS3",
-          "percentage": "85%"
-        },
-        {
-          "name": "JavaScript",
-          "percentage": "70%"
-        },
-        {
-          "name": "Git",
-          "percentage": "85%"
-        },
-        {
-          "name": "GitHub",
-          "percentage": "85%"
-        },
-        {
-          "name": "Figma",
-          "percentage": "85%"
-        },
-        {
-          "name": "Terminal",
-          "percentage": "60%"
-        },
-        {
-          "name": "React",
-          "percentage": "40%"
-        }
-      ],
-      "interest": [
+    "profile": "Soy un desarrollador web especializado en el frontend. Y trabajo principalmente en la creación de sitios web estáticos, como: landing pages, portafolios, blogs y páginas para negocios.",
+    "objectives": [
+      "Crear Software de calidad y accesible para todas las personas.",
+      "Nunca parar de aprender.",
+      "Adquirir nuevas habilidades todos los días."
+    ],
+    "professionalProfile": "Soy un desarrollador web especializado en el frontend. Y trabajo principalmente en la creación de sitios web estáticos, como: landing pages, portafolios, blogs y páginas para negocios.",
+    "experience": [
+      {
+        "project": "Proyecto Innovador",
+        "company": "Neurona UDG ",
+        "startDate": "Ene 2021",
+        "endDate": "May 2021",
+        "jobDescription": "Desarrollamos un proyecto innovador utilizando las habilidades adquiridas a lo largo de la carrera."
+      },
+      {
+        "project": "Portafolio Personal",
+        "startDate": "Feb 2021",
+        "endDate": "Mar 2021",
+        "jobDescription": "Creación de portafolio personal, en el que utilizo herramientas como HTML, CSS y JavaScript, Git y GitHub, Figma (Para el diseño y prototipado) y la terminal de linux.",
+        "link": "brandonargel.github.io",
+        "jobDescription2": "En este portafolio encontrará todos los proyectos que he realizado a lo largo de mi carrera."
+      }
+    ],
+    "academic": [
+      {
+        "degree": "Tecnólogo Profesional en Informática",
+        "description": "Estudio una carrera técnica de informática donde he aprendido las bases de la programación y el desarrollo Web. Haciendo también prácticas profesionales y proyectos que me permitieron desarrollar y practicar mis conocimientos.",
+        "endDate": "Jun 2021",
+        "institution": "Escuela Politécnica Ing. Jorge Matute Remus",
+        "startDate": "Ago 2017"
+      },
+      {
+        "degree": "Frontend, English, Software Development",
+        "description": "Soy un estudiante de la plataforma de educación online Platzi. En donde he aprendido sobre Desarrollo Web, programación, Inglés y también he desarrollado algunas habilidades blandas.",
+        "endDate": "Actualidad",
+        "institution": "Platzi",
+        "startDate": "Sep 2019"
+      }
+    ],
+    "softSkills": [
+      "Gestión del tiempo",
+      "Productividad",
+      "Trabajo en equipo",
+      "Disciplina",
+      "Adaptación",
+      "Compromiso"
+    ],
+    "languages": [
+      {
+        "name": "Español",
+        "level": "Nativo"
+      },
+      {
+        "name": "Inglés",
+        "level": "Intermedio Avanzado"
+      },
+      {
+        "name": "Francés",
+        "level": "Básico"
+      }
+    ],
+
+    "skills": [
+      {
+        "icon": "https://www.pngrepo.com/png/183637/512/html5.png",
+        "name": "HTML5",
+        "percentage": "90%"
+      },
+      {
+        "icon": "https://www.pngix.com/pngfile/big/193-1937198_image-result-for-css3-icon-css-logo-transparent.png",
+        "name": "CSS3",
+        "percentage": "85%"
+      },
+      {
+        "icon": "https://norbertoledo.es/feed/img/news/javascript-logo.png",
+        "name": "JavaScript",
+        "percentage": "70%"
+      },
+      {
+        "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        "name": "Git",
+        "percentage": "85%"
+      },
+      {
+        "icon": "https://i.imgur.com/JDdLgT8.png",
+        "name": "GitHub",
+        "percentage": "85%"
+      },
+      {
+        "icon": "https://i.imgur.com/EGHeITc.png",
+        "name": "Figma",
+        "percentage": "85%"
+      },
+      {
+        "icon": "https://i.imgur.com/HqhiRES.png",
+        "name": "Terminal",
+        "percentage": "60%"
+      },
+      {
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+        "name": "React",
+        "percentage": "40%"
+      }
+    ],
+    "interests": [
         "Aprender todos los días algo nuevo.",
         "Formarme como desarrollador web.",
         "Ciencias de datos.",
         "Inteligencia Artificial y Machine Learning.",
         "Seguridad Informática.",
         "Leer."
-      ],
-      "objectives": [
-        "Crear Software de calidad y accesible para todas las personas.",
-        "Nunca parar de aprender.",
-        "Adquirir nuevas habilidades todos los días."
-      ]
-    },
-    "profile": {
-      "name": "Brandon Argel",
-      "profession": "FrontEnd Developer",
-      "professionalProfile": "Soy un desarrollador web especializado en el frontend. Y trabajo principalmente en la creación de sitios web estáticos, como: landing pages, portafolios, blogs y páginas para negocios.",
-      "experience": [
-        {
-          "project": "Proyecto Innovador",
-          "company": "Neurona UDG ",
-          "startDate": "Ene 2021",
-          "endDate": "May 2021",
-          "jobDescription": "Desarrollamos un proyecto innovador utilizando las habilidades adquiridas a lo largo de la carrera."
-        },
-        {
-          "project": "Portafolio Personal",
-          "startDate": "Feb 2021",
-          "endDate": "Mar 2021",
-          "jobDescription": "Creación de portafolio personal, en el que utilizo herramientas como HTML, CSS y JavaScript, Git y GitHub, Figma (Para el diseño y prototipado) y la terminal de linux.",
-          "link": "brandonargel.github.io",
-          "jobDescription2": "En este portafolio encontrará todos los proyectos que he realizado a lo largo de mi carrera."
-        }
-      ],
-      "academic": [
-        {
-          "degree": "Tecnólogo Profesional en Informática",
-          "description": "Estudio una carrera técnica de informática donde he aprendido las bases de la programación y el desarrollo Web. Haciendo también prácticas profesionales y proyectos que me permitieron desarrollar y practicar mis conocimientos.",
-          "endDate": "Jun 2021",
-          "institution": "Escuela Politécnica Ing. Jorge Matute Remus",
-          "startDate": "Ago 2017"
-        },
-        {
-          "degree": "Frontend, English, Software Development",
-          "description": "Soy un estudiante de la plataforma de educación online Platzi. En donde he aprendido sobre Desarrollo Web, programación, Inglés y también he desarrollado algunas habilidades blandas.",
-          "endDate": "Actualidad",
-          "institution": "Platzi",
-          "startDate": "Sep 2019"
-        }
-      ],
-      "softSkills": [
-        "Gestión del tiempo",
-        "Productividad",
-        "Trabajo en equipo",
-        "Disciplina",
-        "Adaptación",
-        "Compromiso"
-      ],
-      "languages": [
-        {
-          "name": "Español",
-          "level": "Nativo"
-        },
-        {
-          "name": "Inglés",
-          "level": "Intermedio Avanzado"
-        },
-        {
-          "name": "Francés",
-          "level": "Básico"
-        }
-      ]
-    }
+    ]
   }
 }

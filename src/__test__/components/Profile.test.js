@@ -14,7 +14,7 @@ describe('<Profile />', () => {
   });
 
   test('Profile have a description', () => {
-    expect(profile.find('.profile-description').length).toEqual(1);
+    expect(profile.find('.profile__description').length).toEqual(1);
   });
 
 });

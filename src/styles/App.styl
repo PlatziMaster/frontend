@@ -1,7 +1,9 @@
-$base-color = #8CE6FF
-$cards-color = #004673
-$letters-color = #007AC2
-$subletters-color = #18C2E6
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$base-color = #166088
+$letters-color = #FFFFFF
+$subletters-color = #166088
+
+$box-background-color = #FFFCF9;
 
 
 
@@ -9,20 +11,19 @@ $subletters-color = #18C2E6
   box-sizing: border-box
   margin: 0
   padding: 0
+  font-family: 'Poppins', sans-serif;
+  
 
   h1, h2, h3, h4, h5
-    font-family: 'Fira Sans', sans-serif
+    font-family: 'Poppins', sans-serif;
+    
 
 
   html
     font-size: 62.5%
 
   body
-    background-color $base-color
+    background-color: $base-color
 
-  .container
-    display: flex
 
-  @media (max-width: 760px)
-    .container
-      flex-direction: column
+

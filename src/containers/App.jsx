@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Fragment } from 'react';
 import fetchData from '../utils/fetchData';
 //Components
 import Hero from '../components/Hero';
 
 //Styles
 import '../styles/components/App.styl';
+import BasicInfo from '../components/BasicInfo';
 
 const App = () => {
   const [data, setData] = useState({});
@@ -18,7 +19,19 @@ const App = () => {
   return (
     <>
       {data && (
-        <Hero title={data.title} name={data.name} description={data.profile} />
+        <Fragment>
+          <Hero
+            title={data.title}
+            name={data.name}
+            description={data.profile}
+          />
+          <BasicInfo
+            phone={data.phone}
+            profession={data.profession}
+            address={data.address}
+            email={data.email}
+          />
+        </Fragment>
       )}
     </>
   );

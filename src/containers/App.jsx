@@ -37,7 +37,6 @@ const App = () => {
     skills,
     languages,
     social,
-    id,
   } = data;
 
   return (

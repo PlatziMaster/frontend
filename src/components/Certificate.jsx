@@ -1,18 +1,18 @@
 import React from 'react';
-import '../styles/components/Academic.styl';
+import '../styles/components/Interest.styl';
 
-const Academic = props => {
-  const { academic } = props;
+const Certificate = props => {
+  const { certificate } = props;
 
   return (
     <div className="box">
       <div className="information">
         <strong>
-          <h1 className="title is-4">Academic</h1>
+          <h1 className="title is-4">Certificates</h1>
         </strong>
       </div>
-      {academic &&
-        academic.map(element => {
+      {certificate &&
+        certificate.map(element => {
           const { id } = element;
           return (
             <article >
@@ -20,7 +20,7 @@ const Academic = props => {
                 <strong> 
                   <h1 className="subtitle is-5">
                     <strong>
-                      <p>{element.degree}</p>
+                      <p>{element.name}</p>
                     </strong>
                     <strong>
                       <h1>
@@ -29,12 +29,7 @@ const Academic = props => {
                     </strong>
                     <strong>
                       <h1>
-                        <p>{element.startDate}</p>
-                      </h1>
-                    </strong>
-                    <strong>
-                      <h1>
-                        <p>{element.endDate}</p>
+                        <p>{element.date}</p>
                       </h1>
                     </strong>
                   </h1>
@@ -47,4 +42,4 @@ const Academic = props => {
   );
 };
 
-export default Academic;
+export default Certificate;

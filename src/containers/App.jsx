@@ -4,28 +4,25 @@ import '../styles/App.styl';
 import Header from '../components/Header';
 import Academic from '../components/Academic';
 import Experience from '../components/Experience';
-import Interest from '../components/Interest';
+import Certificate from '../components/Certificate';
 import Languages from '../components/Languages';
-import Profile from '../components/Profile';
 import Skills from '../components/Skills';
 
 import '../../node_modules/bulma-stylus/css/bulma.css';
 
-
 // import '../../node_modules/bulma/css/bulma.min.css'
 
-
 const App = () => {
-  const api = 'http://localhost:3000/data'
-  const [data, setData] = useState([])
+  const api = 'http://localhost:3000/data';
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     getData(api)
       .then(response => setData(response))
-      .catch(error => console.error(error))
-  },[])
+      .catch(error => console.error(error));
+  }, []);
 
-  console.log(data)
+  console.log(data);
 
   const {
     name,
@@ -38,56 +35,48 @@ const App = () => {
     academic,
     experience,
     skills,
-    interest,
     languages,
     social,
   } = data;
 
   return (
     <>
-        <div className="container is-fluid">
-        <Header 
-        name={name} 
-        profession={profession}
-        email={email}
-        address={address}
-        avatar={avatar}
-        social={social}
+      <div className="container is-fluid">
+        <Header
+          name={name}
+          profession={profession}
+          email={email}
+          address={address}
+          avatar={avatar}
+          social={social}
+          profile={profile}
         />
         <div className="columns">
           <div className="column">
-            <Profile profile={profile}/>
-          </div>
-          <div className="column">
-          <Experience />
+            <Experience experience={experience} />
           </div>
         </div>
 
         <div className="columns">
           <div className="column">
-            <Academic />
+            <Academic academic={academic} />
           </div>
           <div className="column">
-            <Skills />
+            <Skills skills={skills} />
           </div>
         </div>
-        
+
         <div className="columns">
           <div className="column">
-            <Interest />
+            <Certificate certificate={certificate} />
           </div>
           <div className="column">
-            <Languages />
+            <Languages languages={languages} />
           </div>
         </div>
-        
-        
-        
-        
-        
-        </div>
+      </div>
     </>
-  )
+  );
 };
 
 export default App;

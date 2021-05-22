@@ -15,8 +15,8 @@ const Certificate = props => {
         certificate.map(element => {
           const { id } = element;
           return (
-            <article >
-              <div className="pt-3" key={id}>
+            <article key={id}>
+              <div className="pt-3" >
                 <strong> 
                   <h1 className="subtitle is-5">
                     <strong>

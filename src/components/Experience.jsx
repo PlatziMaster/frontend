@@ -13,9 +13,9 @@ const Experience = props => {
       </div>
       {experience &&
         experience.map(element => {
-          const { Repositorio } = element;
+          const { id } = element;
           return (
-            <article >
+            <article key={id}>
               <div className="pt-3">
                 <strong>
                   <h1 className="subtitle is-5">
@@ -27,7 +27,7 @@ const Experience = props => {
                     <p>{element.description}</p>
                   </h1>
                 </strong>
-                <a href={element.Repositorio} key={Repositorio}>
+                <a href={element.Repositorio} >
                         Go to repository
                   <br />
                 </a>

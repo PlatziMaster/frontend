@@ -22,7 +22,7 @@ const App = () => {
       .catch(error => console.error(error));
   }, []);
 
-  console.log(data);
+
 
   const {
     name,
@@ -37,6 +37,7 @@ const App = () => {
     skills,
     languages,
     social,
+    id,
   } = data;
 
   return (
@@ -59,7 +60,7 @@ const App = () => {
 
         <div className="columns">
           <div className="column">
-            <Academic academic={academic} />
+            <Academic academic={academic}/>
           </div>
           <div className="column">
             <Skills skills={skills} />

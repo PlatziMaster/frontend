@@ -1,109 +1,141 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Juan Pablo Ardila Otero",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "jardilaoterojbs@gmail.com",
+    "avatar": "https://i.imgur.com/V5Y2W8x.jpg",
+    "profile": "Hello, my name is Juan Pablo Ardila Otero, I am currently a web developer in the FrontEnd branch, I am currently learning React. I am a person with constant autonomous learning as well as a high capacity to work in a team.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "id": 1,
+        "date": "April 2021",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso Práctico de React JS"
       },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+      { 
+        "id": 2,
+        "date": "April 2021",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de React.js"
+      },
+      { 
+        "id": 3,
+        "date": "April 2020",
+        "institution": "Platzi",
+        "name": "Curso Básico de JavaScript"
+      },
+      { 
+        "id": 4,
+        "date": "January 2020",
+        "institution": "Platzi",
+        "name": "Curso Avanzado de Django"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "id": 1,
+        "degree": "Analisis y desarrollo de sistemas de informacion",
+        "institution": "Servicio Nacional De Aprendizaje SENA",
+        "startDate": "October 2019 to October 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "id": 2,
+        "degree": "FRONTEND REACT.JS",
+        "institution": "Platzi",
+        "startDate": "March 2021 present"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "id": 1,
+        "name": "Andromeda",
+        "description": "Information system with several functional modules, web application made in Django and Angular.",
+        "Repositorio": "https://github.com/sango09/andromeda",
+        "image": "https://i.imgur.com/pJytQWd.png"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": 2,
+        "name": "Platzi video",
+        "description": "Web application made with React, the application shows a large catalog of videos.",
+        "Repositorio": "https://github.com/JuanArdila12/video-react",
+        "image": "https://i.imgur.com/pJytQWd.png"
+      },
+      {
+        "id": 3,
+        "name": "Administrador de mascotas",
+        "description": "Web application made with React, for the creation of medical appointments for pets.",
+        "Repositorio": "https://github.com/JuanArdila12/AdministradorDeMascotas",
+        "image": "https://i.imgur.com/pJytQWd.png"
+      },
+      {
+        "id": 4,
+        "name": "Login APP",
+        "description": "Login web application, registration using localstorage and authtoken, the application was made in Angular.",
+        "Repositorio": "https://github.com/JuanArdila12/LoginAPP",
+        "image": "https://i.imgur.com/pJytQWd.png"
       }
     ],
     "skills": [
       {
+        "id": 1,
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
+        "id": 2,
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "40"
       },
       {
+        "id": 3,
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55"
       },
       {
+        "id": 4,
         "name": "React",
-        "percentage": "90%"
+        "percentage": "55"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "img": "https://i.imgur.com/5PcC6qN.png",
+        "name": "Javascript"
+      },
+      {
+        "img": "https://i.imgur.com/A3mwg4I.png",
+        "name": "React"
+      },
+      {
+        "img": "https://i.imgur.com/GJrkIqW.png",
+        "name": "CSS"
+      }
     ],
     "languages": [
       {
+        "id": 1,
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100"
       },
       {
+        "id": 2,
         "name": "English",
-        "percentage": "50%"
+        "percentage": "40"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
+        "id": 1,
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/JuanArdila12",
+        "image": "https://i.imgur.com/pJytQWd.png"
       },
       {
+        "id": 2,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/juanardila12/",
+        "image": "https://i.imgur.com/ljohUfs.png"
       }
     ]
   }

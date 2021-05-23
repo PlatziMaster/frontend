@@ -1,0 +1,55 @@
+@import '../components/App.styl'
+
+.header__container
+    background-color: #689F38;
+    border: 10px solid #AED581;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+.header__content
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+
+.photo
+    border-radius 50%;
+    border-color: #AED581
+    border-style: solid
+    border-width: 5px
+    max-width: 180px;
+
+.photo__container
+        width: 100%;
+        justify-content: center;
+        padding: 20px;
+        flex-basis: 20%;
+
+.header__info
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+.header__title
+    color white
+    font-size 2.5rem
+
+.header__name
+    color white
+    font-size 2rem
+
+
+@media (max-width: 1023px)
+    .header__container
+        flex-basis: 100%
+
+@media (max-width: 450px)
+    .header__container
+        flex-direction: column
+    .header__content
+        flex-direction: column
+
+   

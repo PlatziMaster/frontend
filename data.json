@@ -1,109 +1,121 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "name": "Jose Uribe",
+    "profession": "Entrepreneur",
+    "address": "Cali, Colombia.",
+    "email": "joseuribeh@gmail.com",
+    "website": "https://kawiwi.co",
+    "phone": "+57 312 8827651",
+    "avatar": "https://i.ibb.co/zHmPhjS/circle-cropped.png",
+    "linkedin": "https://www.linkedin.com/in/joseuribeh/",
+    "profilefl": "I am an entrepreneur in training 💥",
+    "profile": "Always learning new things. I love digital marketing, customer service, digital transformation and I'm proficient in audiovisual production, digital design and programming. I have been a scout since 2011 and have served in regional positions and managed many projects that have taught me to be empathetic, respectful, creative, resourceful, helpful and passionate about what I do.",
+    "academic": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "degree": "Software Development",
+        "description": "Training program in labor competencies. Funded by Alcaldía de Santiago de Cali and ParqueSoft Pacífico",
+        "startDate": "Dec 2020",
+        "endDate": "Aug 2020",
+        "institution": "Parquesoft"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Platzi Student",
+        "description": "Student of Platzi (Web development, programming, digital marketing, businesses and a lot more.",
+        "startDate": "Ene 2020",
+        "endDate": "Present",
+        "institution": "Platzi"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Social Communication and Journalism",
+        "description": " Professional degree. Unfinished",
+        "startDate": "Jun 2015",
+        "endDate": "Dec 2016",
+        "institution": "Universidad Autónoma de Occidente"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "degree": "General Manager",
+        "company": "Kawiwi",
+        "startDate": "Nov 2020",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Dark kitchen sandwich restaurant based in Cali, Colombia",
+        "jobTitle": "General Manager"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "degree": "General Manager",
+        "company": "Beiru",
+        "startDate": "Jul 2017",
+        "endDate": "Jun 2020",
+        "jobDescription": "Audiovisual production freelancer company. Video, photography, editing and wordpress webpages.",
+        "jobTitle": "General Manager"
+      },
+      {
+        "degree": "Web Master",
+        "company": "Memories",
+        "startDate": "Ene 2019",
+        "endDate": "Ene 2021",
+        "jobDescription": "Manage shoppify e-commerce and update products",
+        "jobTitle": "Web Master"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "65%"
+      },
+      {
+        "name": "Python",
+        "percentage": "30%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "20%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "20%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+    "interests": [
+      "FrontEnd",
+      "Product Design",
+      "React",
+      "Python"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
+      },
+      {
+        "name": "French",
+        "percentage": "10%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "icon": "../public/images/twitter.svg",
+        "url": "https://twitter.com/joseuribeh"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "icon": "../public/images/github.svg",
+        "url": "https://github.com/joseuribeh"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "icon": "../public/images/linkedin.svg",
+        "url": "https://www.linkedin.com/in/joseuribeh"
       }
     ]
   }

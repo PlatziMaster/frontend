@@ -4,14 +4,14 @@
 ## React Curriculum vitae
 ***
 
-#Frontend documentation
+# Frontend documentation
 
 
-##Requirements for execution
+## Requirements for execution
 
 - Have Node.JS installed in the system 
 
- ###Steps for execution
+ ### Steps for execution
  
 - Clone the Repository and get into
 - Install dependencies (npm i)
@@ -21,7 +21,7 @@
 
 ***
 
-##Challenges and their resolutions 
+## Challenges and their resolutions 
 
 ***
 
@@ -47,7 +47,7 @@ The API was customized by adding my own information and my curriculum.
 
 
 ***
-##Results
+## Results
 ***
 
 ![](./public/statics/images/Portafolio.jpeg)

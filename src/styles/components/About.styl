@@ -1,0 +1,38 @@
+.about__container
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    
+.About-title
+    padding: 0px 30px;
+    text-align: end;
+
+.about__unordered-list
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    align-items: flex-end;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+
+.about__unordered-list li
+    list-style none;
+
+@media (max-width: 1023px)
+    .about__container
+        flex-basis: 100%
+
+@media (max-width: 450px)
+    .about__container
+        flex-direction: column
+        text-align: center
+
+    .about__content
+        flex-direction: column
+
+    .About__title
+        text-align: center
+    
+    .about__unordered-list
+        align-items: center

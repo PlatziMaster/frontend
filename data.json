@@ -1,110 +1,87 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+  "data":{
+    "Portfolio": "Portfolio",
+    "Image": "./public/statics/images/Me.jpeg",
+    "Description": "Hello! My name is",
+    "Description2": " Fernando Alvarado",
+    "Description3":  " I'm from Mexico City. I have studied a computer technical career (ETE UNAM) in which I participated in a competicion makin a game with JS; also for 2 years I have been studying in Platzi and the path I have followed is the JS career, right now I am a math student at UNAM. I perform as FrontEnd developer.",
+    "contact":[{
+      "name":"Fernando Alvarado Palacios",
+      "Phone": "+5255 5145 2448",
+      "Email": "f3rnando.elmer@gmail.com",
+      "GitHub": "Fernando-Alvarado"
+    }],
+    "Education":
+    [
+      { "Career": "ETE UNAM",
+         "Date": "2018-2020"
+     },
+     {
+      "Career": "Platzi",
+         "Date": "2018- now"
+     },
+     {
+      "Career": "UNAM, [Mathematics degree]",
+      "Date": "[2020-now]"
+     }
+     ],
+    "Projects":[
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Space Hunter (Game)",
+        "description": "I developed this game for a competition in preparatory (also known as ”Interprepas”), this game was developed with Js, Tree.js, MysQL, Blender and some developing tools such as GitHub. I learned about 3D Objects rendering, JS asynchronism, I improved my design skills and  it pointed me out what skills I need to improve.",
+        "image": "./public/statics/images/Space_Hunter.png" 
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+       "name": "School Web system project",
+       "description": "I participated in developing and updating the web system of my Preparatory (system which is still in development). There I performed as Frontend developer, I was responsible for designing user interfaces.",
+       "image": "./public/statics/images/web_system.png"
       }
     ],
-    "Academic": [
+    "Skills":[
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "Skill": "Languages",
+        "Description": "English (advanced) and native spanish.",
+        "Icon": "faBook"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "Skill": "VCS",
+        "Description": "Experience working with Git & Github.",
+        "Icon": "faGithub"
+      },
+      {
+        "Skill": "Development knowledge",
+        "Description": "HTML5, CSS3, JS, React.",
+        "Icon": "faReact"
+
+      },
+      {
+        "Skill": "Actitudes",
+        "Description": "I'm proactive, I learn easily and like working in a team.",
+        "Icon": "faUsers"
+
       }
     ],
-    "experience": [
+    "Laguages": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "laguage": "Spanish",
+        "level": "Native Speaker"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "laguage": "English",
+        "level": "Avanced"
       }
     ],
-    "skills": [
+    "Interest": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "topic1": "Web Design",
+        "topic2": "User Expirience"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "topic1": "NodeJS",
+        "topic2": "Mathematics"
       }
     ]
+
   }
+
 }

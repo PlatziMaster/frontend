@@ -2,7 +2,7 @@
 
 This is my application to PlatziMaster. I have learn many things doing this test. It's my first project in React and I think that it's a very good start.
 
-![react-cv](https://github.com/joseuribeh/frontend/blob/main/screenshot.png?raw=true)
+![react-cv](https://github.com/joseuribeh/frontend/raw/my-try/screenshot.png?raw=true)
 
 ## Process
 1. I had to take some classes at Platzi to understand a bit of React logic.

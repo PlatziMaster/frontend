@@ -8,20 +8,23 @@ const Header = props => {
     return (
         <Container fluid>
             <Row>
-                <Col className={'justify-content-center mb-4'} >
-                    <h3 className={'Header-title font-italic text-center'}>Portfolio</h3>
+                <Col xs={'12'} className={'mb-4'}>
+                    <h3 className={'Header-title font-italic text-center mt-2'}>Portfolio</h3>
                     <hr/>
-                    <img src={image} alt="no salio" className={'rounded-circle mx-auto d-block'} style={{
-                        width: '200px',
-                        height: '200px'
-                    }}/>   
-                
                 </Col>
+                <Col className={'justify-content-center mb-4'} lg={'5'} >
+
+                    <img src={image} alt="My pic" className={'rounded-circle mx-auto d-block'} style={{
+                        width: '170px',
+                        height: '175px'
+                    }}/>
+
+                </Col>
+                {children}
+
             </Row>
-            {children}
         </Container>
 
     );
 }
 export default Header
-

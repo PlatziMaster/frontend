@@ -1,43 +1,56 @@
 {
-  "data":{
+  "data": {
     "Portfolio": "Portfolio",
     "Image": "./public/statics/images/Me.jpeg",
     "Description": "Hello! My name is",
     "Description2": " Fernando Alvarado",
-    "Description3":  " I'm from Mexico City. I have studied a computer technical career (ETE UNAM) in which I participated in a competicion makin a game with JS; also for 2 years I have been studying in Platzi and the path I have followed is the JS career, right now I am a math student at UNAM. I perform as FrontEnd developer.",
-    "contact":[{
-      "name":"Fernando Alvarado Palacios",
-      "Phone": "+5255 5145 2448",
-      "Email": "f3rnando.elmer@gmail.com",
-      "GitHub": "Fernando-Alvarado"
-    }],
-    "Education":
-    [
-      { "Career": "ETE UNAM",
-         "Date": "2018-2020"
-     },
-     {
-      "Career": "Platzi",
-         "Date": "2018- now"
-     },
-     {
-      "Career": "UNAM, [Mathematics degree]",
-      "Date": "[2020-now]"
-     }
-     ],
-    "Projects":[
+    "Description3": " I'm from Mexico City. I have studied a computer technical career (ETE UNAM) in which I participated in a competicion makin a game with JS; also for 2 years I have been studying in Platzi and the path I have followed is the JS career, right now I am a math student at UNAM. I perform as FrontEnd developer.",
+    "contact": [
       {
-        "name": "Space Hunter (Game)",
-        "description": "I developed this game for a competition in preparatory (also known as ”Interprepas”), this game was developed with Js, Tree.js, MysQL, Blender and some developing tools such as GitHub. I learned about 3D Objects rendering, JS asynchronism, I improved my design skills and  it pointed me out what skills I need to improve.",
-        "image": "./public/statics/images/Space_Hunter.png" 
-      },
-      {
-       "name": "School Web system project",
-       "description": "I participated in developing and updating the web system of my Preparatory (system which is still in development). There I performed as Frontend developer, I was responsible for designing user interfaces.",
-       "image": "./public/statics/images/web_system.png"
+        "name": "Fernando Alvarado Palacios",
+        "Phone": "+5255 5145 2448",
+        "Email": "f3rnando.elmer@gmail.com",
+        "GitHub": "Fernando-Alvarado"
       }
     ],
-    "Skills":[
+    "Education": [
+      {
+        "Career": "ETE UNAM",
+        "Date": "2018-2020"
+      },
+      {
+        "Career": "Platzi",
+        "Date": "2018- now"
+      },
+      {
+        "Career": "UNAM, [Mathematics degree]",
+        "Date": "[2020-now]"
+      }
+    ],
+    "Projects": [
+      {
+        "Tab": "Game",
+        "name": "Space Hunter (Game)",
+        "description": "I developed this game for a competition in preparatory (also known as ”Interprepas”), this game was developed with Js, Tree.js, MysQL, Blender and some developing tools such as GitHub. I learned about 3D Objects rendering, JS asynchronism, I improved my design skills and  it pointed me out what skills I need to improve.",
+        "image": "./public/statics/images/Space_Hunter.png",
+        "alt": "Space Hunter image"
+      },
+      {
+        "Tab": "School web system",
+        "name": "School Web system project",
+        "description": "I participated in developing and updating the web system of my Preparatory (system which is still in development). There I performed as Frontend developer, I was responsible for designing user interfaces.",
+        "image": "./public/statics/images/web_system.png",
+        "alt": "School web system image"
+      },
+      {
+        "Tab": "C Game",
+        "name": "Rockets (Game)",
+        "description": "When I first started learn programming, I challenged myself and developed a prompt game; I've learned a lot since that time, it helped me to understand about structures, pointers and cycles.",
+        "image": "",
+        "alt": ""
+      }
+    ],
+    "Skills": [
       {
         "Skill": "Languages",
         "Description": "English (advanced) and native spanish.",
@@ -52,22 +65,20 @@
         "Skill": "Development knowledge",
         "Description": "HTML5, CSS3, JS, React.",
         "Icon": "faReact"
-
       },
       {
         "Skill": "Actitudes",
         "Description": "I'm proactive, I learn easily and like working in a team.",
         "Icon": "faUsers"
-
       }
     ],
-    "Laguages": [
+    "Languages": [
       {
-        "laguage": "Spanish",
+        "language": "Spanish",
         "level": "Native Speaker"
       },
       {
-        "laguage": "English",
+        "language": "English",
         "level": "Avanced"
       }
     ],
@@ -81,7 +92,5 @@
         "topic2": "Mathematics"
       }
     ]
-
   }
-
 }

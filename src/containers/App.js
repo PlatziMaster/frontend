@@ -57,8 +57,8 @@ const App = () => {
 
     }
     const languageFunc = ()=>{
-        if (isLoaded && data !== {} && data.Laguages){
-            return data.Laguages;
+        if (isLoaded && data !== {} && data.Languages){
+            return data.Languages;
         }
     }
     const interestFuc = ()=>{
@@ -90,10 +90,13 @@ const App = () => {
                         education = {educationFun()}
                     />
                 </Row>
+                <Row>
+                    <Skills
+                        skills = {skillsFunc()}
+                    />
+                </Row>
             </Container>
-            <Skills
-                skills = {skillsFunc()}
-            />
+
             <Container fluid>
                 <Row className= "mb-4">
                      <Languages
@@ -104,7 +107,7 @@ const App = () => {
                     />
                 </Row>
             </Container>
-           
+
 
         </>
     )

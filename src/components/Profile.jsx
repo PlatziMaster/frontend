@@ -10,12 +10,12 @@ const Profile = (props) => {
         <Container>
             <Row className={'justify-content-center'}>
                 <Col lg={'10'}>
-                    <Card.Header className={'justify-content-center Profile-title'}>
-                        <h4 className={''}>About me</h4>
+                    <Card.Header className={'justify-content-center '}>
+                        <h4 className={'Profile-title'}>About me</h4>
                     </Card.Header>
                     <Card border={'light'} className={'mb-4'}>
-                        <Card.Body className={'d-inline-block text-justify Profile-desc'}>
-                            <p>{description}<strong>{description2}</strong>{description3}</p>
+                        <Card.Body className={'d-inline-block text-justify'}>
+                            <p className={'Profile-desc'}>{description}<strong>{description2}</strong>{description3}</p>
                         </Card.Body>
                     </Card>
                 </Col>

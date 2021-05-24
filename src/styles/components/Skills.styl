@@ -1,0 +1,22 @@
+@import '../colors.styl'
+
+.academic-skills-cv
+    .skills
+        background-color: $background-section
+        border-radius: 20px
+        border: 1px solid $border-section
+        padding: 15px
+        margin-bottom: 30px
+
+        .skills-title
+            color: $text-blue
+            margin: 0.7rem 0
+
+        .skills-item
+            .skills-name
+                margin-bottom: 0.5rem
+
+@media (min-width: 992px)
+    .academic-skills-cv
+        .skills
+            width: calc(50% - 15px)

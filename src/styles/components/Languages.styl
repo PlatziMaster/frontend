@@ -1,0 +1,21 @@
+@import '../colors.styl'
+
+.interest-languages-cv
+    .languages
+        background-color: $background-section
+        border-radius: 20px
+        border: 1px solid $border-section
+        padding: 15px
+
+        .languages-title
+            color: $text-blue
+            margin: 0.7rem 0
+
+            .languages-item
+                .languages-name
+                    margin-bottom: 0.5rem
+
+@media (min-width: 992px)
+    .interest-languages-cv
+        .languages
+            width: calc(50% - 15px)

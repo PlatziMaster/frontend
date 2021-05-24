@@ -1,0 +1,25 @@
+@import '../colors.styl'
+
+.header-about-cv
+    background-color: $background-section
+    border-radius: 20px
+    border: 1px solid $border-section
+    padding: 15px
+    margin-bottom: 30px
+
+    .header-avatar
+        img
+            width 150px
+            height: 150px
+            display: block
+            margin: 0 auto
+            border-radius: 50%
+
+@media (min-width: 992px)
+    .header-about-cv
+        display: flex
+        justify-content: flex-start
+        align-items: center
+
+        .header-avatar
+            width: 250px

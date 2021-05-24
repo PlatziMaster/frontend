@@ -1,0 +1,43 @@
+@import '../colors.styl'
+
+.header-info
+    text-align: center
+    .header-title
+        color: $text-blue
+        margin-bottom: 0
+    .header-job-title
+    .header-address,
+        margin: 0.5rem 0
+        font-weight: 700
+        font-size: 1.2rem
+    span
+        &.header-phone,
+        &.header-email,
+        &.header-website
+            font-weight: 100
+            font-size: 0.9rem
+            display: block
+            margin: 0 0.8rem 0.5rem 0
+            a
+                color: $text
+                display: inline-block
+                margin-left: 0.3rem
+    .social
+        margin-top: 30px
+        a
+            color: $text
+            display: inline-block
+            margin: 0 1rem
+
+@media (min-width: 992px)
+    .header-info
+        width: calc(100% - 250px)
+        text-align: start
+        span
+            &.header-phone,
+            &.header-email,
+            &.header-website
+                display: inline-block
+        .social
+            a
+                margin: 0 1.5rem 0 0

@@ -1,109 +1,87 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Julio Cesar Herrera Villagrán",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "CDMX, México.",
+    "email": "jcesarherreravillagran@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "phone": "2225508658",
+    "avatar": "https://avatars.githubusercontent.com/u/17998033",
+    "profile": "Mejorar mis habilidades y conocimientos en los lenguajes y herramientas que utilizo y aprender nuevos, para tener un crecimiento laboral y personal, tener más experiencia y poder realizar y dirigir proyectos de una manera eficiente y profesional.",
+    "academic": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniería en Ciencias de la Computación",
+        "description": " Facultad de Ciencias de la Computación",
+        "endDate": "Ago 2008",
+        "institution": "​Benemérita Universidad Autónoma de Puebla",
+        "startDate": "Dic 2013"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Bambú Ninja Developers",
+        "endDate": "Actual",
+        "jobDescription": "Desarrollo de proyectos webs (Backend y Frontend) en diferentes tecnologías dependiendo de necesidades de clientes; Instalación, configuración, desarrollo y administración de CMS. Desarrollo de aplicaciones móviles utilizando React Native. Gestión de proyectos internos utilizando metodologías ágiles (SCRUM).",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Abr 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Socialand",
+        "endDate": "Abr 2018",
+        "jobDescription": "Desarrollo y administración de micrositios (landings, campañas de promociones), utilizando frameworks de PHP (Laravel, Codeigniter), administración y manejo de Bases de Datos de plataformas web. Creación de Landings para páginas de internet.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Ene 2017"
+      },
+      {
+        "company": "Grupo Jobo",
+        "endDate": "Abr 2016",
+        "jobDescription": "Estaba a cargo del proyecto Crawler, desarrollando módulos y aplicaciones webs en python utilizando frameworks como Scrapy y Django, para clientes de diversos rubros, como Base de Datos manejamos MongoDB y MySQL.",
+        "jobTitle": "Backend Developer",
+        "startDate": "Dic 2014"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Frontend",
+      "CSS",
+      "React JS"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "100"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "Inglés",
+        "percentage": "50"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Julcesar17"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/julio-cesar-herrera-villagr%C3%A1n-aa798787/"
       }
     ]
   }

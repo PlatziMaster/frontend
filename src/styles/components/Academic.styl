@@ -1,0 +1,31 @@
+@import '../colors.styl'
+
+.academic-skills-cv
+    .academic
+        background-color: $background-section
+        border-radius: 20px
+        border: 1px solid $border-section
+        padding: 15px
+        margin-bottom: 30px
+
+        .academic-title
+            color: $text-blue
+            margin: 0.7rem 0
+
+        .academic-item
+            .experience-degree
+                margin-bottom: 0.5rem
+            .academic-institution
+                margin: 0 0 0.3rem
+                font-size: 0.9rem
+            .academic-date
+                margin: 0
+                font-size: 0.8rem
+
+@media (min-width: 992px)
+    .academic-skills-cv
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        .academic
+            width: calc(50% - 15px)

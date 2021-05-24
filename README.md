@@ -1,11 +1,7 @@
 # frontend
-
 ## React Curriculum vitae
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
-
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
-
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
 2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
@@ -14,6 +10,13 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
 6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
 
+## Solución Retos
+1. Creación de componentes necesarios para el proyecto.
+2. Cada componente tiene su hoja de estilos, no se usó ningún framework de estilos.
+3. Se creo funcion getData dentro de App.jsx.
+4. Se consume la api de manera local.
+5. Se personalizo la APi con información real de mi persona.
+6. Se agrega la solución del reto dentro del archivo Readme.md.
 ### Instalación
 ```
 npm install

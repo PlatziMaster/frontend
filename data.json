@@ -1,109 +1,167 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Zully Mareth Alarcón Rodriguez",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "zullyalarcon@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
+    "phone": "3142371819",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Profesional en ingeniería informática, responsable, organizada, orientado al trabajo en equipo. Con gran disposición de crecer en el ámbito profesional del diseño, desarrollo y gestión de proyectos innovadores en el área tecnológica. Apasionada por la Web y de aprender nuevas herramientas de diseño y desarrollo web",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Oct 2020",
+        "description": "Desarrollo de aplicaciones reactivas con ReactJS",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "ReactJS Avanzado"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Nov 2019",
+        "description": "ICAgile Cerfified Professional",
+        "institution": "AVAL Academy",
+        "name": "Scrum Fundamentals"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Maestría Ingeniería de Software",
+        "description": "Preparación para liderar equipos de desarrollo de software de alto rendimiento, capaces de crear productos de software centrados en el usuario y de alta calidad",
+        "endDate": "En curso",
+        "institution": "UNIANDES",
+        "startDate": "Ene 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniería en Informática",
+        "description": "Participar en la Administración de Proyectos Informáticos bajo estandares de calidad y pertinencia social",
+        "endDate": "Mayo 2012",
+        "institution": "IUT Valencia",
+        "startDate": "Feb 2009"
+      },
+      {
+        "degree": "Licence Professionnelle Internet et Medias Mobiles",
+        "description": "Participar en el diseño, desarrollo, implementación y despliegue de aplicaciones y servicios basados ​​en tecnologías web, tanto en el front-end como en el back-end.",
+        "endDate": "Oct 2008",
+        "institution": "Université de Lorraine",
+        "startDate": "Sep 2007"
+      },
+      {
+        "degree": "TSU en Informática",
+        "description": "Desarrollar e Implantar software bajo estandares de calidad y pertinencia social, priorizando el Software Libre",
+        "endDate": "Ago 2007",
+        "institution": "IUT Valencia",
+        "startDate": "Feb 2002"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Mensajeros Urbanos",
+        "endDate": "Presente",
+        "jobDescription": "Desarrollo frontend para aplicación de servicios de mensajería, con las tecnologías de Angular JS y 10, además de Vue, aplicando TDD en Jest y Jasmine.",
+        "jobTitle": "Senior Frontend Engineer",
+        "startDate": "May 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Banco Popular",
+        "endDate": "May 2021",
+        "jobDescription": "Desarrollo frontend para aplicación Fintech del Banco Popular, con las tecnologías de Angular y redux, aplicando TDD, para apoyar la transformación digital del Banco.",
+        "jobTitle": "Ingeniero de Desarrollo Frontend",
+        "startDate": "Mar 2019"
+      },
+      {
+        "company": "Caracol Televisión",
+        "endDate": "Mar 2019",
+        "jobDescription": "Desarrollador Frontend con AngularJS, Angular, además de ReactJS, se desarrollaron aplicaciones con enfoque de web components para los portales del canal.",
+        "jobTitle": "Analista de Desarrollo",
+        "startDate": "Jun 2018"
+      },
+      {
+        "company": "Periferia IT Group",
+        "endDate": "Jun 2018",
+        "jobDescription": "Desarrollo en sede de Caracol Televisión de portales web en AngularJS, Angular, reactJS y NodeJS, javascript, aplicando SEO y mantenimiento de los existentes desarrollados en angularJS.",
+        "jobTitle": "Consultor",
+        "startDate": "Jul 2017"
+      },
+      {
+        "company": "Ingeniero de Sistemas",
+        "endDate": "Jul 2017",
+        "jobDescription": "Realice las funciones de análisis de requerimientos, junto con desarrollo fullstack frontend en angularJS y backend en Symfony 2, para la plataforma de gestión de eventos deportivos Hércules de la empresa.",
+        "jobTitle": "Consultor",
+        "startDate": "Mar 2016"
+      },
+      {
+        "company": "Analista de Desarrollo II",
+        "endDate": "Ago 2015",
+        "jobDescription": "Administrar, desarrollar aplicaciones web de la institución y de sus entes asociados, trabajar en el diseño y desarrollo de proyectos para la administración de los diferentes portales web, además de liderar proyectos de automatización y digitalización de los sistemas de recaudación y catastro.",
+        "jobTitle": "Consultor",
+        "startDate": "Ene 2009"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "95%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "85%"
+      },
+      {
+        "name": "SASS",
+        "percentage": "80%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "85%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Node",
+        "percentage": "60%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "arquitectura",
+      "php",
+      "devops"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "100%"
+      },
+      {
+        "name": "Francés",
+        "percentage": "85%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/zmalarcon"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/zmalarcon"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/zmalarcon"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/zmalarcon"
       }
     ]
   }

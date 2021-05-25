@@ -20,7 +20,7 @@ class About extends React.Component {
   render() {
     return (
       <>
-        <div className='About-title'>about title</div>
+        <div className='About-title'>About title</div>
         <div className='About-item'>item</div>
         <div className='About-item'>item</div>
         <div className='About-item'>item</div>

@@ -1,2 +1,48 @@
+@import '../Generales.styl'
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
 body
-  background-color blue
+  background-color $black
+  font-size $font-size
+  font-family $font-family
+
+#app
+  gap 8px
+  padding 20px
+  display grid
+
+h1
+h2
+  font-weight normal
+
+ul
+  list-style none
+
+a
+  text-decoration: none
+
+.card
+  gap 8px
+  padding 20px
+  display grid
+  background-color $white
+  border-radius $border-radius
+  border $border-width solid $border-color
+
+.flex
+  display flex
+
+.grid
+  display grid
+
+@media screen and (min-width 768px)
+  #app
+    grid-template-columns repeat(2, 1fr)
+
+@media screen and (min-width 1024px)
+  #app
+    padding: 20px 20%

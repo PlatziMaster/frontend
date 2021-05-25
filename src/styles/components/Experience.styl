@@ -1,0 +1,21 @@
+@import '../Generales.styl'
+
+.Experience-list
+  gap 10px
+
+.Experience-item
+  gap 4px
+  line-height 1.5rem
+  & .flex:first-child
+    align-items center
+    justify-content space-between
+  & .flex:last-child
+    color $gray
+    justify-content flex-end
+
+@media screen and (min-width 768px)
+  .Experience
+    grid-column-end: span 2
+  .Experience-list
+    column-gap 50px
+    grid-template-columns repeat(2, 1fr)

@@ -1,109 +1,81 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Rafael León Alfaro",
+    "profession": "FrontEnd Developer at Sit Digital México",
+    "address": "Comitán, Chiapas, México",
+    "email": "rafaelleonal95@gmail.com",
+    "website": "https://rafaelleon.netlify.app/",
+    "phone": "+52 961-265-87-67",
+    "avatar": "https://rafaelleon.netlify.app/assets/img/fotoperfil.jpg",
+    "Profile": "Develop myself within a company that allows me to acquire knowledge and experiences, while giving me the opportunity to contribute my skills, enthusiasm and energy to meet goals, professional and personal objectives.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "August 2019",
+        "description": "I started my studies in web development at Platzi, taking courses like 'Web Development', 'FrontEnd Developer', 'Bootstrap 4', among others.",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "date": "July 2018",
+        "description": "Engineering Student in Software Development, distance mode.",
+        "institution": "UNADM",
+        "name": "Software Engineer"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "FrontEnd Jr",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Front end web with experience in HTML5, CSS3 Flexbox and Grid, SASS, Boostrap 4, Javascript, Web components, SQL, Gulp, Figma, in the process of Scrum Master certification.",
+        "jobTitle": "Sit Digital México",
+        "startDate": "March 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Web Developer Freelance",
+        "endDate": "Feb 2021",
+        "jobDescription": "Front end developer freelance, worked with technologies as HTML5, CSS3, Bootstrap 4, SQL, Figma.",
+        "jobTitle": "Freelance",
+        "startDate": "Jan 2020"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML5"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS3"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "JavaScript"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Bootstrap 4"
+      },
+      {
+        "name": "SASS"
+      },
+      {
+        "name": "Web Components"
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "Figma"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Music",
+      "Videogames",
+      "Swimming",
+      "Travel around the world"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish (native)"
       },
       {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "English Intermediate"
       }
     ]
   }

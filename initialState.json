@@ -1,0 +1,212 @@
+{
+  "initialState": {
+    "personalInfo": {
+      "firstName": "German Yesid",
+      "lastName": "Rubiano Romero",
+      "jobTitle": "Engineer & Desinger",
+      "phoneNumber": "(+57) 311 214 9606",
+      "email": "gyrubianor@hotmail.com",
+      "webSite": "ysk8.net",
+      "address": "Bucaramanga"
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Ingeniero & diseñador con 20 años de experiencia",
+      "descripition": "Profesional en Ingeniería Electrónica con experiencia en el desarrollo de nuevas tecnologías a nivel de Hardware y Software; con competencias para el diseño y desarrollo de productos desde la planeación estratégica hasta su finalización.\nCapacidad para la investigación y desarrollo de productos complejos en el ámbito académico y empresarial, con la perspectiva de una complejidad relacionada desde lo multidisciplinario para la creación de estos.\nEspecializado en Biodiseño y Productos Mecatrónicos, con capacidad para trabajar en equipo de forma colaborativa, siempre dispuesto al mejoramiento continuo, enfocado en adaptar y adaptarse a las tecnologías existentes, para así poder innovar y generar soluciones que se acoplen a su entorno, con el nivel tecnológico apropiado.\nApasionado por el diseño y desarrollo de Videojuegos, debido a que estos representan una síntesis pura de Arte, Diseño, Ciencia y Tecnología, que permite crear experiencias únicas de entretenimiento y aprendizaje continuo de nuevas habilidades, junto con toda las implicaciones sociales y económicas que giran en torno a los mismos."
+    },
+    "experience": [
+      {
+        "id": 0,
+        "company": "Aliados Web SAS",
+        "date": "Mayo 2018 - Actual",
+        "location": "Medellín, Colombia (Trabajo Remoto)",
+        "labor": "Ingeniero de Desarrollo Líder (Frontend)"
+      },
+      {
+        "id": 1,
+        "company": "Totumo Networks",
+        "date": "Septiembre 2018 - Actual",
+        "location": "Bogotá, Colombia (Trabajo Remoto)",
+        "labor": "CTO"
+      },
+      {
+        "id": 2,
+        "company": "Gobernación de Santander",
+        "date": "Julio 2016 - Septiembre 2017",
+        "location": "Santander, Colombia",
+        "labor": "Docente de Ciencias Naturales Física"
+      },
+      {
+        "id": 3,
+        "company": "Totumo Networks",
+        "date": "Agosto 2015 - Mayo 2016",
+        "location": "Bucaramanga, Santander, Colombia",
+        "labor": "CTO"
+      },
+      {
+        "id": 4,
+        "company": "Gobernación de Santander",
+        "date": "Febrero 2014 - Abril 2014",
+        "location": "Bucaramanga, Santander, Colombia",
+        "labor": "Secretaría de Tecnologías de la Información y las Comunicaciones - SeTIC Contratista"
+      },
+      {
+        "id": 5,
+        "company": "Universidad de Santander UDES",
+        "date": "Febrero 2011 - Diciembre 2014",
+        "location": "Bucaramanga, Santander, Colombia",
+        "labor": "Docente de Cátedra - Facultad de Tecnología de Diseño Gráfico"
+      },
+      {
+        "id": 6,
+        "company": "SIA Interactive",
+        "date": "Julio 2008 - Diciembre 2010",
+        "location": "Buenos Aires, Argentina",
+        "labor": "Departamento de Investigación y Desarrollo Investigación y desarrollo de hardware Responsable del diseño, desarrollo y programación de los sistemas electrónicos de los diferentes proyectos de investigación."
+      },
+      {
+        "id": 7,
+        "company": "roding SA robótica, diseño e ingeniería",
+        "date": "Diciembre 2006 - Junio 2008",
+        "location": "Bucaramanga, Santander, Colombia",
+        "labor": "Socio Fundador y Director de Diseño"
+      }
+    ],
+    "academic": [
+      {
+        "id": 0,
+        "title": "Acreditación Pedagógica",
+        "institution": "Universidad Industrial de Santander (UIS)",
+        "location": "Bucaramanga, Santander, Colombia",
+        "type": "Posgrade"
+      },
+      {
+        "id": 1,
+        "title": "Especialización en Biodiseño y Productos Mecatrónicos",
+        "institution": "Universidad de Buenos Aires (UBA)",
+        "location": "Buenos Aires, Argentina",
+        "type": "Posgrade"
+      },
+      {
+        "id": 2,
+        "title": "Ingeniería Electrónica",
+        "institution": "Universidad Pontificia Bolivariana (UPB)",
+        "location": "Bucaramanga, Santander, Colombia",
+        "type": "University"
+      },
+      {
+        "id": 3,
+        "title": "Bachiller Académico",
+        "institution": "Colegio Santander",
+        "location": "Bucaramanga, Santander, Colombia",
+        "type": "Secondary"
+      },
+      {
+        "id": 4,
+        "title": "Educación Primaria",
+        "institution": "Escuela Afiliada",
+        "location": "Cerrito, Santander, Colombia",
+        "type": "Elementary"
+      }
+    ],
+    "skills": [
+      {
+        "id": 0,
+        "type": "Engineering",
+        "items": [
+          "Electronics",
+          "Software",
+          "Products"
+        ]
+      },
+      {
+        "id": 1,
+        "type": "Designing",
+        "items": [
+          "UI",
+          "UX",
+          "Products",
+          "3D",
+          "Animation",
+          "Graphics"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "Public Speaking",
+        "items": [
+          "Conference",
+          "Teaching",
+          "Tutor"
+        ]
+      }
+    ],
+    "interest": [
+      {
+        "id": 0,
+        "type": "Sport",
+        "items": [
+          "Basketball",
+          "Skateboarding",
+          "Functional Excersise",
+          "Running"
+        ]
+      },
+      {
+        "id": 1,
+        "type": "Wellbeing",
+        "items": [
+          "Yoga",
+          "Meditation",
+          "Health"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "Art",
+        "items": [
+          "Digital Art",
+          "Fine Art"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "Music",
+        "items": [
+          "Rock",
+          "Alternative",
+          "Electronic",
+          "Experimental",
+          "Synthesizer",
+          "DAW"
+        ]
+      },
+      {
+        "id": 4,
+        "type": "Video Games",
+        "items": [
+          "Design",
+          "Nintendo",
+          "Everything XD"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "id": 0,
+        "language": "Spanish",
+        "level": "Native"
+      },
+      {
+        "id": 1,
+        "language": "English",
+        "level": "B2"
+      },
+      {
+        "id": 2,
+        "language": "German",
+        "level": "Basic"
+      }
+    ]
+  }
+}

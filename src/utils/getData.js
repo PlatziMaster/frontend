@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
  * @returns {object} infoCV - Data related with the CV requested
  */
 const getData = (API) => {
-  const [ infoCV, setInfoCV ] = useState({});
+  const [infoCV, setInfoCV] = useState({});
 
   useEffect(() => {
     fetch(API)
@@ -15,6 +15,6 @@ const getData = (API) => {
   }, []);
 
   return infoCV;
-}
+};
 
-export default getData
+export default getData;

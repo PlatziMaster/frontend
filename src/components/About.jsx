@@ -30,7 +30,7 @@ class About extends React.Component {
             <h4>{about.name}</h4>
             <p>{about.profession}</p>
           </div>
-          <div className='About-img'><img src='../styles/img/pp.png' alt='avatar' /></div>
+          <div className='About-img'><img src={about.avatar} alt='avatar' /></div>
           <div className='About-item'>{about.address}</div>
           <div className='About-item'>{about.email}</div>
           <div className='About-item'>{about.phone}</div>

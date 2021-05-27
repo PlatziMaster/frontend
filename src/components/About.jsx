@@ -1,31 +1,49 @@
-import React, { useState } from 'react';
+/* eslint-disable no-else-return */
+import React from 'react';
+
+import getData from '../utils/getData';
 import '../styles/components/About.styl';
 
 class About extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      count: 0,
+      about: null,
+      isLoaded: false,
     };
   }
 
   componentDidMount() {
-    document.title = `You clicked ${this.state.count} times`;
-  }
-
-  componentDidUpdate() {
-    document.title = `You clicked ${this.state.count} times`;
+    getData('http://localhost:3000/data')
+      .then(data => this.setState({ about: data, isLoaded: true }))
+      .catch(err => console.log(err));
   }
 
   render() {
-    return (
-      <>
-        <div className='About-title'>About title</div>
-        <div className='About-item'>item</div>
-        <div className='About-item'>item</div>
-        <div className='About-item'>item</div>
-      </>
-    );
+    const { about, isLoaded } = this.state;
+
+    if (isLoaded) {
+      return (
+        <>
+          <div className='About-title'>
+            <h4>{about.name}</h4>
+            <p>{about.profession}</p>
+          </div>
+          <div className='About-img'><img src='../styles/img/pp.png' alt='avatar' /></div>
+          <div className='About-item'>{about.address}</div>
+          <div className='About-item'>{about.email}</div>
+          <div className='About-item'>{about.phone}</div>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <div className='About-title'>About me</div>
+          <div className='About-item'>Loading...</div>
+        </>
+      );
+    }
   }
 }
 

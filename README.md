@@ -1,10 +1,16 @@
-# frontend
+# Curriculum Vitae
 
-## React Curriculum vitae
+Solución al reto de Platzi Master.
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+# Proceso
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+Logre desarrollar todos los retos planteados para Platzi Master. Sin embargo por cuestión de tiempo y observación, me falto la parte de los test con jest.
+
+Sin embargo fue un excelente proyecto para poner en práctica mis conocimientos en React. Y por tanto recomiendo a cualquiera hacerlo.
+
+
+![react-cv](https://i.imgur.com/X9iuv0q.png?raw=true)
+
 
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)

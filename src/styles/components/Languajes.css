@@ -1,0 +1,8 @@
+.languages__content {
+  display: flex;
+  list-style: none;
+}
+
+.languages-item {
+  padding: 1rem;
+}

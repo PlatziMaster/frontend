@@ -1,75 +1,101 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Eduardo Perez Suarez ",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "address": "Bogotá, Colombia",
+    "email": "eduardodev33@gmail.com",
+    "website": "https://educodes.netlify.app/",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://i.imgur.com/IIveRuF.jpg",
+    "profile": "Psychologist and software programmer with knowledge in front-end web development (HTML5, CSS, javascript, React Js, Router, Redux). I am looking to collaborate as a Front-end developer since I have recently certified in Responsive web design, React Js.",
     "certificate": [
       {
         "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "description": "Responsive Web Design certification",
+        "institution": "FreeCodeCamp",
+        "name": "Responsive Web Design"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Oct 2020",
+        "description": "",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "React Router and Redux"
+      },
+      {
+        "date": "Sept 2020",
+        "description": "",
+        "institution": "Platzi",
+        "name": "React Js Practical"
+      },
+      {
+        "date": "Jul 2020",
+        "description": "",
+        "institution": "Platzi",
+        "name": "Javascript Fundamentals"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "JavaScript School",
+        "description": "Technical career in full stack javascript development (MERN)",
+        "endDate": "present",
+        "institution": "Platzi",
+        "startDate": "Feb 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software programming",
+        "description": "Technical career in software programming",
+        "endDate": "Feb 2020",
+        "institution": "National Learning Service(SENA)",
+        "startDate": "Feb 2019"
+      },
+      {
+        "degree": "Psychologist",
+        "description": "Professional career in psychology",
+        "endDate": "Dec 2018",
+        "institution": "Simon Bolivar University",
+        "startDate": "Jan 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Independent",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Personal project development: Web portfolio, Project development - Filovideo video interface, Responsive Web Design Certification project design and development, Batatabit project development.",
+        "jobTitle": "Front-end Developer",
+        "startDate": "Sept 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "company": "DTL360",
+        "endDate": "Apr 2020",
+        "jobDescription": "Collaboration in website development Apache Kafka Business and Research.",
+        "jobTitle": "Software programmer",
+        "startDate": "Feb 2020"
+      },
+      {
+        "company": "Indep Educational Institution",
+        "endDate": "Feb 2020",
+        "jobDescription": "Design and development of web page and platform.",
+        "jobTitle": "Software programmer",
         "startDate": "Sept 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
     "interest": [
@@ -81,7 +107,7 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
@@ -90,20 +116,19 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Instagram",
+        "url": "https://www.instagram.com/edu.codes/",
+        "icon": "fab fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/educodes",
+        "icon": "fab fa-github"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/eduardoperezs/",
+        "icon": "fab fa-linkedin-in"
       }
     ]
   }

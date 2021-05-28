@@ -1,0 +1,57 @@
+.header {
+  color: black;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  line-height: 1.2;
+}
+
+.header-job-title {
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-title {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.header-website {
+  font-size: 3rem;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 0.2rem 2rem;
+  -webkit-box-shadow: 5px 5px 0px 0px #289fed, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 0px 0px #289fed, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.img-container {
+  text-align: end;
+}
+
+.header__img--profile {
+  width: 100%;
+  height: auto;
+  min-width: 25rem;
+  max-width: 30rem;
+  border-radius: 50%;
+  border: 3px solid #121212;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.header-adress {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.header-icon {
+  color: black;
+  font-size: 2.5rem;
+  padding: 0 0.8rem;
+}

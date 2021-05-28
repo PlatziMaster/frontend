@@ -1,0 +1,16 @@
+.experience__title {
+  font-size: 4rem;
+}
+
+.experience__title-job {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.jobs {
+  list-style: none;
+}
+
+.job__container {
+  padding-bottom: 3rem;
+}

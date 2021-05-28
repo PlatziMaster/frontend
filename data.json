@@ -1,110 +1,109 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Yeferson Mauricio Peña Gutiérrez",
+    "profession": "Profesor de filosofía / Desarrollador Web",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "email": "ymauriciop@gmail.com",
+    "website": "redesyef.com",
+    "phone": "+57 300 7901238",
+    "avatar": "/src/images/Avatar.png",
+    "Profile": "Llevo más de ocho años de experiencia soportando la infraestructura de red de diferentes sectores empresariales como gobierno, administración de centros empresariales, construcción, telecomunicaciones, editoriales, entre otras. Mi ruta de aprendizaje ha atravesado los siguientes campos: Soporte TI, Enseñanza de la filosofía, Marketing Digital, Diseño Gráfico y actualmente soluciones de desarrollo Frontend con React .js ",
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Educación Online Efectiva",
+        "description": "Desarrollo web-Marketing Digital",
+        "endDate": "Presente",
+        "institution": "Platzi",
+        "startDate": "Julio 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Licenciado en filosofía",
+        "description": "",
+        "endDate": "Abril 2020",
+        "institution": "Universidad pedagógica Nacional",
+        "startDate": "Agosto 2014"
+      },
+      {
+        "degree": "Técnico en Sistemas",
+        "description": "",
+        "endDate": "Diciembre 2013",
+        "institution": "SENA",
+        "startDate": "Enero 2012"
       }
+      
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Muons",
+        "endDate": "Presente",
+        "jobDescription": "Desarrollo Stack Node JS, Express, MySql y React JS y IoT con Arduino y servidores broken MQTT",
+        "jobTitle": "Desarrollador Web",
+        "startDate": "Abril 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Equipos y Suministros para oficina",
+        "endDate": "Abril 2021",
+        "jobDescription": "Mantenimiento de computo y redes",
+        "jobTitle": "Soporte IT",
+        "startDate": "Octubre 2013"
+      },
+      {
+        "company": "Editorial Aula de Humanidades",
+        "endDate": "Presente",
+        "jobDescription": "Comunicación y difusión de las Humanidades con herramientas digitales a nivel nacional e internacional.",
+        "jobTitle": "Lider de transformador digital",
+        "startDate": "Diciembre 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "40%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "40%"
+      }, 
+      {
+        "name": "Arduino",
+        "percentage": "70%"
+      },
+      {
+        "name": "Python",
+        "percentage": "15%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "30%"
       }
+      
+
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Backend",
+      "Frontend",
+      "Filosofía",
+      "Halterofilia"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "percentage": "30%"
       }
     ]
+    
   }
 }

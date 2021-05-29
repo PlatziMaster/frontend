@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const json = require('json-loader');
 
 module.exports = {
   entry: './src/index.js',
@@ -64,6 +65,10 @@ module.exports = {
         test: /\.mp4$/,
         loader: 'file-loader?name=videos/[name].[ext]',
       },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      }
     ],
   },
   plugins: [
@@ -75,4 +80,9 @@ module.exports = {
       filename: 'assets/[name].css',
     }),
   ],
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000,
+  }
 };

@@ -51,6 +51,7 @@
     "file-loader": "^6.2.0",
     "husky": "^2.7.0",
     "jest": "^25.1.0",
+    "json-loader": "^0.5.7",
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^1.6.0",
     "prettier": "^1.19.1",

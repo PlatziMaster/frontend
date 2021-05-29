@@ -10,7 +10,7 @@ const Interest = () => {
       <h2 className='Interest-title'>Interest</h2>
       <ul>
         {
-          data.interest && data.interest.map(
+          data.data?.interest?.map(
             item => (
               <li key={item}>
                 <h4>

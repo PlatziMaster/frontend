@@ -12,7 +12,7 @@ const Skills = () => {
       <span>(click to see certificates)</span>
       <div className='container'>
         {
-          data.skills && data.skills.map(
+          data.data?.skills?.map(
             item => (
               <li key={item.id} className='Skills-item'>
                 <h3>

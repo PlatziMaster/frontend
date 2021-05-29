@@ -11,7 +11,7 @@ const Profile = () => {
       <div>
         <div className='Profile-desc'>
           <p>
-            {data.profile}
+            {data.data?.profile}
           </p>
         </div>
       </div>

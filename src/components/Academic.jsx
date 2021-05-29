@@ -9,7 +9,7 @@ const Academic = () => {
       <h2 className='Academic-title'>Academic</h2>
       <ul>
         {
-          data.Academic && data.Academic.map(
+          data.data?.Academic?.map(
             item => (
               <li key={item.id} className='Academic-item'>
                 <h3>{`${item.degree}`}</h3>

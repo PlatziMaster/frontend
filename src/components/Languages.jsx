@@ -10,7 +10,7 @@ const Languages = () => {
       <h2 className='Languages-title'>Languages</h2>
       <ul>
         {
-          data.languages && data.languages.map(
+          data.data?.languages?.map(
             item => (
               <li key={item.id} className='Languages-item'>
                 <div>

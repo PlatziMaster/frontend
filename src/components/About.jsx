@@ -11,7 +11,7 @@ const About = () => {
       <h3 className='About-title'>Contact Me</h3>
       <ul>
         {
-          data.social && data.social.map(
+          data.data?.social?.map(
             item => (
               <li key={item.id}>
                 <h3>{`${item.name}`}</h3>

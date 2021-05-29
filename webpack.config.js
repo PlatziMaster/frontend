@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const json = require('json-loader');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -63,7 +64,7 @@ module.exports = {
       },
       {
         test: /\.mp4$/,
-        loader: 'file-loader?name=videos/[name].[ext]',
+        loader: 'file-loader',
       },
       {
         test: /\.json$/,
@@ -79,6 +80,11 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'data.json', to: './'}
+      ]
+    })
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),

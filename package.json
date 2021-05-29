@@ -61,6 +61,7 @@
   "jest": {
     "verbose": true,
     "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|)$": "<rootDir>/src/__mocks__/styleMock.js",
       "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "setupFilesAfterEnv": [

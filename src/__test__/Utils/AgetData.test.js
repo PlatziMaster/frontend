@@ -12,6 +12,6 @@ describe('Fetch API', () => {
       expect(res.data).toEqual('12345');
     });
     expect(fetch.mock.calls.length).toEqual(1);
-    expect(fetch.mock.calls[0][0]).toEqual('http://localhost:8080/data.json');
+    expect(fetch.mock.calls[0][0]).toEqual('http://localhost:9000/data.json');
   });
 });

@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const json = require('json-loader');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -11,6 +13,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  mode: 'production',
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -29,15 +33,44 @@ module.exports = {
         ],
       },
       {
-        test: /\.css|.styl$/,
+        test: /\.css$/i,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
-          'stylus-loader',
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+            mimetype: 'application/font-woff',
+            name: '[name].[contenthash].[ext]',
+            outputPath: './assets/fonts/',
+            publicPath: './assets/fonts/',
+            esModule: false,
+          },
+        },
+      },
+      {
+        test: /\.mp4$/,
+        loader: 'file-loader',
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      }
     ],
   },
   plugins: [
@@ -48,5 +81,15 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'data.json', to: './'}
+      ]
+    })
   ],
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000,
+  }
 };

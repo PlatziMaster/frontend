@@ -1,110 +1,113 @@
-{
+{ 
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
-  }
+    "name": "Manuel David Arias González",
+    "profession": "Frontend Developer",
+    "address": "Tunja, Colombia.",
+    "email": "davidgonzalez@gmail.com",
+    "phone": "(+57) 3118568017",
+    "avatar": "https://lh3.googleusercontent.com/EjL4LJfHNhBaWf088YafybMWeJgfX8noupMSjvr11al3m9T7gSw1qVsXINvjNsGnO8BB_oCyAKQAkInAYP7s545HhQ4xH1GGUfwOVIm7d7OP_L2UaBH8NN3zhb9nmAeeua702RjqQZtH3hgNKqcYPjOLUVEQ1tslpCLAYcegScUhK_51TH7_ddSo-_eFUGbBpfntGfJPDpvmm6dB7CEX122hZxL4Ly7E5b_wiYWKlMJPHB41CnFgl5VuP3ImlVZRoEHEEtbehvx9Sp2ZMpCOGXl2HQzEYqjseZsHnZOYRl80lF8qBzV7XHXaigy4lkAF8ILkA2DXU5PsHbM9gixbs2XQkwFqjgn5DrFPRdmhdsZHllFwaSjYlxWskTU1BRzdgK3IJTgf3a0KYULiiknkXay243RYBAHxATrgpFiD4G7tWOTYaxWXtTsvQ_EinV7yqiZAQJXHZkRTpJWruOSB8S6dz3DweLgh1ZqUzQx8aicY3YlML7SPHt87Wjv_ZMea_25oxje8yJqoJ3tjEV-fvrDn9YGvMaVOtkJK7QHekk83EdlLP86nWt7umQM_W20usIVaViGymCt77uCl2S4JhJYuo66NkUWWH16rqvF2yb6nc9RwG_rlYtssnrmrTSuLvAMt3qB8IJ-M7qhz5AnR-6lGu0ADgEDrPalT1jfD3X_zk9chD-b0FZ78z7Cos2kK_ne1nuAspRuSQ1xpw0D6pTo=w704-h938-no?authuser=0",
+    "profile": "I am a Colombian Frontend developer, eager to learn more every day, my goal in each application is to create amazing software solutions on the web to improve the quality of life of the whole society, through maintainable, scalable and optimized code with the best usability practices always thinking about the end user.",
+  "Academic": [
+    {
+      "id": 1,
+      "degree": "Tecnologo en Analisis y Desarrollo de Software",
+      "description": "Analysis, Design, Development and Implementation of software products for the business sector",
+      "endDate": "Jan 2020",
+      "institution": "SENA",
+      "startDate": "Jan 2021"
+    },
+    {
+      "id": 2,
+      "degree": "FrontEnd Developer",
+      "description": "This platform has changed my life" ,
+      "endDate": "Jul 2021",
+      "institution": "Platzi",
+      "startDate": "Jun 2020"
+    }
+  ],
+  "experience":[
+    {
+      "id": 1,     
+      "company": "Hermatex",
+      "endDate": "Present",
+      "jobDescription": "Family business personal project: Identification of the problems and needs of the company Hermatex. Analysis of E-commerce requirements, Relational database design and development (postgresSQL). Design and development of the graphical interface (React in process)",
+      "jobTitle": "Frontend",
+      "startDate": "Jan 2021"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "id": 1,
+      "percentage": "70%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/1642-course/diploma/detalle/"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "percentage": "25%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/2229-flexbox-css-grid/diploma/detalle/"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "percentage": "90%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/1548-react/diploma/detalle/"
+    },
+    {
+      "id": 4,
+      "name": "React Hooks",
+      "percentage": "90%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/2118-react-hooks/diploma/detalle/"
+    },
+    {
+      "id": 5,
+      "name": "Webpack",
+      "percentage": "90%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/2242-webpack/diploma/detalle/"
+    },
+    {
+      "id": 6,
+      "name": "Postgres",
+      "percentage": "90%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/1480-postgresql/diploma/detalle/"
+    },
+    {
+      "id": 7,
+      "name": "MySQL",
+      "percentage": "90%",
+      "url": "https://platzi.com/p/davidgonzalez0519/curso/1272-sql-mysql/diploma/detalle/"
+    }
+  ],
+  "interest": [ 
+    "javascript",
+    "frontend",
+    "Three.js",
+    "backend"
+  ],
+  "languages": [
+    {
+      "id": 1,
+      "name": "Spanish",
+      "percentage": "90%"
+    },
+    {
+      "id": 2,
+      "name": "English",
+      "percentage": "50%"
+    }
+  ],
+  "social": [
+    {
+      "id": 1,
+      "name": "github",
+      "url": "https://github.com/Davidgonz-maker"
+    },
+    {
+      "id": 2,
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/manuel-david-arias-gonz%C3%A1lez-40b9bb1b8/"
+    }
+  ]
+ }
 }

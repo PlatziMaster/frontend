@@ -1,0 +1,54 @@
+b(val) // b for bracket
+  unquote("[") + val + unquote("]")
+
+
+
+.Hero
+    width 100vw
+    height 100vh
+    padding: 10vh 10vw
+    box-sizing border-box
+    background-color: #F7836E
+    color #FFFFFFDE
+    display grid
+    grid-template-rows: b(name)40px b(title) auto b(description) 
+
+.Hero__name
+    text-align: right
+    font-size: 24px
+    font-weight: 600
+
+.Hero__title
+    font-size: 64px
+    max-width: 50%
+
+    &:after  
+        position: absolute;
+        display: flex        
+        content: "";
+        height: 4px;
+        background-color: #FFF;
+        width: 28vw;
+        top: 50%;
+
+.Hero__description 
+    font-size: 24px
+
+@media (max-width 640px) {
+    .Hero{
+       height 200vh
+       grid-template-rows: b(name) 90px b(title) auto b(description) 
+       
+    }
+
+   .Hero__title {
+       font-size: 38px 
+    }
+    .Hero__title&:after {
+        top: 0%
+    }
+    
+}
+    
+        
+    

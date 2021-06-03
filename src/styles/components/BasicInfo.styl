@@ -1,0 +1,39 @@
+.Info
+    display: grid
+    grid-template-rows 200px 400px
+    grid-template-columns: 1fr 1fr 1fr
+    color: #F7836E
+    justify-items: center
+
+.Info > div {
+    height: min-content
+    align-self: center
+}
+
+.profession 
+    grid-row: 1/2
+    grid-column: 1/4
+    display flex
+    justify-content: center
+    align-items: center
+    font-weight: 800
+
+.profession__text 
+    height: min-content
+
+
+@media (max-width 640px) {
+    
+    .Info {
+        grid-template-rows: repeat(4, 1fr)
+        grid-template-columns: 1fr
+        grid-gap: 2rem
+        justify-items: center
+        margin: 3rem 0px
+    } 
+
+    .profession {
+        grid-column: 1/2
+    }
+    
+}

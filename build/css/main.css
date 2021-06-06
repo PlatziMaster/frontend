@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.professional-profile-information {
+    padding: 10px 210px;
+}
+
+.header-title {
+    height: 140px;
+    border: 2px solid #D9E8EE;
+    display: flex;
+    color: #4B4453;
+}
+
+
+.header-title h1 p {
+    margin-top: 12px;
+}
+
+.header-title div {
+    width: 350px;
+}
+
+.header-title figure {
+    background-image: url('./images/profile-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-title h2 {
+    text-align: center;
+}
+
+.header-job-title {
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.personal-data ul {
+    padding: 0;
+    margin-top: 25px;
+    list-style: none;
+    display: flex;
+
+}
+
+.personal-data ul li {
+    margin-right: 10px;
+}
+
+.personal-data ul .header-adress {
+    margin-top: -16px;
+}
+
+.header-website a {
+    text-decoration: none;
+}
+
+
+figure {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #D5CABD;
+    border-radius: 50%;
+}
+
+.profile-title,
+.experience-title {
+    height: 140px;
+    margin-top: 10px;
+    border: 2px solid #4E8397;
+    /* display: flex; */
+}
+
+.academic-study-data,
+.idioms-and-others {
+    margin: 0 auto;
+}
+
+.academic-study-data,
+.idioms-and-others {
+    display: flex;
+    justify-content: center;
+    /* width: 920px; */
+    width: 100%;
+    height: 140px;
+    margin-top: 10px;
+}
+
+.profile-title,
+.experience-title {
+    display: flex;
+}
+
+.profile-title h2 {
+    font-size: 19px;
+    color: #0a0a0a;
+}
+
+.experience-title div h3 {
+    font-size: 10px;
+}
+
+.profile-title div {
+    margin: 40px;
+}
+
+.experience-title div {
+    margin: 30px;
+}
+
+.experience-title .experience-content {
+    margin: 15px 30px;
+}
+
+.academic-title,
+.skills-title,
+.interest-title,
+.languages-title {
+    width: 100%;
+    border: 2px solid #4E8397
+}
+
+.academic-title,
+.interest-title {
+    margin-right: 7px;
+}
+
+.academic-title h2,
+.skills-title h2,
+.interest-title h2,
+.languages-title h2 {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.academic-title p,
+.academic-title small,
+.skills-title p,
+.interest-title p,
+.languages-title p {
+    margin-left: 15px;
+}
+
+.languages-title ul {
+    padding: 0;
+    margin: 10px 15px;
+    list-style: none;
+    display: flex;
+
+}
+
+.languages-title ul li {
+    margin-right: 6px;
+}

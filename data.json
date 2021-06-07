@@ -1,12 +1,10 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "name": "Edgar Ramon Gonzalez Contreras",
+    "profession": "Software Engineer",
+    "address": "Veracruz, México.",
+    "email": "edgargc_26@hotmail.com",
+    "website": "http://www.example.com",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -24,6 +22,7 @@
     ],
     "Academic": [
       {
+        "id": 1,
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
@@ -31,6 +30,7 @@
         "startDate": "Jan 2018"
       },
       {
+        "id": 2,
         "degree": "Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
@@ -40,6 +40,7 @@
     ],
     "experience": [
       {
+        "id": 1,
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
@@ -47,6 +48,7 @@
         "startDate": "Jan 2020"
       },
       {
+        "id": 2,
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
@@ -56,52 +58,57 @@
     ],
     "skills": [
       {
+        "id": 1,
         "name": "HTML5",
         "percentage": "75%"
       },
       {
+        "id": 2,
         "name": "CSS",
         "percentage": "25%"
       },
       {
+        "id": 3,
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
+        "id": 4,
         "name": "React",
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
+        "id": 1,
         "name": "Spanish",
         "percentage": "90%"
       },
       {
+        "id": 2,
         "name": "English",
         "percentage": "50%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
+        "id": 1,
         "name": "twitter",
         "url": "https://twitter.com/"
       },
       {
+        "id": 2,
+        "name": "instagram",
+        "url": "https://instagram.com/"
+      },
+      {
+        "id": 3,
         "name": "github",
         "url": "https://github.com/"
       },
       {
+        "id": 4,
         "name": "linkedin",
         "url": "https://www.linkedin.com/"
       }

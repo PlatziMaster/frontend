@@ -8,8 +8,12 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import getData from '../utils/getData';
+
+const url = 'https://www.google.com';
 
 const App = () => {
+  getData(url)
   return (
     <>
       <Header>
@@ -22,7 +26,7 @@ const App = () => {
       <Interest />
       <Languages />
     </>
-  )
+  );
 };
 
 export default App;

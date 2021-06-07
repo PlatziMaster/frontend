@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Roboto mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 3.5rem;
+    margin: 0 0 0;
+}
+h2 {
+    font-size: 3rem;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 5px 0 5px;
+}
+p {
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+header .header_container{
+    height: auto;
+    display: grid;
+    grid-template-columns: 250px .4fr 1fr;
+    background-color: rgb(93, 148, 148);
+    color: white;
+    align-content: center;
+    padding: 10px 10px;
+}
+header .header_avatar {
+    display: flex;
+    min-width: 220px;
+    align-items: center;
+    justify-content: center;
+}
+header .header_avatar .header_avatar__container {
+    background-image: url('../imgs/Foto 400x400.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+header .header_name, .header_info {
+    display: grid;
+    align-content: center;
+    margin-left: 10px;    
+}
+.header_info .header_info__contact{
+    list-style: none;
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 0px;
+}
+.header_info .header_info__contact a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 0px;
+    color: white;
+}
+main {
+    background-color: rgb(130, 206, 154);
+    padding-bottom: 20px;
+}
+.profile {
+    background-color: rgb(130, 206, 154);
+    padding: 10px 0 10px;
+    color: white;
+}
+
+.experience{
+    background-color: rgb(130, 206, 154);
+    padding: 10px 0 10px;
+    color: white;
+    padding-bottom: 50px;
+}
+.experience .experience_list{
+    display: grid;
+    grid-gap: 20px;
+    padding: 10px 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.experience_list .experience_list__detail {
+    padding-bottom: 10px;
+    background-color: rgb(93, 148, 148);
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 7px -2px rgba(0,0,0,0.75);
+}
+.experience_list .experience_list__detail ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.academic_skills, .interest_languages{
+    /* background-color: rgb(130, 206, 154); */
+    background-color: rgb(123, 150, 150);
+    padding: 10px 0 10px;
+    color: white;
+    display: grid;
+    grid-gap: 20px;
+    padding: 10px 10px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto 20px;
+    box-shadow: 4px 4px 7px -2px rgba(0,0,0,0.75);
+}
+.academic_skills, .interest_languages ul{
+    /* list-style: none; */
+    text-decoration: none;
+    font-size: 1.5rem;
+}

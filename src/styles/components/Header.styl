@@ -1,0 +1,58 @@
+.grid 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 90%;
+  max-width: 1100px;
+  height: 100%;
+  margin: auto;
+  gap: 15px;
+  overflow: hidden;
+  align-items: center;
+
+.header 
+  height: 400px;
+
+
+.profile__image 
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  grid-column: 1/4;
+
+
+.image 
+  width: 95%;
+  max-width: 300px;
+  border-radius: 50%;
+
+
+.media 
+  padding: 10px 0;
+  text-align: center;
+
+
+[class^="media-item"]
+  grid-column: span 3;
+
+
+[class^="media-item"] a 
+  color: red;
+  font-size: 30px;
+
+
+.texts 
+  grid-column: 5/13;
+
+
+.parraph 
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.4rem;
+
+
+.weight-700 
+  font-weight: 700;
+
+
+.weight-400 
+  font-weight: 400;

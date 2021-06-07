@@ -1,110 +1,115 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQE3Vr0Z4qKuIQ/profile-displayphoto-shrink_400_400/0/1565712225304?e=1628726400&v=beta&t=t8LK7_gopTwfjscny-k8mcUDGwsGJrUjDETUaa0y52c",
+    "about": {
+      "address": "Ibague, Tolima",
+      "phone": "+57 3015678479",
+      "email": "ing.angelauribe@outlook.com",
+      "website": "AngelaUribe.github.io/",
+      "linkedin": "www.linkedin.com/in/angela",
+      "skills": [
+        {
+          "name": ".net - C#",
+          "percentage": "65%"
+        },
+        {
+          "name": "php",
+          "percentage": "60%"
+        },
+        {
+          "name": "Git - Git Hub",
+          "percentage": "85%"
+        },
+        {
+          "name": "Laravel",
+          "percentage": "60%"
+        },
+        {
+          "name": "Sql Server",
+          "percentage": "60%"
+        },
+        {
+          "name": "My Sql",
+          "percentage": "80%"
+        },
+        {
+          "name": "React",
+          "percentage": "20%"
+        },
+        {
+          "name": "Herramientas de diseño (Adobe - Corel)",
+          "percentage": "85%"
+        },
+        {
+          "name": "Bootstrap",
+          "percentage": "85%"
+        }
+      ],
+      "interest": [
+        "Me encantan los procesos creativos.",
+        "Hacer vivencial el lema de Platzi, Nunca pares de aprender.",
+        "Mi felicidad viajar."
+      ],
+      "objectives": [
+        "Hacer parte del proyecto Platzi Master.",
+        "Incrementar mis conocimientos y mis ingresos.",
+        "Líderar equipos de trabajo altamente productivos."
+      ]
+    },
+    "profile": {
+      "name": "Angela Patricia Uribe Laiseca",
+      "profession": "Ingeniera de Sistemas",
+      "professionalProfile": "Ingeniera de Sistemas capacitada para: liderar proyectos, administrar, analizar, diseñar e implementar sistemas de información e innovación tecnológica, utilizando herramientas de desarrollo de última generación.",
+      "experience": [
+        {
+          "project": "Directora de Proyectos",
+          "company": "SysCafé S.A.S ",
+          "startDate": "Abril 2012",
+          "endDate": "Marzo 2021",
+          "jobDescription": "Desarrollo de software para proyectos tecnológicos. Liderar equipo de desarrollo  de software en temas de innovación tecnológica para proyectos móviles y web."
+        },
+        {
+          "project": "Proyecto Salsa",
+          "startDate": "Feb 2021",
+          "endDate": "May 2021",
+          "jobDescription": "Proyecto personal con la Sociedad Colombiana de Infectología, mi proceso de aprendizaje Laravel con Platzi.",
+          "link": "https://github.com/AngelaUribe/Salsa"
+        }
+      ],
+      "academic": [
+        {
+          "degree": "Ingeniera de Sistemas",
+          "endDate": "Abril 2009",
+          "institution": "Universidad del Tolima"
+        },
+        {
+          "degree": "Tecnóloga en Sistemas",
+          "endDate": "Marzo 2006",
+          "institution": "Universidad del Tolima"
+        },
+        {
+          "degree": "Desarrollo Web Backend con PHP - Escuela de Inglés",
+          "endDate": "Actual",
+          "institution": "Platzi"
+        }
+      ],
+      "softSkills": [
+        "Liderazgo.",
+        "Trabajo en equipo.",
+        "Comunicación efectiva.",
+        "Orientación al logro.",
+        "Compromiso."
+      ],
+      "languages": [
+        {
+          "name": "Español",
+          "level": "Nativo"
+        },
+        {
+          "name": "Inglés",
+          "level": "Basico - Intermedio"
+        }
+      ]
+    }
   }
 }

@@ -1,16 +1,23 @@
+import { shallow } from 'enzyme';
 import React from 'react';
-import { mount } from 'enzyme';
+import About from '../../components/About';
 import Header from '../../components/Header';
 
-describe('<Header />', () => {
-  const header = mount(<Header />);
-
-  test('Header render', () => {
-    expect(header.length).toEqual(1);
-  });
+describe('Test on <Header />', () => {
+  const wrapper = shallow(
+    <Header>
+      <About />
+    </Header>
+  );
+  
+  const about = shallow(<About />)
+  console.log(wrapper);
+   test('Should take snapshot', () => {
+     expect(wrapper).toMatchSnapshot();
+     expect(about).toMatchSnapshot()
+   });
 
   test('Header title', () => {
-    expect(header.find('.Header-title').length).toEqual(1);
+    expect(wrapper.find('.Header-title').length).toEqual(1);
   });
-
 });

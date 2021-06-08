@@ -1,0 +1,108 @@
+.Header
+  grid-area Header 
+  display flex
+  align-items: center
+  transition: width .5s, height .5s;
+  margin: .5em
+  padding: 1em
+  border-radius: 5px
+  border-top: .5px solid rgba(173, 173, 173, 50%)
+  border-right: .5px solid rgba(173, 173, 173, 50%)
+  background-color #1E1F26
+
+.Header-section
+    display flex
+    align-items: center
+    width 90vw
+    position relative
+
+.Header-divWrapper
+    display flex
+    flex-direction: column
+    flex-wrap: wrap
+    margin-left: 2em
+
+.Header-img
+    margin-left: 2em
+    border-radius: 50%
+    object-fit: cover
+    min-height: 3em
+    min-width: 3em
+    max-width 15em
+    max-height 15em
+    border 5px solid #47CF73
+
+.Header-title
+    font-size: 3.75rem
+    line-height: 1
+
+.Header-job-title
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+
+.Header-email
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color #ADBCD2
+
+.Header-DivInfo
+    display flex
+    flex-wrap: wrap
+    align-items: center
+    margin-top 1rem
+
+.Header-website 
+    color: #ADBCD2
+
+.bx 
+    margin-right: .3em
+
+
+.Header-DivInfo a 
+    margin: 0 .5em
+
+.Header-phone, 
+.Header-website, 
+.Header-adress, 
+.Header-email,
+    display flex
+    align-items: center
+
+.Div-aboutMedia
+    position: absolute
+    right: 1em
+    top: .5em
+    display: flex
+    font-size: 1.5em
+
+.Div-aboutMedia a
+    margin: 0 .2em
+
+
+@media only screen and (max-width: 680px)
+    .Header
+        align-items: flex-start
+        margin-top 2em
+
+    .Header-section
+        flex-direction: column
+
+    .Header-img
+        margin: 0
+        margin-bottom: .3em
+    
+    .Header-divWrapper
+        margin: 0
+        text-align: center
+
+    .Header-adress,
+        justify-content: center
+
+    .Div-aboutMedia
+        right: -3px
+    
+
+@media only screen and (max-width: 480px)
+    .Header-DivInfo
+       flex-direction: column
+       

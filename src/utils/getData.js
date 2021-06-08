@@ -1,8 +1,11 @@
 
-const getData = async (url) => {
-  const response = await fetch(url);
-  const result = response.JSON();
-  return result;
+const getData = (api) => {
+  return (
+    fetch(api)
+      .then(response => response.json())
+      .then(data => data)
+      .catch(error => error)
+  );
 };
 
 export default getData;

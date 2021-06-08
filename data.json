@@ -49,7 +49,7 @@
         "startDate": "Noviembre 2019"
       }
     ],
-    "skills": [
+    "Skills": [
       {
         "name": "HTML5",
         "percentage": "75%"
@@ -68,14 +68,12 @@
       }
     ],
     "Interest": ["javascript", "develop", "backend", "frontend"],
-    "languages": [
+    "Languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "English"
       }
     ],
     "social": [

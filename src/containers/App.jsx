@@ -37,8 +37,7 @@ const App = () => {
           <Academic />
           <Skills />
           <Interest />
-          {/*
-          <Languages /> */}
+          <Languages />
         </>
       )}
     </>

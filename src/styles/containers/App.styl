@@ -1,0 +1,125 @@
+/* -> Base styles  <- */
+* 
+  box-sizing: border-box
+
+::-webkit-scrollbar 
+  width: 6px
+  height: 6px
+
+::-webkit-scrollbar-button 
+  width: 0px
+  height: 0px
+
+::-webkit-scrollbar-thumb 
+  background: #47CF73
+  border: 0px none #47CF73
+  border-radius: 50px
+
+::-webkit-scrollbar-thumb:hover 
+  background: #47CF73;
+
+::-webkit-scrollbar-thumb:active 
+  background: #FEFEFE
+
+::-webkit-scrollbar-track 
+  background: #666666
+  border: 0px none #ffffff
+  border-radius: 50px
+
+::-webkit-scrollbar-track:hover 
+  background: #666666
+
+::-webkit-scrollbar-track:active 
+  background: #47CF73
+
+::-webkit-scrollbar-corner 
+  background: transparent
+
+::selection {
+  color: #fafafa;
+  background: #47CF73;
+}
+
+body
+  width 90vw
+  margin 0 auto
+  padding  1em
+  font-family 'Nunito', sans-serif
+  background-color #eee
+  overflow-x: hidden
+
+main
+  position: relative
+  z-index: 20
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-template-rows repeat(5, minmax(120px,auto))
+  grid-template-areas "Header Header"\
+                       "Profile Profile"\
+                       "Experience Experience"\
+                       "Academic Skills"\
+                       "Interest Languages"
+  grid-row-gap .8em
+  grid-column-gap: .5em
+  min-height 100vh
+  -webkit-backdrop-filter: blur( 3.5px )
+  border-radius: 10px
+  border: 1px solid rgba( 255, 255, 255, 0.18 )
+
+a 
+  text-decoration: none
+  color: #3B6CEF
+
+h1, h2, h3, h4, b, p, span
+  margin: 0
+  color: #FEFEFE
+
+.Card-glass
+  transition: width .5s, height .5s;
+  margin: .5em
+  padding: 1em
+  border-radius: 5px
+  border-radius: 10px
+  border-top: .5px solid rgba(173, 173, 173, 50%)
+  border-right: .5px solid rgba(173, 173, 173, 50%)
+  background-color #fff
+  color: #000
+
+.Container 
+  padding: 1em
+
+.H4-title
+  font-size 1.5em
+  color #000
+
+@media only screen and (max-width: 860px)
+  body
+    width 96vw
+    font-size 14px
+    padding: 1em 5px
+
+  body::after, body::before
+    display: none
+
+  main
+    grid-template-columns: 1fr
+    grid-template-rows: repeat(7, minmax(120px,auto))
+    grid-template-areas "Header"\
+                         "Profile"\
+                         "Experience"\
+                         "Academic"\
+                         "Skills"\
+                         "Interest"\
+                         "Languages"
+    box-shadow: none
+    justify-content: center
+
+  .H4-title
+    text-align: center
+    
+
+
+@media only screen and (max-width: 1080px)
+  body::before
+    top: 120%
+    left: -70%

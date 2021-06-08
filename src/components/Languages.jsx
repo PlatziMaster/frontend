@@ -1,11 +1,17 @@
 import React from 'react';
 
-const Languages = () => (
+const Languages = ({ languages }) => (
   <section className='Languages'>
-    <div className='Languages-title'>Language title</div>
-    <div className='Languages-item'>Language item</div>
-    <div className='Languages-item'>Language item</div>
-    <div className='Languages-item'>Language item</div>
+    <h2 className='Languages-title'>Languages</h2>
+    {languages ? languages.map(({ name, percentage }) => (
+      <div className='Languages-item' key={`${name}`}>{`${name}: ${percentage}`}</div>
+    )) : (
+      <>
+        <div className='Languages-item'>Languages-item</div>
+        <div className='Languages-item'>Languages-item</div>
+        <div className='Languages-item'>Languages-item</div>
+      </>
+    )}
   </section>
 );
 

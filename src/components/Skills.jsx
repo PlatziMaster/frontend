@@ -1,11 +1,17 @@
 import React from 'react';
 
-const Skills = () => (
+const Skills = ({ skills }) => (
   <section className='Skills'>
-    <div className='Skills-title'>Skills title</div>
-    <div className='Skills-item'>Skills item</div>
-    <div className='Skills-item'>Skills item</div>
-    <div className='Skills-item'>Skills item</div>
+    <h2 className='Skills-title'>Skills</h2>
+    {skills ? skills.map(skill => (
+      <div className='Skills-item' key={`${skill.name}`}>{`${skill.name}: ${skill.percentage}`}</div>
+    )) : (
+      <>
+        <div className='Skills-item'>Skills-item</div>
+        <div className='Skills-item'>Skills-item</div>
+        <div className='Skills-item'>Skills-item</div>
+      </>
+    )}
   </section>
 );
 

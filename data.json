@@ -1,57 +1,52 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "José Guerrero",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "email": "josealberto.guerreroayala@gmail.com",
+    "website": "https://guerrero.netlify.app/",
+    "phone": "3113031359",
+    "avatar": "https://avatars.githubusercontent.com/u/42391887?v=4",
+    "Profile": "Soy un Desarrollador Web con más de 3 años de experiencia laboral en la creación de páginas y aplicaciones web. Mi experiencia laboral proviene de la creación de proyectos en agencias y de forma freelance para empresas nacionales e internacionales. Busco colaborar en la posición de Desarrollador Frontend, ya que enfoco mis estudios y carrera en especializarme en esta área.",
+    "Certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Técnico en Sistemas Informáticos",
+        "endDate": "(en curso)",
+        "institution": "CIES - Corporación Iberoamericana de Estudios",
+        "startDate": "Enero 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "company": "Gradiweb",
+        "endDate": "Actualidad",
+        "jobDescription": "Desarrollar sitios web, paginas web, landing page y ecommerce con tecnologías como react y shopify.",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Mayo 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Colraices",
+        "endDate": "Abril 2021",
+        "jobDescription": "Encargado de liderar y desarrollar la actualización del nuevo sitio web de la agencia.",
+        "jobTitle": "Desarrollador Web",
+        "startDate": "Diciembre 2020"
+      },
+      {
+        "company": "Branditt S.A.S",
+        "endDate": "Diciembre 2020",
+        "jobDescription": "Encargado de liderar y desarrollar la actualización de páginas web para empresas colombinas y francesas con nuevas tecnologías",
+        "jobTitle": "Desarrollador Web",
+        "startDate": "Noviembre 2019"
       }
     ],
     "skills": [
@@ -72,12 +67,7 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "Interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",

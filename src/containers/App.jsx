@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useContext, useEffect, useState} from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -8,21 +8,38 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import { Data } from '../utils/getData.js'
+
+
+export const dataContext = React.createContext();
 
 const App = () => {
-  return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+
+    const [data, setData] = useState({});
+
+    useEffect (() => {
+
+    Data('http://localhost:3000/data')
+        .then( userData => setData( userData ))
+    
+    },[])
+
+
+    return (
+        <>
+            <dataContext.Provider value = { data } >
+                <Header>
+                    <About />
+                </Header>
+                <Profile />
+                <Experience />
+                <Academic />
+                <Skills />
+                <Interest />
+                <Languages />
+            </dataContext.Provider>
+        </>
+    )
 };
 
 export default App;

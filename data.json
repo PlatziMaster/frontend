@@ -1,109 +1,115 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Alexander Agudelo",
+    "profession": "Visual Designer / Frontend Developer",
+    "address": "Pereira, Colombia. San Fernando",
+    "email": "alxagudelov@gmail.com",
+    "website": "https://prismabot.co",
+    "phone": "3017469320",
+    "avatar": "https://prismabot.co/logo1b.svg",
+    "Profile": "Diseñador Visual, Desarrollador Frontend. Me gusta crear cosas, rayo todos los días y codeo en las noches, aprendo de todo y de todos, amo el café, plantas y animales, gamer FPS retirado pero plataformero activo.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2020",
+        "description": "Backend con JavaScript",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso básico de GraphQL"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Feb 2020",
+        "description": "Apropia los conceptos fundamentales de asincronismo con JavaScript, aplica sus diferentes estructuras y desarrolla soluciones asíncronas. ¡Amplia tus conocimientos de programación aquí!",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Asincronismo con JS"
+      },
+      {
+        "date": "Ene 2020",
+        "description": "Fundamentos prácticos de React que es una de las librerías más utilizadas hoy para crear aplicaciones web.",
+        "institution": "Platzi",
+        "name": "Curso práctico de REACT JS"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Licenciado en Artes Visuales",
+        "description": "",
+        "endDate": "Jan 2014",
+        "institution": "Universidad Tecnológica de Pereira",
+        "startDate": "Jan 2009"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Univirtual - Universidad Tecnológica de Pereira",
+        "endDate": "Activo",
+        "jobDescription": "Diseño y desarrollo frontend de interfaces y componentes para aulas de la plataforma educativa univirtual.",
+        "jobTitle": "Coordinador en Diseño Visual",
+        "startDate": "Jul 2017"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Fundación Universitaria del Área Andina",
+        "endDate": "Jul 2017",
+        "jobDescription": "Docente Universitario de la facultad de Diseño, Comunicación y Bellas Artes",
+        "jobTitle": "Docente",
+        "startDate": "Ene 2011"
+      },
+      {
+        "company": "SingleClick Solutions",
+        "endDate": "Dic 2010",
+        "jobDescription": "Docente Universitario de la facultad de Diseño, Comunicación y Bellas Artes",
+        "jobTitle": "Diseñador Web / Maquetador Web",
+        "startDate": "Ene 2009"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "87%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "68%"
       }
     ],
     "interest": [
+      "frontend",
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "canvas",
+      "rust 🦄"
     ],
     "languages": [
       {
-        "name": "Spanish",
+        "name": "Español",
         "percentage": "90%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "instagram",
+        "url": "https://www.instagram.com/nightly.art/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/alxbot"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/alex-av"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/alexander-agudelo-vergara-30122719a/"
       }
     ]
   }

@@ -1,109 +1,128 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "header": {
+      "name": "Adrian Garcia",
+      "profession": "FrontEnd Developer",
+      "avatar": "https://s.gravatar.com/avatar/76b9eed5ecd95a292eefeb002db55bc7?s=80"
+    },
+    "about": {
+      "address": "Nayarit, Mexico.",
+      "email": "garciasaaib@gmail.com",
+      "website": "https://adranuz.web.app/",
+      "phone": "3111145982"
+    },
+    "profile": {
+      "title": "Who am I",
+      "description": "Desarrollador Web con JavaScript. Busco colaborar en proyectos interesantes que me permitan aumentar mi experiencia como desarrollador web. Me gusta participar en equipo en la planeación y realización de tareas para completar la meta. Tomo mucho café y muchas fotos."
+    },
+    "certificates": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "May 2021",
+        "description": "Como se manipula el DOM con sentencias de JavaScript es el primer paso para entender los frameworks de Frontend.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso de manipulacion del DOM con JS"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Apr 2021",
+        "description": "Curso detallado de como funciona el motor de Chorme y como funciona en Node",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de JavaScript Engine (V8)"
+      },
+      {
+        "date": "Mar 2021",
+        "description": "Webpack es un manejador de modulos, que permine manejar todas tus librerias de desarrollo y generar los archivos finales para tu app.",
+        "institution": "Platzi",
+        "name": "Curso de Webpack"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
+        "degree": "Mecatronics Engineer",
+        "description": "Mecatronics in the area of automatization, mainly in build and mantainence on production lines",
         "endDate": "Jan 2017",
-        "institution": "MIT",
+        "institution": "Universidad Tecnologica de Nayarit",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "degree": "Mecatronics Tecnical",
+        "description": "Oriented on Electrical and mecanical propouses to get and use energy efficciently, mainly in houses and closed sistems",
         "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "institution": "Universidad Tecnologica de Nayarit",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Sawyer Effect",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobDescription": "Do maintainance to proyects in PHP frameworks. Edit the CMS of Sales Force in clients projects. Create from 0 new apps, frontend and backend.",
+        "jobTitle": "Full Stack Engineer with JavaScript & PHP",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
+        "company": "Servicios de Educacion Publica de Nayarit",
         "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobDescription": "Create and File Systems for documentation of the institution.",
+        "jobTitle": "Web Developer",
         "startDate": "Sept 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "75"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "JavaScript",
+      "FrontEnd",
+      "DevOps",
+      "Sales",
+      "Networking",
+      "BackEnd"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70"
+      },
+      {
+        "name": "Japanese",
+        "percentage": "5"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/adreanzoe/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/adreanzoe"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/adranuz"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/adrian-garcia-saaib/"
       }
     ]
   }

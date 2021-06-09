@@ -70,19 +70,19 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "CSS",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "JavaScript",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "React",
-        "percentage": "75%"
+        "percentage": "75"
       }
     ],
     "interest": [
@@ -96,15 +96,15 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "100%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "Japanese",
-        "percentage": "5%"
+        "percentage": "5"
       }
     ],
     "social": [

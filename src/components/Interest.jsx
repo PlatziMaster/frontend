@@ -5,12 +5,12 @@ const Interest = ({ interest }) => {
     <section className='Interest'>
       <h2 className='Interest-title'>Interests</h2>
       {interest ? interest.map(item => (
-        <div className='Interest-item' key={`${item}`}>{`${item}`}</div>
+        <h3 className='Interest-item' key={`${item}`}>{`${item}`}</h3>
       )) : (
         <>
-          <div className='Interest-item'>Interest Item</div>
-          <div className='Interest-item'>Interest Item</div>
-          <div className='Interest-item'>Interest Item</div>
+          <h3 className='Interest-item'>Interest Item</h3>
+          <h3 className='Interest-item'>Interest Item</h3>
+          <h3 className='Interest-item'>Interest Item</h3>
         </>
       )
       }

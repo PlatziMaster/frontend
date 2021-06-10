@@ -1,2 +1,217 @@
-body
-  background-color blue
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap')
+
+black = #1D1D1D
+yellow = #FFBA0A
+white = #ffffff
+soft = #f4f4f4
+gray = #747474
+
+*
+  padding 0
+  margin 0
+
+html 
+  font-size 62.5%
+
+  body
+    font-size 1.8rem
+    font-family 'Poppins', sans-serif
+    color black
+    background-color white
+
+    h1
+      font-family 'Montserrat', sans-serif
+      font-weight 700
+      font-size 6.0rem
+
+    h2 
+      font-family 'Poppins', sans-serif
+      font-weight 400
+      font-size 3.0rem
+
+    h3
+      font-family 'Poppins', sans-serif
+      font-weight 400
+      font-size 2.4rem
+      color yellow
+
+    h4 
+      font-family 'Montserrat', sans-serif
+      font-weight 400
+      font-size 2.4rem
+
+    a
+      color yellow
+
+// header
+.header__container
+  display flex
+  flex-direction row
+  align-items center
+  justify-content center
+  gap 12rem
+  padding 10rem
+  box-shadow 0px 0px 75px -35px rgba(0, 0, 0, 0.25)
+  
+  .header__pic
+    width 50rem
+
+    img
+      border-radius 300px 0px 300px 300px
+
+  .header__info
+    width 25%
+
+    .info__profession
+      color yellow
+      margin-bottom 10rem
+
+    .info__contact
+      display flex
+      flex-direction row
+      justify-content space-between
+      margin-bottom 4rem
+
+    .info__social
+      display flex
+      flex-direction row
+      justify-content space-between
+
+.profile__info
+  padding 10rem
+
+  h2
+    padding 4rem 20rem 
+    color yellow
+
+.experience__container
+  display flex
+  flex-direction column
+
+  h4
+    text-align center
+
+  h2
+    text-align center
+
+// experience
+  .experience__card
+    .card__jobs
+      display flex
+      flex-direction row
+      justify-content center
+      gap 4rem
+      margin 0 auto
+      margin-top 8rem
+    .card__projects
+      display flex
+      flex-direction row
+      justify-content center
+      gap 4rem
+      align-items center
+      margin-top 4rem
+    .card__container
+      display flex
+      flex-direction column
+      background-color soft
+      border-radius 2rem
+      padding 4rem
+      width 59.8rem
+      .card__date,
+      .card__more
+        text-align right
+
+// academic
+.education__container
+  padding-left 10rem
+  margin-bottom 4rem
+  margin-top 6rem
+  width 25%
+
+  .academic__container 
+    padding-left 6rem
+    padding-top 2rem
+
+  .certificate__container 
+    padding-left 6rem
+    padding-top 2rem
+
+// skills
+.skills__container
+  text-align right
+  padding-right 10rem
+  margin-top 6rem
+  margin-bottom 4rem
+  width 25%
+
+.habs__container
+  display flex
+  flex-direction row
+  justify-content space-between
+  
+
+// interest
+.interest__container
+  background-color yellow
+  padding 4rem 10rem
+  width 25%
+
+  .interest__list
+    color white
+    padding 2rem
+
+    // languages
+.languages__container
+  background-color yellow
+  padding 4rem 10rem
+  width 25%
+
+  .languages__list
+    color white
+    padding 2rem
+
+.int__container
+  display flex
+  flex-direction row
+  justify-content space-between
+  background-color yellow
+
+@media screen and (max-width: 1200px)
+  .header__container
+    display flex
+    flex-direction column
+    .header__info
+      width 100%
+
+  .experience__card
+    .card__jobs
+      display flex
+      flex-direction column
+      align-items center
+    .card__projects
+      flex-direction column
+      align-items center
+
+  .habs__container
+    flex-direction column
+    align-items center
+  .int__container
+    flex-direction column
+    align-items center
+  .languages__container
+    width 100%
+    padding 0
+    text-align center
+  .interest__container
+    margin-top 4rem
+    width 100%
+    padding 0
+    text-align center
+  .education__container
+    width 100%
+    padding 0
+    text-align center
+  .skills__container
+    width 100%
+    padding 0
+    text-align center

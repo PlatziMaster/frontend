@@ -11,7 +11,7 @@ const Academic = () => {
 
 
     return(
-        <>
+        <section>
             <h2 className="Academic-title"> Formación Académica </h2>
             <ul className="Academic-container">
 
@@ -44,7 +44,7 @@ const Academic = () => {
                     
                 }
             </ul>
-        </>
+        </section>
     )
 
 }

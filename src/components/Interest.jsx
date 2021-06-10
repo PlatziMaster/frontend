@@ -11,7 +11,7 @@ const Interest = () => {
 
 
     return(
-        <>
+        <section>
             <h2 className="Skills-title"> Intereses </h2>
             <ul className="Skills-container">
 
@@ -33,7 +33,7 @@ const Interest = () => {
                     
                 }
             </ul>
-        </>
+        </section>
     )
 
 }

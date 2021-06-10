@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/components/Header.styl'
-import About from './About'
 
 
 const Header = (props) => {

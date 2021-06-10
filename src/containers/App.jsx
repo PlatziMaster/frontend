@@ -1,4 +1,4 @@
-import React,{useContext, useEffect, useState} from 'react';
+import React,{ useEffect, useState } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -8,6 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import LayoutContainer from '../components/LayoutContainer'
 import { Data } from '../utils/getData.js'
 
 
@@ -33,10 +34,12 @@ const App = () => {
                 </Header>
                 <Profile />
                 <Experience />
-                <Academic />
-                <Skills />
-                <Interest />
-                <Languages />
+                <LayoutContainer>
+                    <Academic />
+                    <Skills />
+                    <Interest />
+                    <Languages />
+                </LayoutContainer>
             </dataContext.Provider>
         </>
     )

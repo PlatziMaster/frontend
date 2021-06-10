@@ -7,7 +7,7 @@ const Languages = () => {
 
     const { languages } = useContext(dataContext);
     return(
-        <>
+        <section>
             <h2 className="Languages-title"> Lenguajes </h2>
             <ul>
                 {
@@ -32,7 +32,7 @@ const Languages = () => {
                     <h3> Cargando </h3>
                 }
             </ul>
-        </>
+        </section>
     )
 
 }

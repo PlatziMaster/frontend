@@ -6,7 +6,7 @@
     "email": "alxagudelov@gmail.com",
     "website": "https://prismabot.co",
     "phone": "3017469320",
-    "avatar": "https://prismabot.co/logo1b.svg",
+    "avatar": "http://localhost:8080/public/img/avatar.png",
     "Profile": "Diseñador Visual, Desarrollador Frontend. Me gusta crear cosas, rayo todos los días y codeo en las noches, aprendo de todo y de todos, amo el café, plantas y animales, gamer FPS retirado pero plataformero activo.",
     "certificate": [
       {

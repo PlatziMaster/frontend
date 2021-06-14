@@ -1,34 +1,34 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Edna Margarita",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "email": "ednamargaritar@gmail.com",
+    "website": "https://emrg.odoo.com/?#",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Dedicated web developer with a background in geographic information systems.",
     "certificate": [
       {
         "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "description": "Certification 1 ",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "description": "Certification2",
         "institution": "Platzi",
         "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
+        "degree": "Web Developer",
+        "description": "Conception et programmation de sites Web",
+        "endDate": "Nov 2020",
         "institution": "MIT",
-        "startDate": "Jan 2018"
+        "startDate": "May 2019"
       },
       {
         "degree": "Space Engineering",

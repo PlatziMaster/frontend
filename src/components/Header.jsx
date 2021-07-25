@@ -1,13 +1,16 @@
 import React from 'react';
 import '../styles/components/Header.styl';
+import Gravatar from "./Gravatar";
 
 const Header = () => (
   <div className="Header">
     <div>
-      <img src="../../screenshot.png" width="120px" alt="User" />
+      <Gravatar email="jetradl@gmail.com" alt="Avatar" />
     </div>
     <div>
-      <h1>Título</h1>
+      <div className="Header-title">
+        <h1>Header Title</h1>
+      </div>
       <div className="Header__contact-info">
         <h3>Phone</h3>
         <h3>Email</h3>

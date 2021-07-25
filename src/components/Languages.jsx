@@ -1,6 +1,15 @@
 import React from 'react';
-/* import '../styles/components/Languages.styl'; */
+import '../styles/components/Languages.styl';
 
-const Languages = () => <h1>Hello World</h1>;
+const Languages = () => (
+  <div className="Languages">
+    <div className="Languages-title">
+      <h1>Título</h1>
+    </div>
+    <div className="Languages-item"></div>
+    <div className="Languages-item"></div>
+    <div className="Languages-item"></div>
+  </div>
+);
 
 export default Languages;

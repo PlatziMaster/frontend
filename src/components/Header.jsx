@@ -4,9 +4,7 @@ import Gravatar from "./Gravatar";
 
 const Header = () => (
   <div className="Header">
-    <div>
-      <Gravatar email="jetradl@gmail.com" alt="Avatar" />
-    </div>
+    <Gravatar className="Header__avatar" email="jetradl@gmail.com" alt="Avatar" />
     <div>
       <div className="Header-title">
         <h1>Header Title</h1>

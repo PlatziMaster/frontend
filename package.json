@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jorgetrad99.github.io/frontend/",
   "name": "frontend-test",
   "version": "1.0.0",
   "description": "frontend test",
@@ -9,7 +10,8 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "react",
@@ -24,6 +26,7 @@
     "babel-loader": "^8.0.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
+    "gh-pages": "^3.2.3",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "jest-fetch-mock": "^3.0.1",

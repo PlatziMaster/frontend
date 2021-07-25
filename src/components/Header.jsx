@@ -11,6 +11,7 @@ const Header = () => (
       <div className="Header-title">
         <h1>Header Title</h1>
       </div>
+      <h2>Header Job Title</h2>
       <div className="Header__contact-info">
         <h3>Phone</h3>
         <h3>Email</h3>

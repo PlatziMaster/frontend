@@ -4,11 +4,17 @@ import '../styles/components/Interest.styl';
 const Interest = () => (
   <div className="Interest">
     <div className="Interest-title">
-      <h1>Título</h1>
+      <h1>Interest Title</h1>
     </div>
-    <div className="Interest-item"></div>
-    <div className="Interest-item"></div>
-    <div className="Interest-item"></div>
+    <div className="Interest-item">
+      <h3>Interest Item</h3>
+    </div>
+    <div className="Interest-item">
+      <h3>Interest Item</h3>
+    </div>
+    <div className="Interest-item">
+      <h3>Interest Item</h3>
+    </div>
   </div>
 );
 

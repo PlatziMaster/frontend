@@ -4,11 +4,17 @@ import '../styles/components/About.styl';
 const About = () => (
   <div className="About">
     <div className="About-title">
-      <h1>Título</h1>
+      <h1>About Title</h1>
     </div>
-    <div className="About-item"></div>
-    <div className="About-item"></div>
-    <div className="About-item"></div>
+    <div className="About-item">
+      <h3>About Item</h3>
+    </div>
+    <div className="About-item">
+      <h3>About Item</h3>
+    </div>
+    <div className="About-item">
+      <h3>About Item</h3>
+    </div>
   </div>
 );
 

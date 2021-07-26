@@ -12,7 +12,7 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <React.Fragment>
+    <div className="App__container">
       <Header />
       {/*   <About />
       </Header> */}
@@ -22,7 +22,7 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </React.Fragment>
+    </div>
   );
 };
 

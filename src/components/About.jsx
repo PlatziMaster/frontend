@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/components/About.styl';
+import Title from './Title';
 
 const About = () => (
   <div className="About">
     <div className="About-title">
-      <h1>About Title</h1>
+      <Title title="About" />
     </div>
     <div className="About-item">
       <h3>About Item</h3>

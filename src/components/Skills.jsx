@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/components/Skills.styl';
+import Title from './Title';
 
 const Skills = () => (
   <div className="Skills">
     <div className="Skills-title">
-      <h1>Skills Title</h1>
+      <Title title="Skills" />
     </div>
     <div className="Skills-item">
       <h3>Skills Item</h3>

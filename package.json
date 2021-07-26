@@ -11,7 +11,7 @@
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",

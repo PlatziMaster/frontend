@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/components/Academic.styl';
+import Title from './Title';
 
 const Academic = () => (
   <div className="Academic">
     <div className="Academic-title">
-      <h1>Academic Title</h1>
+      <Title title="Academic" />
     </div>
     <div className="Academic-item">
       <h3>Academic Item</h3>

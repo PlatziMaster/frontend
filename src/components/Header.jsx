@@ -1,22 +1,23 @@
 import React from 'react';
 import '../styles/components/Header.styl';
 import Gravatar from "./Gravatar";
+import Title from './Title';
 
 const Header = () => (
   <div className="Header">
-    <Gravatar className="Header__avatar" email="jetradl@gmail.com" alt="Avatar" />
-    <div>
+    <div className="Header__title-avatar">
+      <Gravatar className="Header__avatar" email="jetradl@gmail.com" alt="Avatar" />  
       <div className="Header-title">
-        <h1>Header Title</h1>
+        <Title title="Header" />
       </div>
-      <h2>Header Job Title</h2>
-      <div className="Header__contact-info">
-        <h3>Phone</h3>
-        <h3>Email</h3>
-        <h3>Website</h3>
-      </div>
-      <h3>Address</h3>
     </div>
+    <h2>Header Job Title</h2>
+    <div className="Header__contact-info">
+      <p>Phone</p>
+      <p>Email</p>
+      <p>Website</p>
+    </div>
+    <p>Address</p>
   </div>
 );
 

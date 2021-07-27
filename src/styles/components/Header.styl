@@ -1,7 +1,7 @@
-@import '../Mixins.styl';
+@import '../App.styl';
     
 .Header
-    border-box()
+    border-container()
 
 .Header__title-avatar
     display: flex
@@ -22,15 +22,51 @@
     display: flex
     flex-direction: column
     align-items: center
-    margin: 1rem
 
-.Header__info-contact
+    >h2 
+        margin-top: 1rem
+
+    >h3 
+        margin-top: 1rem 
+
+    >div 
+        margin-top: 1rem 
+
+    >p
+        margin-top: 1rem 
+
+.Header__infoContainer
+    width: 100%
     display: flex
-    flex-direction: column
+    flex-direction: row
     align-items: center
-    margin: 1rem
-    
-    p
-        margin-right: 15px
-        margin: .3rem
+    padding: 1rem
+    padding-top: 0
+
+    .Header__info-contact
+        width: 50%
+        border-subcontainer()
         
+
+        .Header__info-contactElements
+            display: flex
+            flex-direction: column
+            align-items: center
+            
+            >p
+                margin-top: .5rem
+
+            >a
+                margin: .5rem 0
+
+    .Header__info-social
+        width: 50%
+        border-subcontainer()
+
+        .Header__info-socialLinks
+            display: flex
+            flex-direction: column
+            align-items: center
+
+            >a
+                margin-top: .5rem

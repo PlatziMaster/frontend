@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/Experience.styl';
 import Title from './Title';
+import Subtitle from './Subtitle';
 
 const Experience = () => (
   <div className="Experience">
@@ -10,15 +11,19 @@ const Experience = () => (
     <div className="Experience-items">
       <div>
         <div className="Experience-item">
-          <h1>Experience Item</h1>
+          <div className="Experience-">
+            <Subtitle title="Experience Item"></Subtitle>
+          </div>
+          <p>cisabciabscia</p>
         </div>
         <div className="Experience-item">
-          <h1>Experience Item</h1>
+          <Subtitle title="Experience Item"></Subtitle>
+          <p>cisabciabscia</p>
         </div>
       </div>
       <div>
         <div className="Experience-item">
-          <h1>Experience Item</h1>
+          <Subtitle title="Experience Item"></Subtitle>
         </div>
       </div>
     </div>

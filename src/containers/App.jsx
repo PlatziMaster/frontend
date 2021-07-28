@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/components/App.styl';
+
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -9,7 +9,10 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import Certificates from '../components/Certificates';
+
 import getData from '../utils/getData';
+ 
+import '../styles/components/App.styl';
 
 const App = () => {
 
@@ -21,18 +24,20 @@ const App = () => {
     .catch(err => console.log(err));  
   }, []); 
 
-  return (
-    <>
+    return (
+    <div className="App">
       <Header data={data} >
-        <About data={data} />
+        <About />
       </Header>
       <Profile data={data}/>
-      <Experience data={data}/>
+      {/* {data.experience.length > 0 &&
+        <Experience data={data}/>
+      } */}
       <Academic />
       <Skills />
       <Interest />
       <Languages />
-    </>
+    </div>
   )
 };
 

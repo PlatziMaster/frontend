@@ -1,12 +1,13 @@
 import React from 'react';
+import '../styles/components/Profile.styl'
 
 
 function Profile({ data }) {
   return( 
-    <React.Fragment>
+    <section>
       <h2 className="Profile-title">Profile</h2>
       <p className="Profile-desc">{data.Profile}</p>
-    </React.Fragment>
+    </section>
   )
 }; 
 

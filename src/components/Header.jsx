@@ -1,47 +1,31 @@
 import React from 'react';
-import styled from 'styled-components';
+import phone from '../assets/images/phone.png';
+import email from '../assets/images/email.png';
+import web from '../assets/images/web.png';
+import fotoCV from '../assets/images/foto.png'; 
 
-const StyledHeader = styled.header`
-  background-color #FAF9F4; 
-  display: flex;
-  flex-flow: row nowrap;
-  margin: 0 auto;
-  height: 50%;
-  align-items: center; 
-  flex-direction: row; 
-  padding-left: 5%
-`
+import '../styles/components/Header.styl'; 
 
-const StyledItemsHeader = styled.div`
-  flex-direction: column; 
-  margin-left: 10%; 
-`
 
-const StyledItemsRow = styled.div`
-  flex-direction: column; 
-  margin: 5px;
-  margin-left: 0;
-`
-
-function Header({data}, props) {
+function Header({data, children}) {
   
   return( 
-    <StyledHeader>
-      <img src={data.avatar} />
-      <StyledItemsHeader>
-        <h2 className="Header-title">{data.name}</h2>
-        <span className="Header-item">{data.profession}</span>
-        <StyledItemsRow>
-          <span className="Header-item">{data.phone}</span>
-          <span className="Header-item">{data.email}</span>
-          <span className="Header-item">{data.website}</span>
-        </StyledItemsRow>
-        <StyledItemsRow>
-          <span className="Header-item">{data.address}</span>
-        </StyledItemsRow>
-      </StyledItemsHeader>
-      {props.children}
-    </StyledHeader>    
+    <header>
+      <img className="fotoCV" src={fotoCV} alt="photo CV" />
+        <section className="HeaderItem">
+          <h2 className="Header-title">{data.name}</h2>
+          <span className="Header-item">{data.profession}</span>
+          <div className="HeaderItemRow">
+            <img src={phone} alt="phone icon" /><span className="Header-item">{data.phone}</span>
+            <img src={email} alt="email icon" /><span className="Header-item">{data.email}</span>
+            <img src={web} alt="web icon" /><span className="Header-item">{data.website}</span>
+          </div>
+          <div className="headerItemRow">
+            <span className="Header-item">{data.address}</span>
+          </div>
+          {children}
+        </section>   
+    </header> 
   )
 }; 
 

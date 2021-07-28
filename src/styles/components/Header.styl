@@ -1,0 +1,67 @@
+@import '../App.styl';
+    
+.Header
+    border-container()
+
+.Header__title-avatar
+    display: flex
+    flex-direction: column-reverse
+    
+.Header__avatar-container
+    display: flex
+    justify-content: center
+
+.Header__avatar-img
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 1.5rem
+
+.Header__info
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    >h2, h3, p 
+        margin-top: 1rem
+        text-align: center
+
+    >div 
+        margin-top: 1rem 
+
+.Header__infoContainer
+    width: 100%
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding: 1rem
+    padding-top: 0
+
+    .Header__info-contact, .Header__info-social
+        width: 50%
+        border-subcontainer()
+        
+        .Header__info-contactElements, .Header__info-socialLinks
+            display: flex
+            flex-direction: column
+            align-items:  center
+            padding-top: 1rem
+
+            >a
+                margin: .5rem 0
+
+            div
+                display: flex
+                flex-direction: row
+                align-items: center
+                margin-bottom: .8rem
+
+                img
+                    width: 2rem
+                    margin-right: 1rem
+                
+                p
+                    margin: 0
+
+

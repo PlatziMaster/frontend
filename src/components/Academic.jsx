@@ -22,7 +22,10 @@ const Academic = () => (
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum! Laborum error ut culpa, qui quo placeat laudantium doloremque asperiores fugiat minus nesciunt illo cumque recusandae? Sequi iste quam ipsam?</p>
       </div>
       <div className="Academic-item">
-        <Subtitle title="Academic Item" />
+        <Subtitle title="Math Program" />
+        <h3>Centro Matemáticas Kumon</h3>
+        <p className="Academic-item-Dates">May 2014 - Jan 2018</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, cum! Laborum error ut culpa, qui quo placeat laudantium doloremque asperiores fugiat minus nesciunt illo cumque recusandae? Sequi iste quam ipsam?</p>
       </div>
     </div>
   </div>

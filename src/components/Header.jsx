@@ -29,7 +29,7 @@ const Header = () => (
       <p>Mérida, Yucatán, México</p>
       <div className="Header__infoContainer">
         <div className="Header__info-contact">
-          <Subtitle title="Contacts" />
+          <Subtitle title="Contact" />
           <div className="Header__info-contactElements">
             <div>
               <img src={Phone} alt="Phone icon" />
@@ -46,7 +46,7 @@ const Header = () => (
           </div>
         </div>
         <div className="Header__info-social">
-          <Subtitle title="Social"></Subtitle>
+          <Subtitle title="Social" />
           <div className="Header__info-socialLinks">
             <div>
               <img src={Facebook} alt="" />

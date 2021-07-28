@@ -5,19 +5,24 @@
 
 .Experience-items
     display flex
-    flex-direction: column
+    flex-wrap: wrap
     align-items: center
     margin: 1rem 2rem
 
-    div
+    .Experience-item
+        border-subcontainer()
         width 100%
-        display: flex
-        flex-direction: column
-        align-items: center
-    
-.Experience-item
-    border-subcontainer()
-    
-    /* h2 */
+        
+        > *
+            margin-bottom: 1rem
+
+        p, h3
+            margin: .3rem 5% 
+        
+        p
+            text-align: justify
+
+        .Experience-item-Dates
+            color fourth-color
 
     

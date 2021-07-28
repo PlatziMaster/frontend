@@ -9,22 +9,20 @@ const Experience = () => (
       <Title title="Experience" />
     </div>
     <div className="Experience-items">
-      <div>
-        <div className="Experience-item">
-          <div className="Experience-">
-            <Subtitle title="Experience Item"></Subtitle>
-          </div>
-          <p>cisabciabscia</p>
-        </div>
-        <div className="Experience-item">
-          <Subtitle title="Experience Item"></Subtitle>
-          <p>cisabciabscia</p>
-        </div>
+      <div className="Experience-item">
+        <Subtitle title="Participant As A Video Game Web Developer" />
+        <h3>Js13kGames</h3>
+        <p className="Experience-item-Dates">Aug 2020 - Sept 2020</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi vero cupiditate soluta. Illo quasi obcaecati nam dolore dolorum.</p>
       </div>
-      <div>
-        <div className="Experience-item">
-          <Subtitle title="Experience Item"></Subtitle>
-        </div>
+      <div className="Experience-item">
+        <Subtitle title="Web Development" />
+        <h3>Centro de Matemáticas Kumon</h3>
+        <p className="Experience-item-Dates">Jul 2015 - Jun 2020</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eveniet vero nobis laboriosam dolore excepturi cum earum labore. Eos explicabo eveniet sequi eligendi atque temporibus animi.</p>
+      </div>
+      <div className="Experience-item">
+        <Subtitle title="Experience Item" />
       </div>
     </div>
   </div>

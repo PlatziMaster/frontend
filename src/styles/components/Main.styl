@@ -1,0 +1,17 @@
+.Main-container 
+    display: grid
+    grid-template: auto auto auto auto / 1fr 1fr
+    grid-template-areas: "areaA areaA" "areaB areaB" "areaC areaD" "areaC areaE" "areaC areaF";  
+    margin: 0px 25%;
+    @media screen and (max-width: 1450px)
+        margin: 0px 20%;
+    @media screen and (max-width: 1300px)
+        margin: 0px 15%;
+    @media screen and (max-width: 1030px)
+        margin: 0px 10%;
+    @media screen and (max-width: 960px)
+        margin: 0px 5%;
+    @media screen and (max-width: 800px)
+        grid-template-areas: "areaA areaA" "areaB areaB" "areaC areaC" "areaD areaD" "areaE areaE" "areaF areaF";  
+    @media screen and (max-width: 540px)
+        margin: 0px 3%; 

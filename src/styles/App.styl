@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+color-primario = #852EBB
+color-secundario = rgba(133,66,64,67%)
+color-oscuro = #000000
+color-claro = #FFF2F2
+
+font1 = 'Cabin Condensed', sans-serif
+font2 = 'Roboto', sans-serif;
+fontSize-title1 = 36px
+fontSize-title2 = 24px
+fontSize-paragraph = 14px
+
+isWoman = true
+
+if isWoman
+  color-primario = #852EBB
+else
+  color-primario = #2EBBB3
+
+
+mainTextTitle()
+  color: color-primario
+  font-family: font2
+  font-size: fontSize-title2
+
+mainTextParagraph()
+  color: color-oscuro
+  font-family: font2
+  font-size: fontSize-paragraph
+
+
+@import 'components/Header.styl'
+@import 'components/Main.styl'
+@import 'components/About.styl'
+@import 'components/Profile.styl'
+@import 'components/Experience.styl'
+@import 'components/Academic.styl'
+@import 'components/Skills.styl'
+@import 'components/Languages.styl'
+@import 'components/Interest.styl'
+@import 'components/Footer.styl'
+
+
+body
+  margin: 0
+  box-sizing: content-box

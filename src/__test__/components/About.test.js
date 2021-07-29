@@ -1,9 +1,12 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import About from '../../components/About';
+import dataMock from '../../__mocks__/dataMock';
 
 describe('<About />', () => {
-  const about = mount(<About />);
+  const about = mount(
+      <About about={dataMock}/> 
+  );
 
   test('About render', () => {
     expect(about.length).toEqual(1);

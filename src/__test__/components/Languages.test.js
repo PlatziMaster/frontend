@@ -13,8 +13,8 @@ describe('<Languages />', () => {
     expect(languages.find('.Languages-title').length).toEqual(1);
   });
 
-  test('Languages has 3 items', () => {
-    expect(languages.find('.Languages-item').length).toBeGreaterThan(2);
+  test('Languages has lenguage container', () => {
+    expect(languages.find('.Languages-itemContainer').length).toEqual(1);
   });
 
 });

@@ -1,0 +1,98 @@
+.About
+    display: grid
+    grid-template: 1fr / 1fr 1fr
+    width: 660px
+    height: 310px
+    margin: 0 auto;
+    background-color: color-secundario
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    @media screen and (max-width: 680px)
+        grid-template: 230px 1fr / 1fr
+        width: fit-content
+        height: 525px
+        padding: 0 20px
+    @media screen and (max-width: 570px)
+        margin: 0 5%;
+
+    &-image
+        place-self: center start
+        width: 256px
+        height: 256px 
+        margin: 0
+        margin-left: 50px
+        @media screen and (max-width: 680px)
+            place-self: center center
+            width: 190px
+            height: 175px 
+            margin: 0
+        img
+            width: 256px
+            height: 256px 
+            border-radius: 100% 0% 100% 100%
+            @media screen and (max-width: 680px)
+                width: 190px
+                height: 175px 
+                border-radius: 100% 100% 100% 100%
+
+    &-title
+        margin: 25px 0
+        color: color-claro
+        font-family: font2
+        font-size: fontSize-title2
+        @media screen and (max-width: 680px)
+            margin-top: 0
+
+    &-personalData
+        padding: 0;
+        list-style: none;
+        color: color-claro
+        font-family: font2
+        font-size: fontSize-paragraph
+        @media screen and (max-width: 680px)
+            text-align: center
+
+    &-item
+        display: flex
+        align-items: center
+        margin: 10px 0
+        div
+            display: inline-block
+            width: 18px
+            height: 18px
+            margin: 0
+            background-color: white
+            border-radius: 30%
+        p
+            display: inline-block
+            margin: 0 10px
+
+    &-social
+        @media screen and (max-width: 680px)
+            display: flex
+            flex-direction: column
+            align-items: center
+        h2
+            color: color-claro
+            font-family: font2
+            font-size: fontSize-paragraph
+            @media screen and (max-width: 680px)
+                margin: 0;
+        ul
+            display: flex
+            justify-content: flex-start;
+            padding: 0;
+            list-style: none
+            @media screen and (max-width: 680px)
+                justify-content: center;
+            
+    &-socialItem
+        div
+            width: 35px
+            height: 35px
+            margin-right: 25px;
+            background-color: white
+        &:last-child
+            div
+                margin-right: 0
+            

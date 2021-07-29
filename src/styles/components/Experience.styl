@@ -1,0 +1,29 @@
+.Experience
+    grid-area: areaB
+    margin-bottom: 25px;
+    &-title
+        mainTextTitle()
+    
+    &-itemContainer
+        display: grid
+        gap: 20px
+        grid-template-columns: 1fr 1fr 
+        grid-auto-rows: 1fr 1fr 
+        @media screen and (max-width: 850px)
+            display: flex
+            overflow: auto
+            padding: 0 10px
+            padding-bottom: 25px
+
+    &-item
+        place-self: center center
+        min-width: 340px
+        max-width: 370px
+        height: 170px
+        padding: 10px 20px
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+        mainTextParagraph()
+        p
+            margin: 10px 0
+        span
+            font-weight: bold

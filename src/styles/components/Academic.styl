@@ -1,0 +1,58 @@
+.Academic
+    grid-area: areaC
+
+    &-title
+        mainTextTitle()
+
+    &-itemContainer
+        width: 100%
+        height: fit-content
+        @media screen and (max-width: 800px)
+            display: flex
+            overflow: auto
+            height: 240px;
+    &-item
+        min-width: 410px
+        height: 160px
+        margin: 15px 0
+        mainTextParagraph()
+        &:first-child
+            margin: 0
+        @media screen and (max-width: 800px)
+            margin: 0
+        @media screen and (max-width: 440px)
+            min-width: 280px
+            max-width: 300px
+            min-height: 170px
+            max-height: 300px
+        p
+            margin: 5px 0
+            margin-left: 40px
+            &:first-child
+                margin-left: 20px
+        span
+            font-weight: bold
+        
+    &-item--certificate
+        min-width: 410px
+        height: 130px
+        margin: 15px 0
+        mainTextParagraph()
+        &:first-child
+            margin: 0
+        @media screen and (max-width: 800px)
+            margin: 0
+        @media screen and (max-width: 440px)
+            min-width: 280px
+            max-width: 300px
+            min-height: 170px
+            max-height: 300px
+        p
+            margin: 5px 0
+            margin-left: 40px
+            &:first-child
+                margin-left: 20px
+        span
+            font-weight: bold
+            
+            

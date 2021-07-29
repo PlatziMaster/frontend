@@ -7,6 +7,7 @@
     display: flex
     flex-wrap wrap
     justify-content: center
+    align-content: center
     margin: 1rem 2rem
 
     .Skills-item
@@ -21,8 +22,7 @@
         margin: .8rem 2rem
 
         p
-            margin: 0 1rem
-            font-size: 2rem 
+            margin: 0 1rem 
 
 .progress-bar-container
     width 11rem
@@ -44,3 +44,6 @@
             color: white
 
     
+@media (min-width: 1000px)
+    .Skills
+        justify-content: flex-start

@@ -29,6 +29,10 @@
 
     >div 
         margin-top: 1rem 
+    
+    .Header__info-profile
+        h2
+            text-align: center
 
 .Header__infoContainer
     width: 100%
@@ -65,3 +69,53 @@
                     margin: 0
 
 
+
+@media (min-width: 650px)
+    .Header
+        height: 47rem
+        .Header__title-avatar
+            flex-direction: row
+            .Header__avatar-container
+                margin: 0 2rem
+                .Header__avatar-img
+                    width: 20rem
+                    height: 20rem
+        .Header-title
+            width: 100%
+        .Header__info
+            position relative
+            bottom: 13rem
+            .Header__info-profile
+                position relative
+                bottom: 2.8rem
+                left: 12rem
+        
+@media (min-width: 1000px)
+    .Header
+        height: 62.5rem
+        .Header__title-avatar
+            .Header__avatar-container
+                margin-top: 3rem
+                margin-left: 5rem
+                .Header__avatar-img
+                    width: 35rem
+                    height: 35rem
+                    margin auto
+        .Header-title
+            width: 100%
+        .Header__info
+            position relative
+            bottom: 30rem
+            .Header__info-profile
+                position relative
+                bottom: 1rem
+                left: 20rem
+            .Header__infoContainer
+                width: 50%
+                flex-direction: column
+                align-items: center
+                position inherit
+                left: 20rem
+                div
+                    width: 100%
+                    justify-content: center

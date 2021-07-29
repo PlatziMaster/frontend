@@ -24,9 +24,11 @@ const Header = () => (
       </div>
     </div>
     <div className="Header__info">
-      <h2>Jorge Trad</h2>
-      <h3>Frontend Development Student </h3>
-      <p>Mérida, Yucatán, México</p>
+      <div className="Header__info-profile">
+        <h2>Jorge Trad</h2>
+        <h3>Frontend Development Student </h3>
+        <p>Mérida, Yucatán, México</p>
+      </div>
       <div className="Header__infoContainer">
         <div className="Header__info-contact">
           <Subtitle title="Contact" />

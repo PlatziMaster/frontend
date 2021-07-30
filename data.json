@@ -1,109 +1,126 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Hello, I’m Mariana Hernandez.",
+    "profession": "UX/UI Designer",
+    "address": "https://www.google.com.mx/maps",
+    "email": "m4hdez@gmail.com",
+    "website": "https://github.com/themattfire",
+    "phone": "XXX-XXX-XXXX",
+    "avatar": "https://avatars.githubusercontent.com/u/72678409?s=400&u=1e1c9d5a6cf0d8624c079a1c8bb1df50bc311bfc&v=4",
+    "profile": "I am a mexican visual artist with experience on: Branding, UX, UI, web design, Community Manager and motion graphics.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "id": 0,
+        "date": "July 2021",
+        "description": "Learn how to install and manipulate a proyect made with React, Sass, ESLint, Babel and Webpack.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "React JS practical course"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "id": 1,
+        "date": "July 2021",
+        "description": "Learn from fundamental JS concepts to Service workers, debugging, testing with JEST, Webpack, ESLint, Babel and React.",
+        "institution": "Udemy",
+        "name": "Modern JavaScript definitive guide. Build 15+ proyects"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "id": 0,
+        "degree": "Visual arts",
+        "institution": "Universidad Autónoma de Querétaro",
+        "date": "Jul 2014 - Jul 2018"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "id": 0,
+        "company": "GROW Incubadora de Mentes Creativas.",
+        "jobDescription": "User Experience design for b-learning services, through: ebooks, landing pages and social media.",
+        "jobTitle": "UX/UI Designer",
+        "date": "Feb 2020 - Apr 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": 1,
+        "company": "Datacom department on digital content. Eléctrica AB S.A.",
+        "jobDescription": "Social media resources, such as images, animation and motion graphic.",
+        "jobTitle": "JR Graphic designer",
+        "date": "Oct 2018 - Sep 2019"
       }
     ],
-    "skills": [
+    "projects": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "id": 0,
+        "projectDate": "June 2021",
+        "projectDescription": "Fivenite challenge created with css and js",
+        "projectTitle": "Fivenite landing page",
+        "readMore": "https://github.com/themattfire/fivenite"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "id": 1,
+        "projectDate": "May 2021",
+        "projectDescription": "Landing page from Front End Mentor made with CSS Flexbox and Grid",
+        "projectTitle": "Fylo landing page",
+        "readMore": "https://github.com/themattfire/fylo-landing-page-dark-themee"
       }
+    ],
+    "hardskills": [
+      "Branding",
+      "Social Media",
+      "Design thinking",
+      "UX",
+      "Visual development/UI",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "softskills": [
+      "Collaboration",
+      "Communication",
+      "Adaptability",
+      "Strategic thinking",
+      "Analysis",
+      "Synthesis",
+      "Organization"
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Illustration",
+      "Animation",
+      "Frontend",
+      "UX Research"
     ],
     "languages": [
       {
+        "id": 0,
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
+        "id": 1,
         "name": "English",
-        "percentage": "50%"
+        "level": "C1"
+      },
+      {
+        "id": 2,
+        "name": "Japanese",
+        "level": "N5"
+      },
+      {
+        "id": 3,
+        "name": "French",
+        "level": "A1"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
+        "id": 0,
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/mattxhttp"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
+        "id": 1,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/mariana-hernandezh/"
       }
     ]
   }

@@ -1,2 +1,53 @@
-body
-  background-color blue
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap')
+@import './Media.styl'
+
+$black = #1D1D1D
+$yellow = #FFBA0A
+$white = #ffffff
+$soft = #f4f4f4
+$gray = #747474
+
+*
+  padding 0
+  margin 0
+
+html 
+  font-size 62.5%
+
+  body
+    font-size 1.8rem
+    font-family 'Poppins', sans-serif
+    color black
+    background-color white
+
+    h1
+      font-family 'Montserrat', sans-serif
+      font-weight 700
+      font-size 6.0rem
+
+    h2 
+      font-family 'Poppins', sans-serif
+      font-weight 400
+      font-size 3.0rem
+      color $yellow
+      
+    h3
+      font-family 'Poppins', sans-serif
+      font-weight 400
+      font-size 2.4rem
+      color $yellow
+
+    h4 
+      font-family 'Montserrat', sans-serif
+      font-weight 400
+      font-size 2.4rem
+      text-align left
+
+    a
+      color $yellow
+      text-decoration none
+      &:visited
+        color $yellow
+        text-decoration none
+      &:hover
+        text-decoration underline

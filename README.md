@@ -14,41 +14,10 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
 6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
 
-### Instalación
-```
-npm install
-```
+# Proceso
 
-### Ejecución
-```
-npm run start
-```
+Logre desarrollar todos los retos planteados para Platzi Master. Sin embargo por cuestión de tiempo y observación, los test de jest no pasaban con mi funcion map, al parecer aunque se creaban los items correctamente no reconocia que habian mas de 3. 
 
-### Server
-```
-npm run server
-```
+Se completaron los componentes, anadir estilos, se creo funcion get data, se integro la API. 
 
-### Compilar
-```
-npm run build
-```
-
-### Pruebas Unitarias
-```
-npm run test
-```
-
-### ESlint
-```
-npm run lint
-```
-
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
-
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Me gusto mucho el proyecto, lo di todo. Con todo el conocimiento que tenia, excelente reto.

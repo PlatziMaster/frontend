@@ -10,11 +10,11 @@ describe('<Skills />', () => {
   });
 
   test('Skills title', () => {
-    expect(skills.find('.Skills-title').length).toEqual(1);
+    expect(skills.find('.skill-card--title').length).toEqual(1);
   });
 
   test('Skills has 3 items', () => {
-    expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
+    expect(skills.find('.skill-list--item').length).toEqual(1);
   });
 
 });

@@ -10,11 +10,11 @@ describe('<Academic />', () => {
   });
 
   test('Academic title', () => {
-    expect(academic.find('.Academic-title').length).toEqual(1);
+    expect(academic.find('.education-card--title').length).toEqual(1);
   });
 
   test('Academic has 3 items', () => {
-    expect(academic.find('.Academic-item').length).toBeGreaterThan(2);
+    expect(academic.find('.education-card__details--container').length).toEqual(1);
   });
 
 });

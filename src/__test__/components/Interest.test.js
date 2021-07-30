@@ -10,11 +10,11 @@ describe('<Interest />', () => {
   });
 
   test('Interest title', () => {
-    expect(interest.find('.Interest-title').length).toEqual(1);
+    expect(interest.find('.interest-card--title').length).toEqual(1);
   });
 
   test('Interest has 3 items', () => {
-    expect(interest.find('.Interest-item').length).toBeGreaterThan(2);
+    expect(interest.find('.interest--item').length).toBeGreaterThan(2);
   });
 
 });

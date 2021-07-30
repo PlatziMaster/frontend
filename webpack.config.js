@@ -29,14 +29,12 @@ module.exports = {
         ],
       },
       {
-        test: /\.css|.styl$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-          },
-          'css-loader',
-          'stylus-loader',
-        ],
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader',
       },
     ],
   },

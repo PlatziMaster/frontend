@@ -1,13 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "firstname": "Daniel",
+    "lastname": "Sanchez",
+    "profession": "Frontend Developer",
+    "address": "Talca, Chile.",
+    "email": "danielsanchez1502@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+56 9 56320231",
+    "avatar": "https://avatars.githubusercontent.com/u/77214062?v=4",
+    "profile": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -20,38 +21,64 @@
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
+      },
+      {
+        "date": "Jan 2021",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Platzi",
+        "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "FullStack Developer",
+        "description": " Degree obtain by completing Platzi Javascript Challenge",
+        "endDate": "2021",
+        "institution": "Platzi",
+        "startDate": "2020",
+        "location": "Chile"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software Engineering",
+        "description": "Tecnical Career, about 3 years studying software development ",
+        "endDate": "December 2020",
+        "institution": "Inacap",
+        "startDate": "Jan 2017",
+        "location": "Chile"
+      },
+      {
+        "degree": "Geodesic Engineer",
+        "description": "At universty as my first career with 21 years old",
+        "endDate": "Decenber 2017",
+        "institution": "Zulia University",
+        "startDate": "Jan 2012",
+        "location": "Venezuela"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
+        "company": "Google",
+        "location": "San Francisco",
+        "endDate": "2020",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
+        "company": "Ebay",
+        "location": "Usa",
+        "endDate": "2019",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "FullStack",
+        "startDate": "2016"
+      },
+      {
+        "company": "Everis",
+        "location": "Chile",
+        "endDate": "2021",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "2015"
       }
     ],
     "skills": [
@@ -61,18 +88,28 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
+      },
+      {
+        "name": "Responsive",
+        "percentage": "40%"
       }
     ],
     "interest": [
+      "javascript",
+      "develop",
+      "backend",
+      "javascript",
+      "develop",
+      "backend",
       "javascript",
       "develop",
       "backend",
@@ -80,30 +117,24 @@
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "language1": "Spanish"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "language2": "English"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "twitter": "dannzdev",
+        "url1": "https://twitter.com/"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "github": "dannzdevboss",
+        "url2": "https://github.com/"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "linked": "dannzdevchief",
+        "url3": "https://www.linkedin.com/"
       }
     ]
   }

@@ -25,10 +25,10 @@ const Languages = () => (
         </div>
       </div>
       <div className="Languages-item">
-        <p>Languages Item</p>
+        <p>Portuguese</p>
         <div className="progress-bar-container">
-          <div className="progress-bar" style={{ width: '80%' }}>
-            <span>80%</span>
+          <div className="progress-bar" style={{ width: '25%' }}>
+            <span>20%</span>
           </div>
         </div>
       </div>

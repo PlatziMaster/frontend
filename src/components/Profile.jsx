@@ -8,7 +8,7 @@ const Profile = () => (
       <Title title="Profile" />
     </div>
     <div className="Profile-desc">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates beatae tempora aperiam obcaecati iste, quasi dolore laborum quo doloremque totam nihil? Aspernatur vero provident corrupti eveniet, rerum architecto temporibus harum?</p>
+      <p>Soy desarrollador de software y me entusiasma el aplicar mis conocimientos de Frontend con Javascript y React para poder brindarle a los usuarios una experiencia e interacción más amigable con aplicaciones web. Cuento con amplia disposición para el trabajo en equipo y me importa cumplir con tiempos y metas. También tengo facilidad para aprender de forma autodidacta, lo que me ha permitido mantenerme actualizado y conocer tecnologías necesarias para el desarrollo web</p>
     </div>
   </div>
 );

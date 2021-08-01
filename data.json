@@ -4,54 +4,54 @@
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
     "email": "ednamargaritar@gmail.com",
-    "website": "https://emrg.odoo.com/?#",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "website": "https://emrg.odoo.com",
+    "phone": "3164621679",
+    "avatar": "",
     "Profile": "Dedicated web developer with a background in geographic information systems.",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "July 2021",
         "description": "Certification 1 ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": " Curso de FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
+        "date": "July 2021",
         "description": "Certification2",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de ECMAScript 6+"
       }
     ],
     "Academic": [
       {
         "degree": "Web Developer",
-        "description": "Conception et programmation de sites Web",
+        "description": "Programmation Web",
         "endDate": "Nov 2020",
-        "institution": "MIT",
+        "institution": "Maisonneuve College",
         "startDate": "May 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Msc Sciences",
+        "description": "Environmental Biogeosciences",
+        "endDate": "Jan 2014",
+        "institution": "Laval University",
+        "startDate": "Dec 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "CEALDES – Centre for development alternatives",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Web application development with Laravel.",
+        "jobTitle": "Backend",
+        "startDate": "Dec 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "SPA CANADA - Society for the protection of animals",
+        "endDate": "Dec 2020",
+        "jobDescription": "SPA Canada website content generation,",
+        "jobTitle": "Frontend",
+        "startDate": "Sept 2020"
       }
     ],
     "skills": [
@@ -73,25 +73,25 @@
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Develop",
+      "React",
+      "Frontend"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "English",
+        "percentage": "70%"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "French",
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/ednamargaritar/"
       },
       {
         "name": "twitter",
@@ -99,11 +99,11 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/ednamargit/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/edna-margarita-rodriguez/"
       }
     ]
   }

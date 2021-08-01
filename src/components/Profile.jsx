@@ -4,7 +4,7 @@ import '../styles/components/Profile.styl'
 
 function Profile({ data }) {
   return( 
-    <section>
+    <section className="Profile">
       <h2 className="Profile-title">Profile</h2>
       <p className="Profile-desc">{data.Profile}</p>
     </section>

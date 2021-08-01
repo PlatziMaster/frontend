@@ -1,6 +1,8 @@
 
+ @import 'Vars.styl'
+
 header
-  background-color red
+  background-color mainColor
   display: flex
   flex-flow: row nowrap
   margin: 0 auto
@@ -8,16 +10,15 @@ header
   align-items center
   flex-direction row
   padding-left 5%
-  margin-right 10%
+  margin-right 5%
 
-.HeaderItem
+.Header
   flex-direction column
   margin-left 10%
+  margin-right 5px
 
-.HeaderItemRow
-  flex-direction column
-  margin 5px
-  margin-left 0
+.Header-item
+  padding 0 30px 0 5px
 
 .fotoCV 
   width 200px
@@ -25,11 +26,28 @@ header
   border-radius 100px
 
 img:not(.fotoCV)
-  width 15px
+  width 20px
   
 header img:not(:first-child) 
-    color red
-    padding-left 10px
+  color red
+  
+img 
+  margin-bottom -3px
+
+section div
+  margin 8px 0
+
+.PersonalIcon 
+  display inline-block  
+
+@media screen and (max-width: 1200px)
+  .PersonalIcon
+    display block
+   
+   
+
+
+
 
 
 

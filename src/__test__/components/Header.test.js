@@ -14,4 +14,8 @@ describe('<Header />', () => {
     expect(header.find('.Header-title').length).toEqual(1);
   });
 
+  test('About title', () => {
+    expect(header.find('.About-title').length).toEqual(1);
+  });
+
 });

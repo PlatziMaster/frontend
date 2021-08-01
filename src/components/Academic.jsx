@@ -1,23 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import '../styles/components/Academic.styl'
 
-const StyledItemAcademic = styled.li`
-  display:flex;
-  flex-direction: column;
-  flex-basis: 50%; 
-  text-align: left; 
-`
-
-function Academic() {
+function Academic({degree, description, institution, startDate, endDate}) {
   return( 
-    <React.Fragment>
-      <h2 className="Academic-title">Academic-title</h2>
-      <StyledItemAcademic>
-        <span className="Academic-item">Academic-item</span>
-        <span className="Academic-item">Academic-item</span>
-        <span className="Academic-item">Academic-item</span>
-       </StyledItemAcademic>
-    </React.Fragment>
+    <div className="AcademicContainer">
+      <h3 className="Academic-title">{degree}</h3>
+        <span className="Academic-item">{description}</span>
+        <span className="Academic-item">{institution}</span>
+        <span className="Academic-item">{`${startDate} ${endDate}`}</span>
+    </div>
+   
   )
 }; 
 

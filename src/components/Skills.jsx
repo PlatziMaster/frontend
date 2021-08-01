@@ -1,22 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
+import '../styles/components/Skills.styl';
 
-const StyledItemSkills = styled.li`
-  display:flex;
-  flex-direction: column;
-  flex-basis: 50%; 
-`
 
-function Skills() {
+function Skills({ name, percentage }) {
   return( 
-    <React.Fragment> 
-      <h2 className="Skills-title">Skills</h2>
-      <StyledItemSkills>
-        <span className="Skills-item">Skills-item</span>
-        <span className="Skills-item">Skills-item</span>
-        <span className="Skills-item">Skills-item</span>
-      </StyledItemSkills>
-    </React.Fragment>
+    <section className="SkillsContainer"> 
+      <p><span className="Skills-title">{name}</span><span className="Skills-item">{percentage}</span></p>
+    </section>
   )
 }; 
 

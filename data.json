@@ -32,7 +32,7 @@
     "Academic": [
       {
         "degree": "FullStack Developer",
-        "description": " Degree obtain by completing Platzi Javascript Challenge",
+        "description": " No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
         "endDate": "2021",
         "institution": "Platzi",
         "startDate": "2020",
@@ -40,15 +40,15 @@
       },
       {
         "degree": "Software Engineering",
-        "description": "Tecnical Career, about 3 years studying software development ",
+        "description": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
         "endDate": "December 2020",
         "institution": "Inacap",
         "startDate": "Jan 2017",
-        "location": "Chile"
+        "location": "Madrid"
       },
       {
         "degree": "Geodesic Engineer",
-        "description": "At universty as my first career with 21 years old",
+        "description": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
         "endDate": "Decenber 2017",
         "institution": "Zulia University",
         "startDate": "Jan 2012",
@@ -60,7 +60,7 @@
         "company": "Google",
         "location": "San Francisco",
         "endDate": "2020",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
         "jobTitle": "Frontend",
         "startDate": "2018"
       },
@@ -68,74 +68,95 @@
         "company": "Ebay",
         "location": "Usa",
         "endDate": "2019",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "FullStack",
+        "jobDescription": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
+        "jobTitle": "Backend",
         "startDate": "2016"
       },
       {
         "company": "Everis",
         "location": "Chile",
         "endDate": "2021",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobDescription": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
+        "jobTitle": "FullStack JS",
         "startDate": "2015"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75",
+        "bgcolor": "#6a1b9a"
       },
       {
         "name": "CSS",
-        "percentage": "60%"
+        "percentage": "60",
+        "bgcolor": "#00695c"
       },
       {
-        "name": "JavaScript",
-        "percentage": "50%"
+        "name": "JavaScript3",
+        "percentage": "50",
+        "bgcolor": "#ef6c00"
       },
       {
         "name": "React",
-        "percentage": "30%"
-      },
-      {
-        "name": "Responsive",
-        "percentage": "40%"
+        "percentage": "30",
+        "bgcolor": "#6a1b9a"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "javascript",
-      "develop",
-      "backend",
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest":
+      [
+        {
+          "name": "music-icon",
+          "icon": "fa fa-headphones"
+        },
+        {
+          "name": "sports-icon",
+          "icon": "fa fa-futbol-o"
+        },
+        {
+          "name": "exercise-icon",
+          "icon": "fa fa-bicycle"
+        },
+        {
+          "name": "picture-icon",
+          "icon": "fa fa-camera-retro"
+        },
+        {
+          "name": "travel-icon",
+          "icon": "fa fa-plane"
+        }
+      ]
+      ,
     "languages": [
       {
-        "language1": "Spanish"
+        "name": "Spanish",
+        "level": "Nativo",
+        "nameIcon": "flag-icon",
+        "icon": "fa fa-flag-o"
       },
       {
-        "language2": "English"
+        "name": "English",
+        "level": "Avanzado/B2",
+        "nameIcon": "flag-icon",
+        "icon": "fa fa-flag-checkered"
       }
     ],
     "social": [
       {
-        "twitter": "dannzdev",
-        "url1": "https://twitter.com/"
+        "name": "@dannzdev",
+        "url": "https://twitter.com/dannzdev",
+        "icon": "fa fa-github-square"
       },
       {
-        "github": "dannzdevboss",
-        "url2": "https://github.com/"
+        "name": "dannzdev",
+        "url": "https://github.com/dannzdev",
+        "icon": "fa fa-twitter-square"
       },
       {
-        "linked": "dannzdevchief",
-        "url3": "https://www.linkedin.com/"
-      }
+        "name": "dannzdev",
+        "url": "https://www.linkedin.com/in/dannzdev/",
+        "icon": "fa fa-linkedin-square"
+      } 
     ]
   }
 }

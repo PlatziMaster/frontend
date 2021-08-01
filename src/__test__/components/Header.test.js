@@ -1,16 +1,16 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Header from '../../components/Header';
+import Display from '../../components/Display';
 
-describe('<Header />', () => {
-  const header = mount(<Header />);
+describe('<Display />', () => {
+  const display = mount(<Display />);
 
-  test('Header render', () => {
-    expect(header.length).toEqual(1);
+  test('Display render', () => {
+    expect(display.length).toEqual(1);
   });
 
   test('Header title', () => {
-    expect(header.find('.profile--title').length).toEqual(1);
+    expect(display.find('.display--title').length).toEqual(1);
   });
 
 });

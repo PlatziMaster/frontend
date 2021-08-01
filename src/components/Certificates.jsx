@@ -3,13 +3,26 @@ import '../styles/components/Certificates.styl';
 import Title from './Title';
 import Subtitle from './Subtitle';
 
-const Certificates = () => (
+const Certificates = ({ data }) => (
   <div className="Certificates">
     <div className="Certificates-title">
       <Title title="Certificates" />
     </div>
     <div className="Certificates-items">
-      <div className="Certificates-item">
+      {
+        data && data.map(item => (
+          <div className="Certificates-item" key={item.name}>
+            <Subtitle title={item.name} />
+            <h3>{item.institution}</h3>
+            <p className="Certificates-item-Dates">{item.date}</p>
+            <p>{item.description}</p>
+            <div className="Certificates-item-button">
+              <a href={item.url}>Check it out!</a>
+            </div>
+          </div>
+        ))
+      }
+      {/* <div className="Certificates-item">
         <Subtitle title="Web Developer" />
         <h3>Instituto Tecnológico de Conkal</h3>
         <p className="Certificates-item-Dates">Apr 2021 - Jun 2021</p>
@@ -35,7 +48,7 @@ const Certificates = () => (
         <div className="Certificates-item-button">
           <a href="https://www.kumon.com/how-kumon-works">Check it out!</a>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 );

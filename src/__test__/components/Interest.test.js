@@ -1,9 +1,14 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
+import getData from '../../utils/GetData';
+
+const API = 'https://frontend-test-resume-api.herokuapp.com/data';
+
+const data = getData(API);
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const interest = mount(<Interest data={data.interest} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

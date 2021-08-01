@@ -10,7 +10,7 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest",
+    "test": "jest ./src/__test__/components/About.test.js",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [
@@ -50,6 +50,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "file-loader": "^6.2.0",
     "husky": "^2.7.0",
     "jest": "^25.1.0",

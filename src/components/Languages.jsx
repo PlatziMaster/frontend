@@ -2,36 +2,24 @@ import React from 'react';
 import '../styles/components/Languages.styl';
 import Title from './Title';
 
-const Languages = () => (
+const Languages = ({ data }) => (
   <div className="Languages">
     <div className="Languages-title">
       <Title title="Languages" />
     </div>
     <div className="Languages-items">
-      <div className="Languages-item">
-        <p>Spanish</p>
-        <div className="progress-bar-container">
-          <div className="progress-bar" style={{ width: '100%' }}>
-            <span>100%</span>
+      {
+        data && data.map(item => (
+          <div className="Languages-item" key={item.name}>
+            <p>{item.name}</p>
+            <div className="progress-bar-container">
+              <div className="progress-bar" style={{ width: `${item.percentage}` }}>
+                <span>{item.percentage}</span>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="Languages-item">
-        <p>English</p>
-        <div className="progress-bar-container">
-          <div className="progress-bar" style={{ width: '75%' }}>
-            <span>75%</span>
-          </div>
-        </div>
-      </div>
-      <div className="Languages-item">
-        <p>Portuguese</p>
-        <div className="progress-bar-container">
-          <div className="progress-bar" style={{ width: '25%' }}>
-            <span>20%</span>
-          </div>
-        </div>
-      </div>
+        ))
+      }
     </div>
   </div>
 );

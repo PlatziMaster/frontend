@@ -5,7 +5,8 @@
     "node": true,
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "plugin:react-hooks/recommended"
   ],
   "globals": {
     "document": false,

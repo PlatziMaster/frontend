@@ -1,8 +1,22 @@
-const getData = api => {
-  return fetch(api)
-    .then(res => res.json())
-    .then(res => res)
-    .catch(error => error);
+import { useEffect, useState } from 'react';
+
+const GetData = (API) => {
+  const [data, setData] = useState({
+    certificates: [],
+    academic: [],
+    experience: [],
+    skills: [],
+    interest: [],
+    languages: [],
+    social: [],
+  });
+
+  useEffect(() => {
+    fetch(API)
+      .then(response => response.json())
+      .then(data => setData(data));
+  }, []);
+  return data;
 };
 
-export default getData;
+export default GetData;

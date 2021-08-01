@@ -1,9 +1,14 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Certificates from '../../components/Certificates';
+import getData from '../../utils/GetData';
+
+const API = 'https://frontend-test-resume-api.herokuapp.com/data';
+
+const data = getData(API);
 
 describe('<Certificates />', () => {
-  const certificates = mount(<Certificates />);
+  const certificates = mount(<Certificates data={data.certificates} />);
 
   test('Certificates render', () => {
     expect(certificates.length).toEqual(1);

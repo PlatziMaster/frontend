@@ -3,7 +3,7 @@ import 'regenerator-runtime/runtime';
 import '../styles/App.styl';
 
 import Header from '../components/Header';
-/* import About from '../components/About'; */
+// import About from '../components/About';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
@@ -11,39 +11,24 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import Certificates from '../components/Certificates';
-import DataNotFound from '../components/DataNotFound';
 import Loading from '../components/Loading';
 
-import getData from '../utils/getData';
+import GetData from '../utils/GetData';
+
+const API = 'https://frontend-test-resume-api.herokuapp.com/data';
 
 const App = () => {
-  const API = 'http://localhost:3000/data';
-
-  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
-  const fetchData = async () => {
-    setLoading(true);
-
-    try {
-      setData(getData(API).then(res => setData(res)));
-      setLoading(false);
-    } catch (error) {
-      setLoading(false);
-      setError(error);
-    }
-  };
+  const data = GetData(API);
 
   useEffect(() => {
-    fetchData();
-  }, []);
+    if (data.name != null) {
+      setLoading(false);
+    }
+  });
 
-  console.log(data);
-  console.log(loading);
-  console.log(error);
-
-  if (loading === true) {
+  if (loading) {
     return (
       <div className='App__container'>
         <Loading />
@@ -51,33 +36,22 @@ const App = () => {
     );
   }
 
-  if (error != null) {
-    return (
-      <div className='App__container'>
-        <DataNotFound />
+  return (
+    <div className='App__container'>
+      <Header data={data} social={data.social} />
+      <Profile data={data} />
+      <Experience data={data.experience} />
+      <div className='Container'>
+        <Academic data={data.academic} />
+        <Skills data={data.skills} />
       </div>
-    );
-  }
-  if (error === null && loading === false) {
-    return (
-      <div className="App__container">
-        <Header data={data} />
-        {/*   <About />
-        </Header> */}
-        <Profile />
-        <Experience />
-        <div className="Container">
-          <Academic />
-          <Skills />
-        </div>
-        <Certificates />
-        <div className="Container">
-          <Interest />
-          <Languages />
-        </div>
+      <Certificates data={data.certificates} />
+      <div className='Container'>
+        <Interest data={data.interest} />
+        <Languages data={data.languages} />
       </div>
-    );
-  }
+    </div>
+  );
 };
-export default App;
 
+export default App;

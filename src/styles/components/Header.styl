@@ -37,13 +37,13 @@
 .Header__infoContainer
     width: 100%
     display: flex
-    flex-direction: row
+    flex-direction: column
     align-items: center
     padding: 1rem
     padding-top: 0
 
     .Header__info-contact, .Header__info-social
-        width: 50%
+        width: 90%
         border-subcontainer()
         
         .Header__info-contactElements, .Header__info-socialLinks
@@ -89,6 +89,15 @@
                 position relative
                 bottom: 2.8rem
                 left: 12rem
+            .Header__infoContainer
+                width: 100%
+                flex-direction: row
+                align-items: center
+                position inherit
+                
+                div
+                    width: 100%
+                    justify-content: center
         
 @media (min-width: 1000px)
     .Header

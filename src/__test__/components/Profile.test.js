@@ -1,9 +1,14 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Profile from '../../components/Profile';
+import getData from '../../utils/GetData';
+
+const API = 'https://frontend-test-resume-api.herokuapp.com/data';
+
+const data = getData(API);
 
 describe('<Profile />', () => {
-  const profile = mount(<Profile />);
+  const profile = mount(<Profile data={data} />);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);

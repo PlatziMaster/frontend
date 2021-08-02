@@ -1,11 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
-import getData from '../../utils/GetData';
+import getData from '../../utils/getData';
 
-const API = 'https://frontend-test-resume-api.herokuapp.com/data';
-
-const data = getData(API);
+const data = getData('http://localhost:3000');
 
 describe('<Interest />', () => {
   const interest = mount(<Interest data={data.interest} />);

@@ -13,17 +13,19 @@ import Languages from '../components/Languages';
 import Certificates from '../components/Certificates';
 import Loading from '../components/Loading';
 
-import GetData from '../utils/GetData';
+import getData from '../utils/getData';
 
 const API = 'https://frontend-test-resume-api.herokuapp.com/data';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
+  const [data, setData] = useState({});
 
-  const data = GetData(API);
+  /* const data = getData(API); */
 
   useEffect(() => {
-    if (data.name != null) {
+    getData(API).then(setData);
+    if (JSON.stringify(data) !== '{}') {
       setLoading(false);
     }
   });

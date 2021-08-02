@@ -1,11 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Languages from '../../components/Languages';
-import getData from '../../utils/GetData';
+import getData from '../../utils/getData';
 
-const API = 'https://frontend-test-resume-api.herokuapp.com/data';
-
-const data = getData(API);
+const data = getData('http://localhost:3000');
 
 describe('<Languages />', () => {
   const languages = mount(<Languages data={data.languages} />);

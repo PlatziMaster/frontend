@@ -1,11 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Header from '../../components/Header';
-import getData from '../../utils/GetData';
+import getData from '../../utils/getData';
 
-const API = 'https://frontend-test-resume-api.herokuapp.com/data';
-
-const data = getData(API);
+const data = getData('http://localhost:3000');
 
 describe('<Header />', () => {
   const header = mount(<Header data={data} social={data.social} />);

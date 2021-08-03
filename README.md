@@ -33,7 +33,7 @@ Information gotten from the API after starting the test server is displayed in t
 
 ### Blocks and Solutions
 
-The most difficult was to decide on a design. I like the design but I haven't too much knowledge about it, this is an ability I have to reach.
+The most difficult was to decide on a design. I like design but I haven't too much knowledge about it, this is an ability I have to reach.
 I solved it by looking for some resume templates on the web to get some ideas. :blush:
 
 

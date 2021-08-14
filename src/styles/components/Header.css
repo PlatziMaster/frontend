@@ -11,7 +11,7 @@ header{
 }
 header nav{
   position: fixed;
-  left: 0;
+  left: -100%;
   top: 0;
   width: 173px;
   height: 100vh;
@@ -43,6 +43,10 @@ header nav ul li{
   color: rgba(255,255,255,0.8);
 }
 
+.display{
+  left: 0;
+}
+
 @media screen and (min-width: 500px){
   header{
     height: 55px;
@@ -66,6 +70,7 @@ header nav ul li{
     flex-direction: row;
   }
   header nav ul li{
+    padding: 12px 15px;
     color: var(--secondaryColor);
   }
 }

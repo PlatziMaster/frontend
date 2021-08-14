@@ -6,6 +6,15 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 
 ![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
 
+## Proposed Design
+
+### Mobile
+![Mobile simple mockup](./design/images/MobileMockup.png)
+![Mobile mouckup with menu](./design/images/MobileMockup.png)
+
+### Desktop
+![Desktop design](./design/images/Desktop.png)
+
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
 2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)

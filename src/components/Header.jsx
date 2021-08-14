@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import "../styles/components/Header.css"
 
@@ -55,10 +56,18 @@ class Header extends React.Component{
           <img src={closeBtn} alt="Close button" onClick={this.handleClosing}/>
         </div>
         <ul>
-          <li>Home</li>
-          <li>Education</li>
-          <li>Hobbies</li>
-          <li>Additional info</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/education">Education</Link>
+          </li>
+          <li>
+            <Link to="/hobbies">Hobbies</Link>
+          </li>
+          <li>
+            <Link to="/additional-info">Additioinal info</Link>
+          </li>
         </ul>
       </nav>
     )

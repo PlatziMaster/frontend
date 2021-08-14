@@ -7,7 +7,7 @@ header{
   padding: 0 9px;
 
   background-color: var(--primaryColor);
-  box-shadow: 0 4px 4px var(--primaryColor);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
 }
 header nav{
   position: fixed;

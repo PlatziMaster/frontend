@@ -1,0 +1,47 @@
+.profile-intro{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 52px 0;
+}
+.profile-intro__user-data{
+    text-align: center;
+
+    font-family: sans-serif;
+}
+.avatar{
+    width: 97px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+.profile-intro__user-data h2{
+    font-size: 2.4rem;
+}
+.profile-intro__user-data h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.profile-intro__social-media{
+    text-align: center;
+}
+.profile-intro__social-media img{
+    width: 25px;
+    margin: 12px;
+}
+
+@media screen and (min-width: 700px){
+    .avatar{
+        width: 154px;
+    }
+    .profile-intro__user-data h2{
+        font-size: 3.6rem;
+    }
+    .profile-intro__user-data h3{
+        font-size: 3rem;
+    }
+    .profile-intro__social-media img{
+        width: 35px;
+        margin: 15px;
+    }
+}

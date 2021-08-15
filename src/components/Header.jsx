@@ -57,16 +57,16 @@ class Header extends React.Component{
         </div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={this.handleClosing}>Home</Link>
           </li>
           <li>
-            <Link to="/education">Education</Link>
+            <Link to="/education" onClick={this.handleClosing}>Education</Link>
           </li>
           <li>
-            <Link to="/hobbies">Hobbies</Link>
+            <Link to="/hobbies" onClick={this.handleClosing}>Hobbies</Link>
           </li>
           <li>
-            <Link to="/additional-info">Additioinal info</Link>
+            <Link to="/additional-info" onClick={this.handleClosing}>Additioinal info</Link>
           </li>
         </ul>
       </nav>

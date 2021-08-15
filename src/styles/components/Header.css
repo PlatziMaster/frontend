@@ -34,6 +34,7 @@ header nav ul{
   display: flex;
   flex-direction: column;
   list-style: none;
+  padding-left: 0;
 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.1rem;

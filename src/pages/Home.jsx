@@ -1,5 +1,6 @@
 import React from "react"
 import Section from "../components/Section"
+import ProjectCard from "../components/ProjectCard"
 
 import "../styles/pages/Home.css"
 
@@ -43,11 +44,11 @@ const Home = () => (
     </Section>
 
     <Section title="Experience">
-      <ul>
-        <li>Card</li>
-        <li>Card</li>
-        <li>Card</li>
-      </ul>
+      <div className="experience-content">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </div>
     </Section>
   </React.Fragment>
 )

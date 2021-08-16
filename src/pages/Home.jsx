@@ -6,6 +6,7 @@ import "../styles/pages/Home.css"
 
 const Home = (props) => {
   const { personalProfile, skills, experience } = props.data
+
   return(
     <React.Fragment>
       <Section title={personalProfile.title}>
@@ -29,7 +30,7 @@ const Home = (props) => {
       <Section title="Experience">
         <div className="experience-content">
           {experience.content.map(card => (
-            <ProjectCard key={card.id} data={card} />
+            <ProjectCard data={card} />
           ))}
         </div>
       </Section>

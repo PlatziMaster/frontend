@@ -1,14 +1,12 @@
  @import 'Vars.styl'
 
 .Container
-  display flex
-  flex-direction row
-  flex-wrap wrap
-  padding 10px
-  background-color secondColor
-  margin-right 5%
-  margin-top 10px
-
+  display grid
+  flex 1
+  width 95%
+  grid-template 1fr / 1fr 1fr
+    
+  
 @media screen and (max-width: 1200px)
   .Container 
     display flex

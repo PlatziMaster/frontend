@@ -1,8 +1,15 @@
+@import 'Vars.styl'
+
 .ColumnContainer
-  display flex
-  flex-direction row
-  flex-wrap wrap
+  flex-basis 50%
+  background-color secondColor
+  margin-top 10px
+
+.ColumnContainer:nth-of-type(odd) {
+  margin-right: 5px
+}  
 
 @media screen and (max-width: 1200px)
-  .ColumnContainer
-    margin-bottom 7%  
+  .ColumnContainer  
+    margin-top 10px
+ 

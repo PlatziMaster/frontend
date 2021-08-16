@@ -11,7 +11,6 @@ import Languages from '../components/Languages';
 import Title from '../components/Title';
 import Container from '../components/Container';
 import ContainerE from '../components/ContainerE';
-import HorizontalContainer from '../components/HorizontalContainer';
 import ColumnContainer from '../components/ColumnContainer';
 
 import getData from '../utils/getData';
@@ -23,7 +22,7 @@ const App = () => {
   const [infoCV, setInfoCV] = useState({ experience: [], certificate: [], Academic: [], skills: [], interest: [], languages: [], social: [] }); 
 
   useEffect(() => {
-    getData('http://localhost:3000/data')
+    getData('https://v6u094t7gf.api.quickmocker.com/data')
     .then(data => setInfoCV(data))
     .catch(err => console.log(err));  
   }, []); 
@@ -43,39 +42,36 @@ const App = () => {
         )}
       </ContainerE>  
       <Container>
-        <HorizontalContainer>
+        <ColumnContainer>
           <Title title="Academic"/>
           {infoCV.Academic.map(item =>
             <Academic key={item.degree} {...item} />
           )}
-        </HorizontalContainer>  
-        <HorizontalContainer>
+        </ColumnContainer>  
+        <ColumnContainer>
           <Title title="Skills"/>
           {infoCV.skills.map(item =>
             <Skills key={item.name} {...item} />
           )}
-        </HorizontalContainer>  
+        </ColumnContainer>  
       </Container>  
       <Container>
-        <HorizontalContainer>
+        <ColumnContainer>
           <Title title="Interests"/>       
-          <ColumnContainer> 
             {infoCV.interest.reduce((finalArray, name  ) => {
               finalArray.push({name});
               return finalArray
             }, []).map(item =>  
               <Interest key={item.name} {...item} />)
             }
-          </ColumnContainer>
-        </HorizontalContainer> 
-        <HorizontalContainer>  
+        </ColumnContainer> 
+        <ColumnContainer>  
           <Title title="Languages"/>
-          <ColumnContainer> 
+         
           {infoCV.languages.map(item =>
             <Languages key={item.name} {...item} />
           )}
-          </ColumnContainer>
-        </HorizontalContainer>  
+        </ColumnContainer>  
       </Container> 
     </div>
   )

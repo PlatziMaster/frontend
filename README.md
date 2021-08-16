@@ -23,22 +23,40 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
 6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
 
-### Instalación
+### Installation
+The installation is something pretty important for me because of my computer's memory. Therefore I had to get rid of some stuff I considered as 'not strictly necessary', among these items were:
+- Stylus preprocessor
+- Prettier
+- Husky
+
+I know prettier help us with the code, but it is not a big deal for the app to work properly, so...
+
 ```
 npm install
 ```
 
-### Ejecución
+### Execution
+I have worked in some React projects before and I have some experience with components, pages and router. The way how the project is organized is pretty straight forward. Among the essential directories we have:
+- assets: Only icons were used in this project
+- components: The Layout works as a template. It is useful to gather all the components that will be in all the pages. In this case, the Header and the ProfileIntro are included in all the pages
+- containers: We only have App, which works as the router
+- pages: All the pages for this project, included the NotFound one, althought the latest doesn't have any special design
+- styles: Separated into two sections, one for components and other for pages. All was done with plain css
+
 ```
 npm run start
 ```
 
 ### Server
+It was no any major problem with this 'fake API', it works nice and my app renders all the data just fine. I wanted to add a loader, but I think it was no so-necessary because the page mantains statics almost always...
+
 ```
 npm run server
 ```
 
 ### Compilar
+No problem at all
+
 ```
 npm run build
 ```

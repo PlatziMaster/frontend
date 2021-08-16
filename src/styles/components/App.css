@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+:root{
+  --primaryColor: #242426;
+  --secondaryColor: #fff;
+  --contrastColorOne: #10AFC8;
+
+  --shadowBase: 0px 4px 4px rgba(0,0,0,0.25);
+}
+ul{
+  padding-left: 30px;
+}
+#app{
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 500px){
+  #app{
+    margin-bottom: 50px;
+  }
+}

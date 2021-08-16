@@ -1,110 +1,119 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+    "profileIntro": {
+      "img": "https://static.platzi.com/media/avatars/avatars/irvingjuarez_1649ddef-c66f-44e4-9f92-3d32fa08a901.jpg",
+      "jobTitle": "Frontend Engineer",
+      "name": "Irving Vladimir Juárez",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/irving-juarez-36a973187/",
+        "github": "https://github.com/IrvingJuarez/",
+        "email": "irvingjuarez274@gmail.com",
+        "twitter": "https://twitter.com/juarez1_irving/"
       }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+    },
+    "home": {
+      "personalProfile": {
+        "title": "Personal Profile",
+        "content": "I am a front-end web developer with knowledge about Git, Github and the terminal. Besides that, I have a high level of mastery in html, css and JavaScript. Currently I develop all my projects with React.js"
       },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+      "skills": {
+        "title": "Skills",
+        "content": [
+          {"id": "s1", "item": "Prompt"},
+          {"id": "s2", "item": "Git & GitHub"},
+          {"id": "s3", "item": "Html"},
+          {"id": "s4", "item": "Css"},
+          {"id": "s5", "item": "Vanilla JavaScript"},
+          {"id": "s6", "item": "Webpack"},
+          {"id": "s7", "item": "React js"},
+          {"id": "s8", "item": "React Router"}
+        ]
+      },
+      "experience": {
+        "title": "Experience",
+        "content": [
+          {
+            "id": "ep1",
+            "projectTitle": "Pacman-Remastered",
+            "projectDescription": "The classic Arcade game made with plain JavaScript",
+            "projectContent": [
+              {"id": "fp1", "content": "Creation of 'smart' characters in order to make the game tricky"},
+              {"id": "fp2", "content": "Interaction between two or more characters in the same space"},
+              {"id": "fp3", "content": "Advanced JavaScript applications"},
+              {"id": "fp4", "content": "Movement effects with css"}
+            ]
+          },
+          {
+            "id": "ep2",
+            "projectTitle": "equation-solver",
+            "projectDescription": "A program able to solve linear equations",
+            "projectContent": [
+              {"id": "sp1", "content": "Use of React library"},
+              {"id": "sp2", "content": "Use of Regular Expresions (RegExp)"},
+              {"id": "sp3", "content": "Raising of the state"},
+              {"id": "sp4", "content": "Algorithms at the moment to get the equation solved"}
+            ]
+          },
+          {
+            "id": "ep3",
+            "projectTitle": "weatherApp",
+            "projectDescription": "Real time weather status all around the world",
+            "projectContent": [
+              {"id": "tp1", "content": "Use of mapbox to render interactive maps"},
+              {"id": "tp2", "content": "Use of third parties' API's to get real time data"},
+              {"id": "tp3", "content": "Shifting data from one component to other components and pages"}
+            ]
+          }
+        ]
       }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    },
+    "education": {
+      "title": "Education",
+      "content": [
+        {"id": "e1", "content": "Web development school at Platzi (currently)"},
+        {"id": "e2", "content": "Escuelas Profesionales de Computacion / EPC (2019-2020)"},
+        {"id": "e3", "content": "TOEFL test - C1 level (August, 2020)"}
+      ]
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "content": [
+        {"id": "h1", "content": "Reading - In 2020 I read 31 books and I am aiming to 50 this year"},
+        {"id": "h2", "content": "Duolingo - French"},
+        {"id": "h3", "content": "Running - In December 2020 I won the 'Christmas race' at my aunt's company. The prize was a 10kg turkey"}
+      ]
+    },
+    "additionalInfo": {
+      "title": "Additional Information",
+      "content": [
+        {
+          "id": "ai1",
+          "contentTitle": "Additional Skills",
+          "contentContent": [
+            {"id": "as1", "content": "Figma"},
+            {"id": "as2", "content": "Illustrator"},
+            {"id": "as3", "content": "Photoshop"}
+          ]
+        },
+        {
+          "id": "ai2",
+          "contentTitle": "Learning new skills",
+          "contentContent": [
+            {"id": "lns1", "content": "Economics"},
+            {"id": "lns2", "content": "Data bases (relational db's)"},
+            {"id": "lns3", "content": "Marketing (SEO)"}
+          ]
+        },
+        {
+          "id": "ai3",
+          "contentTitle": "Personal Information",
+          "contentContent": [
+            {"id": "pi1", "content": "Age: 20"},
+            {"id": "pi2", "content": "Birthday: August 21th, 2001"},
+            {"id": "pi3", "content": "Location: Toluca, Mex"}
+          ]
+        }
+      ]
+    }
   }
 }

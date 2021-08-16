@@ -1,0 +1,33 @@
+.skills-content{
+    width: 100%;
+}
+.skills-content ul{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+.skills-content ul li{
+    width: 100%;
+}
+
+.experience-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 500px){
+    .skills-content ul li{
+        width: 47%;
+    }   
+}
+
+@media screen and (min-width: 700px){
+    .experience-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: row;
+        gap: 20px;
+    }
+}

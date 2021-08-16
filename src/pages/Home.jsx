@@ -4,53 +4,36 @@ import ProjectCard from "../components/ProjectCard"
 
 import "../styles/pages/Home.css"
 
-const Home = () => (
-  <React.Fragment>
-    <Section title="Personal Profile">
-      <p>
-        I am a front-end web developer with knowledge about Git, Github and the terminal. Besides that, I have a high level of mastery in html, css and JavaScript. Currently I develop all my projects with React.js
-      </p>
-    </Section>
+const Home = (props) => {
+  const { personalProfile, skills, experience } = props.data
+  return(
+    <React.Fragment>
+      <Section title={personalProfile.title}>
+        <p>
+          {personalProfile.content}
+        </p>
+      </Section>
 
-    <Section title="Skills">
-      <div className="skills-content">
-        <ul>
-          <li>
-            <span>Prompt</span>
-          </li>
-          <li>
-            <span>Git & GitHub</span>
-          </li>
-          <li>
-            <span>Html</span>
-          </li>
-          <li>
-            <span>Css</span>
-          </li>
-          <li>
-            <span>Vanilla JavaScript</span>
-          </li>
-          <li>
-            <span>React.js</span>
-          </li>
-          <li>
-            <span>Webpack</span>
-          </li>
-          <li>
-            <span>React Router</span>
-          </li>
-        </ul>
-      </div>
-    </Section>
+      <Section title={skills.title}>
+        <div className="skills-content">
+          <ul>
+            {skills.content.map(item => (
+              <li key={item.id}>
+                <span>{item.item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Section>
 
-    <Section title="Experience">
-      <div className="experience-content">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-      </div>
-    </Section>
-  </React.Fragment>
-)
-
+      <Section title="Experience">
+        <div className="experience-content">
+          {experience.content.map(card => (
+            <ProjectCard key={card.id} data={card}/>
+          ))}
+        </div>
+      </Section>
+    </React.Fragment>
+  )
+}
 export default Home

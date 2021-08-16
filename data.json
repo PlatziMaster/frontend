@@ -1,8 +1,9 @@
 {
   "data": {
-    "profile-intro": {
-      "job-title": "Frontend Engineer",
-      "name": "Irving Juárez",
+    "profileIntro": {
+      "img": "https://static.platzi.com/media/avatars/avatars/irvingjuarez_1649ddef-c66f-44e4-9f92-3d32fa08a901.jpg",
+      "jobTitle": "Frontend Engineer",
+      "name": "Irving Vladimir Juárez",
       "links": {
         "linkedin": "https://www.linkedin.com/in/irving-juarez-36a973187/",
         "github": "https://github.com/IrvingJuarez/",
@@ -11,44 +12,56 @@
       }
     },
     "home": {
-      "personal-profile": {
+      "personalProfile": {
         "title": "Personal Profile",
         "content": "I am a front-end web developer with knowledge about Git, Github and the terminal. Besides that, I have a high level of mastery in html, css and JavaScript. Currently I develop all my projects with React.js"
       },
       "skills": {
         "title": "Skills",
-        "content": ["Prompt", "Git & GitHub", "Html", "Css", "Vanilla JavaScript", "Webpack", "React js", "React router"]
+        "content": [
+          {"id": "s1", "item": "Prompt"},
+          {"id": "s2", "item": "Git & GitHub"},
+          {"id": "s3", "item": "Html"},
+          {"id": "s4", "item": "Css"},
+          {"id": "s5", "item": "Vanilla JavaScript"},
+          {"id": "s6", "item": "Webpack"},
+          {"id": "s7", "item": "React js"},
+          {"id": "s8", "item": "React Router"}
+        ]
       },
       "experience": {
         "title": "Experience",
         "content": [
           {
-            "project-title": "Pacman-Remastered",
-            "project-description": "The classic Arcade game made with plain JavaScript",
-            "project-content": [
-              "Creation of 'smart' characters in order to make the game tricky", 
-              "Interaction between two or more characters in the same space", 
-              "Advanced JavaScript applications", 
-              "Movement effects with css"
+            "id": "p1",
+            "projectTitle": "Pacman-Remastered",
+            "projectDescription": "The classic Arcade game made with plain JavaScript",
+            "projectContent": [
+              {"id": "fp1", "content": "Creation of 'smart' characters in order to make the game tricky"},
+              {"id": "fp2", "content": "Interaction between two or more characters in the same space"},
+              {"id": "fp3", "content": "Advanced JavaScript applications"},
+              {"id": "fp4", "content": "Movement effects with css"}
             ]
           },
           {
-            "project-title": "equation-solver",
-            "project-description": "A program able to solve linear equations",
-            "project-content": [
-              "Use of React library",
-              "Use of Regular Expresions (RegExp)",
-              "Raising of the state",
-              "Algorithms at the moment to get the equation solved"
+            "id": "p2",
+            "projectTitle": "equation-solver",
+            "projectDescription": "A program able to solve linear equations",
+            "projectContent": [
+              {"id": "sp1", "content": "Use of React library"},
+              {"id": "sp2", "content": "Use of Regular Expresions (RegExp)"},
+              {"id": "sp3", "content": "Raising of the state"},
+              {"id": "sp4", "content": "Algorithms at the moment to get the equation solved"}
             ]
           },
           {
-            "project-title": "weatherApp",
-            "project-description": "Real time weather status all around the world",
-            "project-content": [
-              "Use of mapbox to render interactive maps",
-              "Use of third parties' API's to get real time data",
-              "Shifting data from one component to other components and pages"
+            "id": "p3",
+            "projectTitle": "weatherApp",
+            "projectDescription": "Real time weather status all around the world",
+            "projectContent": [
+              {"id": "tp1", "content": "Use of mapbox to render interactive maps"},
+              {"id": "tp2", "content": "Use of third parties' API's to get real time data"},
+              {"id": "tp3", "content": "Shifting data from one component to other components and pages"}
             ]
           }
         ]
@@ -57,44 +70,44 @@
     "education": {
       "title": "Education",
       "content": [
-        "Web development school at Platzi (currently)",
-        "Escuelas Profesionales de Computacion / EPC (2019-2020)",
-        "TOEFL test - C1 level (August, 2020)"
+        {"id": "e1", "content": "Web development school at Platzi (currently)"},
+        {"id": "e2", "content": "Escuelas Profesionales de Computacion / EPC (2019-2020)"},
+        {"id": "e3", "content": "TOEFL test - C1 level (August, 2020)"}
       ]
     },
     "hobbies": {
       "title": "Hobbies",
       "content": [
-        "Reading - In 2020 I read 31 books and I am aiming to 50 this year",
-        "Duolingo - French",
-        "Running - In December 2020 I won the 'Christmas race' at my aunt's company. The prize was a 10kg turkey"
+        {"id": "h1", "content": "Reading - In 2020 I read 31 books and I am aiming to 50 this year"},
+        {"id": "h2", "content": "Duolingo - French"},
+        {"id": "h3", "content": "Running - In December 2020 I won the 'Christmas race' at my aunt's company. The prize was a 10kg turkey"}
       ]
     },
-    "additional-info": {
+    "additionalInfo": {
       "title": "Additional Info",
       "content": [
         {
-          "content-title": "Additional Skills",
-          "content-content": [
-            "Figma",
-            "Illustrator",
-            "Photoshop"
+          "contentTitle": "Additional Skills",
+          "contentContent": [
+            {"id": "as1", "content": "Figma"},
+            {"id": "as2", "content": "Illustrator"},
+            {"id": "as3", "content": "Photoshop"}
           ]
         },
         {
-          "content-title": "Learning new skills",
-          "content-content": [
-            "Economics",
-            "Data bases",
-            "Marketing (SEO)"
+          "contentTitle": "Learning new skills",
+          "contentContent": [
+            {"id": "lns1", "content": "Economics"},
+            {"id": "lns2", "content": "Data bases (relational db's)"},
+            {"id": "lns3", "content": "Marketing (SEO)"}
           ]
         },
         {
-          "content-title": "Personal Information",
-          "content-content": [
-            "Age: 20",
-            "Birthday: August 21th, 2001",
-            "Location: Toluca, Mex"
+          "contentTitle": "Personal Information",
+          "contentContent": [
+            {"id": "pi1", "content": "Age: 20"},
+            {"id": "pi2", "content": "Birthday: August 21th, 2001"},
+            {"id": "pi3", "content": "Location: Toluca, Mex"}
           ]
         }
       ]

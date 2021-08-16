@@ -33,7 +33,7 @@
         "title": "Experience",
         "content": [
           {
-            "id": "p1",
+            "id": "ep1",
             "projectTitle": "Pacman-Remastered",
             "projectDescription": "The classic Arcade game made with plain JavaScript",
             "projectContent": [
@@ -44,7 +44,7 @@
             ]
           },
           {
-            "id": "p2",
+            "id": "ep2",
             "projectTitle": "equation-solver",
             "projectDescription": "A program able to solve linear equations",
             "projectContent": [
@@ -55,7 +55,7 @@
             ]
           },
           {
-            "id": "p3",
+            "id": "ep3",
             "projectTitle": "weatherApp",
             "projectDescription": "Real time weather status all around the world",
             "projectContent": [
@@ -84,9 +84,10 @@
       ]
     },
     "additionalInfo": {
-      "title": "Additional Info",
+      "title": "Additional Information",
       "content": [
         {
+          "id": "ai1",
           "contentTitle": "Additional Skills",
           "contentContent": [
             {"id": "as1", "content": "Figma"},
@@ -95,6 +96,7 @@
           ]
         },
         {
+          "id": "ai2",
           "contentTitle": "Learning new skills",
           "contentContent": [
             {"id": "lns1", "content": "Economics"},
@@ -103,6 +105,7 @@
           ]
         },
         {
+          "id": "ai3",
           "contentTitle": "Personal Information",
           "contentContent": [
             {"id": "pi1", "content": "Age: 20"},

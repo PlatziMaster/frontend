@@ -31,6 +31,15 @@ class App extends React.Component{
               }
             ]
           }
+        },
+        education: {
+          content: []
+        },
+        hobbies: {
+          content: []
+        },
+        additionalInfo: {
+          content: []
         }
       }
     }
@@ -50,6 +59,8 @@ class App extends React.Component{
   }
 
   render(){
+
+
     return (
       <BrowserRouter>
         <Layout profileIntro={this.state.value.profileIntro}>
@@ -57,9 +68,15 @@ class App extends React.Component{
             <Route exact path="/" render={(props) => (
               <Home data={this.state.value.home}/>
             )} />
-            <Route exact path="/education" component={Education}/>
-            <Route exact path="/hobbies" component={Hobbies}/>
-            <Route exact path="/additional-info" component={Additional}/>
+            <Route exact path="/education" render={(props) => (
+              <Education data={this.state.value.education}/>
+            )}/>
+            <Route exact path="/hobbies" render={(props) => (
+              <Hobbies data={this.state.value.hobbies}/>
+            )}/>
+            <Route exact path="/additional-info" render={(props) => (
+              <Additional data={this.state.value.additionalInfo}/>
+            )}/>
             <Route component={NotFound}/>
           </Switch>
         </Layout>

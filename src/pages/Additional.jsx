@@ -3,33 +3,21 @@ import Section from "../components/Section"
 
 import "../styles/pages/Additional.css"
 
-const Additional = () => (
+const Additional = ({ data }) => (
     <React.Fragment>
-        <h2 className="additional__main-title">Additional Information</h2>
+        <h2 className="additional__main-title">{data.title}</h2>
 
-        <Section title="Additional Skills">
-            <ul>
-                <li>Figma</li>
-                <li>Illustrator</li>
-                <li>Photoshop</li>
-            </ul>
-        </Section>
-
-        <Section title="Learning new skills">
-            <ul>
-                <li>Economics</li>
-                <li>Data bases</li>
-                <li>Marketing (specifically SEO)</li>
-            </ul>
-        </Section>
-
-        <Section title="Personal Information">
-            <ul>
-                <li>Age: 20</li>
-                <li>Birthday: August 21th</li>
-                <li>Location: Toluca, Mex</li>
-            </ul>
-        </Section>
+        {data.content.map(section => (
+            <Section title={section.contentTitle} key={data.id}>
+                <ul>
+                    {section.contentContent.map(item => (
+                        <li key={item.id}>
+                            {item.content}
+                        </li>
+                    ))}
+                </ul>
+            </Section>
+        ))}
     </React.Fragment>
 )
 

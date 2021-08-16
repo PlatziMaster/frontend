@@ -1,12 +1,14 @@
 import React from "react"
 import Section from "../components/Section"
 
-const Education = () => (
-    <Section title="Education">
+const Education = ({ data }) => (
+    <Section title={data.title}>
         <ul>
-            <li>Web development school at Platzi (currently)</li>
-            <li>Escuelas Profesionales de Computacion / EPC (2019-2020)</li>
-            <li>TOEFL test / C1 level (August, 2020)</li>
+            {data.content.map(item => (
+                <li key={item.id}>
+                    {item.content}
+                </li>
+            ))}
         </ul>
     </Section>
 )

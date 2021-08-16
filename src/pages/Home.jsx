@@ -29,7 +29,7 @@ const Home = (props) => {
       <Section title="Experience">
         <div className="experience-content">
           {experience.content.map(card => (
-            <ProjectCard key={card.id} data={card}/>
+            <ProjectCard key={card.id} data={card} />
           ))}
         </div>
       </Section>

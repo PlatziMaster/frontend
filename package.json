@@ -1,21 +1,24 @@
 {
   "name": "frontend-test",
+  "homepage": "https://gabydigrazia.github.io/react-resume",
   "version": "1.0.0",
   "description": "frontend test",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "server": "json-server data.json",
+    "server": "npx json-server --watch data.json --port 8000",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
     "webpack"
   ],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "author": "Gaby Di Grazia",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.8.4",

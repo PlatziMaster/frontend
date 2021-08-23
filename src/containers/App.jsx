@@ -15,7 +15,7 @@ import InterestItem from '../components/InterestItem';
 import LanguageItem from '../components/LanguageItem';
 import getData from '../utils/getData';
 
-const ENDPOINT = 'http://localhost:3000/data';
+const ENDPOINT = 'https://my-json-server.typicode.com/gabydigrazia/api-resume';
 
 const App = () => {
   const data = getData(ENDPOINT);

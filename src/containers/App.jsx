@@ -24,11 +24,25 @@ const App = () => {
   /* const data = getData(API); */
 
   useEffect(() => {
-    getData(API).then(setData);
-    if (JSON.stringify(data) !== '{}') {
+    /* getData(API).then(setData); */
+    /* if (JSON.stringify(data) !== '{}') {
       setLoading(false);
-    }
-  });
+    } */
+    getData(API).then((response) => {
+      setData(response);
+      setLoading(false);
+    });/* ,
+    (error) => {
+      setIsLoaded(false);
+      setError(error);
+    }); */
+  }, []);
+
+  console.log(data);
+
+  /* if (JSON.stringify(data) !== '{}') {
+    setLoading(false);
+  } */
 
   if (loading) {
     return (

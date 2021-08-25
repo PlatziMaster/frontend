@@ -1,7 +1,7 @@
 # Platzi Master
 ## Frontend Challenge: Resume
 
-### Visit site: https://gabydigrazia.github.io/react-resume/
+<!-- ### Visit site: https://gabydigrazia.github.io/react-resume/ -->
 
 ### Local environment configuration
 1. Create repository fork.

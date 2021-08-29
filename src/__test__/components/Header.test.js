@@ -11,11 +11,11 @@ describe('<Header />', () => {
   });
 
   test('Header title', () => {
-    expect(header.find('.Header-title').length).toEqual(1);
+    expect(header.find('h3').length).toBeGreaterThan(1);
   });
 
   test('About title', () => {
-    expect(header.find('.About-title').length).toEqual(1);
+    expect(header.find('section').length).toEqual(1);
   });
 
 });

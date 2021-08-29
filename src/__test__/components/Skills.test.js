@@ -10,11 +10,6 @@ describe('<Skills />', () => {
   });
 
   test('Skills title', () => {
-    expect(skills.find('.Skills-title').length).toEqual(1);
+    expect(skills.find('span').length).toBeGreaterThan(1);
   });
-
-  test('Skills have 1 item', () => {
-    expect(skills.find('.Skills-item').length).toEqual(1);
-  });
-
 });

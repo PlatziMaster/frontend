@@ -1,14 +1,40 @@
 import React from 'react';
-import '../styles/components/Academic.styl'
+import { Typography, Box, makeStyles } from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+  academicContainer: {
+    width: '100%', 
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  }, 
+  sectionClass: {
+    margin: '5% 0',
+  }
+}))
 
 function Academic({degree, description, institution, startDate, endDate}) {
+
+  const classes = useStyles(); 
+
   return( 
-    <div className="AcademicContainer">
-      <h3 className="Academic-title">{degree}</h3>
-      <span className="Academic-item">{description}</span>
-      <span className="Academic-item">{institution}</span>
-      <span className="Academic-item">{`${startDate} ${endDate}`}</span>
-    </div>
+    <section className={classes.sectionClass}>
+      <Box className={classes.academicContainer}>
+        <Typography variant="h6">{degree}</Typography>
+        <Box mr={7}>
+          <Typography variant="body1" className="Experience-item" display="inline">{startDate} - </Typography>
+          <Typography variant="body1" className="Experience-item" display="inline">{endDate}</Typography>
+        </Box>  
+      </Box>
+      <Box my={2}>
+        <Box mb={1}>
+          {institution}
+        </Box>
+        <Box fontWeight="fontWeightLight">
+          {description}
+        </Box>
+      </Box>
+    </section>
    
   )
 }; 

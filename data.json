@@ -7,7 +7,7 @@
     "website": "https://emrg.odoo.com",
     "phone": "3164621679",
     "avatar": "",
-    "Profile": "Dedicated web developer with a background in geographic information systems.",
+    "Profile": "Dedicated web developer with a background in geographic information systems. Specialized in front-end, mastering JavaScript, HTML, CSS, and proficient in React/Redux. Knowledge in other technologies as PHP, Laravel, MongoDB and MySQL. I am looking for a web developer position in a company that will use my excellent skills. ",
     "certificate": [
       {
         "date": "July 2021",
@@ -23,6 +23,13 @@
       }
     ],
     "Academic": [
+      {
+        "degree": "Certificate",
+        "description": "React, React Redux and Redux Saga",
+        "endDate": "May 2021",
+        "institution": "Udemy",
+        "startDate": "Jun 2021"
+      },
       {
         "degree": "Web Developer",
         "description": "Programmation Web",
@@ -40,8 +47,15 @@
     ],
     "experience": [
       {
-        "company": "CEALDES – Centre for development alternatives",
+        "company": "Freelance",
         "endDate": "Present",
+        "jobDescription": "Development of a mobile application (React Native) to visualize weather data and a web application (React/Redux) allowing to manage a personal budget",
+        "jobTitle": "Frontend",
+        "startDate": "Mar 2021"
+      },
+      {
+        "company": "CEALDES – Centre for development alternatives",
+        "endDate": "Feb 2021",
         "jobDescription": "Web application development with Laravel.",
         "jobTitle": "Backend",
         "startDate": "Dec 2020"
@@ -49,34 +63,49 @@
       {
         "company": "SPA CANADA - Society for the protection of animals",
         "endDate": "Dec 2020",
-        "jobDescription": "SPA Canada website content generation,",
+        "jobDescription": "SPA Canada website content generation",
         "jobTitle": "Frontend",
         "startDate": "Sept 2020"
+      },
+      {
+        "company": "CIRMAG",
+        "endDate": "Dec 2016",
+        "jobDescription": "Development of a web application with Python / Django in order to visualize satellite data.",
+        "jobTitle": "Frontend",
+        "startDate": "Aug 2015"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "85"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "82"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "78"
+      },
+      {
+        "name": "Material-UI",
+        "percentage": "70"
+      },
+      {
+        "name": "SASS",
+        "percentage": "55"
       }
     ],
     "interest": [
-      "Javascript",
-      "Develop",
-      "React",
-      "Frontend"
+      "walking",
+      "hiking",
+      "seedling",
+      "biking"
     ],
     "languages": [
       {

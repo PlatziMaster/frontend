@@ -74,8 +74,8 @@ const App = () => {
   const [infoCV, setInfoCV] = useState({ experience: [], certificate: [], Academic: [], skills: [], interest: [], languages: [], social: [] }); 
 
   useEffect(() => {
-    // getData('https://v6u094t7gf.api.quickmocker.com/data')
-    getData('http://localhost:3000/data')
+    getData('https://v6u094t7gf.api.quickmocker.com/data')
+    // getData('http://localhost:3000/data')
     .then(data => setInfoCV(data))
     .catch(err => console.log(err));  
   }, []); 

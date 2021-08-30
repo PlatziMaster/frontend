@@ -1,97 +1,126 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Edna Margarita",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "ednamargaritar@gmail.com",
+    "website": "https://emrg.odoo.com",
+    "phone": "3164621679",
+    "avatar": "",
+    "Profile": "Dedicated web developer with a background in geographic information systems. Specialized in front-end, mastering JavaScript, HTML, CSS, and proficient in React/Redux. Knowledge in other technologies as PHP, Laravel, MongoDB and MySQL. I am looking for a web developer position in a company that will use my excellent skills. ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "July 2021",
+        "description": "Certification 1 ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": " Curso de FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "July 2021",
+        "description": "Certification2",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de ECMAScript 6+"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Certificate",
+        "description": "React, React Redux and Redux Saga",
+        "endDate": "May 2021",
+        "institution": "Udemy",
+        "startDate": "Jun 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Web Developer",
+        "description": "Programmation Web",
+        "endDate": "Nov 2020",
+        "institution": "Maisonneuve College",
+        "startDate": "May 2019"
+      },
+      {
+        "degree": "Msc Sciences",
+        "description": "Environmental Biogeosciences",
+        "endDate": "Jan 2014",
+        "institution": "Laval University",
+        "startDate": "Dec 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Freelance",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Development of a mobile application (React Native) to visualize weather data and a web application (React/Redux) allowing to manage a personal budget",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Mar 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "CEALDES – Centre for development alternatives",
+        "endDate": "Feb 2021",
+        "jobDescription": "Web application development with Laravel.",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Dec 2020"
+      },
+      {
+        "company": "SPA CANADA - Society for the protection of animals",
+        "endDate": "Dec 2020",
+        "jobDescription": "SPA Canada website content generation",
+        "jobTitle": "Frontend",
+        "startDate": "Sept 2020"
+      },
+      {
+        "company": "CIRMAG",
+        "endDate": "Dec 2016",
+        "jobDescription": "Development of a web application with Python / Django in order to visualize satellite data.",
+        "jobTitle": "Frontend",
+        "startDate": "Aug 2015"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "85"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "82"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "78"
+      },
+      {
+        "name": "Material-UI",
+        "percentage": "70"
+      },
+      {
+        "name": "SASS",
+        "percentage": "55"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "walking",
+      "hiking",
+      "seedling",
+      "biking"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "English",
+        "percentage": "70%"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "French",
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/ednamargaritar/"
       },
       {
         "name": "twitter",
@@ -99,11 +128,11 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/ednamargit/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/edna-margarita-rodriguez/"
       }
     ]
   }

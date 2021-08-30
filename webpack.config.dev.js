@@ -2,9 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin'); 
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin'); 
-const TerserPlugin = require('terser-webpack-plugin'); 
-const { CleanWebpackPlugin } = require('clean-webpack-plugin'); 
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 module.exports = {
   entry: './src/index.js',
@@ -12,6 +10,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
   },
+  mode: 'development', 
+  devtool: 'source-map',
+  watch: true,
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
@@ -49,13 +50,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|gif|jpg)$/,
+        test: /\.png/,
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: 'assets/[hash].[ext]'
-            }
           },
         ],
       },
@@ -93,13 +91,12 @@ module.exports = {
         }
       ]
     }),
-    new CleanWebpackPlugin(), 
+    new BundleAnalyzerPlugin(), 
   ],
-  optimization: {
-    minimize: true, 
-    minimizer: [
-      new CssMinimizerPlugin(),
-      new TerserPlugin(), 
-    ]
-  }
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    historyApiFallback: true,
+    port: 3005, 
+  },
 };

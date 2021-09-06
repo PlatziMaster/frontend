@@ -1,0 +1,30 @@
+@import '../App.styl'
+
+.profile
+    display: flex
+    flex-direction: row
+    padding: 2rem
+    margin: 1rem
+    border-radius: 2rem
+    box-shadow: 2px 1rem 1rem rgba(0, 0, 0, 0.5)
+    background-color: $white-color
+    color: $blue-color
+    font-size: $normal-text
+    font-weight: 600
+
+.profile-title
+    font-size: $head1
+    color: $red-color
+
+.profile-content
+    margin-right: 1rem
+    border-right: 1px solid  $blue-color
+
+@media (max-width: 700px)
+    .profile
+        flex-direction: column
+    .profile-content
+        padding-bottom: 1rem
+        margin-bottom: 1rem
+        border-right: none
+        border-bottom: 1px solid  $blue-color

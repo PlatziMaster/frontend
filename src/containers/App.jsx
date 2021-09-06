@@ -13,7 +13,7 @@ import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
 const App = () => {
-  const api = 'http://localhost:3000/data';
+  const api = 'https://cv-ramonruizdev.herokuapp.com/data';
   const [data, setData] = useState([]);
 
   useEffect(() => {

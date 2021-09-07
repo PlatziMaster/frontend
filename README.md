@@ -2,6 +2,7 @@
 ## Frontend Challenge: Resume
 
 <!-- ### Visit site: https://gabydigrazia.github.io/react-resume/ -->
+![](https://i.imgur.com/y7OpJdW.png)
 
 ### Local environment configuration
 1. Create repository fork.

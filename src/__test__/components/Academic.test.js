@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Academic from '../../components/Academic';
+import AcademicItem from '../../components/AcademicItem';
 
 describe('<Academic />', () => {
   const academic = mount(<Academic />);
@@ -10,11 +11,15 @@ describe('<Academic />', () => {
   });
 
   test('Academic title', () => {
-    expect(academic.find('.Academic-title').length).toEqual(1);
+    expect(academic.find('.academic-title').length).toEqual(1);
   });
 
-  test('Academic has 3 items', () => {
-    expect(academic.find('.Academic-item').length).toBeGreaterThan(2);
-  });
+});
 
+describe('AcademicItem />', () => {
+  const items = mount(<AcademicItem />);
+
+  test('Academic has 1 items', () => {
+    expect(items.find('.academic-item').length).toEqual(1);
+  });
 });

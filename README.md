@@ -1,54 +1,40 @@
-# frontend
+# Platzi Master
+## Frontend Challenge: Resume
 
-## React Curriculum vitae
+<!-- ### Visit site: https://gabydigrazia.github.io/react-resume/ -->
+![](https://i.imgur.com/y7OpJdW.png)
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+### Local environment configuration
+1. Create repository fork.
+2. Clone repository to local.
+4. Intall dependences and make necessary configurations.
+5. Explore and check project structure and files.
+6. Start coding! :smile: :smiling_face_with_three_hearts: :heartbeat: :heartbeat: :heartbeat:
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
 
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+###  1. Create components
+Proposed components were created in a folder called ***"components"*** inside ***"src"***. Created additionals components for item iterations as children components.
 
-### Instalación
-```
-npm install
-```
+### 2. Add styles
+Added styles for all the components to get the desired design. I'm not so good at design but I tried my best.
+- Profile image was uploaded at https://imgur.com
+- **Tajawal** font from Google Fonts
+- Color palette:
 
-### Ejecución
-```
-npm run start
-```
+[![Color palette](https://i.imgur.com/U74IjOu.png "Color palette")](http://https://i.imgur.com/U74IjOu.png "Color palette")
 
-### Server
-```
-npm run server
-```
+### 3. Create getData.js function
+The function was created to fetch data from the fake API.
 
-### Compilar
-```
-npm run build
-```
+### 4. Integrate API
+Information gotten from the API after starting the test server is displayed in the corresponding components.
 
-### Pruebas Unitarias
-```
-npm run test
-```
+### 5. Custom API
+***data.json*** file was updated with my personal information to fill the resume.
 
-### ESlint
-```
-npm run lint
-```
+### Blocks and Solutions
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
+The most difficult was to decide on a design. I like design but I haven't too much knowledge about it, this is an ability I have to reach.
+I solved it by looking for some resume templates on the web to get some ideas. :blush:
 
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
 
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).

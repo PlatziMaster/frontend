@@ -1,109 +1,165 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Gaby Di Grazia",
+    "profession": "Frontend Developer",
+    "address": "Buenos Aires, Argentina.",
+    "email": "mgdigrazia@gmail.com",
+    "website": "https://sites.google.com/view/gabydigrazia-portfolio-english",
+    "phone": "(54) 11 2386 4519",
+    "avatar": "https://i.imgur.com/vm2EP0i.jpg",
+    "Profile": "Frontend Developer with 3 years of experience building and maintaining responsive web applications in fast-paced, collaborative environments. Proficient in HTML, CSS, TypeScript, Angular, and working knowledge of React and Native JavaScrip. Ability to work with REST API’s to fetch receive/post data. Experience working with Agile and Kanban methodologies. Passionate about learning and professional growth.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "id": 1,
+        "date": "Mar 2021",
+        "description": "In this course we will take the frontend built in the JavaScript School Frontend Course and implement it all by taking it to React components",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "React JS"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "id": 2,
+        "date": "Mar 2021",
+        "description": "This course covers the essentials of using the version control system Git and GitHub Repository.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Git & GitHub"
+      },
+      {
+        "id": 3,
+        "date": "Aug 2020",
+        "description": "This course will teach you JavaScript from basic.",
+        "institution": "Platzi",
+        "name": "Javascript Basic Course"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "id": 4,
+        "degree": "Analyst Programmer",
+        "description": "Programmer Analyst will be able to develop planning, acquisition, compilation, classification, and integration tasks of the information that makes up a system, including hardware and communications, as well as to select the programming paradigm from which to focus the construction processes of software.",
+        "endDate": "2004",
+        "institution": "UNLPam University",
+        "startDate": "2000"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "id": 5,
+        "company": "Oxirium SA",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Develop new products in Angular 11 for logistic tracking. Integration with i18n, Google Maps, Social Networks sing in, and Chart js libraries. Collaborating closely with backend team and designers. Active participation in product decisions. Working with APIs for data consumption.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Nov 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": 6,
+        "company": "Loger SRL",
+        "endDate": "Present",
+        "jobDescription": "Taking part as freelancer in the development of a Smart City Dashboard. Write well-designed, efficient code by using best software development practices.  Integration with i18n, Google Maps, and Chart js libraries. API consuming.",
+        "jobTitle": "Freelance Frontend Developer",
+        "startDate": "Jul 2020"
+      },
+      {
+        "id": 7,
+        "company": "Rockstar Solutions",
+        "endDate": "Oct 2020",
+        "jobDescription": "Develop Angular App writing efficient code. Integration with backend. API consuming. Collaborate with other team members and stakeholders. Magento e-Commerce site maintenance. Bulk product loading and monthly and special dates website updates. Catalog management (prices and catalog rules). Collaborate in some custom modules development. ",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Mar 2018"
       }
     ],
     "skills": [
       {
+        "id": 8,
         "name": "HTML5",
         "percentage": "75%"
       },
       {
+        "id": 9,
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
+        "id": 10,
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
+        "id": 11,
+        "name": "TypeScript",
+        "percentage": "55%"
+      },
+      {
+        "id": 12,
+        "name": "Angular",
+        "percentage": "75%"
+      },
+      {
+        "id": 13,
         "name": "React",
-        "percentage": "90%"
+        "percentage": "25%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "id": 14,
+        "name":  "javascript"
+      },
+      {
+        "id": 15,
+        "name":  "react"
+      },
+      {
+        "id": 16,
+        "name":  "develop"
+      },
+      {
+        "id": 17,
+        "name":  "backend"
+      },
+      {
+        "id": 18,
+        "name":  "frontend"
+      },
+      {
+        "id": 19,
+        "name":  "design"
+      },
+      {
+        "id": 20,
+        "name":  "ux-ui"
+      },
+      {
+        "id": 21,
+        "name":  "english"
+      }
     ],
     "languages": [
       {
+        "id": 22,
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
+        "id": 23,
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
+        "id": 24,
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/gabydigrazia"
       },
       {
+        "id": 25,
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/gabydigrazia"
       },
       {
+        "id": 26,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/gaby-di-grazia/"
       }
     ]
   }

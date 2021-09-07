@@ -1,0 +1,21 @@
+.experience {
+    padding: 40px 15%;
+}
+.experience-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #5569dc;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1200px) {
+    .experience {
+        padding: 40px 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-title {
+        text-align: center;
+    }
+  }

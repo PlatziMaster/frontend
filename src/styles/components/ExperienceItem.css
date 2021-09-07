@@ -1,0 +1,20 @@
+.experience-item {
+    width: 47%;
+    display: inline-grid;
+    margin-right: 3%;
+    color: #272d53;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+.job-date {
+    margin-bottom: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media (max-width: 768px) {
+    .experience-item {
+        width: 100%;
+    }
+}

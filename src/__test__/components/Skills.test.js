@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Skills from '../../components/Skills';
+import { Skills } from '../../components/Skills';
 
-describe('<Skills />', () => {
+describe('Pruebas en el componente <Skills />', () => {
   const skills = mount(<Skills />);
 
   test('Skills render', () => {
@@ -16,5 +16,4 @@ describe('<Skills />', () => {
   test('Skills has 3 items', () => {
     expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
   });
-
 });

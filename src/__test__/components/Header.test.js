@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Header from '../../components/Header';
+import { Header } from '../../components/Header';
 
-describe('<Header />', () => {
+describe('Pruebas en el componente <Header />', () => {
   const header = mount(<Header />);
 
   test('Header render', () => {
@@ -12,5 +12,4 @@ describe('<Header />', () => {
   test('Header title', () => {
     expect(header.find('.Header-title').length).toEqual(1);
   });
-
 });

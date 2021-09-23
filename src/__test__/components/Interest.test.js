@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Interest from '../../components/Interest';
+import { Interest } from '../../components/Interest';
 
-describe('<Interest />', () => {
+describe('Pruebas en el componente <Interest />', () => {
   const interest = mount(<Interest />);
 
   test('Interest render', () => {
@@ -16,5 +16,4 @@ describe('<Interest />', () => {
   test('Interest has 3 items', () => {
     expect(interest.find('.Interest-item').length).toBeGreaterThan(2);
   });
-
 });

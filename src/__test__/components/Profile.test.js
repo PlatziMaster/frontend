@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Profile from '../../components/Profile';
+import { Profile } from '../../components/Profile';
 
-describe('<Profile />', () => {
+describe('Pruebas en el componente <Profile />', () => {
   const profile = mount(<Profile />);
 
   test('Profile render', () => {
@@ -16,5 +16,4 @@ describe('<Profile />', () => {
   test('Profile have a description', () => {
     expect(profile.find('.Profile-desc').length).toEqual(1);
   });
-
 });

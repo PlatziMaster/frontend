@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(115, 115, 253);
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.Main {
+  padding: 20px;
+}
+
+.Main > div {
+  margin-bottom: 10px;
+}
+
+.Header {
+  display: flex;
+  background-color: rgb(147, 147, 255);
+  border: 1px solid black;
+}
+
+.Header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Academic {
+  border: 1px solid black;
+}
+
+.Profile {
+  border: 1px solid black;
+}
+
+.Skills-Interest {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Skills-Interest div {
+  width: 40%;
+  border: 1px solid black;
+  padding: 10px;
+}

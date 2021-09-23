@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import About from '../../components/About';
+import { About } from '../../components/About';
 
-describe('<About />', () => {
+describe('Pruebas en el componente <About />', () => {
   const about = mount(<About />);
 
   test('About render', () => {
@@ -13,8 +13,7 @@ describe('<About />', () => {
     expect(about.find('.About-title').length).toEqual(1);
   });
 
-  test('About haves 3 items', () => {
-    expect(about.find('.About-item').length).toBeGreaterThan(2);
+  test('About haves 4 items', () => {
+    expect(about.find('.About-item').length).toBeGreaterThan(3);
   });
-
 });

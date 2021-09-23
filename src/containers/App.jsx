@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import Header from '../components/Header.js';
+import About from '../components/About.js';
+import Profile from '../components/Profile.js';
+import Experience from '../components/Experience.js';
+import Academic from '../components/Academic.js';
+import Skills from '../components/Skills.js';
+import Interest from '../components/Interest.js';
+import Languages from '../components/Languages.js';
 
 const App = () => {
   return (

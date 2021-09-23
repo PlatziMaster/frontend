@@ -4,25 +4,22 @@ import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
+import Abilities from '../components/Abilities';
 import Interest from '../components/Interest';
-import Languages from '../components/Languages';
-
+import Footer  from '../components/Footer';
 const App = () => {
   return (
     <>
       <Header>
         <About />
       </Header>
-      <Profile />
+      <Profile/>
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Abilities/>
+      <Interest/>
+      <Footer/>
     </>
-  )
+  );
 };
 
 export default App;

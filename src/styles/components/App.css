@@ -26,6 +26,7 @@ p {
 .Header {
   display: flex;
   background-color: rgb(147, 147, 255);
+  border: 1px solid black;
 }
 
 .Header img {
@@ -35,11 +36,21 @@ p {
   margin-right: 10px;
 }
 
+.Academic {
+  border: 1px solid black;
+}
+
+.Profile {
+  border: 1px solid black;
+}
+
 .Skills-Interest {
   display: flex;
   justify-content: space-around;
 }
 
 .Skills-Interest div {
-  width: 50%;
+  width: 40%;
+  border: 1px solid black;
+  padding: 10px;
 }

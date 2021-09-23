@@ -16,9 +16,12 @@ const App = () => {
       <Header>
         <About />
       </Header>
-      <Profile />
       <Experience />
-      <Academic />
+      <div className="Skills-Interest">
+        <Profile />
+
+        <Academic />
+      </div>
       <div className="Skills-Interest">
         <Skills />
         <Interest />

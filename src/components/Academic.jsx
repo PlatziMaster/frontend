@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Academic = () => {
   return (
-    <div>
+    <div className="Academic">
       <h1 className="Academic-title">Academia de platzi</h1>
       <p className="Academic-item">
         Estudio en la plataforma de educacion

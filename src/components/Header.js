@@ -1,44 +1,44 @@
 import React from 'react';
 import About from './About';
 import './styles/Header.styl';
-const regeneratorRuntime = require("regenerator-runtime");
+import getData from '../utils/getData';
 
+const regeneratorRuntime = require('regenerator-runtime');
 
 class Header extends React.Component {
   state = {
     data: {
-      "name": "",
-      "profession": "",
-      "address": "",
-      "email": "",
-      "website": "",
-      "phone": "",
-      "avatar": "",
-      "Profile": "",
-    }
+      'name': '',
+      'profession': '',
+      'address': '',
+      'email': '',
+      'website': '',
+      'phone': '',
+      'avatar': '',
+      'Profile': '',
+    },
 
   }
 
-  componentDidMount(){
-    console.log("1. tomando los datos")
-    this.getData()
-    
-    
+  componentDidMount() {
+    console.log('1. tomando los datos');
+    this.fetchData();
+
   }
 
-  getData = () =>{
-    const url = "http://localhost:3000/data"
-    fetch(url)
-      .then( response =>{ return response.json()
-        .then(data => { console.log(data)
-              return this.setState({data:data})});
-      })
-    
+  fetchData = () => {
+    getData("")
+      .then((data) => {  
+        console.log(data);
+        this.setState({data:data})
+      });
+      ;
+
   }
-    
+
   render() {
-    console.log(this.state.data.name)
-    const data = this.state.data
+    console.log(this.state.data.name);
+    const { data } = this.state;
     return (
       <div className='Header'>
         <div className='Header__img'>
@@ -46,14 +46,17 @@ class Header extends React.Component {
         </div>
         <div className='Header__main-info'>
           <h1 className='Header-title'>{data.name}</h1>
-          <div className='Header-job-title'>{data.profession}r</div>
+          <div className='Header-job-title'>
+            {data.profession}
+            r
+          </div>
           <div className='Header-phone'>{data.phone}</div>
           <div className='Header-email'>{data.email}</div>
           <div className='Header-website'>{data.website}</div>
           <div className='Header-address'>{data.address}</div>
         </div>
         <div className='Header__about'>
-          <About />
+          <About profile={data.Profile}/>
         </div>
 
       </div>

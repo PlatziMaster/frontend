@@ -13,7 +13,6 @@ const App = () => {
   return (
     <>
       <Header>
-        <About />
       </Header>
       <Profile />
       <Experience />

@@ -44,6 +44,26 @@ npm run test
 npm run lint
 ```
 
+
+### Soluciones del reto
+1. Crear los componentes del proyecto:
+Ya creamos los componentes del proyecto los cuales estan integrados en el cv.
+
+2. Añadir estilos:
+Trabajamos con el preprocesador de Stylus para una mayor comodida a la hora de crear los estilos, se modularizo el codigo e implementamos los mixins como metodo ágil de trabajo.
+
+3. Crear función getData.js
+Ya creamos la función getData, esta se conecta a mi API favorita la cual es la de Rick and Morty.
+
+4. Integrar API
+Integramos la API de Riack and Morty, utilizamo el .them a criterio personal se me hace muy versatil por si quiero cambiar los datos de la API.
+
+5. Personalizar API
+Solo trabaje con los datos de Rick, utilizando un poco de css grid para crear su card.
+
+6. Documentar
+Fue un proceso bastante interesante ya que es mi segunda vez trabajando con react y la primera con stylus, es muy similar a sass, espero su feedback para poder seguir mejorando mis metodos y estilos, gracias.
+
 ### Enviar solución de reto
 Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
 

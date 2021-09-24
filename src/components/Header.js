@@ -27,12 +27,12 @@ class Header extends React.Component {
   }
 
   fetchData = () => {
-    getData("")
-      .then((data) => {  
+    getData('')
+      .then((data) => {
         console.log(data);
-        this.setState({data:data})
+        this.setState({ data });
       });
-      ;
+    ;
 
   }
 
@@ -56,7 +56,7 @@ class Header extends React.Component {
           <div className='Header-address'>{data.address}</div>
         </div>
         <div className='Header__about'>
-          <About profile={data.Profile}/>
+          <About profile={data.Profile} />
         </div>
 
       </div>

@@ -1,10 +1,9 @@
 import React from 'react';
 
-function About(props){
+function About(props) {
   return (
-    <div className = "About">{props.profile}</div>
+    <div className='About'>{props.profile}</div>
   );
-  
 
 }
 

@@ -1,8 +1,10 @@
+/* eslint-disable jsx-quotes */
 import React from 'react';
+import '../styles/components/App.styl';
 
 function Interest() {
   return (
-    <div>
+    <div className="category-container">
       <h2>.Interest-title</h2>
       <ul>
         <li>.Interest-item</li>

@@ -1,8 +1,11 @@
+/* eslint-disable jsx-quotes */
 import React from 'react';
+import '../styles/components/App.styl';
+import '../styles/components/Experience.styl';
 
 function Experience() {
   return (
-    <div>
+    <div className="category-container">
       <h2>.Experience-title</h2>
 
       <ul>

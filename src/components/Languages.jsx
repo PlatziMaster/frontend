@@ -1,8 +1,10 @@
+/* eslint-disable jsx-quotes */
 import React from 'react';
+import '../styles/components/App.styl';
 
 function Languages() {
   return (
-    <div>
+    <div className="category-container">
       <h2>.Languages-title</h2>
       <div>
         <ul>

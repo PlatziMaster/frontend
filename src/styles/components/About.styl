@@ -1,0 +1,19 @@
+//About
+.About-container
+  mixin-container()
+  margin:10px
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .About-item
+    mixin-font-p()
+    font-weight:400
+    .About-item__icon
+      margin-right: 8px
+  .About-item-link
+    mixin-ancla()
+  .About-item-link:hover
+    cursor: pointer
+    color: #fff
+    background: secondary-color
+    border-radius: 2px

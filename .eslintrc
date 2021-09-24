@@ -5,7 +5,9 @@
     "node": true,
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "globals": {
     "document": false,
@@ -23,10 +25,11 @@
   "plugins": [
     "react",
     "jsx-a11y",
-    "import"
+    "import",
+    "react-hooks"
   ],
   "rules": {
-    "react/jsx-filename-extension": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,
     "block-scoped-var": 2,

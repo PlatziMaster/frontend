@@ -66,5 +66,13 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvelosa/cv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pvelosa/cv/issues"
+  },
+  "homepage": "https://github.com/pvelosa/cv#readme"
 }

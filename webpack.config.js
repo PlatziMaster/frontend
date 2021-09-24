@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { SourceMapDevToolPlugin } = require("webpack");
 
 module.exports = {
   entry: './src/index.js',
@@ -39,11 +38,6 @@ module.exports = {
           'stylus-loader',
         ],
       },
-      {
-        test: /\.js$/,
-        enforce: 'pre',
-        use: ['source-map-loader'],
-      },
     ],
   },
   plugins: [
@@ -53,9 +47,6 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
-    }),
-    new SourceMapDevToolPlugin({
-      filename: "[file].map"
     }),
   ],
 };

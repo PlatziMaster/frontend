@@ -16,6 +16,11 @@ class Header extends React.Component {
       'phone': '',
       'avatar': '',
       'Profile': '',
+      'social': [
+        {
+          'name': '',
+          'url': '',
+        }],
     },
 
   }
@@ -56,7 +61,9 @@ class Header extends React.Component {
           <div className='Header-address'>{data.address}</div>
         </div>
         <div className='Header__about'>
-          <About profile={data.Profile} />
+          <About
+            social={this.state.data.social}
+          />
         </div>
 
       </div>

@@ -9,7 +9,8 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "json:server": "json-server  --watch data.json"
   },
   "keywords": [
     "react",
@@ -24,6 +25,7 @@
     "babel-loader": "^8.0.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
+    "global": "^4.4.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "jest-fetch-mock": "^3.0.1",
@@ -51,6 +53,7 @@
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.7.0",
     "prettier": "^1.19.1",
+    "source-map-loader": "^1.0.0",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"

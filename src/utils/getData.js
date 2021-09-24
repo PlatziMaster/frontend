@@ -1,15 +1,13 @@
-const API = 'https://rickandmortyapi.com/api/character/';
+import { useState, useEffect } from 'react';
 
-// eslint-disable-next-line consistent-return
-const getData = async (id) => {
-  const apiURL = id ? `${API}/${id}` : API;
-  try {
-    const response = await fetch(apiURL);
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.log('Fetch Error', error);
-  }
+export const getData = url => {
+  const [characters, setCharacters] = useState([]);
+
+  useEffect(() => {
+    fetch(url)
+      .then(response => response.json())
+      .then(characters => setCharacters(characters.results));
+  }, [url]);
+  return characters;
 };
 
-export default getData;

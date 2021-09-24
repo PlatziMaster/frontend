@@ -1,0 +1,35 @@
+//Interested
+.Characters-inner
+  width: 60%
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  grid-row-gap: 1em;
+  display: grid;
+  margin:50px 15px 50px
+
+.Characters-title
+  mixin-font-title()
+  text-align: center;
+
+.Characters-card
+    text-decoration: none;
+    background: primary-color
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    display: block;
+
+.Characters-card h2
+    mixin-font-p()
+    text-align: center;
+
+.Characters-card p
+    mixin-font-p()
+    text-align: left;
+    margin: 20px;
+
+
+.Characters-card img
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;

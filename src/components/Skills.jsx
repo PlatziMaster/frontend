@@ -2,7 +2,6 @@ import React from 'react';
 import { FaHtml5, FaCss3, FaJsSquare, FaSass, FaReact } from 'react-icons/fa';
 import { SiStylus } from 'react-icons/si';
 
-// eslint-disable-next-line import/prefer-default-export
 export const Skills = () => {
   return (
     <div className='skills-container'>

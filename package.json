@@ -16,7 +16,7 @@
     "react",
     "webpack"
   ],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "author": "Paula Velosa <paula.velosa2704@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.8.4",

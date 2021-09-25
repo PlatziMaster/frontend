@@ -9,7 +9,8 @@
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest",
-    "json:server": "json-server  --watch db.json"
+    "json:server": "json-server  --watch db.json",
+    "server": "json-server  --watch db.json"
   },
   "keywords": [
     "react",

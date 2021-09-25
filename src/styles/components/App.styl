@@ -33,6 +33,8 @@ body
   align-self: center
   margin-right:0.2em 
   background: green
+  transition: background 2ms
+  transition-delay: 0.6ms
 
 .App__2col-container
   padding: 1em
@@ -47,6 +49,10 @@ body
 
 .item-title
     display: flex
+    transition: background 2ms
+    transition-delay: 0.6ms
+    &:hover .bullet
+      background: red
 
 .App__3col-container
   padding: 1em

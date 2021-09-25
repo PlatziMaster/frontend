@@ -1,0 +1,24 @@
+@import '../../styles/components/Pallete.styl'
+
+.Skills
+    width: 100%;
+    
+
+.Skills-item-container
+    display: grid
+    grid-template-columns: 1fr 1fr 
+        
+
+.Skills-item
+    display: grid
+    grid-template-columns: 1fr 1fr
+    transition: opacity 2ms ease-in-out
+    &:hover .Skills-percentage
+        opacity 0.9
+
+
+
+.Skills-percentage
+    opacity 0
+    transition: opacity 2ms ease-in-out
+    

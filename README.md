@@ -1,54 +1,101 @@
-# frontend
+# React Curriculum Vitae 
+This is a challenge for Platzi Master application. The goal: Make your CV in React.
+This was the final result 
+<details>
+  <summary>Screenshot of CV</summary>
+  <img src="./cv-react.png">
+</details>
 
-## React Curriculum vitae
+**Tools:** 
+ - React JS  
+ - Stylus
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+## stages of the Challenge
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+the challenge here was broken down into the following:
+1.  [Create components](#creating-components)
+2.  [Add styles](##Adding-styles)
+4.  [Create function getData.js](#creating-getData.js)
+5.  [Integrate  API](#Integrate-API)
+6.  [Personalize API](#Personalize-API)
+7.  [Document the project](#Documenting)
 
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+### Installation
 
-### Instalación
 ```
+
 npm install
+
 ```
 
-### Ejecución
+  
+
+### Execution
+
 ```
+
 npm run start
+
 ```
+
+  
 
 ### Server
+
 ```
+
 npm run server
+
 ```
 
-### Compilar
-```
-npm run build
-```
+##  Creating Components 
+  This  template was given as guidance
+  <details>
+  <summary>CV guidance</summary>
+  <img src="./screenshot.png">
+</details>
 
-### Pruebas Unitarias
-```
-npm run test
-```
+I made a low-fidelity wireframe inspired by it. 
 
-### ESlint
-```
-npm run lint
-```
+ The first challenge was a bit confusing to me due to About component location. I thought it was the child of the Header, so I decided to move the About section inside the Header component. This way it will be easier to design. 
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
+## Adding styles
 
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
+Because I didn't have the complete info yet,  I make just a few changes at First, mainly creating a stylus file for each component. 
 
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+After adding my info (5th step) I started adding better styles to my components. I wanted a retro- groovy style, so I went for a palette with nude and beige as my main colors and red and green for the animation (accent) colors. I created a Palette.styl file to be coherent through all my components. 
+- tip: As some elements are repeated continuously,  (in my case, there were for example bullet points and titles). I styled them in the main App.styl file, so I can use them in every component.
+
+Furthermore, I added some animations to make the links and main objects stand out. I wasn't comfortable adding percentages of master to my skills, mainly because since I don't know what I don't know, evaluating the level of mastery was just so difficult for me. That's why I decided to set to 0 the opacity of  the percentage at 0 for then to be revealed while hovering each skill. 
+
+
+## Creating  getData.js
+
+This was by far the most complicated part of the process. Just because I didn't know how to use the server, I wasted 4 hours just to read the documentation of the challenge and type "npm run server" to have a clue on how to do this part 
+- (read the documentation).
+
+First, I added this function to my Header.js file, but there I just wasn't able to use async, await method. So I used .then and later, I transformed it into an async function in getData.js
+
+## Integrate API
+
+As I told you, in the components files I was not able to use Async, Await. so, i just created a fetch data function with .then method. It called getData.js to set  the state of each component with this data.
+
+ - I was having trouble in here, but I found that initializing the data I was going to use solved the problem.
+
+	    state = {
+
+		data: {
+
+			'languages': {
+				 'name':  '',
+				'percentage':  '' }],
+		},
+		}
+
+## Personalize API
+I created another json file: db.json and later upload package.json 
+
+    "server": "json-server --watch db.json"
+
+## Documenting 
+thank you!  <3

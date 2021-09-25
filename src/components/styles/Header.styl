@@ -1,0 +1,41 @@
+
+@import '../../styles/components/Pallete.styl'
+    
+.Header
+    margin: auto
+    width: 85%;
+    display: grid; 
+    grid-template-columns: 20% 60% 20%
+    align-content: center
+    padding-top: 3em
+    padding-bottom: 1em
+
+
+.Header__img 
+    width: 200px
+    height: 200px
+    border-radius: 50%
+    background: beige
+    align-self: center
+    margin: auto
+
+.Header__img-container
+    width: 210px
+    height: 210px
+    border-radius: 50%
+    background: beige
+    transition: background 0.25ms 
+    transition-timing-function: ease-in
+    &:hover
+        background: green
+
+
+.Header__main-info
+    width: 100%
+    justify-content: center
+    justify-content: space-evenly
+    height: 100%
+    padding: 1em
+
+.Header-title
+    margin-bottom: 0.5em

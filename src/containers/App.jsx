@@ -15,11 +15,16 @@ const App = () => {
       <Header>
       </Header>
       <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <div className="App__2col-container">
+        <Experience />
+        <Academic />
+      </div>
+      <div className="App__3col-container">
+        <Skills />
+        <Interest />
+        <Languages />
+      </div>
+      
     </>
   )
 };

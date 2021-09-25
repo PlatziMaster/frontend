@@ -36,13 +36,14 @@ class Experience extends React.Component {
 
     return (
 
-      <div className='Experience'>
-        <h1 className='Experience-title'> this is ma Experience</h1>
+      <div className='Experience col-3'>
+        <h1 className='title'> Experience</h1>
         <div className='Experience-item-container'>
           {experience.map((item) => {
             return (
-              <div className='Experience-item'>
-                <div>
+              <div className='Experience-item item'>
+                <div className='Experience-item-title'>
+                  <div className="bullet"></div>
                   {' '}
                   <strong>{item.jobTitle}</strong>
                 </div>
@@ -58,7 +59,6 @@ class Experience extends React.Component {
                 </div>
                 <div>
                   {' '}
-                  what i did?
                   {item.jobDescription}
                 </div>
               </div>

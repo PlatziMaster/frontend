@@ -28,11 +28,12 @@ class Interest extends React.Component {
     const { interest } = this.state.data;
     return (
       <div className='Interest'>
-        <h1 className='Interest-title'> this is ma Interest</h1>
+        <h1 className='Interest-title title'>Interest</h1>
         <div className='Interest-item-container'>
           {interest.map((item) => {
             return (
-              <div className='Interest-item'>
+              <div className='Interest-item item-title'>
+                <div className="bullet"></div>
                 {item}
               </div>
             );

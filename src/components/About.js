@@ -5,7 +5,15 @@ function About(props) {
   return (
     <div className='About'>
       {props.social.map((item) => {
-        return <a href={item.url}>{item.name}</a>;
+        return <div className="About-social">
+
+          <div className="About-icon">
+          <a href={item.url}>
+          <img   src={item.icon} alt = {item.name}/></a>
+          </div>
+          <div className="About-icon-description"><a href={item.url}>
+          {item.name}</a></div>
+          </div>
       })}
     </div>
   );

@@ -1,0 +1,132 @@
+{
+  "data": {
+    "name": "Paula Daniela Velosa Romero",
+    "profession": "FrontEnd Developer",
+    "address": "Bogotá, Colombia.",
+    "email": "paula.velosa2704@gmail.com",
+    "website": "https://pvelosa.netlify.com",
+    "phone": "(+57)3224368742",
+    "avatar": "https://lh3.googleusercontent.com/_OIdKT2VvjH-Ag3sR_3092OtoLpwGAu0AWaKJ9M5hLT4clk1zgWsGrgwBTD4N-XWRi5hm2UNUHoOv23W-BOp2fI5nByn8ihV2hZI1Mt77ZhINFp0rTqoiGv7mhuRSu2b_KAHxpSa8Nk=w2400",
+    "Profile": "I'm an upcoming engineer, passionate about data science, web development, and illustration. My dream is to tackle current problems using a variety of perspectives while growing within the tech/artistic field.",
+    "certificate": [
+      {
+        "date": "2021",
+        "description": " Methodologies and stages of digital product development",
+        "institution": "Platzi",
+        "name": "Metodologías para Diseñar un Producto Digital"
+      },
+      {
+        "date": "2021",
+        "description": "How to code JavaScript, Ecmascript",
+        "institution": "Platzi",
+        "name": "Road to Code 3.0"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Systems engineering",
+        "description": " High level and low level programming",
+        "endDate": "Present",
+        "institution": "Universidad Nacional de Colombia",
+        "startDate": "2020"
+      },
+      {
+        "degree": "High-school",
+        "description": "",
+        "endDate": "2018",
+        "institution": "Instituto Tomás de Iriarte",
+        "startDate": ""
+      }
+    ],
+    "experience": [
+      {
+        "company": "Personal Project",
+        "endDate": "Present",
+        "jobDescription": "Figma & Photoshop.",
+        "jobTitle": "Ecommerce website design",
+        "startDate": "2021"
+      },
+      {
+        "company": "Personal Project",
+        "endDate": "-",
+        "jobDescription": "React js.",
+        "jobTitle": "Platzi conf page",
+        "startDate": "2020"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "85%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "75%"
+      },
+    
+      {
+        "name": "React",
+        "percentage": "70%"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "70%"
+      },
+      {
+        "name": "Procreate",
+        "percentage": "80%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
+      }
+      ,
+      {
+        "name": "Illustrator",
+        "percentage": "70%"
+      },
+      {
+        "name": "Figma",
+        "percentage": "80%"
+      }
+    ],
+    "interest": [
+      "Art",
+      "Frontend",
+      "Design",
+      "Data analysis"
+    ],
+    "languages": [
+      {
+        "name": "French ",
+        "percentage": "80%"
+      },
+      {
+        "name": "English ",
+        "percentage": "90%"
+      }
+    ],
+    "social": [
+      {
+        "name": "Behance.net/paulavelosa",
+        "url": "https://www.behance.net/paulavelosa",
+        "icon": "https://cdn-icons-png.flaticon.com/512/48/48975.png"
+      },
+      {
+        "name": "twitter.com/pvelosar",
+        "url": "https://twitter.com/pvelosar",
+        "icon": "https://image.similarpng.com/very-thumbnail/2020/06/Black-icon-Twitter-logo-transparent-PNG.png"
+      },
+      {
+        "name": "github.com/pvelosa",
+        "url": "https://github.com/pvelosa",
+        "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      },
+      {
+        "name": "linkedin.com",
+        "url": "https://www.linkedin.com/in/paula-daniela-velosa-romero-4392821ab/",
+        "icon": "https://cdn-icons-png.flaticon.com/512/61/61109.png"
+      }
+    ]
+  }
+}

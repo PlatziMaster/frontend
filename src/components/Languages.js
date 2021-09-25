@@ -32,14 +32,17 @@ class Languages extends React.Component {
     const { languages } = this.state.data;
     return (
       <div className='Languages'>
-        <h1 className='Languages-title'> this is ma Languages</h1>
-        <div className='Skills-item-container'>
+        <h1 className='Languages-title title'> Languages</h1>
+        <div className='Languages-item-container '>
+          
           {languages.map((item) => {
             return (
-              <div className='Skills-item'>
-                <div>
+              <div className='Languages-item '>
+                <div className='item-title'>
+                  <div className="bullet"></div>
                   {' '}
-                  {item.name}
+                  {item.name} 
+                  {' '}
                 </div>
                 <div>
                   {' '}

@@ -7,13 +7,50 @@
   margin: 0
   padding 0
 
+a
+  text-decoration: none
+  color black
+  transition: background 0.25ms 
+  transition-timing-function: ease-in
+  &:hover
+    color red
 
 body 
-  font-family: Karla, Lato,  Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: Lato,  Helvetica, Arial, sans-serif;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 300;
   background: nude
-  
-  
 
+.title
+  font-family: Karla, Lato,  Helvetica, Arial, sans-serif;
+  padding-bottom: 0.5em
+  
+.bullet
+  width: 10px;
+  height: 10px;
+  border-radius: 50%
+  align-self: center
+  margin-right:0.2em 
+  background: green
+
+.App__2col-container
+  padding: 1em
+  display: grid
+  grid-template-columns: 1fr 2fr
+  margin: auto
+  width: 85%;
+
+.item
+    margin-bottom: 2em
+    margin-right: 1em
+
+.item-title
+    display: flex
+
+.App__3col-container
+  padding: 1em
+  display: grid
+  grid-template-columns: 2fr 1fr 1fr
+  margin: auto
+  width: 85%;

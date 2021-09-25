@@ -46,19 +46,20 @@ class Header extends React.Component {
     const { data } = this.state;
     return (
       <div className='Header'>
-        <div className='Header__img'>
-          <img src={data.avatar} alt='' />
+        <div className='Header__img-container'>
+          <img src={data.avatar} alt='' className='Header__img' />
+          
         </div>
         <div className='Header__main-info'>
-          <h1 className='Header-title'>{data.name}</h1>
+          <h1 className='title'>{data.name}</h1>
           <div className='Header-job-title'>
             {data.profession}
-            r
           </div>
           <div className='Header-phone'>{data.phone}</div>
-          <div className='Header-email'>{data.email}</div>
-          <div className='Header-website'>{data.website}</div>
+          <div><a className='Header-email' href={data.email}>{data.email}</a></div>
+          <div><a className='Header-website' href={data.website}>{data.website}</a></div>
           <div className='Header-address'>{data.address}</div>
+          
         </div>
         <div className='Header__about'>
           <About

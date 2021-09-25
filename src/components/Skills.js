@@ -32,16 +32,17 @@ class Skills extends React.Component {
     const { skills } = this.state.data;
     return (
       <div className='Skills'>
-        <h1 className='Skills-title'> this is ma Skills</h1>
+        <h1 className='Skills-title title'>  Skills</h1>
         <div className='Skills-item-container'>
           {skills.map((item) => {
             return (
-              <div className='Skills-item'>
-                <div>
+              <div className='Skills-item item-title'>
+                <div className='Skills-name item-title'>
+                  <div className="bullet"></div>
                   {' '}
                   {item.name}
                 </div>
-                <div>
+                <div className='Skills-percentage'>
                   {' '}
                   {item.percentage}
                 </div>

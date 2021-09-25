@@ -27,7 +27,7 @@ class Profile extends React.Component {
   render() {
     return (
       <div className='Profile'>
-        <h1 className='Profile.title'> Profile</h1>
+        <h1 className='title'> Profile</h1>
         <div className='Profile-desc'>{this.state.data.Profile}</div>
       </div>
 

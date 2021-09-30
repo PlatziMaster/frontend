@@ -1,0 +1,39 @@
+.header-container {
+    display: grid;
+    grid-template-columns: 2fr 5fr;    
+    padding: .5em ;
+
+    img{
+        border-radius: 70px;
+        height: 140px;
+
+    }
+}
+
+.header-list {
+     ul {
+        display: flex;
+        list-style: none;
+        justify-content: left;
+        padding-left .5em;
+
+    }
+
+    li {
+        margin-right: 1em;
+    }
+}
+
+.profile-image {
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .header-list {
+
+        ul {
+            display: block;
+        }
+        
+    }
+}

@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Samuel Gonzalez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "Guadalajara, México.",
+    "email": "xame2005@gmail.com",
     "website": "https://example.com",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "avatar": "https://avatars.githubusercontent.com/u/15709972?v=4",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -85,7 +85,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [

@@ -2,14 +2,17 @@
 import React from 'react';
 import '../styles/components/App.styl';
 
-function About() {
+function About({ props }) {
   return (
-    <div className="category-container">
+    <div className="header-list">
+      <h2>{props.name}</h2>
+      <h3>{props.profession}</h3>
       <ul>
-        <li>.Header-phone</li>
-        <li>.Header-email</li>
-        <li>.Header-website</li>
+        <li>{props.phone}</li>
+        <li>{props.email}</li>
+        <li>{props.website}</li>
       </ul>
+      <h3>{props.address}</h3>
     </div>
   );
 }

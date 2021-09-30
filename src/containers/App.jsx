@@ -22,8 +22,6 @@ const App = () => {
     });
   }, []);
 
-  console.log(data);
-
   return (
     <>
       <Header {...data}>

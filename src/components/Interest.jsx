@@ -1,16 +1,22 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable jsx-quotes */
 import React from 'react';
 import '../styles/components/App.styl';
+import '../styles/components/Interest.styl';
 
-function Interest() {
+function Interest({ interest }) {
   return (
     <div className="category-container">
-      <h2>.Interest-title</h2>
-      <ul>
-        <li>.Interest-item</li>
-        <li>.Interest-item</li>
-      </ul>
-      <h3>.interest-item</h3>
+      <h2>Interests</h2>
+      {interest?.map(item => (
+        <>
+          <ul>
+            <li>
+              <h3>{item}</h3>
+            </li>
+          </ul>
+        </>
+      ))}
     </div>
   );
 }

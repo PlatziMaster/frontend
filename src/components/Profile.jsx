@@ -1,12 +1,13 @@
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable jsx-quotes */
 import React from 'react';
 import '../styles/components/App.styl';
 
-function Profile() {
+function Profile(props) {
   return (
     <div className="category-container">
-      <h2>.Profile-title</h2>
-      <p>.Profile-description</p>
+      <h2>Profile</h2>
+      <p>{props.Profile}</p>
     </div>
   );
 }

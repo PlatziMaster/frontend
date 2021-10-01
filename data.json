@@ -1,109 +1,104 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Mariem Padron",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "Mjpadron11@gmail.com",
+    "phone": "3125161742",
+    "avatar": "./src/styles/avatar.png",
+    "profile": "Hello there! I'm Mary, a Frontend Developer based in Bogota. CO. I Enjoy bulding webs, My goal is being an excellent developer :3",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Sept 2021",
+        "description": "With HTML I learned the basics for any other type of language, from making headings, lists and forms to creating tables and attaching audiovisual content.",        "name": "HTML5 from scratch to expert"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Sept 2021",
+        "description": "CSS gave me the opportunity to make the structure I had learned to create aesthetically pleasing or eye-catching.",
+        "institution": "Youtube",
+        "name": "CSS3 from scratch to expert"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Degree in psychology",
+        "description": "Psychology gave me an in-depth knowledge of human behavior, the processes that occur within the psyche, how to approach individuals and detect behaviors in clinical practice, as well as the reason and importance of certain psychological processes.",
+        "endDate": "Jan 2021",
+        "institution": "URU",
+        "startDate": "September 2014"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Advance English Level",
+        "description": "Having learned English opened other doors for me that I didn't even know existed before due to the language barrier, such as learning from people on the other side of the world. ",
+        "endDate": "December 2014",
+        "institution": "CEVAZ",
+        "startDate": "Jan 2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "VETERINARY ALTOS DEL SOL AMADA",
+        "endDate": "September 2016",
+        "jobDescription": "It's necessary to inform about prices, veterinary processes, scheduling appointments, sales, among other things.",
+        "jobTitle": "SALES/CUSTOMER CARE",
+        "startDate": "July 2016"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "UMASOLCA",
+        "endDate": "June 2017",
+        "jobDescription": "The basis of this job is also to provide information on medical procedures, consultations, take blood pressure, height and weight, schedule appointments, deliver test results and communicate by phone with patients if necessary.",
+        "jobTitle": "SECRETARY",
+        "startDate": "December 2016"
+      },
+      {
+        "company": "SUTHERLAND",
+        "endDate": "September 2021",
+        "jobDescription": "It is essential to communicate information about invoices, current status of telephone service, equipment prices, plans, services in the shortest possible time, making sure to give a positive experience during the interaction.",
+        "jobTitle": "Consultant",
+        "startDate": "October 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["Coding", "League Of Legends", "Reeding", "Crafting"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://www.facebook.com/mooniegoth/"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/mjpadron11"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/mariem-padron-82288a183/"
       }
     ]
   }

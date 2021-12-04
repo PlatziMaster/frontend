@@ -1,9 +1,11 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Experience from '../../components/Experience';
+import getData from '../../utils/getData';
 
+const data = getData('http://localhost:3000');
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  const experience = mount(<Experience data={data.experience} />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);
@@ -16,5 +18,4 @@ describe('<Experience />', () => {
   test('Experience haves 3 items', () => {
     expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
   });
-
 });

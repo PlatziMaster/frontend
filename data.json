@@ -1,57 +1,125 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Jorge Trad",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "address": "Mérida, Yucatán, México",
+    "email": "jetradl@gmail.com",
+    "website": "https://platzi.com/p/jorgetrad/",
+    "phone": "9992098495",
+    "avatar": "https://lh3.googleusercontent.com/pw/AM-JKLXDqp0gsbaeIibqD2eqeCJCkOkOMlIopaJRqE9xWagnHKtc1RIxZGn9QpH8DXEd_G1i7Jxs8MKVGy4ff5_Ika8zRwR0BERpvHG89DO97xSM7850ckYsLUZMfzOc1u7t4yrdmXTcJGSQb_IZ-cdc355E823y-dGCk8N5zpuFIFyvsZhLAWd9ygkq6f9y0U4iXsRfbuI0BzWkBSsQf-PzkNM4MkdJIfa89cCQMtBSZm6adz89XcQnxrLDGeEAvhJx1WKHNOd5oAhsqmCmEzj6cz3goLhAWmVKRY3YAxtt88tjRtowRhji1JgPPLMCJBV65i-AGljcOtX6YgLXTKcqpqJGaR8PYZAk9C5KUy4AFxhaaWFOa6y1zSnCEi65UkV5yE3JHqF9AcQ5lpmoeLa2J5JiaulxY_t7hLo=s800-no?authuser=0",
+    "profile": "I am a software developer and am excited to apply my Frontend knowledge with Javascript and React in order to provide users with a more user-friendly experience and interaction with web applications. I have a wide disposition for teamwork and I care about meeting times and goals. I also have the facility to learn self-taught, which has allowed me to stay updated and learn about technologies necessary for web development.",
+    "certificates": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2020",
+        "description": "Platzi English Academy will improve your four language skills, your listening, speaking, reading and writing.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "English School Training Program",
+        "url": "https://platzi.com/@jorgetrad/ruta/13-idioma-ingles/diploma/detalle/"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Nov 2020",
+        "description": "The achieved English level is 57/100 on the EF SET score scale and B2 Upper Intermediate according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores.",
+        "institution": "EF Standard English Test (EF SET)",
+        "name": "EF SET English Certificate 57/100 (B2 Upper Intermediate)",
+        "url": "https://www.efset.org/cert/8a9oXG"
+      },
+      {
+        "date": "Jul 2020",
+        "description": "Learn to work with git, basic concepts, clone a repository and manage your projects by hosting them in your local repository and on GitHub.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Git and GitHub Professional Course",
+        "url": "https://platzi.com/@jorgetrad/curso/1557-git-github/diploma/detalle/"
+      },
+      {
+        "date": "Aug 2020",
+        "description": "Master the basics of HTML and CSS. Define the architecture of your code and build a website using static components. Model the main screens of your website. Add responsive design and use preprocessors to optimize your CSS code.",
+        "institution": "Platzi",
+        "name": "Frontend Developer Course",
+        "url": "https://platzi.com/@jorgetrad/curso/1640-frontend-developer/diploma/detalle/"
+      },
+      {
+        "date": "Jul 2021",
+        "description": "Understand how the DOM works. Create plugins that give more functionalities to the video player. Implement events in an object according to the needs of your project.",
+        "institution": "Platzi",
+        "name": "Professional JavaScript Course",
+        "url": "https://platzi.com/p/jorgetrad/curso/1642-javascript-profesional/diploma/detalle/"
+      },
+      {
+        "date": "Jul 2021",
+        "description": "Configure a Testing environment with Jest, Implement unit tests, Configure Watch and Coverage in your project and Create Mocks for test suites.",
+        "institution": "Platzi",
+        "name": "Unit Testing Course with Jest in React",
+        "url": "https://platzi.com/p/jorgetrad/curso/1788-jest/diploma/detalle/"
+      },
+      {
+        "date": "Jul 2021",
+        "description": "Learn from creating and designing components to fetching data from an API. Develop very high quality web applications in record time with React.js",
+        "institution": "Platzi",
+        "name": "React.js Course",
+        "url": "https://platzi.com/p/jorgetrad/curso/1548-react/diploma/detalle/"
+      },
+      {
+        "date": "Jul 2021",
+        "description": "Master the use of loaders and plugins to integrate your favorite tools into a development or production environment. Optimize your projects with file compression and minification. Configure Webpack with HTML, CSS, JavaScript, React.js, images and fonts.",
+        "institution": "Platzi",
+        "name": "Webpack Course",
+        "url": "https://platzi.com/p/jorgetrad/curso/2242-webpack/diploma/detalle/"
+      },
+      {
+        "date": "Jun 2021",
+        "description": "Learn all about HTML tags, semantics, CSS, how to style your website elements, EM / REM measurements, box model and much more.",
+        "institution": "Platzi",
+        "name": "Definitive Course of HTML and CSS",
+        "url": "https://platzi.com/p/jorgetrad/curso/2008-html-css/diploma/detalle/"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Web Development School",
+        "description": "Platzi is a 100% online education platform in which you can access more than 700 courses in different areas of study. In Engineering and Development there is the web development school that focuses on Full Stack web development with HTML, CSS and JavaScript, also mastering tools such as React, Vue, Angular and backend development with Node.js.",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "Jan 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Information Technology and Communications Engineering",
+        "description": "This career aims to train students capable of developing, integrating and managing information and communication technologies that contribute to productivity and the achievement of the strategic objectives of organizations in a globalized environment.",
+        "endDate": "Present",
+        "institution": "Instituto Tecnológico de Conkal",
+        "startDate": "Aug 2018"
+      },
+      {
+        "degree": "Math Program",
+        "description": "In Kumon, a high level of academic ability as well as the ability to self-teach is simultaneously promoted with the math worksheets which will increase in level as the student progresses. This program consists of essential elements ranging from basic operations, basic algebra and trigonometry to advanced differential and integral calculus.",
+        "endDate": "Jan 2018",
+        "institution": "Kumon",
+        "startDate": "May 2014"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Instituto Tecnológico de Conkal",
+        "endDate": "Jun 2021",
+        "jobDescription": "I developed a system that creates, reads, updates and deletes data from a database in order to make it easier for the institute's students to pay for their services and for the administrative staff to control the payments for services that are made daily at the school. For the programming logic I used the Laravel 6 PHP framework, Postgresql as the database and Heroku to deploy the website.",
+        "jobTitle": "Web development",
+        "startDate": "Apr 2021",
+        "url": "http://protected-fjord-95661.herokuapp.com/lista-servicios"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Js13kGames",
+        "endDate": "Sept 2020",
+        "jobDescription": "I participated in a contest that has 3 challenges; develop a video game from start to finish using basic web development tools, the compressed folder should have a maximum size of 13 kilobytes and finally finish the project in 30 days. To carry out the challenge, I applied for the first time my knowledge in HTML, Javascript and CSS to give structure, functionality and styles to the game. In order not to exceed the maximum size, the project went through a minification process using Webpack.",
+        "jobTitle": "Participant As A Video Game Web Developer",
+        "startDate": "Aug  2020",
+        "url": "https://js13kgames.com/entries/logic-shooter"
+      },
+      {
+        "company": "Kumon",
+        "endDate": "Jun 2020",
+        "jobDescription": "After being a student at kumon, I was invited to be a teaching assistant to guide other students on their path to self-taught math learning. My main activities over the years were to supervise that the students' work is adequate, grade the work material done by the students, insightfully resolve student doubts, initial training for new students and the distribution of the work material.",
+        "jobTitle": "Mathematics Teaching Assistant",
+        "startDate": "Jul 2015",
+        "url": "https://www.kumon.com/how-kumon-works"
       }
     ],
     "skills": [
@@ -61,49 +129,84 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "75%"
+      },
+      {
+        "name": "Git & Github",
+        "percentage": "75%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "80%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "70%"
+      },
+      {
+        "name": "Laravel",
+        "percentage": "70%"
+      },
+      {
+        "name": "Python",
+        "percentage": "50%"
+      },
+      {
+        "name": "Math",
+        "percentage": "85%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Frontend",
+      "React",
+      "Develop",
+      "Backend",
+      "UX",
+      "UI",
+      "Web development",
+      "Mobile development",
+      "Data science",
+      "Machine learning"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "75%"
+      },
+      {
+        "name": "Protuguese",
+        "percentage": "20%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/jorgeelias.tradlopez"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/jorge_trad"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/jorgetrad99"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jorgetrad/"
       }
     ]
   }

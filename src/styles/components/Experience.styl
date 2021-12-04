@@ -1,0 +1,50 @@
+@import '../App.styl';
+
+.Experience
+    border-container()
+
+.Experience-items
+    display flex
+    flex-wrap: wrap
+    align-items: center
+    margin: 1rem 2rem
+
+    .Experience-item
+        border-subcontainer()
+        width 100%
+        
+        > *
+            margin-bottom: 1rem
+
+        p, h3
+            margin: .3rem 5% 
+        
+        p
+            text-align: justify
+
+        .Experience-item-Dates
+            color fourth-color
+
+        .Experience-item-button
+            display: flex
+            justify-content: flex-end
+            margin: 1rem 3rem
+            a
+                background-color: primary-color
+                border: none;
+                color: white;
+                padding: 0.5rem 1rem;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 2rem;
+
+            a:hover
+                background-color: #2077ab
+        
+@media (min-width: 1000px)
+    .Experience-items
+        flex-wrap wrap
+        .Experience-item
+            width: 48%
+            height: auto

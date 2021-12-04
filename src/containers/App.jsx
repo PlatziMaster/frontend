@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import 'regenerator-runtime/runtime';
 import '../styles/App.styl';
 
 import Header from '../components/Header';
@@ -21,28 +20,10 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState({});
 
-  /* const data = getData(API); */
-
-  useEffect(() => {
-    /* getData(API).then(setData); */
-    /* if (JSON.stringify(data) !== '{}') {
-      setLoading(false);
-    } */
-    getData(API).then((response) => {
-      setData(response);
-      setLoading(false);
-    });/* ,
-    (error) => {
-      setIsLoaded(false);
-      setError(error);
-    }); */
-  }, []);
-
-  console.log(data);
-
-  /* if (JSON.stringify(data) !== '{}') {
+  getData(API).then((response) => {
+    setData(response);
     setLoading(false);
-  } */
+  });
 
   if (loading) {
     return (

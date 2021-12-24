@@ -13,8 +13,8 @@ const About = function ({ info }) {
             <p className="data--title">Name</p>
             <p>
               <i>
-                {info.firstname}
-                {info.lastname}
+                {info.first_name}
+                {info.last_name}
               </i>
             </p>
           </div>
@@ -27,7 +27,7 @@ const About = function ({ info }) {
           <div className="personal--card_data">
             <p className="data--title">Location</p>
             <p>
-              <i>{info.address}</i>
+              <i>{info.username}</i>
             </p>
           </div>
         </article>
@@ -39,7 +39,7 @@ const About = function ({ info }) {
           <div className="personal--card_data">
             <p className="data--title">Phone</p>
             <p>
-              <i>{info.phone}</i>
+              <i>{info.phone_number}</i>
             </p>
           </div>
         </article>

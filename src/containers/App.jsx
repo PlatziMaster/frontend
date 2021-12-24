@@ -28,9 +28,9 @@ const App = () => {
         <BlueArrow />
         <Display display={Data} />
         <Categories title="Container-Profile">
-          {/* <About info={Data} />
-          <Social social={Data.social} />
-          <Languages languages={Data.languages} /> */}
+          <About info={Data} />
+          {/* <Social social={Data.social} /> */}
+          {/* <Languages languages={Data.languages} /> */}
         </Categories>
       </Header>
       {/* <Main title="Data-Section">

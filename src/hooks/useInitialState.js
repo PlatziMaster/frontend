@@ -1,15 +1,15 @@
-import { useState, useEffect } from "react";
-import getData from "../utils/getData";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const useInitialState = (API) => {
-
   const [Info, setInfo] = useState([]);
 
-  useEffect(() => {
-    getData(API)
-      .then(data => setInfo(data));
+  useEffect(async () => {
+    const response = await axios(url);
+    setInfo(response.data);
   }, []);
 
   return Info;
 };
+
 export default useInitialState;

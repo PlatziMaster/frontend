@@ -16,7 +16,7 @@ import Interest from "../components/Interest";
 import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
 
-const API = "http://localhost:3000/data";
+const API = "https://localhost:3000/data";
 
 const App = () => {
 

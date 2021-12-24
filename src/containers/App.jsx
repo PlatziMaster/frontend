@@ -17,7 +17,7 @@ import Interest from "../components/Interest";
 import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
 
-const API = "http://localhost:3000/data";
+const API = "https://random-data-api.com/api/users/random_user";
 
 const App = () => {
   const Data = useInitialState(API);
@@ -27,19 +27,19 @@ const App = () => {
       <Header title="Lateral-Profile">
         <BlueArrow />
         <Display display={Data} />
-        <Categories title="Container-Profile">
+        {/* <Categories title="Container-Profile">
           <About info={Data} />
           <Social social={Data.social} />
           <Languages languages={Data.languages} />
-        </Categories>
+        </Categories> */}
       </Header>
-      <Main title="Data-Section">
+      {/* <Main title="Data-Section">
         <Profile profile={Data.profile} />
         <Experience experience={Data.experience} />
         <Academic academic={Data.Academic} />
         <Skills skills={Data.skills} />
         <Interest interest={Data.interest} />
-      </Main>
+      </Main> */}
       <Footer />
     </Container>
   );

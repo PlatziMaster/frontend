@@ -5,13 +5,13 @@ const Display = function ({ display }) {
     <section className="display">
       <img src={display.avatar} className="display--image" alt="avatar" />
       <h1 className="display--title">
-        {display.firstname}
+        {display.first_name}
         <br />
-        <span className="display--lastname">{display.lastname}</span>
+        <span className="display--lastname">{display.last_name}</span>
         {" "}
       </h1>
 
-      <h3 className="display--subtitle">{display.profession}</h3>
+      <h3 className="display--subtitle">{ display.gender}</h3>
     </section>
   );
 };

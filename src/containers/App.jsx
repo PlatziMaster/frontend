@@ -21,30 +21,28 @@ const API = "http://localhost:3000/data";
 
 const App = () => {
   const Data = useInitialState(API);
-  if (Data) {
-    return (
-      <Container>
-        <Header title="Lateral-Profile">
-          <BlueArrow />
-          <Display display={Data} />
-          <Categories title="Container-Profile">
-            <About info={Data} />
-            <Social social={Data.social} />
-            <Languages languages={Data.languages} />
-          </Categories>
-        </Header>
-        <Main title="Data-Section">
-          <Profile profile={Data.profile} />
-          <Experience experience={Data.experience} />
-          <Academic academic={Data.Academic} />
-          <Skills skills={Data.skills} />
-          <Interest interest={Data.interest} />
-        </Main>
-        <Footer />
-      </Container>
-    );
-  };
-  return "ERROR";
+  console.log(Data);
+  return (
+    <Container>
+      <Header title="Lateral-Profile">
+        <BlueArrow />
+        <Display display={Data} />
+        <Categories title="Container-Profile">
+          <About info={Data} />
+          <Social social={Data.social} />
+          <Languages languages={Data.languages} />
+        </Categories>
+      </Header>
+      <Main title="Data-Section">
+        <Profile profile={Data.profile} />
+        <Experience experience={Data.experience} />
+        <Academic academic={Data.Academic} />
+        <Skills skills={Data.skills} />
+        <Interest interest={Data.interest} />
+      </Main>
+      <Footer />
+    </Container>
+  );
 };
 
 export default App;

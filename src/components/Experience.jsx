@@ -1,6 +1,6 @@
 import React from "react";
 
-const Experience = ({ experience }) => {
+const Experience = function ({ experience }) {
   return (
     <section className="experience-card_container">
       <h2 className="experience-card--title cards--title">
@@ -10,7 +10,7 @@ const Experience = ({ experience }) => {
         WORK EXPERIENCE
       </h2>
 
-      {experience?.map(exp => (
+      {experience?.map((exp) => (
         <article
           key={exp.jobTitle}
           className="experience-card__details--container"

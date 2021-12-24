@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 
-
-const About = ({ info }) => {
+const About = function ({ info }) {
   return (
     <section className="info">
       <h2 className="info--title">INFO</h2>

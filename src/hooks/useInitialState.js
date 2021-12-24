@@ -5,7 +5,7 @@ const useInitialState = (API) => {
   const [Info, setInfo] = useState([]);
 
   useEffect(async () => {
-    const response = await axios(url);
+    const response = await axios(API);
     setInfo(response.data);
   }, []);
 

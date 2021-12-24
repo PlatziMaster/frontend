@@ -1,12 +1,13 @@
+/* eslint-disable react/destructuring-assignment */
 import React from "react";
 
-const Footer = ({ social }, data) => {
+const Footer = function ({ social }, data) {
   return (
     <footer>
       <section className="left">
         <ul>
           <li>
-            {social?.map(soc => (
+            {social?.map((soc) => (
               <article key={soc.icon} className="social-detail--card">
                 <span className="pin-icon">
                   <i className={soc.icon} aria-hidden="true" />

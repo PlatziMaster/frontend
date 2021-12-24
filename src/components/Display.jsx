@@ -1,6 +1,6 @@
 import React from "react";
 
-const Display = ({ display }) => {
+const Display = function ({ display }) {
   return (
     <section className="display">
       <img src={display.avatar} className="display--image" alt="avatar" />

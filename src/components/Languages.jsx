@@ -1,11 +1,11 @@
 import React from "react";
 
-const Languages = ({ languages }) => {
+const Languages = function ({ languages }) {
   return (
     <section className="languages">
       <h2 className="languages--title">LANGUAGES</h2>
       <div className="language-cards--container">
-        {languages?.map(lan => (
+        {languages?.map((lan) => (
           <article key={lan.icon} className="language-detail--card">
             <span className={lan.nameIcon}>
               <i className={lan.icon} aria-hidden="true" />

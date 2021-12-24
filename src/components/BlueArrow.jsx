@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlueArrow = () => {
+const BlueArrow = function () {
   return <div className="blue-arrow" />;
 };
 

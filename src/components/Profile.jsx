@@ -1,6 +1,6 @@
 import React from "react";
 
-const Profile = ({ profile }) => {
+const Profile = function ({ profile }) {
   return (
     <section className="profile-card_container">
       <h2 className="cards--title">

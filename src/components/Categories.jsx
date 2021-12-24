@@ -1,6 +1,6 @@
 import React from "react";
 
-const Categories = ({ children }) => {
+const Categories = function ({ children }) {
   return <div className="container-pro">{children}</div>;
 };
 

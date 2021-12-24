@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = ({ children }) => {
+const Main = function ({ children }) {
   return (
     <div className="main-container">
       <div className="main-cards_container">{children}</div>

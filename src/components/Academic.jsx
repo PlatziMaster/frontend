@@ -1,6 +1,6 @@
 import React from "react";
 
-const Academic = ({ academic }) => {
+const Academic = function ({ academic }) {
   return (
     <section className=" education-card_container">
       <h2 className="education-card--title cards--title">
@@ -9,7 +9,7 @@ const Academic = ({ academic }) => {
         </span>
         EDUCATION
       </h2>
-      {academic?.map(aca => (
+      {academic?.map((aca) => (
         <article
           key={aca.location}
           className="education-card__details--container"

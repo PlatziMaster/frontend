@@ -1,3 +1,4 @@
+/* eslint-disable react/function-component-definition */
 import React from "react";
 import Header from "../components/Header";
 import BlueArrow from "../components/BlueArrow";
@@ -16,33 +17,35 @@ import Interest from "../components/Interest";
 import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
 
-const API = "https://localhost:3000/data";
+const API = "http://localhost:3000/data";
 
 const App = () => {
-
   const Data = useInitialState(API);
-  return (
-    <Container>
-      <Header title="Lateral-Profile">
-        <BlueArrow />
-        <Display display={Data} />
-        <Categories title="Container-Profile">
-          <About info={Data} />
-          <Social social={Data.social} />
-          <Languages languages={Data.languages} />
-        </Categories>
-      </Header>
-      <Main title="Data-Section">
-        <Profile profile={Data.profile} />
-        <Experience experience={Data.experience} />
-        <Academic academic={Data.Academic} />
-        <Skills skills={Data.skills} />
-        <Interest interest={Data.interest} />
-      </Main>
-      <Footer />
-    </Container>
 
-  );
+  if (Data) {
+    return (
+      <Container>
+        <Header title="Lateral-Profile">
+          <BlueArrow />
+          <Display display={Data} />
+          <Categories title="Container-Profile">
+            <About info={Data} />
+            <Social social={Data.social} />
+            <Languages languages={Data.languages} />
+          </Categories>
+        </Header>
+        <Main title="Data-Section">
+          <Profile profile={Data.profile} />
+          <Experience experience={Data.experience} />
+          <Academic academic={Data.Academic} />
+          <Skills skills={Data.skills} />
+          <Interest interest={Data.interest} />
+        </Main>
+        <Footer />
+      </Container>
+    );
+  };
+  return null;
 };
 
 export default App;

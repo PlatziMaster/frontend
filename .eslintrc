@@ -236,13 +236,13 @@
     "quote-props": 0,
     "quotes": [
       2,
-      "single",
+      "double",
       "avoid-escape"
     ],
     "radix": 2,
     "jsx-quotes": [
       2,
-      "prefer-single"
+      "prefer-double"
     ],
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-noninteractive-element-interactions": 0,

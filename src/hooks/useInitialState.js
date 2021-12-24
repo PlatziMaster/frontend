@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { getData } from '../utils/getData';
+import { useState, useEffect } from "react";
+import getData from "../utils/getData";
 
 const useInitialState = (API) => {
 
@@ -8,7 +8,7 @@ const useInitialState = (API) => {
   useEffect(() => {
     getData(API)
       .then(data => setInfo(data));
-  }, []);//parametro para evitar loop infinito
+  }, []);
 
   return Info;
 };

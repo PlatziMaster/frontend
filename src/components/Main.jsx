@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Main = (props) => {
+const Main = ({ children }) => {
   return (
     <div className="main-container">
-          <div className="main-cards_container">
-          {props.children}
-      </div>
+      <div className="main-cards_container">{children}</div>
     </div>
   );
 };

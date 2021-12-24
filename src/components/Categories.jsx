@@ -1,12 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const Categories = (props) => {
-    return (
-        <div  className="container-pro">
-            {props.children}
-        </div>
-     
-    );
+const Categories = ({ children }) => {
+  return <div className="container-pro">{children}</div>;
 };
-  
+
 export default Categories;

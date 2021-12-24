@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const Header = (props) => {
+const Header = ({ children }) => {
   return (
     <div className="header-container">
-      {props.children}
+      {children}
     </div>
   );
 };

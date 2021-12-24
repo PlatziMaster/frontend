@@ -27,11 +27,11 @@ const App = () => {
       <Header title="Lateral-Profile">
         <BlueArrow />
         <Display display={Data} />
-        {/* <Categories title="Container-Profile">
-          <About info={Data} />
+        <Categories title="Container-Profile">
+          {/* <About info={Data} />
           <Social social={Data.social} />
-          <Languages languages={Data.languages} />
-        </Categories> */}
+          <Languages languages={Data.languages} /> */}
+        </Categories>
       </Header>
       {/* <Main title="Data-Section">
         <Profile profile={Data.profile} />

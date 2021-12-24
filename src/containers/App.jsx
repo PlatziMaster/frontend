@@ -33,13 +33,13 @@ const App = () => {
           {/* <Languages languages={Data.languages} /> */}
         </Categories>
       </Header>
-      {/* <Main title="Data-Section">
-        <Profile profile={Data.profile} />
+      <Main title="Data-Section">
+        {/* <Profile profile={Data.profile} />
         <Experience experience={Data.experience} />
         <Academic academic={Data.Academic} />
         <Skills skills={Data.skills} />
-        <Interest interest={Data.interest} />
-      </Main> */}
+        <Interest interest={Data.interest} /> */}
+      </Main>
       <Footer />
     </Container>
   );

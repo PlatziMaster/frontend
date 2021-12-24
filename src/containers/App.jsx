@@ -21,7 +21,6 @@ const API = "http://localhost:3000/data";
 
 const App = () => {
   const Data = useInitialState(API);
-
   if (Data) {
     return (
       <Container>
@@ -45,7 +44,7 @@ const App = () => {
       </Container>
     );
   };
-  return null;
+  return "ERROR";
 };
 
 export default App;

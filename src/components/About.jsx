@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from "react";
 
 const About = function ({ info }) {
@@ -13,8 +14,7 @@ const About = function ({ info }) {
             <p className="data--title">Name</p>
             <p>
               <i>
-                {info.first_name}
-                {info.last_name}
+                {info.firstname} {info.lastname}
               </i>
             </p>
           </div>
@@ -27,7 +27,7 @@ const About = function ({ info }) {
           <div className="personal--card_data">
             <p className="data--title">Location</p>
             <p>
-              <i>{info.username}</i>
+              <i>{info.address}</i>
             </p>
           </div>
         </article>
@@ -39,7 +39,7 @@ const About = function ({ info }) {
           <div className="personal--card_data">
             <p className="data--title">Phone</p>
             <p>
-              <i>{info.phone_number}</i>
+              <i>{info.phone}</i>
             </p>
           </div>
         </article>

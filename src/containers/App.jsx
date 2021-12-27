@@ -17,7 +17,7 @@ import Interest from "../components/Interest";
 import Footer from "../components/Footer";
 import useInitialState from "../hooks/useInitialState";
 
-const API = "http://localhost:3000/data";
+const API = "https://dbcurriculum.herokuapp.com/data";
 
 const App = () => {
   const Data = useInitialState(API);

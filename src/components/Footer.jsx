@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React from "react";
 
-const Footer = function ({ social }, data) {
+const Footer = function ({ social, data }) {
   return (
     <footer>
       <section className="left">

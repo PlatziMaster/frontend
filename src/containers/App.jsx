@@ -39,7 +39,7 @@ const App = () => {
         <Skills skills={Data.skills} />
         <Interest interest={Data.interest} />
       </Main>
-      <Footer />
+      <Footer social={Data.social} data={Data} />
     </Container>
   );
 };

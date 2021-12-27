@@ -1,13 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "firstname": "Daniel",
+    "lastname": "Sanchez",
+    "profession": "Frontend Developer",
+    "address": "Talca, Chile.",
+    "email": "danielsanchez1502@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+56 9 56320231",
+    "avatar": "https://avatars.githubusercontent.com/u/77214062?v=4",
+    "profile": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -20,91 +21,142 @@
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
+      },
+      {
+        "date": "Jan 2021",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Platzi",
+        "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "FullStack Developer",
+        "description": " No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
+        "endDate": "2021",
+        "institution": "Platzi",
+        "startDate": "2020",
+        "location": "Chile"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software Engineering",
+        "description": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
+        "endDate": "December 2020",
+        "institution": "Inacap",
+        "startDate": "Jan 2017",
+        "location": "Madrid"
+      },
+      {
+        "degree": "Geodesic Engineer",
+        "description": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
+        "endDate": "Decenber 2017",
+        "institution": "Zulia University",
+        "startDate": "Jan 2012",
+        "location": "Venezuela"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "company": "Google",
+        "location": "San Francisco",
+        "endDate": "2020",
+        "jobDescription": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "Ebay",
+        "location": "Usa",
+        "endDate": "2019",
+        "jobDescription": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "2016"
+      },
+      {
+        "company": "Everis",
+        "location": "Chile",
+        "endDate": "2021",
+        "jobDescription": "No matter how difficult are the challenges, never give up, and fight until the end with your best effort. No matter how difficult are the challenges, never give up, and fight until the end with your best effort",
+        "jobTitle": "FullStack JS",
+        "startDate": "2015"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75",
+        "bgcolor": "#6a1b9a"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60",
+        "bgcolor": "#00695c"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "JavaScript3",
+        "percentage": "50",
+        "bgcolor": "#ef6c00"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30",
+        "bgcolor": "#6a1b9a"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest":
+      [
+        {
+          "name": "music-icon",
+          "icon": "fa fa-headphones"
+        },
+        {
+          "name": "sports-icon",
+          "icon": "fa fa-futbol-o"
+        },
+        {
+          "name": "exercise-icon",
+          "icon": "fa fa-bicycle"
+        },
+        {
+          "name": "picture-icon",
+          "icon": "fa fa-camera-retro"
+        },
+        {
+          "name": "travel-icon",
+          "icon": "fa fa-plane"
+        }
+      ]
+      ,
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Nativo",
+        "nameIcon": "flag-icon",
+        "icon": "fa fa-flag-o"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "Avanzado/B2",
+        "nameIcon": "flag-icon",
+        "icon": "fa fa-flag-checkered"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "@dannzdev",
+        "url": "https://twitter.com/dannzdev",
+        "icon": "fa fa-github-square"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "dannzdev",
+        "url": "https://github.com/dannzdev",
+        "icon": "fa fa-twitter-square"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
+        "name": "dannzdev",
+        "url": "https://www.linkedin.com/in/dannzdev/",
+        "icon": "fa fa-linkedin-square"
+      } 
     ]
   }
 }

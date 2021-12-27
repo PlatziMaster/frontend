@@ -1,20 +1,20 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import Experience from '../../components/Experience';
+import React from "react";
+import { mount } from "enzyme";
+import Experience from "../../components/Experience";
 
-describe('<Experience />', () => {
+describe("<Experience />", () => {
   const experience = mount(<Experience />);
 
-  test('Experience render', () => {
+  test("Experience render", () => {
     expect(experience.length).toEqual(1);
   });
 
-  test('Experience title', () => {
-    expect(experience.find('.Experience-title').length).toEqual(1);
+  test("Experience title", () => {
+    expect(experience.find(".experience-card--title").length).toEqual(1);
   });
 
-  test('Experience haves 3 items', () => {
-    expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
+  test("Experience haves 3 items", () => {
+    expect(experience.find(".experience-card__details--container").length).toEqual(1);
   });
 
 });

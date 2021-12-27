@@ -1,0 +1,47 @@
+    .skills-card_container
+        width: 100%
+        height: 250px
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
+        @media screen and (max-width: 650px)
+            justify-content center
+
+
+    .skill-list_container
+        width: 100%
+        height: auto
+        display: flex
+        justify-content: space-evenly
+        @media screen and (max-width: 650px)
+            justify-content center
+
+    .skill-list--one
+        display flex
+        flex-direction row
+        flex-wrap wrap
+
+    .skill-list--item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 15px
+        font-weight bold
+        @media screen and (max-width: 650px)
+            flex-direction column
+
+    .progress-bar
+        display: flex
+        width: 100px
+        height: 8px
+        border: 2px solid black
+        border-inline-start: 1px solid gray-black
+        background-color: soft-white
+        align-items: center
+        margin-inline-start: 25px
+
+    .progress-bar div 
+        width: 75px
+        background-color: gray-black
+        overflow: hidden
+        padding: 2.5px 0px

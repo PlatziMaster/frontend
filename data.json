@@ -1,13 +1,11 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Kevin Viera Jaramillo",
+    "profession": "Software Developer",
+    "address": "Medellín, Colombia",
+    "email": "kevin.viera.989@gmail.com",
+    "avatar": "src/resources/profile.jpeg",
+    "profile": "I'm a passionate software developer with 3 years of experience in .NET web development. I'm proficient in building efficient, scalable and secure systems. My academic background in computer and systems engineering has prepared me for designing and developing complex software applications.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -40,18 +38,24 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "GoDataFeed",
+        "jobDescription": "Design, develop, test, and maintain software solutions. Write code, troubleshoot issues, collaborate with team members, and stay up-to-date with emerging technologies.",
+        "jobTitle": ".NET developer"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Comdata Group",
+        "jobDescription": "Design, develop, test, and maintain software solutions. Write code, troubleshoot issues, collaborate with team members, and stay up-to-date with emerging technologies",
+        "jobTitle": ".NET developer"
+      },
+      {
+        "company": "Galaxy Temporal",
+        "jobDescription": "Design, develop, and maintain full-stack web applications. Write clean code, troubleshoot issues, collaborate with team members, and stay up-to-date with emerging technologies and industry trends.",
+        "jobTitle": "Full Stack Developer"
+      },
+      {
+        "company": "Kiwibot Campus",
+        "jobDescription": "Make robot operation reports, verify performance, analyze delivery routes, communicate with stakeholders, and provide feedback on robot improvements to improve operational metrics.",
+        "jobTitle": "Operations Supervisor"
       }
     ],
     "skills": [

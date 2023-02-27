@@ -1,18 +1,16 @@
 import React from "react";
 
-export default function Languages() {
+export default function Languages({languages}) {
   return (
     <div className="languages content">
       <h2 className="Languages-title title">Languages</h2>
       <div className="language-container content">
-        <div className="Languages-item">
-          <h3 >Spanish</h3>
-          <p>Native</p>
-        </div>
-        <div className="Languages-item">
-          <h3>English</h3>
-          <p>B2</p>
-        </div>
+        {languages?.map((item) => (
+          <div className="Languages-item">
+            <h3>{item.name}</h3>
+            <p>{item.level}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

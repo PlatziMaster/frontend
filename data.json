@@ -6,34 +6,14 @@
     "email": "kevin.viera.989@gmail.com",
     "avatar": "src/resources/profile.jpeg",
     "profile": "I'm a passionate software developer with 3 years of experience in .NET web development. I'm proficient in building efficient, scalable and secure systems. My academic background in computer and systems engineering has prepared me for designing and developing complex software applications.",
-    "certificate": [
+    "academic": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "degree": "Computer and Systems Engineering",
+        "institution": "Universidad EIA"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Technical Bachelor in Systems",
+        "institution": "Industrial Technical Institute Pascual Bravo"
       }
     ],
     "experience": [
@@ -60,54 +40,52 @@
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "JavaScript"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "React"
+      },
+      {
+        "name": "Node"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "C#"
+      },
+      {
+        "name": ".NET"
+      },
+      {
+        "name": "SQLServer"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Artificial Intelligence",
+      "Blockchain and Smart Contracts",
+      "Web Development"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "level": "B2"
       }
     ]
   }

@@ -35,10 +35,10 @@ const App = () => {
       <Profile profile={data.profile}/>
       <Experience experience={data.experience}/>
       <div className='general-container'>
-        <Academic />
-        <Skills />
-        <Interest />
-        <Languages />
+        <Academic academic={data.academic}/>
+        <Skills skills={data.skills}/>
+        <Interest interest={data.interest} />
+        <Languages languages={data.languages} />
       </div>
     </>
   )

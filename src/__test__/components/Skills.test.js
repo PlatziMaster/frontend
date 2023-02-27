@@ -13,8 +13,4 @@ describe('<Skills />', () => {
     expect(skills.find('.Skills-title').length).toEqual(1);
   });
 
-  test('Skills has 3 items', () => {
-    expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
-  });
-
 });

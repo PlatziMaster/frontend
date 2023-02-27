@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     try {
-      getData('/data.json').then(({ data }) => {
+      getData('https://cv-data-kviera.onrender.com').then(({ data }) => {
         console.log(data)
         setData(data);
       });

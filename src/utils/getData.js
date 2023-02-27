@@ -1,6 +1,11 @@
 const getData = (url) => {
   try {
-    return fetch(url)
+    return fetch(url,
+      {
+        crossDomain: true,
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+      })
       .then(response => response.json())
       .then(data => data);
   } catch (error) {

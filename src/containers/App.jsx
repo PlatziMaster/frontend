@@ -1,22 +1,22 @@
 import React, { useEffect } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
-// import Profile from '../components/Profile';
-// import Experience from '../components/Experience';
-// import Academic from '../components/Academic';
-// import Skills from '../components/Skills';
-// import Interest from '../components/Interest';
-// import Languages from '../components/Languages';
-// import Social from '../components/Social';
+import Profile from '../components/Profile';
+import Experience from '../components/Experience';
+import Academic from '../components/Academic';
+import Skills from '../components/Skills';
+import Interest from '../components/Interest';
+import Languages from '../components/Languages';
+import Social from '../components/Social';
 
 const App = () => {
-  // const [data, setData] = useState({});
-  // const [experience, setExperience] = useState({});
-  // const [academic, setAcademic] = useState({});
-  // const [skills, setSkills] = useState({});
-  // const [interest, setInterest] = useState({});
-  // const [languages, setLanguages] = useState({});
-  // const [social, setSocial] = useState({});
+  const [data, setData] = useState({});
+  const [experience, setExperience] = useState({});
+  const [academic, setAcademic] = useState({});
+  const [skills, setSkills] = useState({});
+  const [interest, setInterest] = useState({});
+  const [languages, setLanguages] = useState({});
+  const [social, setSocial] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,13 +24,13 @@ const App = () => {
         .then(datos => datos.json())
         .then((datos) => {
           console.log(datos.data.skills);
-          // setData(datos.data);
-          // setExperience(datos.data.experience);
-          // setAcademic(datos.data.Academic);
-          // setSkills(datos.data.skills);
-          // setInterest(datos.data.interest);
-          // setLanguages(datos.data.languages);
-          // setSocial(datos.data.social);
+          setData(datos.data);
+          setExperience(datos.data.experience);
+          setAcademic(datos.data.Academic);
+          setSkills(datos.data.skills);
+          setInterest(datos.data.interest);
+          setLanguages(datos.data.languages);
+          setSocial(datos.data.social);
         });
     };
 
@@ -39,9 +39,8 @@ const App = () => {
 
   return (
     <div className='container'>
-      <Header />
-      {/* <Header data={data} /> */}
-      {/* <Profile data={data} />
+      <Header data={data} />
+      <Profile data={data} />
       <Experience data={experience} />
       <div className='estudios-habilidades'>
         <Academic data={academic} />
@@ -49,7 +48,7 @@ const App = () => {
         <Interest data={interest} />
         <Languages data={languages} />
       </div>
-      <Social data={social} /> */}
+      <Social data={social} />
     </div>
   );
 };

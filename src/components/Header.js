@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/components/App.styl';
 
-const Header = () => {
-// const Header = ({ data }) => {
+const Header = ({ data }) => {
   return (
     <div className='header'>
       <h2 className='header-title'>Datos Principales</h2>
-      {/* <div className='avatar'>
+      <div className='avatar'>
         <img src={data.avatar} alt={`${data.name}'s avatar`} />
       </div>
       <p>
@@ -43,7 +42,7 @@ const Header = () => {
         Descripción:
         {' '}
         {data.profile}
-      </p> */}
+      </p>
     </div>
   );
 };

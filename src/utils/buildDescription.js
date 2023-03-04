@@ -44,6 +44,13 @@ const descriptionType = {
   },
 };
 
+// This function takes in two parameters, 'type' and 'information', and returns an object with three properties:
+//  'header', 'type', and 'body'.
+//
+//The function uses the parameter 'type' to access a specific set of keys, header, body, and fieldType from the descriptionType
+//It then loops through the keys and replaces any placeholder values in the header and body strings
+//  with the corresponding values from the information parameter.
+//Finally, it returns an object with the generated header, type (defaults to Text if no fieldType is provided), and body.
 const buildDescription = (type, information) => {
   const { keys, header, body, fieldType } =
     descriptionType[type] || descriptionType.Default;
@@ -51,7 +58,7 @@ const buildDescription = (type, information) => {
   let generatedHeader = header;
   let generatedBody = body;
 
-  keys.forEach((key) => {
+  keys.forEach(key => {
     generatedHeader = generatedHeader.replace(`{${key}}`, information[key]);
     generatedBody = generatedBody.replace(`{${key}}`, information[key]);
   });

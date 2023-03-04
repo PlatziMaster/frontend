@@ -1,9 +1,3 @@
-//Create a react component that return a antd collapse
-//The componenet receives as params an object called data
-//Data will have a key "section" that will be the header of the colapse
-//Datta will have a key "information" that will be a list of object with keys "title" and "description"
-//Using the "information" key create child collapsibles  inside the one of "section" where "title" and "description" are header and body
-
 import React from 'react';
 import { nanoid } from 'nanoid';
 import { PlusOutlined, MinusOutlined } from '@ant-design/icons';
@@ -13,6 +7,7 @@ const formattedHeader = header => (
   <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{header}</div>
 );
 
+// Give us the correct element depending in what we want
 const contentTypes = {
   Text: ({ body, header }) => (
     <Card
@@ -48,6 +43,7 @@ const contentTypes = {
 };
 
 function Section({ title, content, priority }) {
+  //If field is extensive will have all the row for it
   const priorityAssigned = priority || 2;
 
   return (

@@ -45,13 +45,13 @@ npm run lint
 ```
 
 ### Documentación
-Al ser este uno de los primeros proyectos que realizo con React, al menos sin seguir un tutorial, intente comprender cada paso que iba realizando. Busque ejemplos e intente darle mi toque personal. Aprendi un poco de testing, de lo cual no sabia nada. Espero que esten lo suficientemente correctos. Y lo mas importante, para mi, es que voy entendiendo el funcionamiento de React. Buen ejercicio.
+Al ser este uno de los primeros proyectos que realizo con React, al menos sin seguir un tutorial, intente comprender cada paso que iba realizando. Busque ejemplos e intente darle mi toque personal. Aprendí un poco de testing, de lo cual no sabia nada. Espero que estén lo suficientemente correctos. Y lo mas importante, para mi, es que voy entendiendo el funcionamiento de React. Buen ejercicio.
 
-El diseño es css puro, ya que no quise complicarme instalando frameworks, iconos, etc, porque todavia no se como integrarlos con React.
+El diseño es css puro, ya que no quise complicarme instalando frameworks, iconos, etc, porque todavía no se como integrarlos con React.
 
 La función getData es bien sencilla y toma los datos del json incluido.
 
-El json fue integrado con los componentes a traves de la susodicha función getData.
+El json fue integrado con los componentes a través de la susodicha función getData.
 
 La api fue personalizada con mis datos
 

@@ -2,7 +2,7 @@
   "data": {
     "name": "Eduardo García",
     "profession": "Frontend Developer",
-    "address": "Buenos Aires, Argentina.",
+    "address": "Quilmes, Buenos Aires, Argentina.",
     "email": "dany2k11@gmail.com",
     "website": "https://github.com/garedan",
     "phone": "(54) 11 3855 4919",
@@ -33,7 +33,6 @@
     ],
     "academic": [
       {
-        "id": 4,
         "degree": "Analista en Informática",
         "description": "El egresado de esta carrera está capacitado para controlar las normas de calidad en el software o software integrado a otros componentes y efectuar las tareas de auditoría de los sistemas informáticos, realizar arbitrajes, peritajes, y tasaciones relacionadas con los sistemas informáticos.",
         "endDate": "2005",
@@ -43,7 +42,6 @@
     ],
     "experience": [
       {
-        "id": 5,
         "company": "Allen Hamilton",
         "endDate": "2019",
         "jobDescription": "Planificación, desarrollo, prueba, despliegue y mantenimiento de aplicaciones web. Traducción eficaz de los requisitos del cliente en diseños de aplicaciones y requisitos de sistemas.",
@@ -51,7 +49,6 @@
         "startDate": "2011"
       },
       {
-        "id": 6,
         "company": "Millbank y Morrison",
         "endDate": "2011",
         "jobDescription": "Gestión de desarrollo front-end y back-end en los sistemas Portfolio Analyst, Employee Track y Account Managment de la empresa. Identificación, diagnóstico y solución de problemas en el sitio web, incluidos enlaces no válidos, errores tipográficos y problemas de formato.",
@@ -59,7 +56,6 @@
         "startDate": "2008"
       },
       {
-        "id": 7,
         "company": "Freelance",
         "endDate": "Presente",
         "jobDescription": "Desarrollo de la aplicación SuperUltraCoolWeather utilizando la API de AccuWeather. Evaluación y conocimiento de las nuevas normas, tecnologías y tendencias en el desarrollo de sitios web.",
@@ -69,79 +65,64 @@
     ],
     "skills": [
       {
-        "id": 8,
         "name": "HTML",
         "percentage": "75%"
       },
       {
-        "id": 9,
         "name": "CSS",
         "percentage": "70%"
       },
       {
-        "id": 10,
         "name": "JavaScript",
         "percentage": "60%"
       },
       {
-        "id": 11,
         "name": "Git",
         "percentage": "50%"
       },
       {
-        "id": 12,
         "name": "ReactJS",
         "percentage": "55%"
       },
       {
-        "id": 13,
         "name": "NodeJS",
         "percentage": "35%"
       }
     ],
     "interest": [
       {
-        "id": 14,
         "name":  "javascript"
       },
       {
-        "id": 15,
         "name":  "react"
       },
       {
-        "id": 17,
         "name":  "backend"
       },
       {
-        "id": 18,
         "name":  "frontend"
       }
     ],
     "languages": [
       {
-        "id": 22,
         "name": "Spanish",
         "percentage": "100%"
       },
       {
-        "id": 23,
         "name": "English",
         "percentage": "50%"
       }
     ],
     "social": [
       {
-        "id": 24,
         "name": "twitter",
         "url": "https://twitter.com/dany2k11"
       },
       {
-        "id": 25,
         "name": "github",
         "url": "https://github.com/garedan"
       },
       {
-        "id": 26,
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/garedan/"
       }

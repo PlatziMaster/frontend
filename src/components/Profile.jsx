@@ -8,7 +8,6 @@ function Profile({ description, title }) {
       <div className='profile-description'>
         <p className='Profile-desc'>
           {description}
-          bla bla bla
         </p>
       </div>
     </div>

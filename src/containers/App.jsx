@@ -11,18 +11,25 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <>
+    <div className='container mt-4'>
       <Header>
         <About />
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+      <div className='row'>
+        <Academic />
+        <Skills />
+
+      </div>
+      <div className='row'>
+        <Interest />
+        <Languages />
+
+      </div>
+
+    </div>
+  );
 };
 
 export default App;

@@ -1,0 +1,40 @@
+.profile {
+    padding: 40px 15% 40px;
+    
+}
+.profile-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 30px;
+    background-color: #925bff;
+    padding: 15px;
+}
+.profile-description {
+    font-size: 22px;
+    color: #272d53;
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-align: justify;
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 5px 15px #aaaaaa;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+@media (max-width: 1200px) {
+    .profile {
+        padding: 80px 5% 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-title {
+        text-align: center;
+    }
+    .profile-description {
+        text-align: center;
+    }
+}

@@ -1,0 +1,50 @@
+  .language {
+    width: 50%;
+    margin: 0 0 0 15px;
+    width: 50%;
+    background-color: white;
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 5px 15px #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.language-title {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #925bff;
+    padding: 10px;
+}
+
+.language-item {
+    display: flex;
+    flex-direction: row;
+    color: #272d53;
+    font-size: 25px;
+    line-height: 30px;
+    width: 50%;
+    align-content: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .language {
+        width: 100%;
+        margin: 0;
+    }
+    .language-title {
+        color: #c7dfc1;
+        background-color: #5569dc;
+    }
+}
+
+@media (max-width: 480px) {
+    .language-title {
+        text-align: center;
+    }
+  }

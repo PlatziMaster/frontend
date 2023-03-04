@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap');
+
+body {
+    background-color: #ffd171;
+    font-family: 'Tajawal', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.two-columns {
+    display: flex;
+    padding: 40px 15%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #272d53;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    height: 100px;
+}
+
+.footer h5 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1200px) {
+    .two-columns {
+        padding: 40px 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .two-columns {
+        padding: 25px 5%;
+        display: block;
+    }
+}

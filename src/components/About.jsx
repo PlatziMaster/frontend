@@ -3,10 +3,10 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <div className='row'>
-        <img className='img-profile' src='https://media.licdn.com/dms/image/C4E03AQFkccad2NlFeA/profile-displayphoto-shrink_200_200/0/1630707728621?e=1683158400&v=beta&t=Fjsxcoqdn5INIVNUR6zLre2ErbEcpeHxF-USeLdnVso' alt='profile' />
+      <div className='col-3'>
+        <img className='img-profile ' src='https://media.licdn.com/dms/image/C4E03AQFkccad2NlFeA/profile-displayphoto-shrink_200_200/0/1630707728621?e=1683158400&v=beta&t=Fjsxcoqdn5INIVNUR6zLre2ErbEcpeHxF-USeLdnVso' alt='profile' />
       </div>
-      <div className='row'>
+      <div className='col-9'>
         <h2 className='Header-title About-title'>Jose Alberto Cortes Ayala </h2>
         <p className='Header-job-title'>Desarrollador javascript/python</p>
         <div>

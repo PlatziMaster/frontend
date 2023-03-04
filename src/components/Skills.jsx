@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div className='row'>
+    <div className='col-6'>
       <h3 className='Skills-title'>Skills</h3>
       <p className='Skills-item'>javascript - React</p>
       <p className='Skills-item'>python - django/fastApi</p>

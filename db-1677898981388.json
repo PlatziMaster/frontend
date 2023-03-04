@@ -101,7 +101,11 @@
         "percentage": "90%"
       }
     ],
-    "interest": ["Javascript", "React", "software"],
+    "interest": [
+      "Javascript",
+      "React",
+      "software"
+    ],
     "languages": [
       {
         "name": "Spanish",

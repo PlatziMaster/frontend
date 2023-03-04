@@ -5,7 +5,7 @@
     "address": "Santa Marta, Colombia.",
     "email": "jimenezwalter763@gmail.com",
     "website": "",
-    "phone": "+57 3107863261",
+    "phone": "3107863261",
     "avatar": "908ee66500de0de87ccef78ab5b334a3",
     "profile": "Hi! I'm Walter Jimenez, a college student and Frontend Developer. I enjoy creating web applications and I would like to continue focusing my career in this area.",
     "certificate": [
@@ -73,35 +73,23 @@
     ],
     "skills": [
       {
-        "name": "HTML, CSS and JavaScript",
+        "name": "HTML5",
         "percentage": "80%"
       },
       {
+        "name": "CSS",
+        "percentage": "95%"
+      },
+      {
         "name": "React",
-        "percentage": "95%"
-      },
-      {
-        "name": "React Native",
-        "percentage": "95%"
-      },
-      {
-        "name": "PHP",
-        "percentage": "90%"
-      },
-      {
-        "name": "Java",
-        "percentage": "90%"
-      },
-      {
-        "name": "C++",
-        "percentage": "90%"
-      },
-      {
-        "name": "Python",
         "percentage": "90%"
       }
     ],
-    "interest": ["Javascript", "React", "software"],
+    "interest": [
+      "Javascript",
+      "React",
+      "software"
+    ],
     "languages": [
       {
         "name": "Spanish",
@@ -118,6 +106,10 @@
     ],
     "social": [
       {
+        "name": "instagram",
+        "url": "https://www.instagram.com/walterjimenez2210/"
+      },
+      {
         "name": "github",
         "url": "https://github.com/Privado11"
       },
@@ -126,6 +118,6 @@
         "url": "https://www.linkedin.com/in/walter-jimenez9522"
       }
     ],
-    "username": "privado11"
+    "username": "Walter Jiménez"
   }
 }

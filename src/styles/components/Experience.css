@@ -8,6 +8,7 @@
     font-weight: 500;
     margin-bottom: 30px;
     background-color: #925bff;
+    padding: 15px;
 }
 
 .experience-item {
@@ -18,11 +19,12 @@
     font-size: 20px;
     margin-bottom: 30px;
     line-height: 30px;
-    text-align: justify;
+    text-align: center;
     border: 1px solid #BFBFBF;
     box-shadow: 5px 5px 15px #aaaaaa;
     padding: 25px;
     background-color: #fff;
+    border-radius: 25px;
 }
 .job-date {
     margin-bottom: 15px;

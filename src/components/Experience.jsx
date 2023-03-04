@@ -21,4 +21,3 @@ export default function Experience({ title, experience }) {
     </div>
   );
 }
-

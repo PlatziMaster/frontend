@@ -29,13 +29,11 @@
     font-size: 22px;
     margin-right: 15px;
     font-weight: 300;
-    /* font-style: italic; */
     text-align: center;
-    color: white;
+    color: #000;
 }
 .about-title {
     font-size: 55px;
-    /* text-transform: uppercase; */
     letter-spacing: 2px;
     color: white;
 }
@@ -44,7 +42,10 @@
     flex-direction: column;
     margin-top: 25px;
     margin-bottom: 15px;
-    color: white;
+    color: #000;
+    background: #ffd171;
+    border-radius: 20px;
+    padding: 10px;
 }
 .contact-information div {
     display: inline-flex;
@@ -53,7 +54,7 @@
 }
 .contact-information a {
     font-size: 22px;
-    color: white;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
     margin-top: 15px;

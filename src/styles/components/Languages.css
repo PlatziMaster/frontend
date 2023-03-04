@@ -5,6 +5,9 @@
     background-color: white;
     border: 1px solid #BFBFBF;
     box-shadow: 5px 5px 15px #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .language-title {
@@ -17,13 +20,15 @@
 }
 
 .language-item {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     color: #272d53;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
-    text-align: justify;
-    padding: 30px;
     width: 50%;
+    align-content: center;
+    justify-content: space-between;
+    margin: auto;
 }
 
 

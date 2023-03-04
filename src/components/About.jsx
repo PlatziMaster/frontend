@@ -24,7 +24,7 @@ export default function About({ name, profession, phone, email, website, address
             {address}
           </h5>
           <a className='About-item' href={website} target='_blank' rel='noreferrer'>
-            <span role='img' aria-label='address'>🌐 </span>
+            <span role='img' aria-label='web'>🌐 </span>
             {website}
           </a>
         </div>

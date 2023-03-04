@@ -60,7 +60,7 @@ const App = () => {
           </div>
           <div className='two-columns'>
             <Experience
-              title='Experiencia'
+              title='Experience'
               experience={experience}
             />
           </div>

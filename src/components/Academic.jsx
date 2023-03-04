@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/Academic.css';
 
-function Academic({ title, academic }) {
+export default function Academic({ title, academic }) {
   return (
     <div className='academic'>
       <h3 className='academic-title'>{title}</h3>
@@ -17,6 +17,3 @@ function Academic({ title, academic }) {
     </div>
   );
 }
-
-export default Academic;
-

@@ -9,18 +9,19 @@
     font-weight: 500;
     margin-bottom: 30px;
     background-color: #925bff;
+    padding: 15px;
 }
 .profile-description {
     font-size: 22px;
     color: #272d53;
     letter-spacing: 1px;
-    /* text-transform: uppercase; */
     line-height: 35px;
     text-align: justify;
     border: 1px solid #BFBFBF;
     box-shadow: 5px 5px 15px #aaaaaa;
-    padding: 25px;
+    padding: 30px;
     background-color: #fff;
+    border-radius: 25px;
 }
 
 @media (max-width: 1200px) {

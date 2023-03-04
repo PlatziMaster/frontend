@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/Profile.css';
 
-function Profile({ description, title }) {
+export default function Profile({ description, title }) {
   return (
     <div className='profile'>
       <h3 className='profile-title'>{title}</h3>
@@ -13,5 +13,3 @@ function Profile({ description, title }) {
     </div>
   );
 }
-
-export default Profile;

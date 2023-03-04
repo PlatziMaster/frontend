@@ -5,6 +5,7 @@
 //Using the "information" key create child collapsibles  inside the one of "section" where "title" and "description" are header and body
 
 import React from 'react';
+import { nanoid } from 'nanoid';
 import { Card, Collapse, Col } from 'antd';
 
 function Section({ title, content, priority }) {
@@ -14,8 +15,8 @@ function Section({ title, content, priority }) {
     <Col xs={24} sm={24} md={24 / priorityAssigned} lg={24 / priorityAssigned}>
       <Collapse accordion>
         <Collapse.Panel header={title}>
-          {content.map((item, index) => (
-            <Card key={index} title={item.header} size="small">
+          {content.map(item => (
+            <Card key={nanoid()} title={item.header} size='small'>
               <span>{item.body}</span>
             </Card>
           ))}

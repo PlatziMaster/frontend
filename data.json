@@ -1,110 +1,136 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "Header": {
+      "name": "Andres Felipe Ospina Gualteros",
+      "profession": "Full Stack Developer",
+      "address": "Dubai, United Arab States.",
+      "email": "guosfean21@gmail.com",
+      "phone": "+971 0585267994",
+      "avatarUrl": "https://media.licdn.com/dms/image/C4E03AQG4w2IST8KWBQ/profile-displayphoto-shrink_800_800/0/1604985141922?e=2147483647&v=beta&t=ciYroNCrhwL5Q2NeSZtdx5eelKgIJobgjYrqTkugeGU",
+      "profile": "Developer with a passion for blockchain technology, committed to developing innovative solutions and staying up-to-date with the latest trends and best practices in the industry."
+    },
+    "Experience": {
+      "data": [
+        {
+          "company": "Cobblestone Energy",
+          "endDate": "Present",
+          "jobDescription": "Develop and maintain trading tools using Python and React.\nOptimize code and improve performance to ensure timely processing of data.\nLead a team of developers on project development, providing guidance and mentorship.\nEnsure adherence to best practices in software development, including code review, testing, and documentation.\nCollaborate with cross-functional teams to identify and solve technical challenges.",
+          "jobTitle": "Developer",
+          "startDate": "Jun 2021"
+        },
+        {
+          "company": "MyWay S.A.S",
+          "endDate": "Jun 2021",
+          "jobDescription": "Worked on a marketplace application using React, Django, and Node.js. Followed and took requirements from stakeholders to build a scalable and reliable application. Set up pipelines for continuous integration using Jenkins to ensure streamlined and efficient development process\n- Worked with the development team to implement best practices and ensure high-quality code delivery. Maintained and updated the application as required",
+          "jobTitle": "Backend Developer",
+          "startDate": "Sept 2020"
+        },
+        {
+          "company": "Grupo GRANDE",
+          "endDate": "Jul 2020",
+          "jobDescription": "Joined a research group with a focus on blockchain technology. Contributed to various exciting projects in the group. Created mocks for use cases and implementations in Hyperledger, Multichain, and Solidity. Gained valuable experience in blockchain technology. Developed several innovative projects as a result of the work. Collaborated with a talented team of researchers and developers throughout the process",
+          "jobTitle": "Researcher",
+          "startDate": "Jun 2018"
+        }
+      ]
+    },
+    "Skills": {
+      "data": [
+        {
+          "name": "Python",
+          "percentage": 90
+        },
+        {
+          "name": "React",
+          "percentage": 90
+        },
+        {
+          "name": "NodeJs",
+          "percentage": 80
+        },
+        {
+          "name": "SQL",
+          "percentage": 75
+        },
+        {
+          "name": "Django",
+          "percentage": 75
+        },
+        {
+          "name": "Solidity",
+          "percentage": 65
+        }
+      ]
+    },
+    "Course": {
+      "data": [
+        {
+          "institution": "Platzi",
+          "name": "Basic Git and Github course"
+        },
+        {
+          "institution": "Platzi",
+          "name": "Basic Jenkins course"
+        },
+        {
+          "institution": "Bussiness blockchain",
+          "name": "Course Blockchain development with Hyperledger Fabric"
+        },
+        {
+          "institution": "Free Code Camp",
+          "name": "Solidity, Blockchain and Smart Contracts with JS"
+        }
+      ]
+    },
+    "Academic": {
+      "data": [
+        {
+          "degree": "System Engineering",
+          "endDate": "Jul 2020",
+          "institution": "Universidad Tecnologica de Pereira",
+          "startDate": "Jan 2016"
+        }
+      ]
+    },
+    "Interest": {
+      "data": [
+        {
+          "name": "Blockchain"
+        },
+        {
+          "name": "Automation"
+        },
+        {
+          "name": "Development process"
+        },
+        {
+          "name": "React"
+        }
+      ]
+    },
+    "Languages": {
+      "data": [
+        {
+          "name": "Spanish",
+          "percentage": 100
+        },
+        {
+          "name": "English",
+          "percentage": 85
+        }
+      ]
+    },
+    "Social": {
+      "data": [
+        {
+          "name": "Github",
+          "url": "https://github.com/Pamtzo"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/andr%C3%A9s-felipe-ospina-gualteros-62728b19b/"
+        }
+      ]
+    }
   }
 }

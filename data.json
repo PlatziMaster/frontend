@@ -1,16 +1,14 @@
 {
   "data": {
-    "Header": [
-      {
-        "name": "Andres Felipe Ospina Gualteros",
-        "profession": "Full Stack Developer",
-        "address": "Dubai, United Arab States.",
-        "email": "guosfean21@gmail.com",
-        "phone": "+971 0585267994",
-        "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-        "Profile": "Full Stack Developer with a passion for blockchain technology, committed to developing innovative solutions and staying up-to-date with the latest trends and best practices in the industry."
-      }
-    ],
+    "Header": {
+      "name": "Andres Felipe Ospina Gualteros",
+      "profession": "Full Stack Developer",
+      "address": "Dubai, United Arab States.",
+      "email": "guosfean21@gmail.com",
+      "phone": "+971 0585267994",
+      "avatarUrl": "https://media.licdn.com/dms/image/C4E03AQG4w2IST8KWBQ/profile-displayphoto-shrink_800_800/0/1604985141922?e=2147483647&v=beta&t=ciYroNCrhwL5Q2NeSZtdx5eelKgIJobgjYrqTkugeGU",
+      "profile": "Developer with a passion for blockchain technology, committed to developing innovative solutions and staying up-to-date with the latest trends and best practices in the industry."
+    },
     "Experience": {
       "data": [
         {
@@ -21,7 +19,7 @@
           "startDate": "Jun 2021"
         },
         {
-          "company": "MyWay SaS",
+          "company": "MyWay S.A.S",
           "endDate": "Jun 2021",
           "jobDescription": "- Worked on a marketplace application using React, Django, and Node.js\n- Followed and took requirements from stakeholders to build a scalable and reliable application\n- Set up pipelines for continuous integration using Jenkins to ensure streamlined and efficient development process\n- Worked with the development team to implement best practices and ensure high-quality code delivery\n- Maintained and updated the application as required",
           "jobTitle": "Developer",

@@ -4,9 +4,10 @@ import { nanoid } from 'nanoid';
 import Section from '../components/Section';
 import { getData } from '../utils/getData';
 import buildDescription from '../utils/buildDescription';
+import ProfileHeader from '../components/ProfileHeader';
 
 function FillSection() {
-  const [, setHeader] = useState({});
+  const [Header, setHeader] = useState({});
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -27,16 +28,19 @@ function FillSection() {
   }, []);
 
   return (
-    <Row>
-      {data.map(item => (
-        <Section
-          key={nanoid()}
-          title={item.title}
-          content={item.content}
-          priority={item.priority}
-        />
-      ))}
-    </Row>
+    <>
+      <ProfileHeader Header={Header} />
+      <Row>
+        {data.map(item => (
+          <Section
+            key={nanoid()}
+            title={item.title}
+            content={item.content}
+            priority={item.priority}
+          />
+        ))}
+      </Row>
+    </>
   );
 }
 

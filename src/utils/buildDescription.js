@@ -6,7 +6,7 @@ const descriptionType = {
   },
   Experience: {
     keys: ['jobTitle', 'jobDescription', 'company', 'startDate', 'endDate'],
-    header: '{jobTitle} at {company} __________ {startDate} - {endDate}',
+    header: '{jobTitle} at {company} ___ {startDate} - {endDate}',
     body: '{jobDescription}',
   },
   Academic: {

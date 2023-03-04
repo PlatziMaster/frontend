@@ -6,22 +6,41 @@
 
 import React from 'react';
 import { nanoid } from 'nanoid';
+import { PlusOutlined, MinusOutlined } from '@ant-design/icons';
 import { Card, Collapse, Col, Progress } from 'antd';
+
+const formattedHeader = header => (
+  <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{header}</div>
+);
 
 const contentTypes = {
   Text: ({ body, header }) => (
-    <Card key={nanoid()} title={body && header} size='small'>
+    <Card
+      key={nanoid()}
+      title={body && formattedHeader(header)}
+      size="small"
+      style={{ backgroundColor: 'transparent', borderColor: 'black' }}
+    >
       <span>{body || header}</span>
     </Card>
   ),
-  Percentage: item => (
-    <Card key={nanoid()} title={header} size='small'>
+  Percentage: ({ body, header }) => (
+    <Card
+      key={nanoid()}
+      title={formattedHeader(header)}
+      size="small"
+      style={{ backgroundColor: 'transparent', borderColor: 'black' }}
+    >
       <Progress percent={body} />
     </Card>
   ),
-  Url: item => (
-    <Card key={nanoid()} size='small'>
-      <a href={body} target='_blank' rel='noreferrer'>
+  Url: ({ body, header }) => (
+    <Card
+      key={nanoid()}
+      size="small"
+      style={{ backgroundColor: '#b2e8f7', borderColor: 'black' }}
+    >
+      <a href={body} target="_blank" rel="noreferrer">
         {header}
       </a>
     </Card>
@@ -31,12 +50,25 @@ const contentTypes = {
 function Section({ title, content, priority }) {
   const priorityAssigned = priority || 2;
 
-  console.log(content);
-
   return (
-    <Col xs={24} sm={24} md={24 / priorityAssigned} lg={24 / priorityAssigned}>
-      <Collapse accordion>
-        <Collapse.Panel header={title}>
+    <Col
+      xs={22}
+      sm={22}
+      md={22 / priorityAssigned}
+      lg={22 / priorityAssigned}
+      style={{ backgroundColor: '#b2f7c5', borderRadius: '2%', margin: '1%' }}
+    >
+      <Collapse
+        defaultActiveKey={['1']}
+        // expandIconPosition="end"
+        expandIcon={({ isActive }) =>
+          isActive ? <MinusOutlined /> : <PlusOutlined />
+        }
+        ghost
+        size="small"
+        accordion
+      >
+        <Collapse.Panel key="1" header={formattedHeader(title)}>
           {content.map(item => contentTypes[item.type](item))}
         </Collapse.Panel>
       </Collapse>

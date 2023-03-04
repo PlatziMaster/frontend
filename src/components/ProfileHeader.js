@@ -15,7 +15,17 @@ const ProfileHeader = ({ Header }) => {
   } = Header;
 
   return (
-    <Row span={24} style={{ display: 'flex', alignItems: 'center' }}>
+    <Row
+      span={24}
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        backgroundColor: 'transparent',
+        borderRadius: '2%',
+        margin: '1%',
+        padding: '1%',
+      }}
+    >
       <Col xs={24} sm={24} md={5} lg={5} offset={1}>
         <Avatar size={124} src={avatarUrl} />
       </Col>

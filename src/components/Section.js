@@ -38,7 +38,7 @@ const contentTypes = {
     <Card
       key={nanoid()}
       size="small"
-      style={{ backgroundColor: '#b2e8f7', borderColor: 'black' }}
+      style={{ backgroundColor: 'transparent', borderColor: 'black' }}
     >
       <a href={body} target="_blank" rel="noreferrer">
         {header}
@@ -56,11 +56,15 @@ function Section({ title, content, priority }) {
       sm={22}
       md={22 / priorityAssigned}
       lg={22 / priorityAssigned}
-      style={{ backgroundColor: '#b2f7c5', borderRadius: '2%', margin: '1%' }}
+      style={{
+        backgroundColor: '#bfeff2',
+        borderRadius: '2%',
+        margin: '1%',
+      }}
     >
       <Collapse
         defaultActiveKey={['1']}
-        // expandIconPosition="end"
+        expandIconPosition="end"
         expandIcon={({ isActive }) =>
           isActive ? <MinusOutlined /> : <PlusOutlined />
         }

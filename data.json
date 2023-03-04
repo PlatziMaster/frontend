@@ -49,6 +49,10 @@
           "percentage": 80
         },
         {
+          "name": "SQL",
+          "percentage": 75
+        },
+        {
           "name": "Django",
           "percentage": 75
         },
@@ -78,6 +82,9 @@
         },
         {
           "name": "Development process"
+        },
+        {
+          "name": "React"
         }
       ]
     },
@@ -85,7 +92,7 @@
       "data": [
         {
           "name": "Spanish",
-          "percentage": 95
+          "percentage": 100
         },
         {
           "name": "English",

@@ -36,16 +36,16 @@ const ProfileHeader = ({ Header }) => {
         padding: '1%',
       }}
     >
-      <Col xs={24} sm={24} md={5} lg={5} offset={1} align="center">
+      <Col xs={24} sm={24} md={5} lg={5} offset={1} align='center'>
         <Avatar size={200} src={avatarUrl} />
       </Col>
-      <Col xs={24} sm={24} md={8} lg={8} align="center">
+      <Col xs={24} sm={24} md={8} lg={8} align='center'>
         <Title level={3}>{name}</Title>
         <div style={{ fontSize: 14 }}>{phone}</div>
         <div style={{ fontSize: 14 }}>{email}</div>
         <div style={{ fontSize: 14 }}>{address}</div>
       </Col>
-      <Col xs={24} sm={24} md={8} lg={8} align="center">
+      <Col xs={24} sm={24} md={8} lg={8} align='center'>
         <div style={{ fontSize: 18, fontWeight: 'bold' }}>{profession}</div>
         <div style={{ fontSize: 14 }}>{profile}</div>
       </Col>

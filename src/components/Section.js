@@ -13,7 +13,7 @@ const contentTypes = {
     <Card
       key={nanoid()}
       title={body && formattedHeader(header)}
-      size="small"
+      size='small'
       style={{ backgroundColor: 'transparent', borderColor: 'black' }}
     >
       <span>{body || header}</span>
@@ -23,7 +23,7 @@ const contentTypes = {
     <Card
       key={nanoid()}
       title={formattedHeader(header)}
-      size="small"
+      size='small'
       style={{ backgroundColor: 'transparent', borderColor: 'black' }}
     >
       <Progress percent={body} />
@@ -32,10 +32,10 @@ const contentTypes = {
   Url: ({ body, header }) => (
     <Card
       key={nanoid()}
-      size="small"
+      size='small'
       style={{ backgroundColor: 'transparent', borderColor: 'black' }}
     >
-      <a href={body} target="_blank" rel="noreferrer">
+      <a href={body} target='_blank' rel='noreferrer'>
         {header}
       </a>
     </Card>
@@ -60,15 +60,14 @@ function Section({ title, content, priority }) {
     >
       <Collapse
         defaultActiveKey={['1']}
-        expandIconPosition="end"
-        expandIcon={({ isActive }) =>
-          isActive ? <MinusOutlined /> : <PlusOutlined />
+        expandIconPosition='end'
+        expandIcon={({ isActive }) => (isActive ? <MinusOutlined /> : <PlusOutlined />)
         }
         ghost
-        size="small"
+        size='small'
         accordion
       >
-        <Collapse.Panel key="1" header={formattedHeader(title)}>
+        <Collapse.Panel key='1' header={formattedHeader(title)}>
           {content.map(item => contentTypes[item.type](item))}
         </Collapse.Panel>
       </Collapse>

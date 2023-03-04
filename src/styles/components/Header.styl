@@ -1,0 +1,49 @@
+.Header
+  display flex
+  flex-wrap wrap
+  align-items center
+  justify-content space-between
+  border-bottom 1px solid #1c1c1c61
+  padding-bottom 30px
+  img
+    border-radius 50%
+
+.Header-title
+  font-size 5.5rem
+  text-transform uppercase
+  letter-spacing 0.2rem
+  width 37rem
+
+.Header-job-title
+  font-size 1.8rem
+  padding-top 10px
+
+@media only screen and (max-width 900px)
+  .Header-title
+    font-size 4rem
+    width 28rem
+
+  .Header
+    img
+      width: 15rem
+
+@media only screen and (max-width 630px)
+  .Header-title
+    font-size 2.5rem
+    width 18rem
+
+  .Header
+    img
+      width: 10rem
+
+@media only screen and (max-width 410px)
+  .Header-title
+    font-size 2rem
+    width 14rem
+
+  .Header
+    img
+      width: 7rem
+
+  .Header-job-title
+    font-size 1.5rem

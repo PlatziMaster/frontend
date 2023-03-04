@@ -101,7 +101,11 @@
         "percentage": "90%"
       }
     ],
-    "interest": ["Javascript", "React", "software"],
+    "interest": [
+      "Javascript",
+      "React",
+      "software"
+    ],
     "languages": [
       {
         "name": "Spanish",
@@ -118,6 +122,10 @@
     ],
     "social": [
       {
+        "name": "instagram",
+        "url": "https://www.instagram.com/walterjimenez2210/"
+      },
+      {
         "name": "github",
         "url": "https://github.com/Privado11"
       },
@@ -126,6 +134,6 @@
         "url": "https://www.linkedin.com/in/walter-jimenez9522"
       }
     ],
-    "username": "privado11"
+    "username": "Walter Jiménez"
   }
 }

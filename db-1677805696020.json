@@ -5,24 +5,27 @@
     "address": "Santa Marta, Colombia.",
     "email": "jimenezwalter763@gmail.com",
     "website": "",
-    "phone": "+57 3107863261",
-    "avatar": "908ee66500de0de87ccef78ab5b334a3",
+    "phone": "3107863261",
+    "avatar": "src/resource/profile.jpg",
     "profile": "Hi! I'm Walter Jimenez, a college student and Frontend Developer. I enjoy creating web applications and I would like to continue focusing my career in this area.",
     "certificate": [
       {
-        "date": "2022",
-        "description": [
-          "- Definitive HTML and CSS Course.",
-          "- HTML5 and CSS3 part 1: My first web page.",
-          "- HTML5 and CSS3 part 2: Positioning, lists and navigation.",
-          "- HTML5 and CSS3 part 4: Advancing CSS.",
-          "- Git and GitHub Professional Course.",
-          "- Programming Logic: Practicing with games and animations.",
-          "- Git and GitHub: control and share your code.",
-          "- Next.js course."
-        ],
-        "institution": "Platzi and Alura Latam",
-        "name": "Additional Courses"
+        "date": "Oct 2022",
+        "description": "Learn all about HTML tags, semantics, CSS, how to style your website elements, EM/REM measures, box model and much more.",
+        "institution": "Platzi",
+        "name": "Definitive HTML and CSS Course"
+      },
+      {
+        "date": "Oct 2022",
+        "description": "Learn Next.js and start creating professional, ready-to-deploy websites without tedious configuration.",
+        "institution": "Platzi",
+        "name": "Next.js course"
+      },
+      {
+        "date": "Oct 2022",
+        "description": "Better use Git, the version control system par excellence used by the technology industry. Learn how to work with git, basic concepts, clone a repository and manage your projects by hosting them in your local repository and on GitHub.",
+        "institution": "Platzi",
+        "name": "Git and GitHub Professional Course"
       }
     ],
     "academic": [
@@ -50,21 +53,21 @@
     ],
     "experience": [
       {
-        "company": "Personal Projects-1",
+        "company": "Personal Projects",
         "endDate": "Present",
         "jobDescription": "Realization of personal projects",
         "jobTitle": "Frontend Developer",
         "startDate": "jan 2021"
       },
       {
-        "company": "Personal Projects-2",
+        "company": "Personal Projects",
         "endDate": "Present",
         "jobDescription": "Realization of personal projects",
         "jobTitle": "Frontend Developer",
         "startDate": "jan 2021"
       },
       {
-        "company": "Personal Projects-3",
+        "company": "Personal Projects",
         "endDate": "Present",
         "jobDescription": "Realization of personal projects",
         "jobTitle": "Frontend Developer",
@@ -73,35 +76,23 @@
     ],
     "skills": [
       {
-        "name": "HTML, CSS and JavaScript",
+        "name": "HTML5",
         "percentage": "80%"
       },
       {
+        "name": "CSS",
+        "percentage": "95%"
+      },
+      {
         "name": "React",
-        "percentage": "95%"
-      },
-      {
-        "name": "React Native",
-        "percentage": "95%"
-      },
-      {
-        "name": "PHP",
-        "percentage": "90%"
-      },
-      {
-        "name": "Java",
-        "percentage": "90%"
-      },
-      {
-        "name": "C++",
-        "percentage": "90%"
-      },
-      {
-        "name": "Python",
         "percentage": "90%"
       }
     ],
-    "interest": ["Javascript", "React", "software"],
+    "interest": [
+      "Javascript",
+      "React",
+      "software"
+    ],
     "languages": [
       {
         "name": "Spanish",
@@ -110,22 +101,25 @@
       {
         "name": "English",
         "percentage": "75%"
-      },
-      {
-        "name": "Portugues",
-        "percentage": "45%"
       }
     ],
     "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/JimenezWalterLds"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/walterjimenez2210/"
+      },
       {
         "name": "github",
         "url": "https://github.com/Privado11"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/walter-jimenez9522"
+        "url": "www.linkedin.com/in/walter-jimenez9522"
       }
-    ],
-    "username": "privado11"
+    ]
   }
 }

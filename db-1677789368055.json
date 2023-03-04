@@ -1,0 +1,118 @@
+{
+  "data": {
+    "name": "Walter Jiménez",
+    "profession": "Systems Engineering Student and Frontend Developer",
+    "address": "Santa Marta, Colombia.",
+    "email": "jimenezwalter763@gmail.com",
+    "website": "",
+    "phone": "3107863261",
+    "avatar": "src/resource/profile.jpg",
+    "profile": "Hi! I'm Walter Jimenez, a college student and Frontend Developer. I enjoy creating web applications and I would like to continue focusing my career in this area.",
+    "certificate": [
+      {
+        "date": "Oct 2022",
+        "description": "Learn all about HTML tags, semantics, CSS, how to style your website elements, EM/REM measures, box model and much more.",
+        "institution": "Platzi",
+        "name": "Definitive HTML and CSS Course"
+      },
+      {
+        "date": "Oct 2022",
+        "description": "Learn Next.js and start creating professional, ready-to-deploy websites without tedious configuration.",
+        "institution": "Platzi",
+        "name": "Next.js course"
+      },
+      {
+        "date": "Oct 2022",
+        "description": "Better use Git, the version control system par excellence used by the technology industry. Learn how to work with git, basic concepts, clone a repository and manage your projects by hosting them in your local repository and on GitHub.",
+        "institution": "Platzi",
+        "name": "Git and GitHub Professional Course"
+      }
+    ],
+    "academic": [
+      {
+        "degree": "Systems Engineering Student",
+        "description": "Sixth semester student.",
+        "endDate": "2025",
+        "institution": "Universidad del Magdalena",
+        "startDate": "Aug 2020"
+      },
+      {
+        "degree": "English",
+        "description": "Advanced English.",
+        "endDate": "Jul 2022",
+        "institution": "SENA",
+        "startDate": "Jul 2021"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Personal Projects",
+        "endDate": "Present",
+        "jobDescription": "Realization of personal projects",
+        "jobTitle": "Frontend Developer",
+        "startDate": "jan 2021"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "80%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "95%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "75%"
+      },
+      {
+        "name": "React",
+        "percentage": "90%"
+      },
+      {
+        "name": "Java",
+        "percentage": "60%"
+      },
+      {
+        "name": "C++",
+        "percentage": "60%"
+      }
+    ],
+    "interest": [
+      "Javascript",
+      "React",
+      "Hardware",
+      "Videogames",
+      "software"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "100%"
+      },
+      {
+        "name": "English",
+        "percentage": "75%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/JimenezWalterLds"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/walterjimenez2210/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Privado11"
+      },
+      {
+        "name": "linkedin",
+        "url": "www.linkedin.com/in/walter-jimenez9522"
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# frontend
+# frontend realizado por jose alberto cortes ayala 
 
 ## React Curriculum vitae
 

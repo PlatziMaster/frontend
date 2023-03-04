@@ -10,9 +10,9 @@ function FillSection() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    getData().then((data) => {
-      const { header, ...information } = data;
-      setHeader(header);
+    getData().then(data => {
+      const { Header, ...information } = data;
+      setHeader(Header);
       const sections = Object.entries(information);
       setData(
         sections.map(([title, content]) => {
@@ -21,7 +21,7 @@ function FillSection() {
             content: content.data.map(item => buildDescription(title, item)),
             priority: content.priority,
           };
-        }),
+        })
       );
     });
   }, []);

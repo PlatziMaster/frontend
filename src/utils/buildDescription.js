@@ -1,10 +1,43 @@
 const descriptionType = {
-  certificate: {
+  Certificate: {
     keys: ['name', 'description', 'institution', 'date'],
     header: '{name} - {institution} - {date}',
     body: '{description}',
   },
-  default: {
+  Experience: {
+    keys: ['jobTitle', 'jobDescription', 'company', 'startDate', 'endDate'],
+    header: '{jobTitle} at {company} __________ {startDate} - {endDate}',
+    body: '{jobDescription}',
+  },
+  Academic: {
+    keys: ['degree', 'institution', 'startDate', 'endDate'],
+    header: '{degree}',
+    body: '{institution} {startDate} - {endDate}',
+  },
+  Interest: {
+    keys: ['name'],
+    header: '{name}',
+    body: '',
+  },
+  Skills: {
+    keys: ['name', 'percentage'],
+    header: '{name}',
+    body: '{percentage}',
+    fieldType: 'Percentage',
+  },
+  Languages: {
+    keys: ['name', 'percentage'],
+    header: '{name}',
+    body: '{percentage}',
+    fieldType: 'Percentage',
+  },
+  Social: {
+    keys: ['name', 'url'],
+    header: '{name}',
+    body: '{url}',
+    fieldType: 'Url',
+  },
+  Default: {
     keys: ['name', 'description'],
     header: '{name}',
     body: '{description}',
@@ -12,21 +45,22 @@ const descriptionType = {
 };
 
 const buildDescription = (type, information) => {
-  const { keys, header, body } =
-    descriptionType[type] || descriptionType.default;
+  const { keys, header, body, fieldType } =
+    descriptionType[type] || descriptionType.Default;
 
   let generatedHeader = header;
   let generatedBody = body;
 
-  keys.forEach((key) => {
-    generatedHeader = generatedHeader.replace(
-      `{${key}}`,
-      information[key],
-    );
+  keys.forEach(key => {
+    generatedHeader = generatedHeader.replace(`{${key}}`, information[key]);
     generatedBody = generatedBody.replace(`{${key}}`, information[key]);
   });
 
-  return { header: generatedHeader, body: generatedBody };
+  return {
+    header: generatedHeader,
+    type: fieldType || 'Text',
+    body: generatedBody,
+  };
 };
 
 export default buildDescription;

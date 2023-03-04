@@ -1,18 +1,17 @@
 {
   "data": {
-    "header": [
+    "Header": [
       {
         "name": "Andres Felipe Ospina Gualteros",
         "profession": "Full Stack Developer",
-        "address": "Dubai, Emiratos Arabes Unidos.",
+        "address": "Dubai, United Arab States.",
         "email": "guosfean21@gmail.com",
         "phone": "+971 0585267994",
         "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
         "Profile": "Full Stack Developer with a passion for blockchain technology, committed to developing innovative solutions and staying up-to-date with the latest trends and best practices in the industry."
       }
     ],
-    "experience": {
-      "priority": 1,
+    "Experience": {
       "data": [
         {
           "company": "Cobblestone Energy",
@@ -37,39 +36,27 @@
         }
       ]
     },
-    "skills": {
+    "Skills": {
       "data": [
         {
           "name": "Python",
-          "percentage": "90%"
+          "percentage": 90
         },
         {
           "name": "React",
-          "percentage": "90%"
+          "percentage": 90
         },
         {
           "name": "NodeJs",
-          "percentage": "80%"
+          "percentage": 80
         },
         {
           "name": "Django",
-          "percentage": "75%"
+          "percentage": 75
         },
         {
           "name": "Solidity",
-          "percentage": "65%"
-        }
-      ]
-    },
-    "languages": {
-      "data": [
-        {
-          "name": "Spanish",
-          "percentage": "95%"
-        },
-        {
-          "name": "English",
-          "percentage": "85%"
+          "percentage": 65
         }
       ]
     },
@@ -83,14 +70,39 @@
         }
       ]
     },
-    "social": {
+    "Interest": {
       "data": [
         {
-          "name": "github",
+          "name": "Blockchain"
+        },
+        {
+          "name": "Automation"
+        },
+        {
+          "name": "Development process"
+        }
+      ]
+    },
+    "Languages": {
+      "data": [
+        {
+          "name": "Spanish",
+          "percentage": 95
+        },
+        {
+          "name": "English",
+          "percentage": 85
+        }
+      ]
+    },
+    "Social": {
+      "data": [
+        {
+          "name": "Github",
           "url": "https://github.com/Pamtzo"
         },
         {
-          "name": "linkedin",
+          "name": "Linkedin",
           "url": "https://www.linkedin.com/in/andr%C3%A9s-felipe-ospina-gualteros-62728b19b/"
         }
       ]

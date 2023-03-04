@@ -9,14 +9,14 @@ import { nanoid } from 'nanoid';
 import { Card, Collapse, Col } from 'antd';
 
 function Section({ title, content, priority }) {
-  priorityAssigned = priority || 2;
+  const priorityAssigned = priority || 2;
 
   return (
     <Col xs={24} sm={24} md={24 / priorityAssigned} lg={24 / priorityAssigned}>
       <Collapse accordion>
         <Collapse.Panel header={title}>
           {content.map(item => (
-            <Card key={nanoid()} title={item.header} size='small'>
+            <Card key={nanoid()} title={item.header} size="small">
               <span>{item.body}</span>
             </Card>
           ))}

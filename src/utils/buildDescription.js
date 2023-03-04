@@ -1,8 +1,8 @@
 const descriptionType = {
-  Certificate: {
-    keys: ['name', 'description', 'institution', 'date'],
-    header: '{name} - {institution} - {date}',
-    body: '{description}',
+  Course: {
+    keys: ['name', 'description', 'institution'],
+    header: '{name} - {institution}',
+    body: '',
   },
   Experience: {
     keys: ['jobTitle', 'jobDescription', 'company', 'startDate', 'endDate'],
@@ -58,7 +58,7 @@ const buildDescription = (type, information) => {
   let generatedHeader = header;
   let generatedBody = body;
 
-  keys.forEach((key) => {
+  keys.forEach(key => {
     generatedHeader = generatedHeader.replace(`{${key}}`, information[key]);
     generatedBody = generatedBody.replace(`{${key}}`, information[key]);
   });

@@ -21,14 +21,14 @@
         {
           "company": "MyWay S.A.S",
           "endDate": "Jun 2021",
-          "jobDescription": "- Worked on a marketplace application using React, Django, and Node.js\n- Followed and took requirements from stakeholders to build a scalable and reliable application\n- Set up pipelines for continuous integration using Jenkins to ensure streamlined and efficient development process\n- Worked with the development team to implement best practices and ensure high-quality code delivery\n- Maintained and updated the application as required",
+          "jobDescription": "Worked on a marketplace application using React, Django, and Node.js. Followed and took requirements from stakeholders to build a scalable and reliable application. Set up pipelines for continuous integration using Jenkins to ensure streamlined and efficient development process\n- Worked with the development team to implement best practices and ensure high-quality code delivery. Maintained and updated the application as required",
           "jobTitle": "Backend Developer",
           "startDate": "Sept 2020"
         },
         {
           "company": "Grupo GRANDE",
           "endDate": "Jul 2020",
-          "jobDescription": "As a member of a research group focused on blockchain technology, the opportunity to contribute to several exciting projects was presented. One of the key responsibilities involved the creation of mocks for use cases and implementations in Hyperledger, Multichain, and Solidity. The work provided valuable experience in blockchain technology, and several innovative projects were developed as a result. Collaboration with a talented team of researchers and developers was also an essential aspect of this work",
+          "jobDescription": "Joined a research group with a focus on blockchain technology. Contributed to various exciting projects in the group. Created mocks for use cases and implementations in Hyperledger, Multichain, and Solidity. Gained valuable experience in blockchain technology. Developed several innovative projects as a result of the work. Collaborated with a talented team of researchers and developers throughout the process",
           "jobTitle": "Researcher",
           "startDate": "Jun 2018"
         }
@@ -59,6 +59,26 @@
         {
           "name": "Solidity",
           "percentage": 65
+        }
+      ]
+    },
+    "Course": {
+      "data": [
+        {
+          "institution": "Platzi",
+          "name": "Basic Git and Github course"
+        },
+        {
+          "institution": "Platzi",
+          "name": "Basic Jenkins course"
+        },
+        {
+          "institution": "Bussiness blockchain",
+          "name": "Course Blockchain development with Hyperledger Fabric"
+        },
+        {
+          "institution": "Free Code Camp",
+          "name": "Solidity, Blockchain and Smart Contracts with JS"
         }
       ]
     },

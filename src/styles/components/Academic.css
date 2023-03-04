@@ -1,0 +1,45 @@
+.academic {
+  width: 50%;
+  margin: 0 15px 0 0;
+  width: 50%;
+  background-color: white;
+  border: 1px solid #BFBFBF;
+  box-shadow: 5px 5px 15px #aaaaaa;
+}
+
+.academic-title {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #925bff;
+  padding: 10px;
+}
+
+
+.university {
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.academic-item {
+  display: inline-block;
+  color: #272d53;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .academic {
+      width: 100%;
+      margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .academic-title {
+      text-align: center;
+  }
+}

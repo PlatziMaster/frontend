@@ -1,109 +1,149 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Eduardo Garcia",
+    "profession": "Frontend Developer",
+    "address": "Buenos Aires, Argentina.",
+    "email": "dany2k11@gmail.com",
+    "website": "https://github.com/garedan",
+    "phone": "(54) 11 3855 4919",
+    "avatar": "./avatar.jpg",
+    "profile": "Frontend Developer with 3 years of experience building and maintaining responsive web applications in fast-paced, collaborative environments. Proficient in HTML, CSS, TypeScript, Angular, and working knowledge of React and Native JavaScrip. Ability to work with REST API’s to fetch receive/post data. Experience working with Agile and Kanban methodologies. Passionate about learning and professional growth.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "id": 1,
+        "date": "Mar 2021",
+        "description": "In this course we will take the frontend built in the JavaScript School Frontend Course and implement it all by taking it to React components",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "React JS"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "id": 2,
+        "date": "Mar 2021",
+        "description": "This course covers the essentials of using the version control system Git and GitHub Repository.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Git & GitHub"
+      },
+      {
+        "id": 3,
+        "date": "Aug 2020",
+        "description": "This course will teach you JavaScript from basic.",
+        "institution": "Platzi",
+        "name": "Javascript Basic Course"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "id": 4,
+        "degree": "Analista en Informática",
+        "description": "El egresado de esta carrera está capacitado para controlar las normas de calidad en el software o software integrado a otros componentes y efectuar las tareas de auditoría de los sistemas informáticos, realizar arbitrajes, peritajes, y tasaciones relacionadas con los sistemas informáticos.",
+        "endDate": "2005",
+        "institution": "Universidad Nacional del Oeste",
+        "startDate": "2002"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "id": 5,
+        "company": "Allen Hamilton",
+        "endDate": "2019",
+        "jobDescription": "Planificación, desarrollo, prueba, despliegue y mantenimiento de aplicaciones web. Traducción eficaz de los requisitos del cliente en diseños de aplicaciones y requisitos de sistemas.",
+        "jobTitle": "Desarrollador Web Senior",
+        "startDate": "2011"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": 6,
+        "company": "Millbank y Morrison",
+        "endDate": "2011",
+        "jobDescription": "Gestión de desarrollo front-end y back-end en los sistemas Portfolio Analyst, Employee Track y Account Managment de la empresa. Identificación, diagnóstico y solución de problemas en el sitio web, incluidos enlaces no válidos, errores tipográficos y problemas de formato.",
+        "jobTitle": "Desarrollador Web Junior",
+        "startDate": "2008"
+      },
+      {
+        "id": 7,
+        "company": "Freelance",
+        "endDate": "Presente",
+        "jobDescription": "Desarrollo de la aplicación SuperUltraCoolWeather utilizando la API de AccuWeather. Evaluación y conocimiento de las nuevas normas, tecnologías y tendencias en el desarrollo de sitios web.",
+        "jobTitle": "Ingeniero independiente de iOS",
+        "startDate": "2012"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "id": 8,
+        "name": "HTML",
         "percentage": "75%"
       },
       {
+        "id": 9,
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "70%"
       },
       {
+        "id": 10,
         "name": "JavaScript",
+        "percentage": "60%"
+      },
+      {
+        "id": 11,
+        "name": "Git",
+        "percentage": "50%"
+      },
+      {
+        "id": 12,
+        "name": "ReactJS",
         "percentage": "55%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "id": 13,
+        "name": "NodeJS",
+        "percentage": "35%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "id": 14,
+        "name":  "javascript"
+      },
+      {
+        "id": 15,
+        "name":  "react"
+      },
+      {
+        "id": 17,
+        "name":  "backend"
+      },
+      {
+        "id": 18,
+        "name":  "frontend"
+      }
     ],
     "languages": [
       {
+        "id": 22,
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
+        "id": 23,
         "name": "English",
         "percentage": "50%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
+        "id": 24,
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/dany2k11"
       },
       {
+        "id": 25,
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/garedan"
       },
       {
+        "id": 26,
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/garedan/"
       }
     ]
   }

@@ -11,7 +11,7 @@ function FillSection() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    getData().then((data) => {
+    getData().then(data => {
       const { Header, ...information } = data;
       setHeader(Header);
       const sections = Object.entries(information);
@@ -22,15 +22,15 @@ function FillSection() {
             content: content.data.map(item => buildDescription(title, item)),
             priority: content.priority,
           };
-        }),
+        })
       );
     });
   }, []);
 
   return (
-    <div style={{ backgroundColor: '#ffffff' }}>
+    <div style={{ backgroundColor: '#bfeff2' }}>
       <ProfileHeader Header={Header} />
-      <Row justify='space-around'>
+      <Row justify="space-around">
         {data.map(item => (
           <Section
             key={nanoid()}

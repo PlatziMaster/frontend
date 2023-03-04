@@ -3,9 +3,7 @@ import FillSection from '../controllers/fillSection';
 
 const App = () => {
   return (
-    <>
     <FillSection/>
-    </>
   )
 };
 

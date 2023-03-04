@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Eduardo Garcia",
+    "name": "Eduardo García",
     "profession": "Frontend Developer",
     "address": "Buenos Aires, Argentina.",
     "email": "dany2k11@gmail.com",
     "website": "https://github.com/garedan",
     "phone": "(54) 11 3855 4919",
     "avatar": "./avatar.jpg",
-    "profile": "Frontend Developer with 3 years of experience building and maintaining responsive web applications in fast-paced, collaborative environments. Proficient in HTML, CSS, TypeScript, Angular, and working knowledge of React and Native JavaScrip. Ability to work with REST API’s to fetch receive/post data. Experience working with Agile and Kanban methodologies. Passionate about learning and professional growth.",
+    "profile": "Desarrollador Front-End con experiencia demostrada en crear y mantener una mejor base de código para la reutilización. Experiencia en impulsar proyectos como líder del equipo de desarrollo, facilitando proyectos desde el concepto hasta el lanzamiento. Apasionado por el aprendizaje y el desarrollo con un deseo de aplicar las habilidades en un equipo de desarrollo más grande. Deseoso de abordar problemas más complejos y seguir encontrando maneras de maximizar la eficiencia del usuario.",
     "certificate": [
       {
         "id": 1,

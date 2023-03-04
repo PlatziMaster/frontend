@@ -51,7 +51,7 @@ const buildDescription = (type, information) => {
   let generatedHeader = header;
   let generatedBody = body;
 
-  keys.forEach(key => {
+  keys.forEach((key) => {
     generatedHeader = generatedHeader.replace(`{${key}}`, information[key]);
     generatedBody = generatedBody.replace(`{${key}}`, information[key]);
   });

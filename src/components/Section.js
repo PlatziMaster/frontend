@@ -9,20 +9,20 @@ import { nanoid } from 'nanoid';
 import { Card, Collapse, Col, Progress } from 'antd';
 
 const contentTypes = {
-  Text: item => (
-    <Card key={nanoid()} title={item.body && item.header} size="small">
-      <span>{item.body || item.header}</span>
+  Text: ({ body, header }) => (
+    <Card key={nanoid()} title={body && header} size='small'>
+      <span>{body || header}</span>
     </Card>
   ),
   Percentage: item => (
-    <Card key={nanoid()} title={item.header} size="small">
-      <Progress percent={item.body} />
+    <Card key={nanoid()} title={header} size='small'>
+      <Progress percent={body} />
     </Card>
   ),
   Url: item => (
-    <Card key={nanoid()} size="small">
-      <a href={item.body} target="_blank">
-        {item.header}
+    <Card key={nanoid()} size='small'>
+      <a href={body} target='_blank' rel='noreferrer'>
+        {header}
       </a>
     </Card>
   ),

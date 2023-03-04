@@ -22,7 +22,7 @@ const App = () => {
       <Interest />
       <Languages />
     </>
-  )
+  );
 };
 
 export default App;

@@ -16,5 +16,4 @@ describe('<Experience />', () => {
   test('Experience haves 3 items', () => {
     expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
   });
-
 });

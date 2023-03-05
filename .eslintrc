@@ -209,13 +209,7 @@
     "no-unneeded-ternary": 2,
     "no-unreachable": 2,
     "no-unused-expressions": 0,
-    "no-unused-vars": [
-      2,
-      {
-        "vars": "all",
-        "args": "none"
-      }
-    ],
+    "no-unused-vars": "off",
     "no-var": 2,
     "no-void": 0,
     "no-warning-comments": 0,
@@ -277,7 +271,14 @@
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-multi-comp": 0,
-    "react/no-unknown-property": 2,
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": [
+          "css"
+        ]
+      }
+    ],
     "react/prop-types": 0,
     "react/forbid-prop-types": 0,
     "react/prefer-stateless-function": 0,

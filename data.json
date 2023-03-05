@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Snayder Acero",
+    "profession": "FullStack Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "helacer3@yahoo.es",
     "website": "https://example.com",
-    "phone": "3042034240",
+    "phone": "3134895422",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Desarrollador con más de 14 anos de experiencia...",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -81,11 +81,15 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "20%"
+      },
+      {
+        "name": "Portugues",
+        "percentage": "10%"
       }
     ],
     "social": [

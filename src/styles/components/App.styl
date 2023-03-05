@@ -1,2 +1,59 @@
+html, body
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
 body
-  background-color blue
+  background-color: #FFFFFF
+  font-family: 'Source Code Pro', monospace;
+  background-image: linear-gradient(to top, #d1fdff 0%, #fafafa 100%)
+
+body * 
+  margin: 0
+
+#app
+  margin: 0 auto
+  max-width: 1024px
+
+.app-wrapper
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.12 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 36px
+  margin: 24px 12px
+
+.wrapper
+  margin-bottom: 56px
+
+.wrapper > h3 
+  font-size: 22px
+  margin-bottom: 16px
+  font-weight: 300
+
+.paragraph 
+  margin-bottom: 16px
+
+.footer-wrapper
+  display: flex
+  flex-wrap: wrap
+  gap: 16px
+  padding: 16px 0
+
+
+.link
+  text-decoration: none
+  font-weight: 900
+  color: #333
+  margin-right: 16px
+
+
+@media all and (max-width: 768px)
+  .app-wrapper
+    margin: 12px
+    padding: 24px
+  
+
+  

@@ -1,110 +1,119 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "name": "Carlos Pérez",
+    "role": "Software Engineer",
+    "address": "Zulia, Venezuela (GMT-4)",
+    "email": "danielperandrad10@gmail.com",
+    "phone": "(+58) 412 1081136",
+    "links": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Portfolio",
+        "url": "https://carlosperez.xyz"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/carlosdp7"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/carlosdp7"
       }
     ],
-    "Academic": [
+    "profile": [
+      "Software Engineer with more than 3 years of experience developing technological solutions for companies from different industries using technologies such as Node.js, Express.js, MongoDB, and React.js. I focus on developing high-quality, scalable, and maintainable software that meets customer requirements and provides an excellent user experience.",
+      "I am passionate about technology and how it can transform our world. This is why I am always aware of the latest technological trends and always look for ways to apply them in my work.",
+      "I have skills in problem-solving, task organization, and time management. I like working in a team and collaborating with other engineers and designers to create innovative and effective solutions. I am proud to say that I have worked on successful projects and helped companies achieve technological goals.",
+      "I promise to continue learning and improving my technical and professional skills. If you are looking for an experienced and committed Software Engineer, please do not hesitate to contact me."
+    ],
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "school": "Universidad Alonso de Ojeda",
+        "degree": "Bachelor's degree",
+        "fieldOfStudy": "Computer Engineering",
+        "startDate": "Jan 2019",
+        "endDate": "Mar 2023"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "title": "Software Engineer",
+        "companyName": "Aurora Studio",
+        "location": "Carlifornia, United States",
+        "startDate": "November 2019",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "time": "3 yrs 5 mos",
+        "description": [
+            "I designed a system capable of exchanging, buying and selling collectible cards implementing the microservices architecture.",
+            "I developed a real-time chat which increased the communication between the user and the administrator by 100%.",
+            "I implemented an optimal solution for a credit simulator which is capable of supporting more than 50 thousand vehicles.",
+            "I managed to successfully integrate different types of third-party APIs (Google Maps, Stripe, Shopify, etc) which increased development time considerably.",
+            "We managed to finalize a delivery system working as a team, meeting deadlines and obtaining 100% customer satisfaction.",
+            "I met with clients to understand their needs in order to develop and improve the end user experience.",
+            "Tech-Stack: Docker, Kubernetes, Redis, Web Scraping, Microservices, Node.js, TypeScript, React.js, Gatsby.js, Next.js, Bootstrap, REST APIs, Git, GitHub, Jest, Playwright, MongoDB, Express.js, Socket.io."
+        ]
       }
     ],
-    "skills": [
+    "projects": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "title": "Platzi Punks",
+        "description": [
+            "Development of a system capable of mint Non Fungible Tokens using the standard ERC721 of Open Zeppelin.",
+            "Tech-Stack: React.js, Solidity, Hardhat, Metamask, Web3.js, Ethers.js."
+        ]
       }
     ],
+    "skills": {
+      "programmingLaguanges": [
+        "JavaScript",
+        "TypeScript",
+        "Solidity"
+      ],
+      "frameworksAndTools": [
+        "Docker",
+        "Kubernetes",
+        "Redis",
+        "Web Scraping",
+        "Microservices",
+        "Node.js",
+        "React.js",
+        "Gatsby.js",
+        "Next.js",
+        "Bootstrap",
+        "HTML",
+        "HTML5",
+        "CSS",
+        "REST APIs",
+        "JSON",
+        "Axios",
+        "Git",
+        "Github",
+        "Unit Testing",
+        "Jest",
+        "Playwright",
+        "MongoDB",
+        "Express.js",
+        "Web Socket",
+        "Socket.io"
+      ],
+      "soft": [
+        "Resilience",
+        "Adaptability",
+        "Teamwork"
+      ],
+      "agile": [
+        "SCRUM" 
+      ]
+    },
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "TypeScript",
+      "JavaScript",
+      "Backend",
+      "Microservices",
+      "Solidity"
     ],
     "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
+      "English (Intermediate)",
+      "Spanish (Native)"
     ]
   }
 }

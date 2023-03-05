@@ -1,109 +1,88 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Axel Vasquez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "address": "Mexico City, Mexico",
+    "email": "a.axelvc@gmail.com",
+    "avatar": "public/avatar.svg",
+    "profile": "As a self-taught developer, I have always been passionate about the tech industry since I was a child. I began programming in 2018 and have been fascinated by the endless possibilities it offers ever since. I am a curious person by nature and enjoy constantly learning new things.",
+    "courses": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Escuela de Frontend y Backed",
+        "institution": "Platzi"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Carrera Frontend con React.js",
+        "institution": "Platzi"
+      },
+      {
+        "name": "Carrera Full Stack Developer con Javascript",
+        "institution": "Platzi"
+      },
+      {
+        "name": "Carrera Arquitectura Frontend",
+        "institution": "Platzi"
+      },
+      {
+        "name": "Carrera Desarrollo de Apps con React Native",
+        "institution": "Platzi"
+      },
+      {
+        "name": "Carrera Frontend a profundidad con Vue.js",
+        "institution": "Platzi"
       }
     ],
-    "Academic": [
+    "projects": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "name": "Typing Test",
+        "description": "Web where you can test you typing speed"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "name": "Mini Translator",
+        "description": "Web extension to translate selected or written text"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "name": "Sudoku Game",
+        "description": "A web game of the classic sudoku game"
+      },
+      {
+        "name": "Wheater App",
+        "description": "Weather web app made for a hackathon"
+      },
+      {
+        "name": "Asky",
+        "description": "Beautiful prompters for the terminal"
       }
     ],
     "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
+      ["Web Basics (HTML, CSS, JS)"],
+      ["React", "Vue"],
+      ["Typescript", "Rust"],
+      ["Git", "Github"]
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      ["UI", "UX", "Design"],
+      ["Web3", "Crypto", "AI"],
+      ["CLI Tools", "Automatization"]
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "B1"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/axel__vc"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "GitHub",
+        "url": "https://github.com/axelvc"
       }
     ]
   }

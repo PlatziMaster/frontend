@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Experience from '../../components/Experience';
+import Experience, { Job } from '../../components/Experience';
 
 describe('<Experience />', () => {
   const experience = mount(<Experience />);
@@ -10,11 +10,14 @@ describe('<Experience />', () => {
   });
 
   test('Experience title', () => {
-    expect(experience.find('.Experience-title').length).toEqual(1);
+    expect(experience.find('h3').length).toEqual(1);
   });
+});
 
-  test('Experience haves 3 items', () => {
-    expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
+describe('<Job />', () => {
+  const job = mount(<Job />);
+
+  test('Job render', () => {
+    expect(job.length).toEqual(1);
   });
-
 });

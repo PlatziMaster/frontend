@@ -1,0 +1,44 @@
+.skills-wrapper 
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+  gap: 16px
+
+.skills-box
+  padding: 24px
+  border: 1px solid #333
+  border-radius: 8px
+  position: relative
+  overflow: hidden
+
+.skills-box::after 
+  content: ''
+  display: block
+  height: 4px
+  position: absolute
+  bottom: 0
+  left: 0
+
+.skills-box.line-60::after 
+  width: 60%
+
+.skills-box.line-70::after 
+  width: 70%
+
+.skills-box.line-90::after 
+  width: 90%
+
+.skills-box.line-orange::after
+  background-color: #fb8500
+
+.skills-box.line-blue::after
+  background-color: #0077b6
+
+.skills-box.line-yellow::after
+  background-color: #ffc300
+
+.skills-box.line-cyan::after
+  background-color: #00b4d8
+
+.skills-box.line-black::after
+  background-color: #000814
+

@@ -1,13 +1,17 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Nicolás Culotta",
+    "profession": "Frontend Developer",
+    "address": "Malaga, Spain.",
+    "email": "nico.culotta@gmail.com",
+    "website": "https://nicoculotta.github.io",
+    "phone": "+34625569834",
+    "avatar": "https://nicoculotta.github.io/assets/profile-pic-nicolas.png",
+    "Profile": {
+      "paragraph1": "As a front-end developer with a background in UX/UI design, I bring a unique perspective to my work. I've spent several years honing my skills as a UX/UI designer, giving me a strong foundation in understanding user needs and creating intuitive interfaces. In 2018, I decided to shift my focus to front-end development, which I've found to be a true passion.",
+      "paragraph2": "Over the past few years, I've had the opportunity to work with several companies, from startups to international corporations. My experience has given me the chance to tackle a diverse set of challenges, working closer with the UX and backend teams. I am driven by the need to solve problems, learn new technologies and work in a team.",
+      "paragraph3": "Recently, I have also been focusing on blockchain and decentralized applications, learning about solidity and web3 as I go. This new field excites me and I am constantly looking for new opportunities to learn and grow as a professional."
+    },
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +28,96 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Graphic Design",
+        "description": "A degree in graphic design at School of Arts",
+        "endDate": "Mar 2014",
+        "institution": "Spilimbergo School of Arts",
+        "startDate": "Mar 2009"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "avatar": "https://media.licdn.com/dms/image/C4E0BAQHtJDLGmglCyg/company-logo_100_100/0/1657606567781?e=1686182400&v=beta&t=Lmil7tZtzSDiECmWg6kMJEZdqnHTXTBLDsZKf4Bbb_Q",
+        "company": "Coches.com",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Working in frontend of carmine.pt, a expand project for the company - Next.js, Storybook",
+        "jobTitle": "Frontend Developer",
+        "startDate": "May 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "avatar": "https://media.licdn.com/dms/image/C4D0BAQG4Js62FGFsRA/company-logo_100_100/0/1625403463154?e=1686182400&v=beta&t=dBLV3gHdww41iB1QLSa82oZcBkXc2B1yzlf-UQFkPDU",
+        "company": "Santander Technology",
+        "endDate": "Abr 2022",
+        "jobDescription": "I worked closely with the UX and Marketing team developing a site generator for the main site of the company. Analyzing the requirements and developing the components for the frontend application using Next.js, and Strapi as headless CMS for the administration.",
+        "jobTitle": "Ssr Sofware Engineer",
+        "startDate": "Abr 2021"
+      },
+      {
+        "avatar": "https://media.licdn.com/dms/image/C4D0BAQERWuGn4BeAXQ/company-logo_100_100/0/1656686490708?e=1686182400&v=beta&t=DUw5qCx9EpgM__82tuOEJNIugcfVMaxOX9hkAqjHvDI",
+        "company": "Avature",
+        "endDate": "Mar 2021",
+        "jobDescription": "Transform designs and concepts into working websites, using Twig, HTML, CSS and Javascript. Keep fluent communication with customer-facing teams, work on exactly what a customer needs. Produce and maintain cross-browser, cross-platform, and high-quality code.",
+        "jobTitle": "Web Developer",
+        "startDate": "Nov 2018"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90",
+        "color": "orange"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90",
+        "color": "blue"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70",
+        "color": "yellow"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60",
+        "color": "cyan"
+      },
+      {
+        "name": "Next.js",
+        "percentage": "60",
+        "color": "black"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "frontend",
+      "blockchain",
+      "web3",
+      "creative coding",
+      "backend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/nicolasculotta/"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/nicoculotta"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "twitter",
+        "url": "https://twitter.com/nicoculotta"
       }
     ]
   }

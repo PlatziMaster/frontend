@@ -9,12 +9,11 @@ describe('<About />', () => {
     expect(about.length).toEqual(1);
   });
 
-  test('About title', () => {
-    expect(about.find('.About-title').length).toEqual(1);
+  test('About name', () => {
+    expect(about.find('.name').length).toEqual(1);
   });
 
-  test('About haves 3 items', () => {
-    expect(about.find('.About-item').length).toBeGreaterThan(2);
+  test('About contact info haves to be more than 2 items', () => {
+    expect(about.find('.contact-info > *').length).toBeGreaterThan(2);
   });
-
 });

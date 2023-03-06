@@ -1,12 +1,21 @@
 import React from 'react';
 
-const Skills = () => {
+const Skills = ({ skills = [] }) => {
   return (
-    <div>
-      <h2 className='Skills-title'> Skills Title</h2>
-      <article className='Skills-item'>item</article>
-      <article className='Skills-item'>item</article>
-      <article className='Skills-item'>item</article>
+    <div className='section two-cols'>
+      <div className='title-section'>
+        <h2 className='Skills-title'>Skills</h2>
+      </div>
+      <div className='desc-section'>
+        {skills.map((item) => {
+          return (
+            <p key={item.name} className='skills-item'>
+              {item.name}
+              <span>{item.level}</span>
+            </p>
+          );
+        })}
+      </div>
     </div>
   );
 };

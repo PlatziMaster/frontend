@@ -1,12 +1,21 @@
 import React from 'react';
 
-const Languages = () => {
+const Languages = ({ languages = [] }) => {
   return (
-    <div>
-      <h2 className='Languages-title'> Language Title</h2>
-      <article className='Languages-item'>item</article>
-      <article className='Languages-item'>item</article>
-      <article className='Languages-item'>item</article>
+    <div className='section two-cols'>
+      <div className='title-section'>
+        <h2 className='Languages-title'>Idiomas</h2>
+      </div>
+      <div className='desc-section'>
+        {languages.map((item) => {
+          return (
+            <p key={item.name} className='Languages-item'>
+              {item.name}
+              <span>{item.level}</span>
+            </p>
+          );
+        })}
+      </div>
     </div>
   );
 };

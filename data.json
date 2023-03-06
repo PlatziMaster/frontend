@@ -1,109 +1,115 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "name": "Alejandro Martín",
+    "profession": "Software Developer React/Node JS",
+    "address": "Cancún, México.",
+    "email": "lexmartin@example.com",
+    "phone": "998 800 0000",
+    "avatar": "https://unavatar.io/lexmartin",
+    "profile": "Desarollador FullStack, con amplios conocimientos en sistemas de computo y telecomunicaciones, dispuesto a seguir aprendiendo diferentes tecnologias y explorar nuevos sectores en la industria",
+    "academic": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ing. en Telemática",
+        "description": "El Ingeniero en Telemática combina los conocimientos y habilidades adquiridos en los campos de las telecomunicaciones y la informática, para analizar, diseñar, desarrollar e implantar soluciones que permitan la transmisión, procesamiento, almacenamiento y utilización de la información que se maneja en la operación y administración económica y eficiente de redes telemáticas, así como en su mantenimiento y en actualización de la tecnología existente.",
+        "endDate": "Diciembre 2009",
+        "institution": "Universidad del Caribe",
+        "startDate": "Agosto 2005"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Solviing.com",
+        "endDate": "Marzo 2022",
+        "jobDescription": "Desarrollo del sitio web de la empresa, en la cual se presentan las propiedades disponibles y se capturan los datos de contacto para enviarlos a los agentes de venta, ademas de proporcionar un avaluo express de su propiedad usando un modelo realizado inhouse",
+        "jobTitle": "FullStack",
+        "startDate": "Agosto 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Levount",
+        "endDate": "Mayo 2021",
+        "jobDescription": "Responsable de los sitios de e-commerce levount.com y silverbestprice.com dedicados a la venta de Joyeria",
+        "jobTitle": "Software Engineer",
+        "startDate": "Septiembre 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "level": "Intermedio"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "level": "Básico/Intermedio"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "level": "Intermedio/Avanzado"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "level": "Intermedio"
+      },
+      {
+        "name": "Node JS",
+        "level": "Intermedio"
+      },
+      {
+        "name": "NextJS",
+        "level": "Intermedio"
+      },
+      {
+        "name": "PHP",
+        "level": "Intermedio"
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermedio/Avanzado"
+      },
+      {
+        "name": "MongoDB",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Docker",
+        "level": "Intermedio"
+      },
+      {
+        "name": "Linux",
+        "level": "Avanzado"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Arduino",
+      "Do it Yourself",
+      "Impresión 3D",
+      "Series Coreanas"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "level": "Nativo"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "Ingles",
+        "level": "Conversacional"
+      },
+      {
+        "name": "Maya",
+        "level": "Básico"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/LexMartinDev"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/LexMartin"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/lexmartin-mx"
       }
     ]
   }

@@ -1,2 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap')
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html
+  color: #000
+  background: #fff
+
+
 body
-  background-color blue
+  font-family 'Nanum Myeongjo', serif;
+  color: #444;
+
+.container
+  padding: 10px 80px;
+  margin: 80px auto;
+  width 300px
+  background: #f5f5f5;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  width: 750px
+
+
+h3
+  margin-bottom: .2em
+
+.Experience-item
+  margin-bottom: 2em
+
+.section
+  color: #444
+  margin-bottom: 2em
+  padding-bottom: 2em
+  border-bottom: 1px solid #ccc
+  display: flex
+
+.company
+  font-weight: 700
+
+.dates
+  font-style: italic
+  font-size: .8em
+
+.section:nth-last-of-type(1)
+  border: 0px
+
+.description
+  margin-top: .4em
+
+.two-cols
+  display: flex
+  flex-direction: row
+
+.title-section
+  flex: 1
+
+
+.desc-section
+  flex: 3
+  border-left: 4px solid #ccc
+  padding-left: 1em
+
+.des-section-center
+  margin-top: auto
+  margin-bottom: auto
+
+.avatar
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+
+
+.skills-item,.Languages-item
+  font-weight: 700
+  span
+    font-weight: 400
+    font-style: italic
+    padding-left: 1em
+.social
+  text-transform: uppercase
+  font-size: .8em
+  padding-right: 1em
+
+a:link,a:visited
+  color: #444
+  text-decoration: none
+  font-size: .9em
+
+button
+  width: 300px
+  height: 60px
+  margin: 20px auto
+  padding: 0
+  font-size: 22px
+  text-align: center
+  color: white
+  border: none
+  outline: none
+  cursor: pointer
+  background: #1abc9c
+  border-bottom: 2px solid #12ab8d
+  box-shadow: inset 0 -2px #12ab8d
+
+button:hover
+  top: 1px
+  box-shadow: none
+  background: #5cb9a6
+
+button:active
+  top: 1px
+  box-shadow: none
+
+.error
+  background: #f5f5f5
+  border: solid #ed1e1e
+
+.error-msg
+  color: #ed1e1e
+  text-align: center
+  font-size: 2em
+  margin: 2em
+
+@media only screen and (max-width: 1200px)
+  .container
+    width: 750px
+
+@media only screen and (max-width: 769px)
+  .container
+    width: 440px
+
+  .two-cols
+    flex-direction: column
+
+  .desc-section
+    margin-top: 1em
+
+@media only screen and (max-width: 426px)
+  .container
+    width: 400px
+
+  .two-cols
+    flex-direction: column
+
+  .title-section
+    text-align: center

@@ -1,91 +1,95 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Esteban Somoza (Chuckeni)",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "Buenos Aires, Argentina",
+    "email": "cuca00002@gmail.com",
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "Profile": "Soy un desarrollador web curioso, creativo y resolutivo. De profesión soy diseñador industrial con un perfil técnico y metódico, por lo que estoy familiarizado con el trabajo en equipo en proyectos, la búsqueda y resolución de problemáticas, y con la optimización de procesos. Me introduje al mundo de la programación, donde descubrí que puedo capitalizar mis capacidades personales y profesionales, después de haber despertado una fuerte pasión por las criptomonedas, específicamente el área de los contratos inteligentes.",
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Análisis de datos de Blockchain",
+        "description": "Aprendizaje a profundidad de los blockchains EVM y sus transacciones",
+        "endDate": "Noviembre 2022",
+        "institution": "Covalent HQ"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Desarrollador web full stack jr.",
+        "description": "Aprendizaje de metodologías y git, trabajo con front-end en react, creación de backend con apis",
+        "endDate": "Octubre 2022",
+        "institution": "Digital House"
+      },
+      {
+        "degree": "Diseñador Industrial ",
+        "description": "Desarrollo de productos y servicios, trabajo en equipo y documentación",
+        "endDate": "Diciembre 2020",
+        "institution": "Universidad de Buenos Aires"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "key": 1,
+        "jobTitle": "DAPP hecha con React para enviar transacciones con gifs",
+        "jobDescription": "Solidity, librería ethers.js para conectar el front-end con el blockchain, uso de tailwind"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "key": 2,
+        "jobTitle": "Imitación de red social Tik-Tok",
+        "jobDescription": "Uso de librerías React, Next.js, typescript y tailwind. Conección con back end de Sanity"
+      },
+      {
+        "key": 3,
+        "jobTitle": "Bot de alertas de transacciones",
+        "jobDescription": "Bot de alertas en tiempo real vinculado a Discord. Uso de REST API de Covalent, Integración a API de Discord, Node.js"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "95%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
+      },
+      {
+        "name": "Next.js",
+        "percentage": "50%"
+      },
+      {
+        "name": "Solidity",
+        "percentage": "10%"
+      },
+      {
+        "name": "Ethers.js",
+        "percentage": "10%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "blockchain",
+      "design",
+      "front End",
+      "React"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Nativo"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "Casi nativo, lo hablo en la cotidaneidad y viví en Estados Unidos dos años"
       }
     ],
     "social": [

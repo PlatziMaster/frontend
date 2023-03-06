@@ -1,0 +1,503 @@
+/* Estilos generales */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1b1b1b;
+  color: #00b3a4;
+  padding: 2%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.profile-img {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 2em;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .header-left {
+    margin-right: 1em;
+  }
+  .profile-img {
+    width: 8em;
+    height: 8em;
+    margin-left: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-left {
+    margin-right: 0.5em;
+  }
+  .profile-img {
+    width: 6em;
+    height: 6em;
+    margin-left: 0.5em;
+  }
+}
+
+.header-social {
+  display: flex;
+  justify-content: center;
+}
+.header-social a:not(:last-child) {
+  margin-right: 2em;
+}
+
+.header-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1em;
+  color: #00b3a4;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.header-social a:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.header-social a:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header-social a {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    margin-right: 1em;
+    
+  }
+}
+@media screen and (max-width: 480px) {
+  .header-social a {
+    width: 30px;
+    height: 30px;
+    font-size: 5px;
+    margin-right: 0.5em;
+  }
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header-job-title {
+  font-size: 24px;
+  margin: 0px;
+  margin-bottom: 0.5em;
+  color: #a8a8a8;
+}
+
+.header-contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.header-item i {
+  margin-right: 5px;
+  font-size: 20px; 
+}
+
+.header-item span {
+  white-space: nowrap;
+  margin: 0.7em;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .header-right {
+  margin-top: 1em;
+  }
+  .header-title {
+  font-size: 28px;
+  }
+  .header-job-title {
+  font-size: 20px;
+  }
+  .header-item {
+  margin-right: 10px;
+  }
+  .header-social {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 200px;
+  text-align: center;
+  }
+  }
+  
+  @media screen and (max-width: 480px) {
+  .header-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  }
+  
+  .header-left {
+  margin: 0;
+  }
+  
+  .profile-img {
+  margin: 0;
+  }
+  
+  .header-right {
+  margin-top: 2em;
+  }
+  
+  .header-title {
+  font-size: 24px;
+  margin-bottom: 0.5em;
+  }
+  
+  .header-job-title {
+  font-size: 18px;
+  }
+  
+  .header-item {
+  margin: 10px 0;
+  justify-content: center;
+  text-align: center;
+  }
+  
+  .header-item span {
+  display: block;
+  margin: 0.5em 0;
+  }
+  
+  .header-social {
+  margin-top: 2em;
+  }
+  
+  .header-social a {
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+  }
+  
+  .header-social a:last-child {
+  margin-right: 0;
+  }
+  }
+
+/* Estilos para el perfil */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 50vh;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  margin: 0;
+  
+}
+
+
+.profile-header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  color: #00b3a4;
+  background-color: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.profile-body {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.profile-body p {
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+/* Estilos para academic y experience*/
+.academic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  justify-content: center;
+  margin: 1em;
+  flex-basis: calc(50% - 1rem);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.academic-title {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  color: #00b3a4;
+  background-color: #1b1b1b;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.academic-list-container {
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.academic-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+
+.academic-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 0.5em;
+  margin-bottom: 10px;
+}
+
+.academic-item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.academic-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+
+/* Estilos para las habilidades */
+.skills {
+  margin: 1em;
+  max-width: 90%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(50% - 1rem);
+  max-height: 400px;
+  height: 400px;
+}
+
+.skills-title {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  color: #00b3a4;
+  background-color: #1b1b1b;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0.5em;
+}
+
+.skills-list {
+  list-style: none;
+  margin: 0.5em;
+  padding: 0;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+.skill-name {
+  flex-basis: 30%;
+  font-weight: bold;
+}
+
+.skill-progress {
+  height: 1vh;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+
+.skill-progress-value {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #00b3a4;
+  transition: width 1s ease-in-out;
+}
+
+.skill-percent {
+  font-weight: bold;
+  margin-left: 1vw;
+}
+
+/*estilos para Languages y Interest*/
+
+.column-list-container {
+  max-height: 400px;
+}
+
+.column-title{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #00b3a4;
+  background-color: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.column-list {
+  max-height: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  max-height: 150px;
+  overscroll-behavior: none;
+}
+
+.column-item {
+  flex: 1 1 200px;
+  margin: 5px;
+  background-color: #555;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+  .column-list {
+    display: flex;
+  }
+  
+  .column-item {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+  
+  .column-title {
+    font-size: 24px;
+    height: 40px;
+  }
+  
+  .column-list-container {
+    max-height: none;
+  }
+}
+
+
+
+
+/*Contenedor horizontal*/
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*contenedor-vertical*/
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(50% - 1rem);
+ 
+}

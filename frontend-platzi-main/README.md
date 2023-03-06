@@ -1,18 +1,8 @@
-# frontend
+Breve descripción:
+Frontend realizado a los fines de postular a la beca de Platzi. 
 
-## React Curriculum vitae
-
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
-
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
-
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+Comenzando
+Instrucciones para comenzar a trabajar con el proyecto.
 
 ### Instalación
 ```
@@ -42,13 +32,18 @@ npm run test
 ### ESlint
 ```
 npm run lint
-```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
 
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
+Construido con:
 
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+El proyecto está hecho en React, con implementación de estilos desde index.css e integración de un JSON. 
+Está hecho con react : 16.0.0 y react-dom: 16.0.0", ya que la ultima versión, en un comienzo, generaba problemas de incompatibilidad de dependencias con "enzyme", por lo cual tambien use una versión anterior, la versión "enzyme-adapter-react-16": "^1.15.2" que es compatible con react 16.
+
+Tambien usé una versión anterior de Node por el mismo problema de incompatibilidad de dependencias, usé la siguiente:
+Node.js v16.10.0.
+
+Autores:
+Nombre del autor  Mario Arce- https://github.com/Marioarce95
+
+Agradecimientos:
+A Platzi para darme la oportunidad y motivación de efrentarme a un desafio y a superarme a adquirir nuevos conocimientos mediante la realización de éste proyecto.

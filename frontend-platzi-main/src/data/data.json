@@ -1,0 +1,143 @@
+{
+  "data": {
+    "name": "Mario Arce",
+    "profession": "Programador Full Stack Junior",
+    "address": "Córdoba Capital, Argentina",
+    "email": "Marioarce952@gmail.com",
+    "phone": "12345678",
+    "profile": " Soy una persona altamente analítica, creativa y apasionada por el aprendizaje continuo. Con cinco años de carrera en abogacía y dos años de estudios en programación, he desarrollado habilidades únicas en ambos campos, lo que me permite abordar los problemas desde diferentes perspectivas y encontrar soluciones innovadoras.",
+   
+    "Academic": [
+      {
+        "date": "Abril 2014",
+        "institution": "Facultad de Derecho UNC",
+        "name": "Abogacia"
+      },
+      {
+        "date": "Julio 2022",
+        "institution": "EducacioIT",
+        "name": "introducción a UX"
+      },
+      {
+        "date": "Julio 2022",
+        "institution": "EducacioIT",
+        "name": "JavaScript Desarrollador Avanzado"
+      },
+      {
+        "date": "Junio 2022",
+        "institution": "EducacioIT",
+        "name": "introducción al Paradigma de Objetos"
+      },
+      {
+        "date": "Mayo 2022",
+        "institution": "EducacioIT",
+        "name": "HTML5: Fundamentos Web"
+      },
+      {
+        "date": "Mayo 2022",
+        "institution": "EducacioIT",
+        "name": "JavaScript desde cero"
+      },
+      {
+        "date": "Junio 2022",
+        "institution": "EducacioIT",
+        "name": "Maquetador Web:HTML5 y CSS3"
+      },
+      {
+        "date": "Junio 2022",
+        "institution": "Facultad de Lenguas UNC",
+        "name": "ingles A2-B1: Pre-intermedio"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Estudio Juridico",
+        "endDate": "Junio 2022",
+        "jobDescription": "A cargo de los trámites y diligencias de procedimientos judiciales en diversas áreas del derecho",
+        "jobTitle": "Asistente Jurídico",
+        "startDate": "Junio 2020"
+      },
+      {
+        "company": "Reina Fabiola",
+        "endDate": "Junio 2017",
+        "jobDescription": "Gestion de consultas y atención de pacientes por canales no presenciales",
+        "jobTitle": "Secretario médico",
+        "startDate": "Sept 2019"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "80%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "70%"
+      },
+      {
+        "name": "boostrap",
+        "percentage": "75%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "50%"
+      },
+      {
+        "name": "React",
+        "percentage": "30%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "35%"
+      },
+      {
+        "name": "TypeScript",
+        "percentage": "30%"
+      },
+      {
+        "name": "Java",
+        "percentage": "25%"
+      },
+      {
+        "name": "SpringBoot",
+        "percentage": "35%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "35%"
+      }
+    ],
+    "interest": [
+      "Blockchain",
+      "Inteligencia artificial",
+      "Backend",
+      "Frontend",
+      "Derecho",
+      "Python",
+      "Testing"
+    ],
+
+    "languages": [
+      {
+        "name": "Español"
+      },
+      {
+        "name": "Ingles"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/mario.arce.180"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mario-ezequiel-arce-aa1a44228/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Marioarce95"
+      }
+    ]
+  }
+}

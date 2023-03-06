@@ -1,2 +1,218 @@
 body
   background-color blue
+$c-bg = #F9F8FC
+$c-fg = #0E172C
+$c-accent = #FEC7D7
+$c-alt = #D9D4E7
+
+$f-xxl = 2.25rem;
+$f-xl = 1.75rem;
+$f-l = 1.25rem;
+$f-md = 1rem;
+$f-sm = 0.875rem;
+
+$f-bold = 700;
+$f-semi = 500;
+$f-normal = 400;
+
+$box {
+  border: 0.1875rem solid $c-fg;
+  padding: 1.125rem;
+
+  &-title {
+    margin-bottom: 0.75rem;
+  }
+}
+
+$no-margin {
+  margin: 0;
+}
+
+// ---------------------------------------------- General
+body {
+  font-family: 'Inter', system-ui;
+  background: $c-bg;
+  color: $c-fg;
+  margin: 0;
+}
+
+for n in (1..6) {
+  h{n} {
+    @extends $no-margin;
+  }
+}
+
+p {
+  @extends $no-margin;
+  line-height: 150%;
+}
+
+ul {
+  @extends $no-margin;
+}
+
+h2 {
+  font-size: $f-xl;
+}
+
+a {
+  color: $c-fg;
+}
+
+::selection {
+  color: $c-bg;
+  background: $c-fg;
+}
+
+*:focus-visible {
+  outline: 0.1875rem solid $c-fg;
+  outline-offset: 3px;
+}
+
+.emoji {
+  font-family: 'Noto Color Emoji'
+  margin: 0 0.25rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+// ---------------------------------------------- Container
+
+#app {
+  max-width: 1400px;
+  display: flex;
+  gap: 1.125rem;
+  padding: 1.125rem;
+  margin: 4rem auto;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+
+  &:last-child {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  #app {
+    flex-direction: column;
+  }
+}
+
+// ---------------------------------------------- Components
+.Header {
+  @extends $box;
+  background: $c-accent;
+  display: flex;
+
+  &-avatar {
+    aspect-ratio: 1;
+    margin-right: 2.5rem;
+    user-select: none;
+    pointer-events: none;
+  }
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-title {
+    font-size: $f-xxl;
+
+    span {
+      display: block;
+      font-size: $f-xl;
+      font-weight: $f-semi;
+    }
+  }
+
+  &-social {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  &-item:not(:first-child):before {
+    margin: 0.5rem;
+    content: '|';
+  }
+}
+
+.Profile {
+  @extends $box;
+  background: $c-alt;
+}
+
+.Projects {
+  @extends $box;
+  background: $c-alt;
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  &-item-title {
+    font-size: $f-l;
+    font-weight: $f-semi;
+  }
+}
+
+.Languages, .Skills, .Interest {
+  @extends $box;
+
+  &-list {
+    padding-left: 1.5rem;
+  }
+}
+
+.Courses {
+  @extends $box;
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.25rem 0;
+  }
+
+  &-item-title {
+    font-size: $f-md;
+    font-weight: $f-semi;
+  }
+
+  &-item-details {
+    font-size: $f-sm;
+  }
+}

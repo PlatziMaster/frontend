@@ -1,19 +1,20 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Jeison Arturo Vargas",
+    "profession": "Fullstack Developer",
+    "address": "Tunja, Colombia.",
+    "email": "info@arteinverso.co",
+    "icon": "https://arteinverso.s3.amazonaws.com/imagenes-web/mail.png",
+    "website": "https://arteinverso.co",
+    "phone": "31129295973",
+    "avatar": "https://arteinverso.s3.amazonaws.com/imagenes-web/avatar.png",
+    "Profile": "Desarrollador de software y tecnólogo en obras civiles, con experiencia de años en desarrollo de software.Tengo experiencia en gestión de proyectos, Desarrollador de software centrado en javascript, python y tecnologias cloud, cloud, realidad virtual y aumenatda, blockchain e investigador de nuevas tecnologias y manufactura aditiva o impresión3D. ",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "Diciembre 2021",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "institution": "Unal",
+        "name": "Fullstack Developer"
       },
       {
         "date": "Jan 2021",
@@ -24,86 +25,103 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Desarrollo de software",
+        "description": " Programa de cetificación en desarrollo de software dictado por la universidad nacional y el ministerio TIC",
+        "endDate": "Dec 2020",
+        "institution": "Unal - Misiontic 2022",
+        "startDate": "Sep 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Tecnologo en obras civiles",
+        "description": "Programa de educación superior en desarrollo y gestión de proyectos de obras civiles e innovación ",
+        "endDate": "Oct 2018",
+        "institution": "Sena",
+        "startDate": "Ene 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Matriz Technologies",
+        "endDate": "Dec 2022",
+        "jobDescription": "Desarrollador líder, desarrollo de proyectos de innovación con tecnologia blockchain, metaverso y OIT ",
+        "jobTitle": "Fullstack developer y DevOps",
+        "startDate": "May 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Arte Inverso",
+        "endDate": "Actual",
+        "jobDescription": "Empresimiento desarrollado por mi, para prestar servicios de desarrollo de software con tecnologias 4.0 y portotipado rapido IOT con tecnologia de impresión 3D ",
+        "jobTitle": "Gerente  y director de innovación",
+        "startDate": "May 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
+      },
+      {
+        "name": "Python",
+        "percentage": "65"
+      },
+      {
+        "name": "Solidity",
+        "percentage": "50"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "25"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "90"
       }
     ],
     "interest": [
       "javascript",
       "develop",
+      "DevOps",
+      "blockchain",
+      "realidad aumentada",
+      "metaverso",
       "backend",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "90"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "40"
       }
     ],
+
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Web",
+        "url": "https://arteinverso.co/",
+        "icon": "https://arteinverso.s3.amazonaws.com/imagenes-web/web.png"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/cryptojei_HNS",
+        "icon": "https://arteinverso.s3.amazonaws.com/imagenes-web/twitter.png"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/ArteInverso",
+        "icon": "https://arteinverso.s3.amazonaws.com/imagenes-web/github.png"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jeison-vargas/",
+        "icon": "https://arteinverso.s3.amazonaws.com/imagenes-web/linkedin.png"
       }
     ]
   }

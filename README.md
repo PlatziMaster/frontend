@@ -1,10 +1,13 @@
-# frontend
-
 ## React Curriculum vitae
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Curriculum Snayder Acero - prueba desarrollo
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+
+### Notas Adicionales
+
+Se realizó la maquetación de los diferentes componentes de acuerdo a los test inicialess, la personalizacion y consumo de la API con la data y carga de la información en el front. 
+
+Por temas de tiempo no alcanzo a generar los correspondientes CSS
 
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)

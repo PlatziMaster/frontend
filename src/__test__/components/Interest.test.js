@@ -2,8 +2,10 @@ import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
 
+import data from '../../../data.json';
+
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const interest = mount(<Interest userData={data?.data} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

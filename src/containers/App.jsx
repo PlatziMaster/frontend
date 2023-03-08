@@ -24,7 +24,7 @@ const App = () => {
       </Header>
       <Profile data={data} />
       <Experience data={data} />
-      <div class="rejilla">
+      <div className="rejilla">
       <Academic data={data} />
       <Skills data={data} />
       <Interest data={data} />

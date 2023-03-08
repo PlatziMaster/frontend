@@ -4,7 +4,7 @@ import React from 'react';
 
 function Header({ children, data }) {
   return (
-    <header className='header nes-container is-dark with-title'>
+    <header className='Header-title header nes-container is-dark with-title'>
       <img
         src={data.avatar}
         width='156'

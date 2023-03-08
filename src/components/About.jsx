@@ -3,8 +3,8 @@ import Flag from 'react-world-flags';
 
 function About({ data }) {
   return (
-    <section className='about'>
-        <h2 className='title column'>
+    <section className=' about'>
+        <h2 className='title column About-title'>
             {data.name}
         </h2>
         <br/>
@@ -18,7 +18,7 @@ function About({ data }) {
         {data.address}
       </span>
 
-      <ul className='about'>
+      <ul className='About-item about'>
         {data.social?.map(({ name, url, icon }) => (
           <li key={name} className='lista'>
             <a href={url}><img

@@ -1,6 +1,7 @@
 import React from "react";
 
 const Languages = ({ data }) => {
+    const languages = data.languages;
     return (
         <div className='nes-container is-rounded'>
             <h2>Idiomas</h2>

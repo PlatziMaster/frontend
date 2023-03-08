@@ -1,11 +1,13 @@
 import React from "react";
 
 const Experience = ({ data }) => {
+    const experience = data.experience;
+
     return (
         <div className='nes-container is-dark with-title'>
             <h2>Experiencia</h2>
             <ul>
-                {data.experience?.map(({ company, endDate, startDate, jobTitle, jobDescription }) => (
+                {experience?.map(({ company, endDate, startDate, jobTitle, jobDescription }) => (
                    <li key={company}>
                        <h3 >{jobTitle}</h3>
                        <p>{jobDescription}</p>

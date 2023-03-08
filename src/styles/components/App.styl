@@ -1,2 +1,44 @@
-body
-  background-color blue
+@import "./nes.css"
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P:wght@100;400&display=swap');
+
+
+.body 
+  background-color: white;
+  font-family: "Press Start 2P";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+.header
+  display: flex
+	flex-flow: row wrap
+	justify-content: center
+	margin: 5px 0
+
+.about ul {
+  list-style-type: none;
+}
+
+.about li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px
+}
+
+.about a {
+  padding: 0 4px;
+  text-decoration: none;
+}
+
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 750px);
+  grid-auto-rows: auto-fit;
+  grid-gap: 1rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .body  .header .about a .about li .about ul  {
+    display:flex;
+  }
+}
+

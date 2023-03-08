@@ -2,6 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import Academic from '../../components/Academic';
 
+
 describe('<Academic />', () => {
   const academic = mount(<Academic />);
 

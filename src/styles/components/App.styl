@@ -1,2 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap')
+
+$main-color = #FFFFFF
+$default-font-size = 14px
+
+*
+  box-sizing border-box
+  font-family 'Poppins', sans-serif !important
+
 body
-  background-color blue
+  background-color $main-color
+  margin 0px;
+  font-size $default-font-size
+
+.flex
+ display flex
+
+.card-container
+  .title 
+    font-size 24px
+    font-weight 600
+  .items-section
+    display flex
+    flex-wrap wrap
+
+    .col-4
+      flex 0 0 auto
+      width 33.33%
+  
+    .col-8
+      flex 0 0 auto
+      width 66.66%
+
+    .col-12
+      flex 0 0 auto
+      width 100%
+
+

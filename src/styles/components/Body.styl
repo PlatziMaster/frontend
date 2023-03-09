@@ -1,0 +1,72 @@
+@import "../base/colors"
+    
+.body-container
+    display flex
+    width 100%
+    gap 32px
+    margin-bottom 40px
+
+    .soft-skills
+        width: 30%
+        position relative
+        height fit-content
+        margin-top 40px
+
+        .vertical
+            border-left 4px solid $secondary-color
+            height 271px
+            position absolute
+            left 1rem
+            top 60px
+            border-radius 8px
+
+        ul
+            padding-left 1rem
+            list-style-type none
+
+            li
+                margin-bottom 4px
+
+    .skills 
+        width 40%
+        position relative
+
+        .progress-container
+            display flex
+            align-items center
+            justify-content end
+            gap .85rem
+            width 100%
+            margin-bottom 4px
+
+            .skill-name
+                width 30%
+                text-align right 
+
+            .progress
+                width 70%
+                .progress-bar
+                    height: 10px
+                    background-color $background-color
+                    border-radius 8px
+
+
+    
+    .academic
+        width: 30%
+        height fit-content
+        margin-top 40px
+
+        .academic-info-container
+            margin-top 16px
+
+            .academic-element
+                margin-bottom 16px
+
+                .title-academic
+                    font-weight 500
+
+    .title
+        font-size 1.25rem
+        font-weight 500
+        color $primary-color

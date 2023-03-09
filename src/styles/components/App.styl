@@ -1,2 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap')
+@import "../base/colors"
+
+$default-font-size = 14px
+
+*
+  box-sizing border-box
+  font-family 'Poppins', sans-serif !important
+
 body
-  background-color blue
+  background-color $main-color
+  margin 0px;
+  font-size $default-font-size
+  width 1200px
+  margin auto
+
+.flex
+ display flex
+
+.align-items-center
+  align-items center
+
+.justify-content-between
+  justify-content space-between
+
+.gap-2
+  gap .5rem
+
+.gap-5
+  gap 2rem
+
+.box
+  box-shadow rgba(0, 0, 0, 0.35) 0px 5px 15px
+  border-radius 8px
+  padding 1rem
+  transition: transform .2s;
+
+.box:hover {
+  transform: scale(1.03); 
+}

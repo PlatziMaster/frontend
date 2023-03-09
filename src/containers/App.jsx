@@ -7,6 +7,8 @@ import FooterSection from '../components/FooterSection';
 
 const App = () => {
   const [data, setData] = useState();
+
+  //Se cargan los datos de la API
   useEffect(() => {
     async function fetchData() {
       const jsonData = await getData();

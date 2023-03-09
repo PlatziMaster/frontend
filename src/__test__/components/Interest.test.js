@@ -1,9 +1,11 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
+import { dataMock } from '../../__mocks__/dataMock';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+
+  const interest = mount(<Interest interest={dataMock.interest} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

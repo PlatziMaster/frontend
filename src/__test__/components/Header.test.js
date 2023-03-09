@@ -1,16 +1,12 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Header from '../../components/Header';
+import HeaderSection from '../../components/HeaderSection';
+import { dataMock } from '../../__mocks__/dataMock';
 
 describe('<Header />', () => {
-  const header = mount(<Header />);
+  const header = mount(<HeaderSection data={dataMock} />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);
   });
-
-  test('Header title', () => {
-    expect(header.find('.Header-title').length).toEqual(1);
-  });
-
 });

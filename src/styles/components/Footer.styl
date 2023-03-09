@@ -1,0 +1,72 @@
+@import "../base/colors"
+
+.footer-container
+    display flex
+    width 100%
+    gap 32px
+    margin-bottom 40px
+
+    .experience
+        width: 75%
+
+        .experience-container
+            margin-bottom: 16px
+            .company
+                font-weight bold
+            .job
+                font-style italic
+    
+    .extra-info
+        width: 25%
+
+        .interest
+            margin-bottom 25px
+            .interest-content
+                margin-top 16px
+                display flex
+                flex-wrap wrap
+                gap 1rem
+                align-content center
+                align-items center
+                text-align center
+
+                .interest-card
+                    background-color #f3f3f3
+                    border-radius: 4px
+                    padding 8px
+                    min-width 40%
+                    img
+                        height: 40px
+
+        .language
+            margin-bottom 25px
+            .progress-container
+                display flex
+                align-items center
+                justify-content end
+                gap .85rem
+                width 100%
+                margin-bottom 4px
+
+                .language-name
+                    width 30%
+                    text-align right 
+
+                .progress
+                    width 70%
+                    .progress-bar
+                        height: 10px
+                        background-color $background-color
+                        border-radius 8px
+
+        .social
+            color: $primary-color
+            a
+                color: $primary-color
+                margin-bottom 4px
+                display block
+    
+    .title
+        font-size 1.25rem
+        font-weight 500
+        color $primary-color

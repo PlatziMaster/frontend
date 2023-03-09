@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap')
+@import "../base/colors"
 
-$main-color = #FFFFFF
 $default-font-size = 14px
 
 *
@@ -11,28 +11,30 @@ body
   background-color $main-color
   margin 0px;
   font-size $default-font-size
+  width 1200px
+  margin auto
 
 .flex
  display flex
 
-.card-container
-  .title 
-    font-size 24px
-    font-weight 600
-  .items-section
-    display flex
-    flex-wrap wrap
+.align-items-center
+  align-items center
 
-    .col-4
-      flex 0 0 auto
-      width 33.33%
-  
-    .col-8
-      flex 0 0 auto
-      width 66.66%
+.justify-content-between
+  justify-content space-between
 
-    .col-12
-      flex 0 0 auto
-      width 100%
+.gap-2
+  gap .5rem
 
+.gap-5
+  gap 2rem
 
+.box
+  box-shadow rgba(0, 0, 0, 0.35) 0px 5px 15px
+  border-radius 8px
+  padding 1rem
+  transition: transform .2s;
+
+.box:hover {
+  transform: scale(1.03); 
+}

@@ -1,30 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import About from '../elements/About';
+import { getData } from '../utils/getData';
+import BodySection from '../components/BodySection';
+import FooterSection from '../components/FooterSection';
 
 const App = () => {
+  const [data, setData] = useState();
+  useEffect(() => {
+    async function fetchData() {
+      const jsonData = await getData();
+      setData(jsonData);
+    }
+    fetchData();
+  }, []);
+
+  if (!data) {
+    return <>Cargando...</>;
+  }
+
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <div className="flex">
-        <Academic />
-        <Skills />
-      </div>
-      <div className="flex">
-        <Interest />
-        <Languages />
-      </div>
+      <About data={data} />
+      <BodySection data={data} />
+      <FooterSection data={data} />
     </>
   );
 };

@@ -1,88 +1,134 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Antonio Obregón",
+    "profession": "Ingeniero en Comunicaciones y Electronica",
+    "address": "México City, México",
+    "email": "myemail@proton.me",
+    "website": "https://mysite.io",
+    "phone": "55 1234 5678",
+    "avatar": "src/image/inscribebSatoshis.jpeg",
+    "Profile": "Líder en proyectos de desarrollo de software, tengo 20 años de experiencia en el sector Bancario, soy entusiasta en temas de Blockchain, Agilidad y Buenas Practicas de desarrollo de software. He realizado 3 posgrados en tecnologías de información y diversas certificaciones",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Feb 2023",
+        "description": "Desarrollar SmartContract y Dapp para la blockchain de Ethereum Virtual Machine",
+        "institution": "Blockdemy",
+        "name": "Blockchain Developer Professional"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Dic 2022",
+        "description": "Formar consultor profesional de modelos de negocios para web3 y blockchain",
+        "institution": "Blockdemy",
+        "name": "Blockchain Consultant Advanced"
+      },
+      {
+        "date": "Nov 2014",
+        "description": "Formar profesionales que ayuda a las empresas a lograr sus objetivos para el gobierno y la gestión de la TI empresarial",
+        "institution": "APMG International",
+        "name": "COBIT v5 Foundation"
+      },
+      {
+        "date": "Ago 2011",
+        "description": "Formar profesionales en conceptos y mejores prácticas referentes a la gestión de servicios de tecnologías de la información",
+        "institution": "Service Management Foundation",
+        "name": "ITIL V3 Foundation"
+      },
+      {
+        "date": "Abr 2004",
+        "description": "Formar profesionales con capacidad de instalar, configurar, operar y solucionar problemas de rutas de tamaño medio y redes conmutadas, incluida la implementación y verificación de conexiones a sitios remotos en una WAN.",
+        "institution": "NeTec",
+        "name": "CCNA Cisco"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "MTI",
+        "description": "Maestría en Administración de Tecnologías de Información",
+        "endDate": "Dic 2015",
+        "institution": "Tec de Monterrey",
+        "startDate": "Ago 2013"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "EET",
+        "description": "Especialidad en Estrategias de Tecnologías de Información",
+        "endDate": "Ago 2014",
+        "institution": "Tec de Monterrey",
+        "startDate": "Ene 2014"
+      },
+      {
+        "degree": "EST",
+        "description": "Especialidad en Servicios de Tecnologías de Información",
+        "endDate": "Ago 2014",
+        "institution": "Tec de Monterrey",
+        "startDate": "Ago 2013"
+      },
+      {
+        "degree": "ICE",
+        "description": "Ingeniería en Comunicaciones y Electronica",
+        "endDate": "Ene 2002",
+        "institution": "Instituto Politecnico Nacional",
+        "startDate": "Ago 1997"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Sociedad Hipotecaria Federal S.N.C.",
+        "endDate": "Nov 2022",
+        "jobDescription": "Líder de proyectos de tecnologías de información",
+        "jobTitle": "Arquitecto de Software",
+        "startDate": "Jul 2002"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Banxico",
+        "endDate": "Feb 2002",
+        "jobDescription": "Becario de la dirección de adjunta de sistemas",
+        "jobTitle": "Becario",
+        "startDate": "Ago 2001"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
+        "percentage": "60%"
+      },
+      {
+        "name": "Java",
+        "percentage": "80%"
+      },
+      {
+        "name": "C#",
+        "percentage": "80%"
+      },
+      {
+        "name": "SQL",
         "percentage": "90%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Blockchain",
+      "Web3",
+      "Dapp",
+      "Backend",
+      "Frontend",
+      "Agile",
+      "Lean",
+      "Scrum",
+      "DevOpsSec",
+      "GitHub"
     ],
     "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
       {
         "name": "English",
         "percentage": "50%"

@@ -8,11 +8,11 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 
 ### Retos
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+3. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
+4. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
+5. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
+6. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
+7. [Documentar](https://github.com/platzimaster/frontend/issues/6)
 
 ### Instalación
 ```

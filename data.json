@@ -1,109 +1,169 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "name": "Jessica Minda",
+    "profession": "Junior Content Writer",
+    "address": "Bogota - Britalia Neighbourhood",
+    "email": "jessyminda99@gmail.com",
+    "phone": "+573172575398",
+    "portfolio": "https://www.behance.net/jessicamindav",
+    "avatar": "https://cdn.discordapp.com/attachments/839661218741354516/1087834953229799464/received_609036919257127.jpeg",
+    "Profile": "As a highly motivated and detail-oriented junior content writer, I possess exceptional writing skills and a passion for creating engaging and informative content. I am eager to contribute my talents to a dynamic team in the field of marketing, advertising, or publishing.",
+ 
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Bachelor of Accounting Technical Services.",
+        "endDate": "Mar 2017",
+        "institution": "Twenty-Eighth of May High School"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Creativity and Innovation for the Fourth Industrial Revolution.",
+        "endDate": "Jul 2021",
+        "institution": "National University of Colombia"
+      },
+      {
+        "degree": "Various digital certiﬁcates in the Writing, Desing, and Tech field.",
+        "endDate": "ongoing",
+        "institution": "Domestika, Coursera, freeCodeCamp"
+      },
+      {
+        "degree": "Writing and poetry workshops.",
+        "endDate": "ongoing",
+        "institution": "Bogota public Library"
       }
     ],
-    "experience": [
+
+    "Experience and Projects": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Twenty-Eighth of May High School",
+        "endDate": "2017",
+        "jobDescription": "Editor of the High School newspaper.",
+        "jobTitle": "Editor"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Mancris",
+        "endDate": "2022",
+        "jobDescription": "Translator and transcriptor.",
+        "jobTitle": "Freelancer"
+      },
+      {
+        "company": "Poetizer, Wattpad, Verse, JotterPad",
+        "endDate": "ongoing",
+        "jobDescription": "Poetry writer",
+        "jobTitle": "Freelancer"
+      },
+      {
+        "company": "Instagram, Adobe Illustrator - Photoshop",
+        "endDate": "ongoing",
+        "jobDescription": "Designer, editor and amateur photographer.",
+        "jobTitle": "Freelancer"
+      },
+      {
+        "company": "Astriferal Stellabbyss",
+        "endDate": "ongoing",
+        "jobDescription": "Presenter and Scriptwriter of a podcast on Literature.",
+        "jobTitle": "Freelancer"
       }
     ],
-    "skills": [
+
+    "Achievements": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "company": "Pedro Menendez Navarro Primary School",
+        "endDate": "2010",
+        "jobDescription": "Winner of some national spelling bees."
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "company": "Twenty-Eighth of May High School",
+        "endDate": "2016",
+        "jobDescription": "English tutor providing personalized classes."
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "company": "Lanec Corporation S.A",
+        "endDate": "2016",
+        "jobDescription": "Accounting Assistant Intern. Outstanding results."
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
+
+    "Languages": [
       {
         "name": "English",
+        "percentage": "80%"
+      },
+      {
+        "name": "Portuguese",
         "percentage": "50%"
       }
     ],
-    "social": [
+
+    "Skills": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Excellent writing",
+        "percentage": "100%"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "SEO knowledge",
+        "percentage": "100%"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
+        "name": "Research",
+        "percentage": "100%"
+      },
+      {
+        "name": "Creativity",
+        "percentage": "100%"
+      },
+      {
+        "name": "Time management",
+        "percentage": "100%"
+      },
+      {
+        "name": "Adaptability",
+        "percentage": "100%"
+      },
+      {
+        "name": "Team work",
+        "percentage": "100%"
+      },
+      {
+        "name": "Communication",
+        "percentage": "100%"
+      },
+      {
+        "name": "Attention to detail",
+        "percentage": "90%"
+      },
+      {
+        "name": "Social Media",
+        "percentage": "90%"
+      },
+      {
+        "name": "Use of different AI",
+        "percentage": "80%"
+      },
+      {
+        "name": "Web programming",
+        "percentage": "50%"
+      }
+    ],
+
+    "Interests": [
+      "Structure a video essay about movies.",
+      "Being part of an artistic collective.",
+      "Create an animal care project.",
+      "New technologies."
+    ],
+    
+    "Social": [
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/cronozul/"
+      },
+      {
+        "name": "poetizer",
+        "url": "https://poetizer.com/author/129626"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jessicaminda/"
       }
     ]
   }

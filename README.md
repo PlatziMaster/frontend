@@ -3,6 +3,7 @@
 ## React Curriculum vitae
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Gracias por esta oprtunidad.
 
 ![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
 

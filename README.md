@@ -1,54 +1,80 @@
-# frontend
+# Diseño Frontend: Tu Curriculum en React 
 
-## React Curriculum vitae
+## Tu Historia Profesional en React
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Imagina poder presentar tu experiencia profesional de una manera moderna y dinámica. ¡Es hora de llevar tu curriculum vitae al siguiente nivel! Te presentamos una propuesta basada en React para que puedas lucir tu trayectoria de la mejor manera. 
 
-![react-cv](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
+Míralo por ti mismo y descubre la inspiración que necesitas para adaptarlo a tu historia:
 
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/frontend/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/frontend/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/frontend/issues/3)
-4. [Integrar API](https://github.com/platzimaster/frontend/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/frontend/issues/5)
-6. [Documentar](https://github.com/platzimaster/frontend/issues/6)
+![React Curriculum Vitae](https://github.com/PlatziMaster/frontend/blob/main/screenshot.png?raw=true)
 
-### Instalación
+## Desafíos Técnicos
+
+Para este proyecto, hemos identificado varios retos que te ayudarán a construir y personalizar tu CV:
+
+1. [**Diseñar los Componentes**: Empieza por crear la estructura base del proyecto con los componentes adecuados.](https://github.com/platzimaster/frontend/issues/1)
+2. [**Estilizar tu CV**: Dótalo de una apariencia única añadiendo estilos personalizados.](https://github.com/platzimaster/frontend/issues/2)
+3. [**Función de Datos**: Crea la función `getData.js` que te permitirá manejar tu información de forma dinámica.](https://github.com/platzimaster/frontend/issues/3)
+4. [**Integración con API**: Conecta tu CV con una API para alimentarlo con tu información profesional.](https://github.com/platzimaster/frontend/issues/4)
+5. [**Personalización de la API**: Asegúrate de que la API refleje fielmente tu trayectoria y logros.](https://github.com/platzimaster/frontend/issues/5)
+6. [**Documentación**: Describe el proceso, las decisiones tomadas y cómo otros pueden utilizar o adaptar tu proyecto.](https://github.com/platzimaster/frontend/issues/6)
+
+## Configuración y Herramientas
+
+**Instalación**
+
+Para comenzar, instala las dependencias del proyecto con:
+
 ```
 npm install
 ```
 
-### Ejecución
+**Ejecución**
+
+Lanza tu proyecto y visualiza los cambios en tiempo real:
+
 ```
 npm run start
 ```
 
-### Server
+**Servidor Local**
+
+Si necesitas ejecutar un servidor local, usa el siguiente comando:
+
 ```
 npm run server
 ```
 
-### Compilar
+**Compilación**
+
+Para compilar y optimizar tu proyecto para producción:
+
 ```
 npm run build
 ```
 
-### Pruebas Unitarias
+**Pruebas Unitarias**
+
+Garantiza la calidad de tu código ejecutando pruebas:
+
 ```
 npm run test
 ```
 
-### ESlint
+**Estándares de Código**
+
+Asegúrate de seguir buenas prácticas con ESlint:
+
 ```
 npm run lint
 ```
 
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
+## Participa en el Proyecto
 
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [frontend](https://github.com/platzimaster/frontend/)
+¿Listo para mostrar al mundo tu CV en React? Haz un "Fork" de este proyecto, adapta y personaliza según tus necesidades, y envía un "Pull Request" a tu repositorio para compartirlo con la comunidad.
 
-### Licencia
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Y si sientes que puedes aportar mejoras o características adicionales al proyecto original, ¡eres bienvenido! Únete y colabora directamente en el repositorio: [frontend](https://github.com/platzimaster/frontend/).
+
+## Licencia
+
+El proyecto `frontend` está protegido bajo la licencia [MIT](https://opensource.org/licenses/MIT). Esto significa que puedes usarlo, adaptarlo y compartirlo libremente. ¡Disfruta creando tu CV en React!
